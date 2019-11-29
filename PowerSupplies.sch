@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:SDI-bridge-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -851,4 +851,6 @@ Wire Notes Line
 	6200 5450 6200 7450
 Text Notes 5100 5350 0    79   ~ 0
 Place close to GS2971A
+Text Notes 1450 5550 0    50   ~ 0
+TODO: use 3V3 as default input voltage. Use low noise LDO to make 1.2V out of it. 
 $EndSCHEMATC

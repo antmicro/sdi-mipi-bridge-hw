@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:SDI-bridge-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -1248,4 +1248,24 @@ Wire Bus Line
 	3650 7850 3650 8750
 Wire Bus Line
 	3650 6850 3650 7750
+Text Notes 12250 6550 0    50   ~ 0
+TODO: make sure the components used there are 1% 
+Text Notes 5950 4050 0    50   ~ 0
+TODO: clarify pin naming - SDI and SDI with dash on top 
+Text Notes 4900 4050 1    50   ~ 0
+TODO: please name particular nets in the bus/harness
+Text Notes 1300 1550 0    50   ~ 0
+Would be good to have an on-board LED indicator for LOCKED\nLOCKED should also be exposed on b2b connector
+Text Notes 850  2050 0    50   ~ 0
+TODO: place testpads on sync signals
+Text Notes 4200 1750 0    50   ~ 0
+TODO: place resistor ladders on OUT signals
+Text Notes 1600 9050 0    50   ~ 0
+how about using 2 B2B connectors ?\ntreat audio signals with lowest priority
+Text Notes 2000 10050 0    50   ~ 0
+TODO: Add partitioning to schematics and names for functional blocks
+Text Notes 3000 11050 0    50   ~ 0
+TODO: multiple schematics are nice but maybe it would be good to place everything on a single sheet (say A2 format) Still we can downscale it to A4 for printing on paper. 
+Text Notes 3050 10800 0    50   ~ 0
+TODO: Add logotypes, use Antmicro and OSHW
 $EndSCHEMATC
