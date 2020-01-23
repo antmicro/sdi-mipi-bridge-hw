@@ -1,4 +1,4 @@
-update=Fri 17 Jan 2020 13:06:03 GMT
+update=Thu 23 Jan 2020 09:13:02 GMT
 version=1
 last_client=kicad
 [general]
@@ -16,7 +16,7 @@ LibDir=
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
-CopperLayerCount=2
+CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -64,12 +64,12 @@ Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
-Type=0
-Enabled=0
+Type=1
+Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
-Type=0
-Enabled=0
+Type=1
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
@@ -229,6 +229,17 @@ Enabled=0
 Name=Default
 Clearance=0.15
 TrackWidth=0.15
+ViaDiameter=0.55
+ViaDrill=0.15
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=Power_supply
+Clearance=0.15
+TrackWidth=0.2
 ViaDiameter=0.55
 ViaDrill=0.15
 uViaDiameter=0.3
