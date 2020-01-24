@@ -447,40 +447,6 @@ X EP ~ -100 -500 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antmicroRectangularConnectorsHeadersMalePins_3220-10-0100-00
-#
-DEF antmicroRectangularConnectorsHeadersMalePins_3220-10-0100-00 J 0 40 Y Y 1 F N
-F0 "J" -100 300 60 H V L CNN
-F1 "antmicroRectangularConnectorsHeadersMalePins_3220-10-0100-00" 0 -350 60 H V C CNN
-F2 "antmicro-footprints:PinHeader_2x5_P1.27mm_Drill.7mm" 200 200 60 H I L CNN
-F3 "http://cnctech.us/pdfs/3220-XX-0100-00.pdf" 200 300 60 V I L CNN
-F4 "3220-10-0100-00" 200 500 60 H I L CNN "MPN"
-F5 "CNC Tech" 200 1100 60 H I L CNN "Manufacturer"
-DRAW
-S -100 250 100 -250 0 1 0 f
-S -60 -190 -40 -210 0 1 0 F
-S -60 -90 -40 -110 0 1 0 F
-S -60 10 -40 -10 0 1 0 F
-S -60 110 -40 90 0 1 0 F
-S -60 210 -40 190 0 1 0 F
-S 40 -190 60 -210 0 1 0 F
-S 40 -90 60 -110 0 1 0 F
-S 40 10 60 -10 0 1 0 F
-S 40 110 60 90 0 1 0 F
-S 40 210 60 190 0 1 0 F
-X ~ 1 -200 200 100 R 50 50 1 1 P
-X ~ 10 200 -200 100 L 50 50 1 1 P
-X ~ 2 200 200 100 L 50 50 1 1 P
-X ~ 3 -200 100 100 R 50 50 1 1 P
-X ~ 4 200 100 100 L 50 50 1 1 P
-X ~ 5 -200 0 100 R 50 50 1 1 P
-X ~ 6 200 0 100 L 50 50 1 1 P
-X ~ 7 -200 -100 100 R 50 50 1 1 P
-X ~ 8 200 -100 100 L 50 50 1 1 P
-X ~ 9 -200 -200 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # antmicroResistors0402_R_0R_0402
 #
 DEF antmicroResistors0402_R_0R_0402 R 0 0 Y Y 1 F N

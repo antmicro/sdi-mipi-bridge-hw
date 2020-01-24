@@ -145,17 +145,17 @@ Wire Wire Line
 Wire Wire Line
 	4300 6000 3300 6000
 Wire Wire Line
-	12200 9600 11200 9600
+	2200 8600 1200 8600
 Wire Wire Line
 	4300 6800 3300 6800
 Wire Wire Line
-	2150 5600 1150 5600
+	2200 8800 1200 8800
 Wire Wire Line
-	12200 9800 11200 9800
+	2200 8700 1200 8700
 Wire Wire Line
 	4300 6700 3300 6700
 Wire Wire Line
-	12200 9500 11200 9500
+	2200 8500 1200 8500
 Text Label 3300 6200 0    50   ~ 0
 DVB_ASI
 Text Label 3300 6100 0    50   ~ 0
@@ -164,7 +164,7 @@ Text Label 3300 6000 0    50   ~ 0
 20bit_~10bit~
 Text Label 7300 8850 0    50   ~ 0
 Audio_EN_~DIS~
-Text Label 11200 9600 0    50   ~ 0
+Text Label 1200 8600 0    50   ~ 0
 ~CS~_TMS
 Text Label 7300 8650 0    50   ~ 0
 IOPROC_EN_~DIS~
@@ -172,9 +172,9 @@ Text Label 7300 8950 0    50   ~ 0
 JTAG_~HOST~
 Text Label 3300 6800 0    50   ~ 0
 ~RC_BYP~
-Text Label 1150 5600 0    50   ~ 0
+Text Label 1200 8800 0    50   ~ 0
 RST_TRST
-Text Label 11200 9800 0    50   ~ 0
+Text Label 1200 8700 0    50   ~ 0
 SDIN_TDI
 Text Label 7300 8750 0    50   ~ 0
 SDO_EN_DIS
@@ -184,7 +184,7 @@ Text Label 7300 8450 0    50   ~ 0
 SW_EN
 Text Label 3300 6700 0    50   ~ 0
 TIM_861
-Text Label 11200 9500 0    50   ~ 0
+Text Label 1200 8500 0    50   ~ 0
 SDOUT_TDO
 Wire Wire Line
 	2200 6800 1200 6800
@@ -3689,70 +3689,6 @@ F 3 "" H 5800 9550 50  0001 C CNN
 	1    5800 9550
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GNDREF #PWR?
-U 1 1 5F5B6BB3
-P 13750 9850
-AR Path="/5DD55102/5F5B6BB3" Ref="#PWR?"  Part="1" 
-AR Path="/5F5B6BB3" Ref="#PWR0144"  Part="1" 
-F 0 "#PWR0144" H 13750 9600 50  0001 C CNN
-F 1 "GNDREF" H 13755 9677 50  0000 C CNN
-F 2 "" H 13750 9850 50  0001 C CNN
-F 3 "" H 13750 9850 50  0001 C CNN
-	1    13750 9850
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	13750 9850 13750 9800
-Wire Wire Line
-	13750 9800 13100 9800
-$Comp
-L antmicroRectangularConnectorsHeadersMalePins:3220-10-0100-00 J3
-U 1 1 5F74D308
-P 12400 9600
-F 0 "J3" H 12400 10047 60  0000 C CNN
-F 1 "3220-10-0100-00" H 12400 9941 60  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_2x5_P1.27mm_Drill.7mm" H 12600 9800 60  0001 L CNN
-F 3 "http://cnctech.us/pdfs/3220-XX-0100-00.pdf" V 12600 9900 60  0001 L CNN
-F 4 "3220-10-0100-00" H 12600 10100 60  0001 L CNN "MPN"
-F 5 "CNC Tech" H 12600 10700 60  0001 L CNN "Manufacturer"
-	1    12400 9600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDREF #PWR?
-U 1 1 5FA0C637
-P 13100 9850
-AR Path="/5DD55102/5FA0C637" Ref="#PWR?"  Part="1" 
-AR Path="/5FA0C637" Ref="#PWR0145"  Part="1" 
-F 0 "#PWR0145" H 13100 9600 50  0001 C CNN
-F 1 "GNDREF" H 13105 9677 50  0000 C CNN
-F 2 "" H 13100 9850 50  0001 C CNN
-F 3 "" H 13100 9850 50  0001 C CNN
-	1    13100 9850
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	13100 9850 13100 9800
-Wire Wire Line
-	13100 9400 12600 9400
-Connection ~ 13100 9800
-Wire Wire Line
-	13100 9800 12600 9800
-Wire Wire Line
-	13100 9800 13100 9400
-Wire Wire Line
-	12600 9600 12950 9600
-Text Label 12950 9600 2    50   ~ 0
-NC
-Wire Wire Line
-	12600 9700 12950 9700
-Text Label 12950 9700 2    50   ~ 0
-NC
-Wire Wire Line
-	12200 9700 11850 9700
-Text Label 11850 9700 0    50   ~ 0
-NC
 Text Notes 1150 5850 0    50   ~ 0
 Do we need SDO?
 Text Notes 900  6350 0    50   ~ 0
@@ -3767,27 +3703,10 @@ Wire Notes Line
 	900  7250 2550 7250
 Text Notes 7950 12300 0    50   ~ 0
 Low noise LDO\n
-Wire Wire Line
-	13750 9500 12600 9500
-Wire Wire Line
-	13750 9500 13750 9450
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F5B5F6B
-P 13750 9450
-AR Path="/5DD55102/5F5B5F6B" Ref="#PWR?"  Part="1" 
-AR Path="/5F5B5F6B" Ref="#PWR0143"  Part="1" 
-F 0 "#PWR0143" H 13750 9300 50  0001 C CNN
-F 1 "+3.3V" H 13765 9623 50  0000 C CNN
-F 2 "" H 13750 9450 50  0001 C CNN
-F 3 "" H 13750 9450 50  0001 C CNN
-	1    13750 9450
-	-1   0    0    -1  
-$EndComp
-Text Label 11200 9400 0    50   ~ 0
+Text Label 1200 8400 0    50   ~ 0
 SCLK_TCK
 Wire Wire Line
-	12200 9400 11200 9400
+	2200 8400 1200 8400
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5EA28CA3
@@ -4348,8 +4267,8 @@ L power:GNDREF #PWR?
 U 1 1 5E34416D
 P 10700 13900
 AR Path="/5DD55102/5E34416D" Ref="#PWR?"  Part="1" 
-AR Path="/5E34416D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10700 13650 50  0001 C CNN
+AR Path="/5E34416D" Ref="#PWR0158"  Part="1" 
+F 0 "#PWR0158" H 10700 13650 50  0001 C CNN
 F 1 "GNDREF" H 10705 13727 50  0000 C CNN
 F 2 "" H 10700 13900 50  0001 C CNN
 F 3 "" H 10700 13900 50  0001 C CNN
@@ -4376,6 +4295,163 @@ Wire Wire Line
 	10250 12850 10700 12850
 Wire Wire Line
 	10700 12950 10700 12850
+Connection ~ 10700 12850
+Wire Wire Line
+	10700 12850 11050 12850
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 5E595C52
+P 2300 8500
+F 0 "TP?" V 2300 8400 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2300 8400 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2500 8700 60  0001 L CNN
+F 3 "" H 2500 8800 60  0001 L CNN
+	1    2300 8500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 5E595E2C
+P 2300 8600
+F 0 "TP?" V 2300 8500 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2300 8500 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2500 8800 60  0001 L CNN
+F 3 "" H 2500 8900 60  0001 L CNN
+	1    2300 8600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 5E595F8E
+P 2300 8700
+F 0 "TP?" V 2300 8600 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2300 8600 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2500 8900 60  0001 L CNN
+F 3 "" H 2500 9000 60  0001 L CNN
+	1    2300 8700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 5E5960F6
+P 2300 8800
+F 0 "TP?" V 2300 8700 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2300 8700 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2500 9000 60  0001 L CNN
+F 3 "" H 2500 9100 60  0001 L CNN
+	1    2300 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 5E590491
+P 2300 8400
+F 0 "TP?" V 2300 8300 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2300 8300 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2500 8600 60  0001 L CNN
+F 3 "" H 2500 8700 60  0001 L CNN
+	1    2300 8400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 5E59A172
+P 2300 6600
+F 0 "TP?" V 2300 6500 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2300 6500 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2500 6800 60  0001 L CNN
+F 3 "" H 2500 6900 60  0001 L CNN
+	1    2300 6600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 5E59A178
+P 2300 6700
+F 0 "TP?" V 2300 6600 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2300 6600 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2500 6900 60  0001 L CNN
+F 3 "" H 2500 7000 60  0001 L CNN
+	1    2300 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 5E59A17E
+P 2300 6800
+F 0 "TP?" V 2300 6700 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2300 6700 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2500 7000 60  0001 L CNN
+F 3 "" H 2500 7100 60  0001 L CNN
+	1    2300 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 5E59A184
+P 2300 6900
+F 0 "TP?" V 2300 6800 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2300 6800 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2500 7100 60  0001 L CNN
+F 3 "" H 2500 7200 60  0001 L CNN
+	1    2300 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 5E59A18A
+P 2300 6500
+F 0 "TP?" V 2300 6400 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2300 6400 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2500 6700 60  0001 L CNN
+F 3 "" H 2500 6800 60  0001 L CNN
+	1    2300 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 5E5D5B0A
+P 2300 7100
+F 0 "TP?" V 2300 7000 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2300 7000 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2500 7300 60  0001 L CNN
+F 3 "" H 2500 7400 60  0001 L CNN
+	1    2300 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 5E5D5B16
+P 2250 5950
+F 0 "TP?" V 2250 5850 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2250 5850 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2450 6150 60  0001 L CNN
+F 3 "" H 2450 6250 60  0001 L CNN
+	1    2250 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 5E5D5B1C
+P 2250 6050
+F 0 "TP?" V 2250 5950 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2250 5950 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2450 6250 60  0001 L CNN
+F 3 "" H 2450 6350 60  0001 L CNN
+	1    2250 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 5E5D5B22
+P 2300 7000
+F 0 "TP?" V 2300 6900 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2300 6900 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2500 7200 60  0001 L CNN
+F 3 "" H 2500 7300 60  0001 L CNN
+	1    2300 7000
+	0    -1   -1   0   
+$EndComp
 Wire Bus Line
 	4750 1850 4750 2750
 Wire Bus Line
@@ -4384,7 +4460,4 @@ Wire Bus Line
 	5350 5300 5350 6200
 Wire Bus Line
 	4750 2850 4750 3750
-Connection ~ 10700 12850
-Wire Wire Line
-	10700 12850 11050 12850
 $EndSCHEMATC
