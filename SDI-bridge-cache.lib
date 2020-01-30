@@ -447,6 +447,24 @@ X EP ~ -100 -500 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroRectangularConnectorsHeadersMalePins_22-23-2021
+#
+DEF antmicroRectangularConnectorsHeadersMalePins_22-23-2021 J 0 40 Y Y 1 F N
+F0 "J" -100 50 50 H V R CNN
+F1 "antmicroRectangularConnectorsHeadersMalePins_22-23-2021" 50 -150 50 H V C CNN
+F2 "antmicro-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" 200 200 60 H I L CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" 200 300 60 H I L CNN
+F4 "22-23-2021" 200 500 60 H I L CNN "MPN"
+F5 "Molex" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+S -50 0 150 -100 1 1 0 f
+S -10 -45 10 -65 1 1 0 F
+S 90 -45 110 -65 1 1 0 F
+X ~ 1 0 100 100 D 50 50 1 1 P
+X ~ 2 100 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroResistors0402_R_0R_0402
 #
 DEF antmicroResistors0402_R_0R_0402 R 0 0 Y Y 1 F N
