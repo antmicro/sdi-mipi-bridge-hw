@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C55
+L SDI-bridge:C_1u_0402 C55
 U 1 1 5DD37F89
 P 11100 5350
 F 0 "C55" V 11000 5250 60  0000 C CNN
 F 1 "C_1u_0402" H 11100 5200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 11300 5550 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 11300 5550 60  0001 L CNN
 F 3 "" H 11100 5350 50  0001 C CNN
 F 4 "TDK" H 11300 5750 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 11300 5650 60  0001 L CNN "MPN"
@@ -28,12 +28,12 @@ F 6 "1u" V 11150 5450 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C56
+L SDI-bridge:C_1u_0402 C56
 U 1 1 5DD37FE9
 P 11100 5750
 F 0 "C56" V 11000 5650 60  0000 C CNN
 F 1 "C_1u_0402" H 11100 5600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 11300 5950 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 11300 5950 60  0001 L CNN
 F 3 "" H 11100 5750 50  0001 C CNN
 F 4 "TDK" H 11300 6150 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 11300 6050 60  0001 L CNN "MPN"
@@ -109,12 +109,12 @@ Wire Wire Line
 Text Label 15350 12600 0    50   ~ 0
 AUDIO_OUTPUT_CH1_2
 $Comp
-L antmicroResistors0603:R_75R_0603 R28
+L SDI-bridge:R_75R_0603 R28
 U 1 1 5E6329C6
 P 10300 6100
 F 0 "R28" V 10150 5950 60  0000 L CNN
 F 1 "R_75R_0603" H 10300 5950 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 10500 6300 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0603-res" H 10500 6300 60  0001 L CNN
 F 3 "" H 10300 6100 50  0001 C CNN
 F 4 "MULTICOMP" H 10500 6500 60  0001 L CNN "Manufacturer"
 F 5 "MCWR06X75R0FTL" H 10500 6400 60  0001 L CNN "MPN"
@@ -123,12 +123,12 @@ F 6 "75R" V 10450 6100 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0603:R_75R_0603 R27
+L SDI-bridge:R_75R_0603 R27
 U 1 1 5E632AF3
 P 9850 5350
 F 0 "R27" H 9950 5250 60  0000 L CNN
 F 1 "R_75R_0603" H 9850 5200 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 10050 5550 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0603-res" H 10050 5550 60  0001 L CNN
 F 3 "" H 9850 5350 50  0001 C CNN
 F 4 "MULTICOMP" H 10050 5750 60  0001 L CNN "Manufacturer"
 F 5 "MCWR06X75R0FTL" H 10050 5650 60  0001 L CNN "MPN"
@@ -139,12 +139,12 @@ $EndComp
 Text Notes 1250 900  0    79   ~ 0
 GS2971A
 $Comp
-L antmicroCapacitors0603:C_6n2_0603 C43
+L SDI-bridge:C_6n2_0603 C43
 U 1 1 5E68ABC3
 P 9850 5000
 F 0 "C43" V 9700 4900 60  0000 C CNN
 F 1 "C_6n2_0603" H 9850 4850 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 10050 5200 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0603-res" H 10050 5200 60  0001 L CNN
 F 3 "" H 9850 5000 50  0001 C CNN
 F 4 "Kemet" H 10050 5400 60  0001 L CNN "Manufacturer"
 F 5 "C0603C622J5GACAUTO" H 10050 5300 60  0001 L CNN "MPN"
@@ -164,12 +164,12 @@ Connection ~ 9450 5350
 Wire Wire Line
 	9450 5350 9700 5350
 $Comp
-L antmicroResistors0402:R_37R4_0402 R29
+L SDI-bridge:R_37R4_0402 R29
 U 1 1 5E6A8A0A
 P 10650 6100
 F 0 "R29" V 10500 5950 60  0000 L CNN
 F 1 "R_37R4_0402" H 10650 5950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10850 6300 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 10850 6300 60  0001 L CNN
 F 3 "" H 10650 6100 50  0001 C CNN
 F 4 "Multicomp" H 10850 6500 60  0001 L CNN "Manufacturer"
 F 5 "MCWR04X37R4FTL" H 10850 6400 60  0001 L CNN "MPN"
@@ -178,12 +178,12 @@ F 6 "37R4" V 10800 6100 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCoaxialConnectorsRF:031-70526-21 J2
+L SDI-bridge:031-70526-21 J2
 U 1 1 5E6EB73C
 P 9150 5350
 F 0 "J2" H 9250 5500 50  0000 L CNN
 F 1 "031-70526-21" H 8550 5150 50  0000 L CNN
-F 2 "antmicro-footprints:BNC_Edge_Conn" H 8910 4520 50  0001 C CNN
+F 2 "SDI-bridge-footprints:BNC_Edge_Conn" H 8910 4520 50  0001 C CNN
 F 3 "https://www.farnell.com/cad/2305565.pdf?_ga=2.190633003.1014497200.1574067480-156563690.1566371002&_gac=1.57062104.1572875319.Cj0KCQiAtf_tBRDtARIsAIbAKe0A1M5y_jdFCiNLNrHM5L2GjmDvn_4qnRvhHAD9jBdL9AmoMNThLCoaAjhJEALw_wcB" H 9010 4620 50  0001 C CNN
 F 4 "031-70526-21" H 9110 4720 51  0001 C CNN "MPN"
 F 5 "Amphenol" H 9210 4820 51  0001 C CNN "Manufacturer"
@@ -191,7 +191,7 @@ F 5 "Amphenol" H 9210 4820 51  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L SDI-bridge:GNDA #PWR?
 U 1 1 5E718752
 P 10500 6600
 AR Path="/5DD55102/5E718752" Ref="#PWR?"  Part="1" 
@@ -1040,7 +1040,7 @@ AE 42 60 82
 EndData
 $EndBitmap
 $Comp
-L power:+1V2 #PWR?
+L SDI-bridge:+1V2 #PWR?
 U 1 1 5F7ED3F0
 P 1550 11650
 AR Path="/5DD55102/5F7ED3F0" Ref="#PWR?"  Part="1" 
@@ -1053,7 +1053,7 @@ F 3 "" H 1550 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+1V2 #PWR?
+L SDI-bridge:+1V2 #PWR?
 U 1 1 5F7ED3F6
 P 5050 10050
 AR Path="/5DD55102/5F7ED3F6" Ref="#PWR?"  Part="1" 
@@ -1066,7 +1066,7 @@ F 3 "" H 5050 10050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L SDI-bridge:+3.3V #PWR?
 U 1 1 5F7ED3FC
 P 5050 8450
 AR Path="/5DD55102/5F7ED3FC" Ref="#PWR?"  Part="1" 
@@ -1079,7 +1079,7 @@ F 3 "" H 5050 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VA #PWR?
+L SDI-bridge:+3.3VA #PWR?
 U 1 1 5F7ED402
 P 6900 8450
 AR Path="/5DD55102/5F7ED402" Ref="#PWR?"  Part="1" 
@@ -1092,7 +1092,7 @@ F 3 "" H 6900 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 5F7ED408
 P 1550 12600
 AR Path="/5DD55102/5F7ED408" Ref="#PWR?"  Part="1" 
@@ -1105,14 +1105,14 @@ F 3 "" H 1550 12600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5F7ED411
 P 1550 12150
 AR Path="/5DD55102/5F7ED411" Ref="C?"  Part="1" 
 AR Path="/5F7ED411" Ref="C2"  Part="1" 
 F 0 "C2" H 1400 12250 60  0000 L CNN
 F 1 "C_10n_0402" H 1550 12000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 1750 12350 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 1750 12350 60  0001 L CNN
 F 3 "" H 1550 12150 50  0001 C CNN
 F 4 "AVX" H 1750 12550 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 1750 12450 60  0001 L CNN "MPN"
@@ -1121,14 +1121,14 @@ F 6 "10n" H 1600 12050 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5F7ED41A
 P 1850 12150
 AR Path="/5DD55102/5F7ED41A" Ref="C?"  Part="1" 
 AR Path="/5F7ED41A" Ref="C4"  Part="1" 
 F 0 "C4" H 1700 12250 60  0000 L CNN
 F 1 "C_10n_0402" H 1850 12000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2050 12350 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 2050 12350 60  0001 L CNN
 F 3 "" H 1850 12150 50  0001 C CNN
 F 4 "AVX" H 2050 12550 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 2050 12450 60  0001 L CNN "MPN"
@@ -1137,14 +1137,14 @@ F 6 "10n" H 1900 12050 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5F7ED423
 P 2150 12150
 AR Path="/5DD55102/5F7ED423" Ref="C?"  Part="1" 
 AR Path="/5F7ED423" Ref="C6"  Part="1" 
 F 0 "C6" H 2000 12250 60  0000 L CNN
 F 1 "C_10n_0402" H 2150 12000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2350 12350 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 2350 12350 60  0001 L CNN
 F 3 "" H 2150 12150 50  0001 C CNN
 F 4 "AVX" H 2350 12550 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 2350 12450 60  0001 L CNN "MPN"
@@ -1153,14 +1153,14 @@ F 6 "10n" H 2200 12050 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5F7ED42C
 P 2450 12150
 AR Path="/5DD55102/5F7ED42C" Ref="C?"  Part="1" 
 AR Path="/5F7ED42C" Ref="C8"  Part="1" 
 F 0 "C8" H 2300 12250 60  0000 L CNN
 F 1 "C_10n_0402" H 2450 12000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2650 12350 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 2650 12350 60  0001 L CNN
 F 3 "" H 2450 12150 50  0001 C CNN
 F 4 "AVX" H 2650 12550 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 2650 12450 60  0001 L CNN "MPN"
@@ -1207,14 +1207,14 @@ Connection ~ 2150 11850
 Wire Wire Line
 	2150 11850 1850 11850
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5F7ED44B
 P 3300 12150
 AR Path="/5DD55102/5F7ED44B" Ref="C?"  Part="1" 
 AR Path="/5F7ED44B" Ref="C11"  Part="1" 
 F 0 "C11" H 3150 12250 60  0000 L CNN
 F 1 "C_10n_0402" H 3300 12000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3500 12350 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 3500 12350 60  0001 L CNN
 F 3 "" H 3300 12150 50  0001 C CNN
 F 4 "AVX" H 3500 12550 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3500 12450 60  0001 L CNN "MPN"
@@ -1223,14 +1223,14 @@ F 6 "10n" H 3350 12050 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5F7ED454
 P 3600 12150
 AR Path="/5DD55102/5F7ED454" Ref="C?"  Part="1" 
 AR Path="/5F7ED454" Ref="C13"  Part="1" 
 F 0 "C13" H 3450 12250 60  0000 L CNN
 F 1 "C_10n_0402" H 3600 12000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3800 12350 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 3800 12350 60  0001 L CNN
 F 3 "" H 3600 12150 50  0001 C CNN
 F 4 "AVX" H 3800 12550 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3800 12450 60  0001 L CNN "MPN"
@@ -1239,14 +1239,14 @@ F 6 "10n" H 3650 12050 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5F7ED45D
 P 3900 12150
 AR Path="/5DD55102/5F7ED45D" Ref="C?"  Part="1" 
 AR Path="/5F7ED45D" Ref="C16"  Part="1" 
 F 0 "C16" H 3750 12250 60  0000 L CNN
 F 1 "C_10n_0402" H 3900 12000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4100 12350 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 4100 12350 60  0001 L CNN
 F 3 "" H 3900 12150 50  0001 C CNN
 F 4 "AVX" H 4100 12550 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 4100 12450 60  0001 L CNN "MPN"
@@ -1283,7 +1283,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 11850 3600 11850
 $Comp
-L power:VPP #PWR?
+L SDI-bridge:VPP #PWR?
 U 1 1 5F7ED474
 P 3300 11650
 AR Path="/5DD55102/5F7ED474" Ref="#PWR?"  Part="1" 
@@ -1297,7 +1297,7 @@ F 4 "+1.2VA" H 3315 11823 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L SDI-bridge:GNDA #PWR?
 U 1 1 5F7ED47A
 P 3300 12600
 AR Path="/5DD55102/5F7ED47A" Ref="#PWR?"  Part="1" 
@@ -1310,14 +1310,14 @@ F 3 "" H 3300 12600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5F7ED483
 P 6900 8950
 AR Path="/5DD55102/5F7ED483" Ref="C?"  Part="1" 
 AR Path="/5F7ED483" Ref="C32"  Part="1" 
 F 0 "C32" H 6750 9050 60  0000 L CNN
 F 1 "C_10n_0402" H 6900 8800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7100 9150 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 7100 9150 60  0001 L CNN
 F 3 "" H 6900 8950 50  0001 C CNN
 F 4 "AVX" H 7100 9350 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 7100 9250 60  0001 L CNN "MPN"
@@ -1326,14 +1326,14 @@ F 6 "10n" H 6950 8850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5F7ED48C
 P 5050 8950
 AR Path="/5DD55102/5F7ED48C" Ref="C?"  Part="1" 
 AR Path="/5F7ED48C" Ref="C19"  Part="1" 
 F 0 "C19" H 4900 9050 60  0000 L CNN
 F 1 "C_10n_0402" H 5050 8800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5250 9150 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 5250 9150 60  0001 L CNN
 F 3 "" H 5050 8950 50  0001 C CNN
 F 4 "AVX" H 5250 9350 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 5250 9250 60  0001 L CNN "MPN"
@@ -1342,14 +1342,14 @@ F 6 "10n" H 5100 8850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L SDI-bridge:C_1u_0402 C?
 U 1 1 5F7ED495
 P 5550 8950
 AR Path="/5DD55102/5F7ED495" Ref="C?"  Part="1" 
 AR Path="/5F7ED495" Ref="C24"  Part="1" 
 F 0 "C24" H 5400 9050 60  0000 L CNN
 F 1 "C_1u_0402" H 5550 8800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5750 9150 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 5750 9150 60  0001 L CNN
 F 3 "" H 5550 8950 50  0001 C CNN
 F 4 "TDK" H 5750 9350 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 5750 9250 60  0001 L CNN "MPN"
@@ -1358,14 +1358,14 @@ F 6 "1u" H 5600 8850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L SDI-bridge:R_0R_0402 R?
 U 1 1 5F7ED49E
 P 6000 8650
 AR Path="/5DD55102/5F7ED49E" Ref="R?"  Part="1" 
 AR Path="/5F7ED49E" Ref="R21"  Part="1" 
 F 0 "R21" H 6000 8863 60  0000 C CNN
 F 1 "R_0R_0402" H 6000 8500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6200 8850 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 6200 8850 60  0001 L CNN
 F 3 "" H 6000 8650 50  0001 C CNN
 F 4 "PANASONIC" H 6200 9050 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6200 8950 60  0001 L CNN "MPN"
@@ -1381,7 +1381,7 @@ Wire Wire Line
 	5550 8650 5050 8650
 Connection ~ 5050 8650
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 5F7ED4A8
 P 5050 9400
 AR Path="/5DD55102/5F7ED4A8" Ref="#PWR?"  Part="1" 
@@ -1403,14 +1403,14 @@ Wire Wire Line
 	5050 9200 5050 9400
 Connection ~ 5050 9200
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L SDI-bridge:C_1u_0402 C?
 U 1 1 5F7ED4B6
 P 6450 8950
 AR Path="/5DD55102/5F7ED4B6" Ref="C?"  Part="1" 
 AR Path="/5F7ED4B6" Ref="C28"  Part="1" 
 F 0 "C28" H 6300 9050 60  0000 L CNN
 F 1 "C_1u_0402" H 6450 8800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6650 9150 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 6650 9150 60  0001 L CNN
 F 3 "" H 6450 8950 50  0001 C CNN
 F 4 "TDK" H 6650 9350 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 6650 9250 60  0001 L CNN "MPN"
@@ -1443,7 +1443,7 @@ Wire Wire Line
 	6900 9200 6900 9400
 Connection ~ 6900 9200
 $Comp
-L power:GNDA #PWR?
+L SDI-bridge:GNDA #PWR?
 U 1 1 5F7ED4CA
 P 6900 9400
 AR Path="/5DD55102/5F7ED4CA" Ref="#PWR?"  Part="1" 
@@ -1456,14 +1456,14 @@ F 3 "" H 6900 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L SDI-bridge:R_0R_0402 R?
 U 1 1 5F7ED4D3
 P 6000 9200
 AR Path="/5DD55102/5F7ED4D3" Ref="R?"  Part="1" 
 AR Path="/5F7ED4D3" Ref="R22"  Part="1" 
 F 0 "R22" H 6000 9413 60  0000 C CNN
 F 1 "R_0R_0402" H 6000 9050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6200 9400 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 6200 9400 60  0001 L CNN
 F 3 "" H 6000 9200 50  0001 C CNN
 F 4 "PANASONIC" H 6200 9600 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6200 9500 60  0001 L CNN "MPN"
@@ -1478,14 +1478,14 @@ Wire Wire Line
 Connection ~ 5550 9200
 Connection ~ 6450 9200
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5F7ED4E0
 P 6900 10550
 AR Path="/5DD55102/5F7ED4E0" Ref="C?"  Part="1" 
 AR Path="/5F7ED4E0" Ref="C33"  Part="1" 
 F 0 "C33" H 6750 10650 60  0000 L CNN
 F 1 "C_10n_0402" H 6900 10400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7100 10750 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 7100 10750 60  0001 L CNN
 F 3 "" H 6900 10550 50  0001 C CNN
 F 4 "AVX" H 7100 10950 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 7100 10850 60  0001 L CNN "MPN"
@@ -1494,14 +1494,14 @@ F 6 "10n" H 6950 10450 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5F7ED4E9
 P 5050 10550
 AR Path="/5DD55102/5F7ED4E9" Ref="C?"  Part="1" 
 AR Path="/5F7ED4E9" Ref="C20"  Part="1" 
 F 0 "C20" H 4900 10650 60  0000 L CNN
 F 1 "C_10n_0402" H 5050 10400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5250 10750 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 5250 10750 60  0001 L CNN
 F 3 "" H 5050 10550 50  0001 C CNN
 F 4 "AVX" H 5250 10950 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 5250 10850 60  0001 L CNN "MPN"
@@ -1510,14 +1510,14 @@ F 6 "10n" H 5100 10450 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L SDI-bridge:C_1u_0402 C?
 U 1 1 5F7ED4F2
 P 5550 10550
 AR Path="/5DD55102/5F7ED4F2" Ref="C?"  Part="1" 
 AR Path="/5F7ED4F2" Ref="C25"  Part="1" 
 F 0 "C25" H 5400 10650 60  0000 L CNN
 F 1 "C_1u_0402" H 5550 10400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5750 10750 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 5750 10750 60  0001 L CNN
 F 3 "" H 5550 10550 50  0001 C CNN
 F 4 "TDK" H 5750 10950 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 5750 10850 60  0001 L CNN "MPN"
@@ -1526,14 +1526,14 @@ F 6 "1u" H 5600 10450 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L SDI-bridge:R_0R_0402 R?
 U 1 1 5F7ED4FB
 P 6000 10250
 AR Path="/5DD55102/5F7ED4FB" Ref="R?"  Part="1" 
 AR Path="/5F7ED4FB" Ref="R23"  Part="1" 
 F 0 "R23" H 6000 10463 60  0000 C CNN
 F 1 "R_0R_0402" H 6000 10100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6200 10450 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 6200 10450 60  0001 L CNN
 F 3 "" H 6000 10250 50  0001 C CNN
 F 4 "PANASONIC" H 6200 10650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6200 10550 60  0001 L CNN "MPN"
@@ -1551,7 +1551,7 @@ Wire Wire Line
 	5550 10250 5050 10250
 Connection ~ 5050 10250
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 5F7ED506
 P 5050 11000
 AR Path="/5DD55102/5F7ED506" Ref="#PWR?"  Part="1" 
@@ -1573,14 +1573,14 @@ Wire Wire Line
 	5050 10800 5050 11000
 Connection ~ 5050 10800
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L SDI-bridge:C_1u_0402 C?
 U 1 1 5F7ED514
 P 6450 10550
 AR Path="/5DD55102/5F7ED514" Ref="C?"  Part="1" 
 AR Path="/5F7ED514" Ref="C29"  Part="1" 
 F 0 "C29" H 6300 10650 60  0000 L CNN
 F 1 "C_1u_0402" H 6450 10400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6650 10750 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 6650 10750 60  0001 L CNN
 F 3 "" H 6450 10550 50  0001 C CNN
 F 4 "TDK" H 6650 10950 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 6650 10850 60  0001 L CNN "MPN"
@@ -1613,7 +1613,7 @@ Wire Wire Line
 	6900 10800 6900 11000
 Connection ~ 6900 10800
 $Comp
-L power:GNDA #PWR?
+L SDI-bridge:GNDA #PWR?
 U 1 1 5F7ED528
 P 6900 11000
 AR Path="/5DD55102/5F7ED528" Ref="#PWR?"  Part="1" 
@@ -1626,7 +1626,7 @@ F 3 "" H 6900 11000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VPP #PWR?
+L SDI-bridge:VPP #PWR?
 U 1 1 5F7ED52F
 P 6900 10050
 AR Path="/5DD55102/5F7ED52F" Ref="#PWR?"  Part="1" 
@@ -1642,14 +1642,14 @@ $EndComp
 Wire Wire Line
 	5050 8450 5050 8650
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5F7ED539
 P 1550 13950
 AR Path="/5DD55102/5F7ED539" Ref="C?"  Part="1" 
 AR Path="/5F7ED539" Ref="C3"  Part="1" 
 F 0 "C3" H 1400 14050 60  0000 L CNN
 F 1 "C_10n_0402" H 1550 13800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 1750 14150 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 1750 14150 60  0001 L CNN
 F 3 "" H 1550 13950 50  0001 C CNN
 F 4 "AVX" H 1750 14350 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 1750 14250 60  0001 L CNN "MPN"
@@ -1658,14 +1658,14 @@ F 6 "10n" H 1600 13850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5F7ED542
 P 1850 13950
 AR Path="/5DD55102/5F7ED542" Ref="C?"  Part="1" 
 AR Path="/5F7ED542" Ref="C5"  Part="1" 
 F 0 "C5" H 1700 14050 60  0000 L CNN
 F 1 "C_10n_0402" H 1850 13800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2050 14150 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 2050 14150 60  0001 L CNN
 F 3 "" H 1850 13950 50  0001 C CNN
 F 4 "AVX" H 2050 14350 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 2050 14250 60  0001 L CNN "MPN"
@@ -1674,14 +1674,14 @@ F 6 "10n" H 1900 13850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5F7ED54B
 P 2150 13950
 AR Path="/5DD55102/5F7ED54B" Ref="C?"  Part="1" 
 AR Path="/5F7ED54B" Ref="C7"  Part="1" 
 F 0 "C7" H 2000 14050 60  0000 L CNN
 F 1 "C_10n_0402" H 2150 13800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2350 14150 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 2350 14150 60  0001 L CNN
 F 3 "" H 2150 13950 50  0001 C CNN
 F 4 "AVX" H 2350 14350 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 2350 14250 60  0001 L CNN "MPN"
@@ -1690,14 +1690,14 @@ F 6 "10n" H 2200 13850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5F7ED554
 P 2450 13950
 AR Path="/5DD55102/5F7ED554" Ref="C?"  Part="1" 
 AR Path="/5F7ED554" Ref="C9"  Part="1" 
 F 0 "C9" H 2300 14050 60  0000 L CNN
 F 1 "C_10n_0402" H 2450 13800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2650 14150 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 2650 14150 60  0001 L CNN
 F 3 "" H 2450 13950 50  0001 C CNN
 F 4 "AVX" H 2650 14350 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 2650 14250 60  0001 L CNN "MPN"
@@ -1744,14 +1744,14 @@ Connection ~ 2150 13650
 Wire Wire Line
 	2150 13650 1850 13650
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5F7ED573
 P 3300 13950
 AR Path="/5DD55102/5F7ED573" Ref="C?"  Part="1" 
 AR Path="/5F7ED573" Ref="C12"  Part="1" 
 F 0 "C12" H 3150 14050 60  0000 L CNN
 F 1 "C_10n_0402" H 3300 13800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3500 14150 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 3500 14150 60  0001 L CNN
 F 3 "" H 3300 13950 50  0001 C CNN
 F 4 "AVX" H 3500 14350 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3500 14250 60  0001 L CNN "MPN"
@@ -1760,14 +1760,14 @@ F 6 "10n" H 3350 13850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5F7ED57C
 P 3600 13950
 AR Path="/5DD55102/5F7ED57C" Ref="C?"  Part="1" 
 AR Path="/5F7ED57C" Ref="C14"  Part="1" 
 F 0 "C14" H 3450 14050 60  0000 L CNN
 F 1 "C_10n_0402" H 3600 13800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3800 14150 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 3800 14150 60  0001 L CNN
 F 3 "" H 3600 13950 50  0001 C CNN
 F 4 "AVX" H 3800 14350 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3800 14250 60  0001 L CNN "MPN"
@@ -1776,14 +1776,14 @@ F 6 "10n" H 3650 13850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5F7ED585
 P 3900 13950
 AR Path="/5DD55102/5F7ED585" Ref="C?"  Part="1" 
 AR Path="/5F7ED585" Ref="C17"  Part="1" 
 F 0 "C17" H 3750 14050 60  0000 L CNN
 F 1 "C_10n_0402" H 3900 13800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4100 14150 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 4100 14150 60  0001 L CNN
 F 3 "" H 3900 13950 50  0001 C CNN
 F 4 "AVX" H 4100 14350 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 4100 14250 60  0001 L CNN "MPN"
@@ -1820,7 +1820,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 13650 3600 13650
 $Comp
-L power:GNDA #PWR?
+L SDI-bridge:GNDA #PWR?
 U 1 1 5F7ED59B
 P 3300 14400
 AR Path="/5DD55102/5F7ED59B" Ref="#PWR?"  Part="1" 
@@ -1833,7 +1833,7 @@ F 3 "" H 3300 14400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 5F7ED5A1
 P 1550 14400
 AR Path="/5DD55102/5F7ED5A1" Ref="#PWR?"  Part="1" 
@@ -1846,7 +1846,7 @@ F 3 "" H 1550 14400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VA #PWR?
+L SDI-bridge:+3.3VA #PWR?
 U 1 1 5F7ED5A7
 P 3300 13450
 AR Path="/5DD55102/5F7ED5A7" Ref="#PWR?"  Part="1" 
@@ -1863,7 +1863,7 @@ Power decoupling
 Text Notes 4950 7650 0    79   ~ 0
 GS Power Filtering
 $Comp
-L power:VPP #PWR?
+L SDI-bridge:VPP #PWR?
 U 1 1 5F7ED5B7
 P 12950 5000
 AR Path="/5DD55102/5F7ED5B7" Ref="#PWR?"  Part="1" 
@@ -1877,14 +1877,14 @@ F 4 "+1.2VA" H 12965 5173 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorspol:C_33u_0603 C58
+L SDI-bridge:C_33u_0603 C58
 U 1 1 5F7ED5C0
 P 12950 6000
 AR Path="/5F7ED5C0" Ref="C58"  Part="1" 
 AR Path="/5DD55102/5F7ED5C0" Ref="C?"  Part="1" 
 F 0 "C58" H 12750 6100 60  0000 L CNN
 F 1 "C_33u_0603" H 12950 5850 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 13150 6200 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0603-cap" H 13150 6200 60  0001 L CNN
 F 3 "" H 12950 6000 50  0001 C CNN
 F 4 "Avx" H 13150 6400 60  0001 L CNN "Manufacturer"
 F 5 "F980G336MMA" H 13150 6300 60  0001 L CNN "MPN"
@@ -1893,14 +1893,14 @@ F 6 "33u" H 13000 5850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_105R_0402 R30
+L SDI-bridge:R_105R_0402 R30
 U 1 1 5F7ED5C9
 P 12950 5300
 AR Path="/5F7ED5C9" Ref="R30"  Part="1" 
 AR Path="/5DD55102/5F7ED5C9" Ref="R?"  Part="1" 
 F 0 "R30" V 12750 5150 60  0000 L CNN
 F 1 "R_105R_0402" H 13000 5000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13150 5500 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 13150 5500 60  0001 L CNN
 F 3 "" H 12950 5300 50  0001 C CNN
 F 4 "Multicomp" H 13150 5700 60  0001 L CNN "Manufacturer"
 F 5 "MC00625W04021105R" H 13150 5600 60  0001 L CNN "MPN"
@@ -1909,7 +1909,7 @@ F 6 "105R" V 13100 5350 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L SDI-bridge:GNDA #PWR?
 U 1 1 5F7ED5CF
 P 12950 6350
 AR Path="/5DD55102/5F7ED5CF" Ref="#PWR?"  Part="1" 
@@ -1959,7 +1959,7 @@ Wire Wire Line
 Wire Wire Line
 	14500 3150 14150 3150
 $Comp
-L power:GNDA #PWR?
+L SDI-bridge:GNDA #PWR?
 U 1 1 5E07F22D
 P 14150 3850
 AR Path="/5DD55102/5E07F22D" Ref="#PWR?"  Part="1" 
@@ -1974,7 +1974,7 @@ $EndComp
 Wire Wire Line
 	15200 2700 15200 2600
 $Comp
-L power:+3.3VA #PWR?
+L SDI-bridge:+3.3VA #PWR?
 U 1 1 5E07866F
 P 15200 2600
 AR Path="/5DD55102/5E07866F" Ref="#PWR?"  Part="1" 
@@ -2004,12 +2004,12 @@ LF
 Text Label 15900 3150 2    50   ~ 0
 LB_CONT
 $Comp
-L antmicroResistors0402:R_0R_0402 R32
+L SDI-bridge:R_0R_0402 R32
 U 1 1 5DFFCF9B
 P 14650 3150
 F 0 "R32" H 14550 3250 60  0000 C CNN
 F 1 "R_0R_0402" H 14650 3000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 14850 3350 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 14850 3350 60  0001 L CNN
 F 3 "" H 14650 3150 50  0001 C CNN
 F 4 "PANASONIC" H 14850 3550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 14850 3450 60  0001 L CNN "MPN"
@@ -2018,12 +2018,12 @@ F 6 "0R" H 14800 3050 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R34
+L SDI-bridge:R_0R_0402 R34
 U 1 1 5DFFCE31
 P 15200 2850
 F 0 "R34" V 15050 2700 60  0000 L CNN
 F 1 "R_0R_0402" H 15200 2700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 15400 3050 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 15400 3050 60  0001 L CNN
 F 3 "" H 15200 2850 50  0001 C CNN
 F 4 "PANASONIC" H 15400 3250 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 15400 3150 60  0001 L CNN "MPN"
@@ -2032,12 +2032,12 @@ F 6 "0R" V 15350 2900 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_47n_0402 C63
+L SDI-bridge:C_47n_0402 C63
 U 1 1 5DFF02A6
 P 14650 3750
 F 0 "C63" V 14750 3800 60  0000 L CNN
 F 1 "C_47n_0402" H 14650 3600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 14850 3950 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 14850 3950 60  0001 L CNN
 F 3 "" H 14650 3750 50  0001 C CNN
 F 4 "MULTICOMP" H 14850 4150 60  0001 L CNN "Manufacturer"
 F 5 "MC0402X473K160CT" H 14850 4050 60  0001 L CNN "MPN"
@@ -2046,12 +2046,12 @@ F 6 "47n" V 14600 3550 50  0000 L CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C62
+L SDI-bridge:C_1u_0402 C62
 U 1 1 5DFF0076
 P 14650 3450
 F 0 "C62" V 14750 3500 60  0000 L CNN
 F 1 "C_1u_0402" H 14650 3300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 14850 3650 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 14850 3650 60  0001 L CNN
 F 3 "" H 14650 3450 50  0001 C CNN
 F 4 "TDK" H 14850 3850 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 14850 3750 60  0001 L CNN "MPN"
@@ -2083,12 +2083,12 @@ Wire Wire Line
 Wire Wire Line
 	14700 1350 15000 1350
 $Comp
-L antmicroCapacitors0402:C_16p_0402 C60
+L SDI-bridge:C_16p_0402 C60
 U 1 1 5DFA6E27
 P 14550 1900
 F 0 "C60" V 14450 1750 60  0000 C CNN
 F 1 "C_16p_0402" H 14550 1750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 14750 2100 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 14750 2100 60  0001 L CNN
 F 3 "" H 14550 1900 50  0001 C CNN
 F 4 "Walsin" H 14750 2300 60  0001 L CNN "Manufacturer"
 F 5 "0402N160J500CT" H 14750 2200 60  0001 L CNN "MPN"
@@ -2097,12 +2097,12 @@ F 6 "16p" V 14650 2050 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_16p_0402 C59
+L SDI-bridge:C_16p_0402 C59
 U 1 1 5DFA6980
 P 14550 1350
 F 0 "C59" V 14450 1200 60  0000 C CNN
 F 1 "C_16p_0402" H 14550 1200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 14750 1550 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 14750 1550 60  0001 L CNN
 F 3 "" H 14550 1350 50  0001 C CNN
 F 4 "Walsin" H 14750 1750 60  0001 L CNN "Manufacturer"
 F 5 "0402N160J500CT" H 14750 1650 60  0001 L CNN "MPN"
@@ -2111,7 +2111,7 @@ F 6 "16p" V 14650 1500 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 5DFA63DA
 P 14150 1950
 AR Path="/5DD55102/5DFA63DA" Ref="#PWR?"  Part="1" 
@@ -2124,12 +2124,12 @@ F 3 "" H 14150 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroOscillators:ABM7_27.000MH_D2Y_T Y1
+L SDI-bridge:ABM7_27.000MH_D2Y_T Y1
 U 1 1 5DF9B1CF
 P 15000 1650
 F 0 "Y1" V 14907 1753 31  0000 L CNN
 F 1 "ABM7_27.000MH_D2Y_T" V 14969 1753 31  0000 L CNN
-F 2 "antmicro-footprints:ABM7_OSC" H 17100 1650 50  0001 C CNN
+F 2 "SDI-bridge-footprints:ABM7_OSC" H 17100 1650 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/947971.pdf?_ga=2.27685436.1014497200.1574067480-156563690.1566371002&_gac=1.52917722.1572875319.Cj0KCQiAtf_tBRDtARIsAIbAKe0A1M5y_jdFCiNLNrHM5L2GjmDvn_4qnRvhHAD9jBdL9AmoMNThLCoaAjhJEALw_wcB" H 17200 1750 50  0001 C CNN
 F 4 "ABM7-27.000MHZ-D2Y-T" V 15031 1753 31  0000 L CNN "MPN"
 F 5 "Abracon" V 15093 1753 31  0000 L CNN "Manufacturer"
@@ -2145,7 +2145,7 @@ Wire Wire Line
 Wire Wire Line
 	14450 4800 14150 4800
 $Comp
-L power:GNDA #PWR?
+L SDI-bridge:GNDA #PWR?
 U 1 1 5DF1B752
 P 14150 4950
 AR Path="/5DD55102/5DF1B752" Ref="#PWR?"  Part="1" 
@@ -2169,12 +2169,12 @@ Wire Wire Line
 Wire Wire Line
 	15350 4700 15350 4400
 $Comp
-L antmicroCapacitors0402:C_470n_0402 C61
+L SDI-bridge:C_470n_0402 C61
 U 1 1 5DED9FFB
 P 14600 4800
 F 0 "C61" V 14500 4650 60  0000 L CNN
 F 1 "C_470n_0402" H 14600 4650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 14800 5000 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 14800 5000 60  0001 L CNN
 F 3 "" H 14600 4800 50  0001 C CNN
 F 4 "TDK" H 14800 5200 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1E474M050BB" H 14800 5100 60  0001 L CNN "MPN"
@@ -2183,12 +2183,12 @@ F 6 "470n" V 14650 4900 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_470n_0402 C64
+L SDI-bridge:C_470n_0402 C64
 U 1 1 5DED51AA
 P 15050 4600
 F 0 "C64" H 14900 4700 60  0000 L CNN
 F 1 "C_470n_0402" H 15050 4450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 15250 4800 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 15250 4800 60  0001 L CNN
 F 3 "" H 15050 4600 50  0001 C CNN
 F 4 "TDK" H 15250 5000 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1E474M050BB" H 15250 4900 60  0001 L CNN "MPN"
@@ -2331,23 +2331,23 @@ Entry Wire Line
 Wire Bus Line
 	4750 2850 5400 2850
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP2
+L SDI-bridge:TP_SMD1MM TP2
 U 1 1 5DE77CA8
 P 1150 2000
 F 0 "TP2" V 1150 1850 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1150 1900 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1350 2200 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_1mm" H 1350 2200 60  0001 L CNN
 F 3 "" H 1350 2300 60  0001 L CNN
 	1    1150 2000
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP1
+L SDI-bridge:TP_SMD1MM TP1
 U 1 1 5DE76AF8
 P 1150 1900
 F 0 "TP1" V 1150 1750 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1150 1800 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1350 2100 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_1mm" H 1350 2100 60  0001 L CNN
 F 3 "" H 1350 2200 60  0001 L CNN
 	1    1150 1900
 	0    1    1    0   
@@ -2385,12 +2385,12 @@ Wire Wire Line
 Wire Wire Line
 	2200 2600 2250 2600
 $Comp
-L antmicroResistors0402:R_22R_0402 R1
+L SDI-bridge:R_22R_0402 R1
 U 1 1 5E3383AE
 P 1950 2800
 F 0 "R1" H 1750 2850 60  0000 C CNN
 F 1 "R_22R_0402" H 1950 2650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2150 3000 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 2150 3000 60  0001 L CNN
 F 3 "" H 1950 2800 50  0001 C CNN
 F 4 "VISHAY" H 2150 3200 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 2150 3100 60  0001 L CNN "MPN"
@@ -2399,12 +2399,12 @@ F 6 "22R" H 1950 2800 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R2
+L SDI-bridge:R_22R_0402 R2
 U 1 1 5E33836A
 P 2000 2700
 F 0 "R2" H 1800 2750 60  0000 C CNN
 F 1 "R_22R_0402" H 2000 2550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2200 2900 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 2200 2900 60  0001 L CNN
 F 3 "" H 2000 2700 50  0001 C CNN
 F 4 "VISHAY" H 2200 3100 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 2200 3000 60  0001 L CNN "MPN"
@@ -2413,12 +2413,12 @@ F 6 "22R" H 2000 2700 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R3
+L SDI-bridge:R_22R_0402 R3
 U 1 1 5E33815E
 P 2050 2600
 F 0 "R3" H 1850 2650 60  0000 C CNN
 F 1 "R_22R_0402" H 2050 2450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2250 2800 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 2250 2800 60  0001 L CNN
 F 3 "" H 2050 2600 50  0001 C CNN
 F 4 "VISHAY" H 2250 3000 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 2250 2900 60  0001 L CNN "MPN"
@@ -2485,12 +2485,12 @@ XTAL2
 Text Label 5750 2300 0    50   ~ 0
 XTAL1
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP17
+L SDI-bridge:TP_SMD1MM TP17
 U 1 1 5DF7F0E0
 P 5650 2500
 F 0 "TP17" V 5650 2400 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5650 2400 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5850 2700 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_1mm" H 5850 2700 60  0001 L CNN
 F 3 "" H 5850 2800 60  0001 L CNN
 	1    5650 2500
 	0    1    1    0   
@@ -2518,7 +2518,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 1700 10600 1600
 $Comp
-L power:+3.3VA #PWR?
+L SDI-bridge:+3.3VA #PWR?
 U 1 1 5DE1FA32
 P 10600 1950
 AR Path="/5DD55102/5DE1FA32" Ref="#PWR?"  Part="1" 
@@ -2531,7 +2531,7 @@ F 3 "" H 10600 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L SDI-bridge:GNDA #PWR?
 U 1 1 5DE1F9B4
 P 13300 3000
 AR Path="/5DD55102/5DE1F9B4" Ref="#PWR?"  Part="1" 
@@ -2544,7 +2544,7 @@ F 3 "" H 13300 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VPP #PWR?
+L SDI-bridge:VPP #PWR?
 U 1 1 5DE1F9AE
 P 10600 1600
 AR Path="/5DD55102/5DE1F9AE" Ref="#PWR?"  Part="1" 
@@ -2558,7 +2558,7 @@ F 4 "+1.2VA" H 10615 1773 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 5DE1F93B
 P 13300 4050
 AR Path="/5DD55102/5DE1F93B" Ref="#PWR?"  Part="1" 
@@ -2571,7 +2571,7 @@ F 3 "" H 13300 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+1V2 #PWR?
+L SDI-bridge:+1V2 #PWR?
 U 1 1 5DE1F935
 P 10550 2900
 AR Path="/5DD55102/5DE1F935" Ref="#PWR?"  Part="1" 
@@ -2803,12 +2803,12 @@ Wire Wire Line
 Wire Wire Line
 	12500 1550 13050 1550
 $Comp
-L antmicroInterfaceControllers:GS2971A U2
+L SDI-bridge:GS2971A U2
 U 3 1 5DCEEB7C
 P 11100 1550
 F 0 "U2" H 11400 1700 60  0000 C CNN
 F 1 "GS2971A" H 11800 -900 60  0000 C CNN
-F 2 "antmicro-footprints:BGA100_11x11mm" H 11300 1600 60  0001 L CNN
+F 2 "SDI-bridge-footprints:BGA100_11x11mm" H 11300 1600 60  0001 L CNN
 F 3 "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/44000000MD3i/kpmMkrmUWgHlbCOwdLzVohMm1SDPoVH85guEGK.KXTc" H 11300 -200 60  0001 L CNN
 F 4 "GS2971A" H 11800 -1050 50  0000 C CNN "MPN"
 F 5 "Semtech" H 11800 -1150 50  0000 C CNN "Manufacturer"
@@ -2816,12 +2816,12 @@ F 5 "Semtech" H 11800 -1150 50  0000 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroInterfaceControllers:GS2971A U2
+L SDI-bridge:GS2971A U2
 U 2 1 5DCEEACF
 P 6450 1900
 F 0 "U2" H 7300 2372 60  0000 C CNN
 F 1 "GS2971A" H 7300 2266 60  0000 C CNN
-F 2 "antmicro-footprints:BGA100_11x11mm" H 6650 1950 60  0001 L CNN
+F 2 "SDI-bridge-footprints:BGA100_11x11mm" H 6650 1950 60  0001 L CNN
 F 3 "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/44000000MD3i/kpmMkrmUWgHlbCOwdLzVohMm1SDPoVH85guEGK.KXTc" H 6650 150 60  0001 L CNN
 F 4 "GS2971A" H 7300 2168 50  0000 C CNN "MPN"
 F 5 "Semtech" H 7300 2077 50  0000 C CNN "Manufacturer"
@@ -2829,12 +2829,12 @@ F 5 "Semtech" H 7300 2077 50  0000 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroInterfaceControllers:GS2971A U2
+L SDI-bridge:GS2971A U2
 U 1 1 5DCEE9BC
 P 2250 1750
 F 0 "U2" H 2900 2222 60  0000 C CNN
 F 1 "GS2971A" H 2900 2116 60  0000 C CNN
-F 2 "antmicro-footprints:BGA100_11x11mm" H 2450 1800 60  0001 L CNN
+F 2 "SDI-bridge-footprints:BGA100_11x11mm" H 2450 1800 60  0001 L CNN
 F 3 "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/44000000MD3i/kpmMkrmUWgHlbCOwdLzVohMm1SDPoVH85guEGK.KXTc" H 2450 0   60  0001 L CNN
 F 4 "GS2971A" H 2900 2018 50  0000 C CNN "MPN"
 F 5 "Semtech" H 2900 1927 50  0000 C CNN "Manufacturer"
@@ -2842,14 +2842,14 @@ F 5 "Semtech" H 2900 1927 50  0000 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5E256ACD
 P 3000 9150
 AR Path="/5DD55102/5E256ACD" Ref="C?"  Part="1" 
 AR Path="/5E256ACD" Ref="C10"  Part="1" 
 F 0 "C10" H 2750 9250 60  0000 L CNN
 F 1 "C_10n_0402" H 3000 9000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3200 9350 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 3200 9350 60  0001 L CNN
 F 3 "" H 3000 9150 50  0001 C CNN
 F 4 "AVX" H 3200 9550 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3200 9450 60  0001 L CNN "MPN"
@@ -2858,12 +2858,12 @@ F 6 "10n" H 3050 9050 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C1
+L SDI-bridge:C_10u_0603 C1
 U 1 1 5E26B2E2
 P 1300 9150
 F 0 "C1" H 1415 9195 60  0000 L CNN
 F 1 "C_10u_0603" H 1300 9000 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 1500 9350 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0603-cap" H 1500 9350 60  0001 L CNN
 F 3 "" H 1300 9150 50  0001 C CNN
 F 4 "AVX" H 1500 9550 60  0001 L CNN "Manufacturer"
 F 5 "06036D106MAT2A" H 1500 9450 60  0001 L CNN "MPN"
@@ -2872,12 +2872,12 @@ F 6 "10u" H 1415 9097 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_120k_0402 R6
+L SDI-bridge:R_120k_0402 R6
 U 1 1 5E26CB23
 P 3400 9700
 F 0 "R6" V 3355 9770 60  0000 L CNN
 F 1 "R_120k_0402" H 3400 9550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3600 9900 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 3600 9900 60  0001 L CNN
 F 3 "" H 3400 9700 50  0001 C CNN
 F 4 "VISHAY" H 3600 10100 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402120KFKED" H 3600 10000 60  0001 L CNN "MPN"
@@ -2886,12 +2886,12 @@ F 6 "120k" V 3453 9770 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_120k_0402 R5
+L SDI-bridge:R_120k_0402 R5
 U 1 1 5E2FC2B1
 P 3400 9150
 F 0 "R5" V 3355 9220 60  0000 L CNN
 F 1 "R_120k_0402" H 3400 9000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3600 9350 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 3600 9350 60  0001 L CNN
 F 3 "" H 3400 9150 50  0001 C CNN
 F 4 "VISHAY" H 3600 9550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402120KFKED" H 3600 9450 60  0001 L CNN "MPN"
@@ -2934,7 +2934,7 @@ Wire Wire Line
 	2750 9550 2750 9700
 Connection ~ 2750 9700
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 5E55D97B
 P 1950 9900
 AR Path="/5DD55102/5E55D97B" Ref="#PWR?"  Part="1" 
@@ -2947,7 +2947,7 @@ F 3 "" H 1950 9900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 5E55DF7B
 P 2750 9900
 AR Path="/5DD55102/5E55DF7B" Ref="#PWR?"  Part="1" 
@@ -2964,7 +2964,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 9000 1150 8900
 $Comp
-L power:+1V2 #PWR?
+L SDI-bridge:+1V2 #PWR?
 U 1 1 5E5EC7C7
 P 4200 8900
 AR Path="/5DD55102/5E5EC7C7" Ref="#PWR?"  Part="1" 
@@ -2977,7 +2977,7 @@ F 3 "" H 4200 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L SDI-bridge:+3.3V #PWR?
 U 1 1 5E5ED539
 P 1150 8900
 AR Path="/5DD55102/5E5ED539" Ref="#PWR?"  Part="1" 
@@ -2990,7 +2990,7 @@ F 3 "" H 1150 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 5E5EFD99
 P 3400 10050
 AR Path="/5DD55102/5E5EFD99" Ref="#PWR?"  Part="1" 
@@ -3003,12 +3003,12 @@ F 3 "" H 3400 10050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP6
+L SDI-bridge:TP_SMD1MM TP6
 U 1 1 5E62A426
 P 1850 9350
 F 0 "TP6" V 1850 9200 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1850 9250 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 9550 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_1mm" H 2050 9550 60  0001 L CNN
 F 3 "" H 2050 9650 60  0001 L CNN
 	1    1850 9350
 	0    1    1    0   
@@ -3016,7 +3016,7 @@ $EndComp
 Wire Wire Line
 	2050 9350 1950 9350
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 5E660FA3
 P 1300 9400
 AR Path="/5DD55102/5E660FA3" Ref="#PWR?"  Part="1" 
@@ -3036,12 +3036,12 @@ Wire Wire Line
 Wire Wire Line
 	1300 9000 1950 9000
 $Comp
-L antmicroPMICVoltageRegulatorsLinear:MAX8902B U1
+L SDI-bridge:MAX8902B U1
 U 1 1 5E245590
 P 2150 9200
 F 0 "U1" H 2350 9807 50  0000 C CNN
 F 1 "MAX8902B" H 2350 9716 50  0000 C CNN
-F 2 "antmicro-footprints:TDFN2x2" H 3500 9250 50  0001 C CNN
+F 2 "SDI-bridge-footprints:TDFN2x2" H 3500 9250 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2002233.pdf?_ga=2.198934252.297580991.1575276704-156563690.1566371002&_gac=1.48591188.1572875319.Cj0KCQiAtf_tBRDtARIsAIbAKe0A1M5y_jdFCiNLNrHM5L2GjmDvn_4qnRvhHAD9jBdL9AmoMNThLCoaAjhJEALw_wcB" H 2150 9200 50  0001 C CNN
 F 4 "MAX8902B" H 2350 9625 50  0000 C CNN "MPN"
 F 5 "Maxim integrated" H 2350 9534 50  0000 C CNN "Manufacturer"
@@ -3049,7 +3049,7 @@ F 5 "Maxim integrated" H 2350 9534 50  0000 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L SDI-bridge:+3.3V #PWR?
 U 1 1 5EBC8ECF
 P 7400 9200
 AR Path="/5DD55102/5EBC8ECF" Ref="#PWR?"  Part="1" 
@@ -3064,14 +3064,14 @@ $EndComp
 Wire Wire Line
 	7900 9400 7800 9400
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L SDI-bridge:C_1u_0402 C?
 U 1 1 5EBC8F11
 P 7900 9700
 AR Path="/5DD55102/5EBC8F11" Ref="C?"  Part="1" 
 AR Path="/5EBC8F11" Ref="C35"  Part="1" 
 F 0 "C35" H 7750 9800 60  0000 L CNN
 F 1 "C_1u_0402" H 7900 9550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 8100 9900 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 8100 9900 60  0001 L CNN
 F 3 "" H 7900 9700 50  0001 C CNN
 F 4 "TDK" H 8100 10100 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 8100 10000 60  0001 L CNN "MPN"
@@ -3082,7 +3082,7 @@ $EndComp
 Wire Wire Line
 	7400 9200 7400 9400
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 5EBFB4BE
 P 7900 10150
 AR Path="/5DD55102/5EBFB4BE" Ref="#PWR?"  Part="1" 
@@ -3095,12 +3095,12 @@ F 3 "" H 7900 10150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_100R_0402 R33
+L SDI-bridge:R_100R_0402 R33
 U 1 1 5EDB6812
 P 15000 5900
 F 0 "R33" H 14850 6000 60  0000 L CNN
 F 1 "R_100R_0402" H 15000 5750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 15200 6100 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 15200 6100 60  0001 L CNN
 F 3 "" H 15000 5900 50  0001 C CNN
 F 4 "BOURNS" H 15200 6300 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 15200 6200 60  0001 L CNN "MPN"
@@ -3109,12 +3109,12 @@ F 6 "100R" H 15050 5800 50  0000 L CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D1
+L SDI-bridge:LG_L29K-G2J1-24-Z D1
 U 1 1 5EDB9796
 P 15400 5900
 F 0 "D1" H 15450 5800 60  0000 R CNN
 F 1 "LG_L29K-G2J1-24-Z" H 15700 6150 60  0000 R CNN
-F 2 "antmicro-footprints:LED_0603" H 15600 6100 60  0001 L CNN
+F 2 "SDI-bridge-footprints:LED_0603" H 15600 6100 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 15600 6200 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 15600 6400 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 15600 7000 60  0001 L CNN "Manufacturer"
@@ -3139,7 +3139,7 @@ Wire Wire Line
 Wire Wire Line
 	15500 5900 15750 5900
 $Comp
-L power:GNDA #PWR?
+L SDI-bridge:GNDA #PWR?
 U 1 1 5F262C89
 P 15750 6000
 AR Path="/5DD55102/5F262C89" Ref="#PWR?"  Part="1" 
@@ -3160,23 +3160,23 @@ Wire Wire Line
 Text Notes 600  7400 0    118  ~ 0
 Power supply 
 $Comp
-L antmicroMechanicalParts:antmicro_logo N1
+L SDI-bridge:antmicro_logo N1
 U 1 1 5FE7A74E
 P 950 6500
 F 0 "N1" H 1164 6593 50  0000 L CNN
 F 1 "antmicro_logo" H 1164 6502 50  0000 L CNN
-F 2 "antmicro-footprints:antmicro-logo_scaled_20mm" H 850 6750 50  0001 C CNN
+F 2 "SDI-bridge-footprints:antmicro-logo_scaled_20mm" H 850 6750 50  0001 C CNN
 F 3 "" H 950 6850 50  0001 C CNN
 	1    950  6500
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R7
+L SDI-bridge:R_0R_0402 R7
 U 1 1 5DED67D1
 P 4050 2750
 F 0 "R7" H 4300 2800 60  0000 C CNN
 F 1 "R_0R_0402" H 4050 2600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4250 2950 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 4250 2950 60  0001 L CNN
 F 3 "" H 4050 2750 50  0001 C CNN
 F 4 "PANASONIC" H 4250 3150 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4250 3050 60  0001 L CNN "MPN"
@@ -3185,12 +3185,12 @@ F 6 "0R" H 4050 2750 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R8
+L SDI-bridge:R_0R_0402 R8
 U 1 1 5DED76DC
 P 4050 2850
 F 0 "R8" H 4300 2900 60  0000 C CNN
 F 1 "R_0R_0402" H 4050 2700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4250 3050 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 4250 3050 60  0001 L CNN
 F 3 "" H 4050 2850 50  0001 C CNN
 F 4 "PANASONIC" H 4250 3250 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4250 3150 60  0001 L CNN "MPN"
@@ -3199,12 +3199,12 @@ F 6 "0R" H 4050 2850 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R9
+L SDI-bridge:R_0R_0402 R9
 U 1 1 5DED86FD
 P 4050 2950
 F 0 "R9" H 4300 3000 60  0000 C CNN
 F 1 "R_0R_0402" H 4050 2800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4250 3150 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 4250 3150 60  0001 L CNN
 F 3 "" H 4050 2950 50  0001 C CNN
 F 4 "PANASONIC" H 4250 3350 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4250 3250 60  0001 L CNN "MPN"
@@ -3213,12 +3213,12 @@ F 6 "0R" H 4050 2950 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R10
+L SDI-bridge:R_0R_0402 R10
 U 1 1 5DEDF9EA
 P 4050 3050
 F 0 "R10" H 4300 3100 60  0000 C CNN
 F 1 "R_0R_0402" H 4050 2900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4250 3250 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 4250 3250 60  0001 L CNN
 F 3 "" H 4050 3050 50  0001 C CNN
 F 4 "PANASONIC" H 4250 3450 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4250 3350 60  0001 L CNN "MPN"
@@ -3227,12 +3227,12 @@ F 6 "0R" H 4050 3050 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R11
+L SDI-bridge:R_0R_0402 R11
 U 1 1 5DEDF9F3
 P 4050 3150
 F 0 "R11" H 4300 3200 60  0000 C CNN
 F 1 "R_0R_0402" H 4050 3000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4250 3350 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 4250 3350 60  0001 L CNN
 F 3 "" H 4050 3150 50  0001 C CNN
 F 4 "PANASONIC" H 4250 3550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4250 3450 60  0001 L CNN "MPN"
@@ -3241,12 +3241,12 @@ F 6 "0R" H 4050 3150 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R12
+L SDI-bridge:R_0R_0402 R12
 U 1 1 5DEDF9FC
 P 4050 3250
 F 0 "R12" H 4300 3300 60  0000 C CNN
 F 1 "R_0R_0402" H 4050 3100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4250 3450 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 4250 3450 60  0001 L CNN
 F 3 "" H 4050 3250 50  0001 C CNN
 F 4 "PANASONIC" H 4250 3650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4250 3550 60  0001 L CNN "MPN"
@@ -3255,12 +3255,12 @@ F 6 "0R" H 4050 3250 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R13
+L SDI-bridge:R_0R_0402 R13
 U 1 1 5DEF5CB7
 P 4050 3350
 F 0 "R13" H 4300 3400 60  0000 C CNN
 F 1 "R_0R_0402" H 4050 3200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4250 3550 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 4250 3550 60  0001 L CNN
 F 3 "" H 4050 3350 50  0001 C CNN
 F 4 "PANASONIC" H 4250 3750 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4250 3650 60  0001 L CNN "MPN"
@@ -3269,12 +3269,12 @@ F 6 "0R" H 4050 3350 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R14
+L SDI-bridge:R_0R_0402 R14
 U 1 1 5DEF5CC0
 P 4050 3450
 F 0 "R14" H 4300 3500 60  0000 C CNN
 F 1 "R_0R_0402" H 4050 3300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4250 3650 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 4250 3650 60  0001 L CNN
 F 3 "" H 4050 3450 50  0001 C CNN
 F 4 "PANASONIC" H 4250 3850 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4250 3750 60  0001 L CNN "MPN"
@@ -3283,14 +3283,14 @@ F 6 "0R" H 4050 3450 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L SDI-bridge:R_0R_0402 R?
 U 1 1 5E310B02
 P 7650 9400
 AR Path="/5DD55102/5E310B02" Ref="R?"  Part="1" 
 AR Path="/5E310B02" Ref="R25"  Part="1" 
 F 0 "R25" H 7650 9613 60  0000 C CNN
 F 1 "R_0R_0402" H 7650 9250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7850 9600 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 7850 9600 60  0001 L CNN
 F 3 "" H 7650 9400 50  0001 C CNN
 F 4 "PANASONIC" H 7850 9800 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 7850 9700 60  0001 L CNN "MPN"
@@ -3301,7 +3301,7 @@ $EndComp
 Wire Wire Line
 	7500 9400 7400 9400
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 5E34416D
 P 3850 10050
 AR Path="/5DD55102/5E34416D" Ref="#PWR?"  Part="1" 
@@ -3316,12 +3316,12 @@ $EndComp
 Wire Wire Line
 	3850 9400 3850 10050
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C15
+L SDI-bridge:C_10u_0603 C15
 U 1 1 5E2677C8
 P 3850 9250
 F 0 "C15" H 3965 9295 60  0000 L CNN
 F 1 "C_10u_0603" H 3850 9100 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 4050 9450 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0603-cap" H 4050 9450 60  0001 L CNN
 F 3 "" H 3850 9250 50  0001 C CNN
 F 4 "AVX" H 4050 9650 60  0001 L CNN "Manufacturer"
 F 5 "06036D106MAT2A" H 4050 9550 60  0001 L CNN "MPN"
@@ -3349,12 +3349,12 @@ Wire Wire Line
 Wire Wire Line
 	4650 3550 4200 3550
 $Comp
-L antmicroResistors0402:R_0R_0402 R15
+L SDI-bridge:R_0R_0402 R15
 U 1 1 5DEF5CC9
 P 4050 3550
 F 0 "R15" H 4300 3600 60  0000 C CNN
 F 1 "R_0R_0402" H 4050 3400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4250 3750 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 4250 3750 60  0001 L CNN
 F 3 "" H 4050 3550 50  0001 C CNN
 F 4 "PANASONIC" H 4250 3950 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4250 3850 60  0001 L CNN "MPN"
@@ -3367,12 +3367,12 @@ Wire Wire Line
 Wire Wire Line
 	4650 3650 4200 3650
 $Comp
-L antmicroResistors0402:R_0R_0402 R16
+L SDI-bridge:R_0R_0402 R16
 U 1 1 5DEF5CD2
 P 4050 3650
 F 0 "R16" H 4300 3700 60  0000 C CNN
 F 1 "R_0R_0402" H 4050 3500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4250 3850 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 4250 3850 60  0001 L CNN
 F 3 "" H 4050 3650 50  0001 C CNN
 F 4 "PANASONIC" H 4250 4050 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4250 3950 60  0001 L CNN "MPN"
@@ -3405,7 +3405,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 6000 3600 6000
 $Comp
-L power:+3.3V #PWR?
+L SDI-bridge:+3.3V #PWR?
 U 1 1 5EE74378
 P 5050 11800
 AR Path="/5DD55102/5EE74378" Ref="#PWR?"  Part="1" 
@@ -3418,14 +3418,14 @@ F 3 "" H 5050 11800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5EE74387
 P 6900 12300
 AR Path="/5DD55102/5EE74387" Ref="C?"  Part="1" 
 AR Path="/5EE74387" Ref="C34"  Part="1" 
 F 0 "C34" H 6750 12400 60  0000 L CNN
 F 1 "C_10n_0402" H 6900 12150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7100 12500 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 7100 12500 60  0001 L CNN
 F 3 "" H 6900 12300 50  0001 C CNN
 F 4 "AVX" H 7100 12700 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 7100 12600 60  0001 L CNN "MPN"
@@ -3434,14 +3434,14 @@ F 6 "10n" H 6950 12200 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5EE74390
 P 5050 12300
 AR Path="/5DD55102/5EE74390" Ref="C?"  Part="1" 
 AR Path="/5EE74390" Ref="C21"  Part="1" 
 F 0 "C21" H 4900 12400 60  0000 L CNN
 F 1 "C_10n_0402" H 5050 12150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5250 12500 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 5250 12500 60  0001 L CNN
 F 3 "" H 5050 12300 50  0001 C CNN
 F 4 "AVX" H 5250 12700 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 5250 12600 60  0001 L CNN "MPN"
@@ -3450,14 +3450,14 @@ F 6 "10n" H 5100 12200 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L SDI-bridge:C_1u_0402 C?
 U 1 1 5EE74399
 P 5550 12300
 AR Path="/5DD55102/5EE74399" Ref="C?"  Part="1" 
 AR Path="/5EE74399" Ref="C26"  Part="1" 
 F 0 "C26" H 5400 12400 60  0000 L CNN
 F 1 "C_1u_0402" H 5550 12150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5750 12500 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 5750 12500 60  0001 L CNN
 F 3 "" H 5550 12300 50  0001 C CNN
 F 4 "TDK" H 5750 12700 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 5750 12600 60  0001 L CNN "MPN"
@@ -3466,14 +3466,14 @@ F 6 "1u" H 5600 12200 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L SDI-bridge:R_0R_0402 R?
 U 1 1 5EE743A2
 P 6000 12000
 AR Path="/5DD55102/5EE743A2" Ref="R?"  Part="1" 
 AR Path="/5EE743A2" Ref="R24"  Part="1" 
 F 0 "R24" H 6000 12213 60  0000 C CNN
 F 1 "R_0R_0402" H 6000 11850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6200 12200 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 6200 12200 60  0001 L CNN
 F 3 "" H 6000 12000 50  0001 C CNN
 F 4 "PANASONIC" H 6200 12400 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6200 12300 60  0001 L CNN "MPN"
@@ -3489,7 +3489,7 @@ Wire Wire Line
 	5550 12000 5050 12000
 Connection ~ 5050 12000
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 5EE743AC
 P 5050 12750
 AR Path="/5DD55102/5EE743AC" Ref="#PWR?"  Part="1" 
@@ -3511,14 +3511,14 @@ Wire Wire Line
 	5050 12550 5050 12750
 Connection ~ 5050 12550
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L SDI-bridge:C_1u_0402 C?
 U 1 1 5EE743BA
 P 6450 12300
 AR Path="/5DD55102/5EE743BA" Ref="C?"  Part="1" 
 AR Path="/5EE743BA" Ref="C30"  Part="1" 
 F 0 "C30" H 6300 12400 60  0000 L CNN
 F 1 "C_1u_0402" H 6450 12150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6650 12500 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 6650 12500 60  0001 L CNN
 F 3 "" H 6450 12300 50  0001 C CNN
 F 4 "TDK" H 6650 12700 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 6650 12600 60  0001 L CNN "MPN"
@@ -3548,7 +3548,7 @@ Wire Wire Line
 	6900 12550 6900 12750
 Connection ~ 6900 12550
 $Comp
-L power:GNDA #PWR?
+L SDI-bridge:GNDA #PWR?
 U 1 1 5EE743CE
 P 6900 12750
 AR Path="/5DD55102/5EE743CE" Ref="#PWR?"  Part="1" 
@@ -3563,12 +3563,12 @@ $EndComp
 Wire Wire Line
 	5050 11800 5050 12000
 $Comp
-L antmicroResistors0603:R_75R_0603 R19
+L SDI-bridge:R_75R_0603 R19
 U 1 1 5F17DA84
 P 5950 6650
 F 0 "R19" H 5650 6600 60  0000 L CNN
 F 1 "R_75R_0603" H 5950 6500 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 6150 6850 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0603-res" H 6150 6850 60  0001 L CNN
 F 3 "" H 5950 6650 50  0001 C CNN
 F 4 "MULTICOMP" H 6150 7050 60  0001 L CNN "Manufacturer"
 F 5 "MCWR06X75R0FTL" H 6150 6950 60  0001 L CNN "MPN"
@@ -3577,12 +3577,12 @@ F 6 "75R" H 6100 6750 50  0000 L CNN "Val"
 	1    0    0    1   
 $EndComp
 $Comp
-L antmicroCoaxialConnectorsRF:031-70526-21 J1
+L SDI-bridge:031-70526-21 J1
 U 1 1 5F029B06
 P 8100 5650
 F 0 "J1" H 8200 5800 50  0000 L CNN
 F 1 "031-70526-21" H 7500 5450 50  0000 L CNN
-F 2 "antmicro-footprints:BNC_Edge_Conn" H 7860 4820 50  0001 C CNN
+F 2 "SDI-bridge-footprints:BNC_Edge_Conn" H 7860 4820 50  0001 C CNN
 F 3 "https://www.farnell.com/cad/2305565.pdf?_ga=2.190633003.1014497200.1574067480-156563690.1566371002&_gac=1.57062104.1572875319.Cj0KCQiAtf_tBRDtARIsAIbAKe0A1M5y_jdFCiNLNrHM5L2GjmDvn_4qnRvhHAD9jBdL9AmoMNThLCoaAjhJEALw_wcB" H 7960 4920 50  0001 C CNN
 F 4 "031-70526-21" H 8060 5020 51  0001 C CNN "MPN"
 F 5 "Amphenol" H 8160 5120 51  0001 C CNN "Manufacturer"
@@ -3594,14 +3594,14 @@ Wire Wire Line
 Wire Wire Line
 	6300 5900 6300 5650
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5F39C66F
 P 6800 5250
 AR Path="/5DD55102/5F39C66F" Ref="C?"  Part="1" 
 AR Path="/5F39C66F" Ref="C36"  Part="1" 
 F 0 "C36" V 6750 5000 60  0000 L CNN
 F 1 "C_10n_0402" H 6800 5100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7000 5450 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 7000 5450 60  0001 L CNN
 F 3 "" H 6800 5250 50  0001 C CNN
 F 4 "AVX" H 7000 5650 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 7000 5550 60  0001 L CNN "MPN"
@@ -3610,7 +3610,7 @@ F 6 "10n" V 6850 5350 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L SDI-bridge:GNDA #PWR?
 U 1 1 5F3A168D
 P 7200 5400
 AR Path="/5DD55102/5F3A168D" Ref="#PWR?"  Part="1" 
@@ -3625,12 +3625,12 @@ $EndComp
 Wire Wire Line
 	7200 5250 6950 5250
 $Comp
-L antmicroResistors0603:R_75R_0603 R18
+L SDI-bridge:R_75R_0603 R18
 U 1 1 5F4254DB
 P 5950 5250
 F 0 "R18" H 5650 5200 60  0000 L CNN
 F 1 "R_75R_0603" H 5950 5100 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 6150 5450 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0603-res" H 6150 5450 60  0001 L CNN
 F 3 "" H 5950 5250 50  0001 C CNN
 F 4 "MULTICOMP" H 6150 5650 60  0001 L CNN "Manufacturer"
 F 5 "MCWR06X75R0FTL" H 6150 5550 60  0001 L CNN "MPN"
@@ -3639,7 +3639,7 @@ F 6 "75R" H 6100 5300 50  0000 L CNN "Val"
 	1    0    0    1   
 $EndComp
 $Comp
-L power:VDD #PWR034
+L SDI-bridge:VDD #PWR034
 U 1 1 5F533C99
 P 6500 5100
 F 0 "#PWR034" H 6500 4950 50  0001 C CNN
@@ -3651,12 +3651,12 @@ F 4 "CD_VDD" H 6517 5273 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_4u7_0402 C31
+L SDI-bridge:C_4u7_0402 C31
 U 1 1 5F692D03
 P 6600 5650
 F 0 "C31" V 6500 5500 60  0000 C CNN
 F 1 "C_4u7_0402" H 6600 5500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6800 5850 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 6800 5850 60  0001 L CNN
 F 3 "" H 6600 5650 50  0001 C CNN
 F 4 "MURATA" H 6800 6050 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60G475ME" H 6800 5950 60  0001 L CNN "MPN"
@@ -3669,7 +3669,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 6100 5150 6100
 $Comp
-L power:GNDA #PWR?
+L SDI-bridge:GNDA #PWR?
 U 1 1 5FEB1CFA
 P 4200 6900
 AR Path="/5DD55102/5FEB1CFA" Ref="#PWR?"  Part="1" 
@@ -3684,12 +3684,12 @@ $EndComp
 Text Label 3500 5350 0    50   ~ 0
 SDO_EN_DIS
 $Comp
-L antmicroResistors0402:R_750R_0402 R4
+L SDI-bridge:R_750R_0402 R4
 U 1 1 5E6BA40B
 P 2900 6200
 F 0 "R4" H 2700 6250 60  0000 C CNN
 F 1 "R_750R_0402" H 2900 6050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3100 6400 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 3100 6400 60  0001 L CNN
 F 3 "" H 2900 6200 50  0001 C CNN
 F 4 "Yageo" H 3100 6600 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-07750RL" H 3100 6500 60  0001 L CNN "MPN"
@@ -3698,12 +3698,12 @@ F 6 "750R" H 2900 6100 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroBGAchips:CrossLink_LIF-MD6000-6JMG80I U4
+L SDI-bridge:CrossLink_LIF-MD6000-6JMG80I U4
 U 1 1 5EA86705
 P 16350 8700
 F 0 "U4" H 16600 9050 60  0000 C CNN
 F 1 "CrossLink_LIF-MD6000-6JMG80I" H 19550 4250 60  0000 C CNN
-F 2 "antmicro-footprints:BGA-80pin_ckfBGA80_7.0x7.0mm" H 16500 9125 60  0001 R CNN
+F 2 "SDI-bridge-footprints:BGA-80pin_ckfBGA80_7.0x7.0mm" H 16500 9125 60  0001 R CNN
 F 3 "" H 16500 8925 60  0001 R CNN
 	1    16350 8700
 	1    0    0    -1  
@@ -3799,7 +3799,7 @@ Wire Wire Line
 Wire Wire Line
 	18100 1550 17450 1550
 $Comp
-L power:+3.3V #PWR?
+L SDI-bridge:+3.3V #PWR?
 U 1 1 61D74F93
 P 17700 5250
 AR Path="/5DD55102/61D74F93" Ref="#PWR?"  Part="1" 
@@ -3814,7 +3814,7 @@ $EndComp
 Wire Wire Line
 	17700 5250 17700 5350
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 61E201DD
 P 17450 6050
 AR Path="/5DD55102/61E201DD" Ref="#PWR?"  Part="1" 
@@ -3897,7 +3897,7 @@ SCL_CL
 Text Label 15300 9100 0    50   ~ 0
 SDA_CL
 $Comp
-L power:+1V2 #PWR?
+L SDI-bridge:+1V2 #PWR?
 U 1 1 5FE001F0
 P 8950 11650
 AR Path="/5DD55102/5FE001F0" Ref="#PWR?"  Part="1" 
@@ -3910,7 +3910,7 @@ F 3 "" H 8950 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+1V2 #PWR?
+L SDI-bridge:+1V2 #PWR?
 U 1 1 5FFEE258
 P 8950 9750
 AR Path="/5DD55102/5FFEE258" Ref="#PWR?"  Part="1" 
@@ -3923,12 +3923,12 @@ F 3 "" H 8950 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_4u7_0402 C42
+L SDI-bridge:C_4u7_0402 C42
 U 1 1 602000BC
 P 9600 12100
 F 0 "C42" H 9500 12200 60  0000 C CNN
 F 1 "C_4u7_0402" H 9600 11950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9800 12300 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 9800 12300 60  0001 L CNN
 F 3 "" H 9600 12100 50  0001 C CNN
 F 4 "MURATA" H 9800 12500 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60G475ME" H 9800 12400 60  0001 L CNN "MPN"
@@ -3937,12 +3937,12 @@ F 6 "4u7" H 9750 12000 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C39
+L SDI-bridge:C_100n_0402_6V3 C39
 U 1 1 602A42D9
 P 9200 12100
 F 0 "C39" H 9000 12200 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 9200 11950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9400 12300 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 9400 12300 60  0001 L CNN
 F 3 "" H 9200 12100 50  0001 C CNN
 F 4 "Walsin" H 9400 12500 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9400 12400 60  0001 L CNN "MPN"
@@ -3951,12 +3951,12 @@ F 6 "100n" H 9250 12000 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_4u7_0402 C52
+L SDI-bridge:C_4u7_0402 C52
 U 1 1 6041F3CD
 P 10450 12100
 F 0 "C52" H 10350 12200 60  0000 C CNN
 F 1 "C_4u7_0402" H 10450 11950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 10650 12300 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 10650 12300 60  0001 L CNN
 F 3 "" H 10450 12100 50  0001 C CNN
 F 4 "MURATA" H 10650 12500 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60G475ME" H 10650 12400 60  0001 L CNN "MPN"
@@ -3965,12 +3965,12 @@ F 6 "4u7" H 10600 12000 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C48
+L SDI-bridge:C_100n_0402_6V3 C48
 U 1 1 6041F3D6
 P 10050 12100
 F 0 "C48" H 9850 12200 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 10050 11950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 10250 12300 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 10250 12300 60  0001 L CNN
 F 3 "" H 10050 12100 50  0001 C CNN
 F 4 "Walsin" H 10250 12500 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10250 12400 60  0001 L CNN "MPN"
@@ -4000,7 +4000,7 @@ Connection ~ 9200 11800
 Wire Wire Line
 	8950 11800 8950 11650
 $Comp
-L power:+1V2 #PWR?
+L SDI-bridge:+1V2 #PWR?
 U 1 1 605CF593
 P 18050 7850
 AR Path="/5DD55102/605CF593" Ref="#PWR?"  Part="1" 
@@ -4013,7 +4013,7 @@ F 3 "" H 18050 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+1V2 #PWR?
+L SDI-bridge:+1V2 #PWR?
 U 1 1 606B1863
 P 18300 7850
 AR Path="/5DD55102/606B1863" Ref="#PWR?"  Part="1" 
@@ -4052,7 +4052,7 @@ Wire Wire Line
 Wire Wire Line
 	9800 12700 9800 12500
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 6099806A
 P 9800 12700
 AR Path="/5DD55102/6099806A" Ref="#PWR?"  Part="1" 
@@ -4068,12 +4068,12 @@ Connection ~ 9800 12500
 Wire Wire Line
 	9800 12500 10050 12500
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C41
+L SDI-bridge:C_100n_0402_6V3 C41
 U 1 1 60A83141
 P 9600 8800
 F 0 "C41" H 9400 8900 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 9600 8650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9800 9000 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 9800 9000 60  0001 L CNN
 F 3 "" H 9600 8800 50  0001 C CNN
 F 4 "Walsin" H 9800 9200 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9800 9100 60  0001 L CNN "MPN"
@@ -4082,12 +4082,12 @@ F 6 "100n" H 9650 8700 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C46
+L SDI-bridge:C_100n_0402_6V3 C46
 U 1 1 60DDB9AC
 P 10000 8800
 F 0 "C46" H 9800 8900 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 10000 8650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 10200 9000 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 10200 9000 60  0001 L CNN
 F 3 "" H 10000 8800 50  0001 C CNN
 F 4 "Walsin" H 10200 9200 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10200 9100 60  0001 L CNN "MPN"
@@ -4096,12 +4096,12 @@ F 6 "100n" H 10050 8700 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C50
+L SDI-bridge:C_100n_0402_6V3 C50
 U 1 1 60E2A5A7
 P 10350 8800
 F 0 "C50" H 10150 8900 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 10350 8650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 10550 9000 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 10550 9000 60  0001 L CNN
 F 3 "" H 10350 8800 50  0001 C CNN
 F 4 "Walsin" H 10550 9200 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10550 9100 60  0001 L CNN "MPN"
@@ -4110,12 +4110,12 @@ F 6 "100n" H 10400 8700 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C54
+L SDI-bridge:C_100n_0402_6V3 C54
 U 1 1 60E7AD47
 P 10700 8800
 F 0 "C54" H 10500 8900 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 10700 8650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 10900 9000 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 10900 9000 60  0001 L CNN
 F 3 "" H 10700 8800 50  0001 C CNN
 F 4 "Walsin" H 10900 9200 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10900 9100 60  0001 L CNN "MPN"
@@ -4124,12 +4124,12 @@ F 6 "100n" H 10750 8700 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C57
+L SDI-bridge:C_100n_0402_6V3 C57
 U 1 1 60ECD63B
 P 11100 8800
 F 0 "C57" H 10900 8900 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 11100 8650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 11300 9000 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 11300 9000 60  0001 L CNN
 F 3 "" H 11100 8800 50  0001 C CNN
 F 4 "Walsin" H 11300 9200 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 11300 9100 60  0001 L CNN "MPN"
@@ -4138,12 +4138,12 @@ F 6 "100n" H 11150 8700 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFerriteBeadsandChips:BLM18PG121SN1D FB2
+L SDI-bridge:BLM18PG121SN1D FB2
 U 1 1 61404A05
 P 8950 10000
 F 0 "FB2" H 8950 10287 60  0000 C CNN
 F 1 "BLM18PG121SN1D" H 8950 10181 60  0000 C CNN
-F 2 "antmicro-footprints:0603-res" H 9150 10200 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0603-res" H 9150 10200 60  0001 L CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 9150 10300 60  0001 L CNN
 F 4 "BLM18PG121SN1D" H 9150 10500 60  0001 L CNN "MPN"
 F 5 "Murata Electronics North America" H 9150 11100 60  0001 L CNN "Manufacturer"
@@ -4151,12 +4151,12 @@ F 5 "Murata Electronics North America" H 9150 11100 60  0001 L CNN "Manufacturer
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C51
+L SDI-bridge:C_100n_0402_6V3 C51
 U 1 1 624B7820
 P 10400 13600
 F 0 "C51" H 10200 13700 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 10400 13450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 10600 13800 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 10600 13800 60  0001 L CNN
 F 3 "" H 10400 13600 50  0001 C CNN
 F 4 "Walsin" H 10600 14000 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10600 13900 60  0001 L CNN "MPN"
@@ -4181,7 +4181,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 13450 9250 13450
 $Comp
-L power:+3.3V #PWR?
+L SDI-bridge:+3.3V #PWR?
 U 1 1 626304ED
 P 8950 8050
 AR Path="/5DD55102/626304ED" Ref="#PWR?"  Part="1" 
@@ -4196,14 +4196,14 @@ $EndComp
 Wire Wire Line
 	9650 13450 10000 13450
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L SDI-bridge:C_1u_0402 C?
 U 1 1 6286915C
 P 10000 13600
 AR Path="/5DD55102/6286915C" Ref="C?"  Part="1" 
 AR Path="/6286915C" Ref="C47"  Part="1" 
 F 0 "C47" H 9850 13700 60  0000 L CNN
 F 1 "C_1u_0402" H 10000 13450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 10200 13800 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 10200 13800 60  0001 L CNN
 F 3 "" H 10000 13600 50  0001 C CNN
 F 4 "TDK" H 10200 14000 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 10200 13900 60  0001 L CNN "MPN"
@@ -4215,7 +4215,7 @@ Connection ~ 10000 13450
 Wire Wire Line
 	10000 13450 10400 13450
 $Comp
-L power:+1V2 #PWR?
+L SDI-bridge:+1V2 #PWR?
 U 1 1 628D8611
 P 8900 13300
 AR Path="/5DD55102/628D8611" Ref="#PWR?"  Part="1" 
@@ -4230,7 +4230,7 @@ $EndComp
 Wire Wire Line
 	8900 13450 8900 13300
 $Comp
-L power:+3.3V #PWR?
+L SDI-bridge:+3.3V #PWR?
 U 1 1 62A4ADAB
 P 8800 14600
 AR Path="/5DD55102/62A4ADAB" Ref="#PWR?"  Part="1" 
@@ -4243,14 +4243,14 @@ F 3 "" H 8800 14600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L SDI-bridge:C_1u_0402 C?
 U 1 1 62A4ADB5
 P 9650 15000
 AR Path="/5DD55102/62A4ADB5" Ref="C?"  Part="1" 
 AR Path="/62A4ADB5" Ref="C45"  Part="1" 
 F 0 "C45" H 9500 15100 60  0000 L CNN
 F 1 "C_1u_0402" H 9650 14850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9850 15200 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 9850 15200 60  0001 L CNN
 F 3 "" H 9650 15000 50  0001 C CNN
 F 4 "TDK" H 9850 15400 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 9850 15300 60  0001 L CNN "MPN"
@@ -4261,7 +4261,7 @@ $EndComp
 Wire Wire Line
 	8800 14600 8800 14750
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 62A4ADBC
 P 9650 15250
 AR Path="/5DD55102/62A4ADBC" Ref="#PWR?"  Part="1" 
@@ -4276,14 +4276,14 @@ $EndComp
 Wire Wire Line
 	9650 15150 9650 15250
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L SDI-bridge:R_0R_0402 R?
 U 1 1 62A4ADD0
 P 9250 14750
 AR Path="/5DD55102/62A4ADD0" Ref="R?"  Part="1" 
 AR Path="/62A4ADD0" Ref="R26"  Part="1" 
 F 0 "R26" H 9250 14963 60  0000 C CNN
 F 1 "R_0R_0402" H 9250 14600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9450 14950 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 9450 14950 60  0001 L CNN
 F 3 "" H 9250 14750 50  0001 C CNN
 F 4 "PANASONIC" H 9450 15150 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9450 15050 60  0001 L CNN "MPN"
@@ -4308,12 +4308,12 @@ Wire Wire Line
 Wire Wire Line
 	18950 10200 19550 10200
 $Comp
-L antmicroResistors0402:R_4k7_0402 R35
+L SDI-bridge:R_4k7_0402 R35
 U 1 1 644FF4FC
 P 16000 8500
 F 0 "R35" H 16200 8450 60  0000 C CNN
 F 1 "R_4k7_0402" H 16000 8350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 16200 8700 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 16200 8700 60  0001 L CNN
 F 3 "" H 16000 8500 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 16200 8900 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 16200 8800 60  0001 L CNN "MPN"
@@ -4322,12 +4322,12 @@ F 6 "4k7" H 16000 8500 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroResistors0402:R_4k7_0402 R36
+L SDI-bridge:R_4k7_0402 R36
 U 1 1 6456BF0A
 P 16000 8600
 F 0 "R36" H 16200 8550 60  0000 C CNN
 F 1 "R_4k7_0402" H 16000 8450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 16200 8800 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 16200 8800 60  0001 L CNN
 F 3 "" H 16000 8600 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 16200 9000 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 16200 8900 60  0001 L CNN "MPN"
@@ -4370,7 +4370,7 @@ Wire Wire Line
 Wire Wire Line
 	18200 13700 18200 13500
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 652F5BB8
 P 18200 13700
 AR Path="/5DD55102/652F5BB8" Ref="#PWR?"  Part="1" 
@@ -4387,7 +4387,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 8950 10000 9050
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 658B06AB
 P 8950 9250
 AR Path="/5DD55102/658B06AB" Ref="#PWR?"  Part="1" 
@@ -4426,7 +4426,7 @@ Wire Wire Line
 Wire Wire Line
 	18500 8200 18500 8100
 $Comp
-L power:+3.3V #PWR?
+L SDI-bridge:+3.3V #PWR?
 U 1 1 66FF3BC3
 P 18550 7850
 AR Path="/5DD55102/66FF3BC3" Ref="#PWR?"  Part="1" 
@@ -4445,12 +4445,12 @@ Wire Wire Line
 Wire Wire Line
 	18400 8000 18550 8000
 $Comp
-L antmicroFerriteBeadsandChips:BLM18PG121SN1D FB1
+L SDI-bridge:BLM18PG121SN1D FB1
 U 1 1 672B5165
 P 8950 8300
 F 0 "FB1" H 8950 8587 60  0000 C CNN
 F 1 "BLM18PG121SN1D" H 8950 8481 60  0000 C CNN
-F 2 "antmicro-footprints:0603-res" H 9150 8500 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0603-res" H 9150 8500 60  0001 L CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 9150 8600 60  0001 L CNN
 F 4 "BLM18PG121SN1D" H 9150 8800 60  0001 L CNN "MPN"
 F 5 "Murata Electronics North America" H 9150 9400 60  0001 L CNN "Manufacturer"
@@ -4458,12 +4458,12 @@ F 5 "Murata Electronics North America" H 9150 9400 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroFerriteBeadsandChips:BLM18PG121SN1D FB3
+L SDI-bridge:BLM18PG121SN1D FB3
 U 1 1 672B7B16
 P 9450 13450
 F 0 "FB3" H 9450 13737 60  0000 C CNN
 F 1 "BLM18PG121SN1D" H 9450 13631 60  0000 C CNN
-F 2 "antmicro-footprints:0603-res" H 9650 13650 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0603-res" H 9650 13650 60  0001 L CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 9650 13750 60  0001 L CNN
 F 4 "BLM18PG121SN1D" H 9650 13950 60  0001 L CNN "MPN"
 F 5 "Murata Electronics North America" H 9650 14550 60  0001 L CNN "Manufacturer"
@@ -4471,7 +4471,7 @@ F 5 "Murata Electronics North America" H 9650 14550 60  0001 L CNN "Manufacturer
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 6792CDA4
 P 8950 11000
 AR Path="/5DD55102/6792CDA4" Ref="#PWR?"  Part="1" 
@@ -4548,111 +4548,111 @@ Entry Wire Line
 Entry Wire Line
 	15350 10900 15250 11000
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP7
+L SDI-bridge:TP_SMD_0_75MM TP7
 U 1 1 67C7D0F7
 P 4000 1750
 F 0 "TP7" V 4000 1700 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 4000 1650 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 4200 1950 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" H 4200 1950 60  0001 L CNN
 F 3 "" H 4200 2050 60  0001 L CNN
 	1    4000 1750
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP8
+L SDI-bridge:TP_SMD_0_75MM TP8
 U 1 1 67C7F14A
 P 4000 1850
 F 0 "TP8" V 4000 1800 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 4000 1750 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 4200 2050 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2050 60  0001 L CNN
 F 3 "" H 4200 2150 60  0001 L CNN
 	1    4000 1850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP9
+L SDI-bridge:TP_SMD_0_75MM TP9
 U 1 1 67C7F5D4
 P 4000 1950
 F 0 "TP9" V 4000 1900 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 4000 1850 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 4200 2150 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2150 60  0001 L CNN
 F 3 "" H 4200 2250 60  0001 L CNN
 	1    4000 1950
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP10
+L SDI-bridge:TP_SMD_0_75MM TP10
 U 1 1 67C7F928
 P 4000 2050
 F 0 "TP10" V 4000 2000 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 4000 1950 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 4200 2250 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2250 60  0001 L CNN
 F 3 "" H 4200 2350 60  0001 L CNN
 	1    4000 2050
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP11
+L SDI-bridge:TP_SMD_0_75MM TP11
 U 1 1 67C7FD0B
 P 4000 2150
 F 0 "TP11" V 4000 2100 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 4000 2050 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 4200 2350 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2350 60  0001 L CNN
 F 3 "" H 4200 2450 60  0001 L CNN
 	1    4000 2150
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP12
+L SDI-bridge:TP_SMD_0_75MM TP12
 U 1 1 67C8011A
 P 4000 2250
 F 0 "TP12" V 4000 2200 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 4000 2150 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 4200 2450 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2450 60  0001 L CNN
 F 3 "" H 4200 2550 60  0001 L CNN
 	1    4000 2250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP13
+L SDI-bridge:TP_SMD_0_75MM TP13
 U 1 1 67C804C0
 P 4000 2350
 F 0 "TP13" V 4000 2300 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 4000 2250 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 4200 2550 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2550 60  0001 L CNN
 F 3 "" H 4200 2650 60  0001 L CNN
 	1    4000 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP14
+L SDI-bridge:TP_SMD_0_75MM TP14
 U 1 1 67C808CB
 P 4000 2450
 F 0 "TP14" V 4000 2400 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 4000 2350 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 4200 2650 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2650 60  0001 L CNN
 F 3 "" H 4200 2750 60  0001 L CNN
 	1    4000 2450
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP15
+L SDI-bridge:TP_SMD_0_75MM TP15
 U 1 1 67C80D31
 P 4000 2550
 F 0 "TP15" V 4000 2500 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 4000 2450 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 4200 2750 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2750 60  0001 L CNN
 F 3 "" H 4200 2850 60  0001 L CNN
 	1    4000 2550
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP16
+L SDI-bridge:TP_SMD_0_75MM TP16
 U 1 1 67C81112
 P 4000 2650
 F 0 "TP16" V 4000 2600 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 4000 2550 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 4200 2850 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2850 60  0001 L CNN
 F 3 "" H 4200 2950 60  0001 L CNN
 	1    4000 2650
 	0    -1   -1   0   
@@ -4696,12 +4696,12 @@ Wire Wire Line
 Wire Wire Line
 	8950 9050 8950 9250
 $Comp
-L antmicroCapacitors0402:C_2n2_0402 C37
+L SDI-bridge:C_2n2_0402 C37
 U 1 1 658AC3D4
 P 8950 8800
 F 0 "C37" H 9065 8845 60  0000 L CNN
 F 1 "C_2n2_0402" H 8950 8650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9150 9000 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 9150 9000 60  0001 L CNN
 F 3 "" H 8950 8800 50  0001 C CNN
 F 4 "KEMET" H 9150 9200 60  0001 L CNN "Manufacturer"
 F 5 "CGA9N3X7R1C476M230KB" H 9150 9100 60  0001 L CNN "MPN"
@@ -4722,12 +4722,12 @@ GNDPLL_DPHY
 Wire Wire Line
 	10500 10950 11100 10950
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C53
+L SDI-bridge:C_100n_0402_6V3 C53
 U 1 1 61635152
 P 10500 10600
 F 0 "C53" H 10300 10700 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 10500 10450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 10700 10800 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 10700 10800 60  0001 L CNN
 F 3 "" H 10500 10600 50  0001 C CNN
 F 4 "Walsin" H 10700 11000 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10700 10900 60  0001 L CNN "MPN"
@@ -4740,12 +4740,12 @@ Wire Wire Line
 Wire Wire Line
 	10200 10750 10200 10950
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C49
+L SDI-bridge:C_100n_0402_6V3 C49
 U 1 1 614B7071
 P 10200 10600
 F 0 "C49" H 10000 10700 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 10200 10450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 10400 10800 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 10400 10800 60  0001 L CNN
 F 3 "" H 10200 10600 50  0001 C CNN
 F 4 "Walsin" H 10400 11000 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10400 10900 60  0001 L CNN "MPN"
@@ -4754,7 +4754,7 @@ F 6 "100n" H 10250 10500 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 6145C54C
 P 9850 11000
 AR Path="/5DD55102/6145C54C" Ref="#PWR?"  Part="1" 
@@ -4767,12 +4767,12 @@ F 3 "" H 9850 11000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C44
+L SDI-bridge:C_100n_0402_6V3 C44
 U 1 1 6145C53D
 P 9850 10600
 F 0 "C44" H 9650 10700 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 9850 10450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 10050 10800 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 10050 10800 60  0001 L CNN
 F 3 "" H 9850 10600 50  0001 C CNN
 F 4 "Walsin" H 10050 11000 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10050 10900 60  0001 L CNN "MPN"
@@ -4781,7 +4781,7 @@ F 6 "100n" H 9900 10500 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 61404A26
 P 9500 11000
 AR Path="/5DD55102/61404A26" Ref="#PWR?"  Part="1" 
@@ -4796,12 +4796,12 @@ $EndComp
 Wire Wire Line
 	9500 10750 9500 11000
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C40
+L SDI-bridge:C_100n_0402_6V3 C40
 U 1 1 61404A17
 P 9500 10600
 F 0 "C40" H 9300 10700 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 9500 10450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9700 10800 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 9700 10800 60  0001 L CNN
 F 3 "" H 9500 10600 50  0001 C CNN
 F 4 "Walsin" H 9700 11000 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9700 10900 60  0001 L CNN "MPN"
@@ -4838,12 +4838,12 @@ Wire Wire Line
 Wire Wire Line
 	8950 10750 8950 11000
 $Comp
-L antmicroCapacitors0402:C_2u2_0402 C38
+L SDI-bridge:C_2u2_0402 C38
 U 1 1 61404A0E
 P 8950 10600
 F 0 "C38" H 8800 10700 60  0000 L CNN
 F 1 "C_2u2_0402" H 8950 10450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9150 10800 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 9150 10800 60  0001 L CNN
 F 3 "" H 8950 10600 50  0001 C CNN
 F 4 "TDK" H 9150 11000 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1A225K050BC" H 9150 10900 60  0001 L CNN "MPN"
@@ -4879,7 +4879,7 @@ Wire Wire Line
 Wire Wire Line
 	22700 1850 22700 1450
 $Comp
-L power:+3.3V #PWR?
+L SDI-bridge:+3.3V #PWR?
 U 1 1 5EF7A1F4
 P 22700 1450
 AR Path="/5DD55102/5EF7A1F4" Ref="#PWR?"  Part="1" 
@@ -4892,7 +4892,7 @@ F 3 "" H 22700 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 5EFFF457
 P 19400 2750
 AR Path="/5DD55102/5EFFF457" Ref="#PWR?"  Part="1" 
@@ -4909,12 +4909,12 @@ Wire Wire Line
 Wire Wire Line
 	19400 1850 20300 1850
 $Comp
-L antmicroResistors0402:R_0R_0402 R43
+L SDI-bridge:R_0R_0402 R43
 U 1 1 5F2E2471
 P 19400 1600
 F 0 "R43" H 19300 1700 60  0000 C CNN
 F 1 "R_0R_0402" H 19400 1450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 19600 1800 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 19600 1800 60  0001 L CNN
 F 3 "" H 19400 1600 50  0001 C CNN
 F 4 "PANASONIC" H 19600 2000 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 19600 1900 60  0001 L CNN "MPN"
@@ -4927,7 +4927,7 @@ Wire Wire Line
 Wire Wire Line
 	19400 1050 19400 1450
 $Comp
-L power:+3.3V #PWR?
+L SDI-bridge:+3.3V #PWR?
 U 1 1 5F416839
 P 19400 1050
 AR Path="/5DD55102/5F416839" Ref="#PWR?"  Part="1" 
@@ -4960,7 +4960,7 @@ SCL_CL
 Text Label 20800 4050 2    50   ~ 0
 SDA_CL
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 6028D67D
 P 20800 4400
 AR Path="/5DD55102/6028D67D" Ref="#PWR?"  Part="1" 
@@ -4981,7 +4981,7 @@ Wire Wire Line
 Wire Wire Line
 	20800 3950 20800 3800
 $Comp
-L power:+3.3V #PWR?
+L SDI-bridge:+3.3V #PWR?
 U 1 1 602FB825
 P 20800 3800
 AR Path="/5DD55102/602FB825" Ref="#PWR?"  Part="1" 
@@ -4994,7 +4994,7 @@ F 3 "" H 20800 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 6077AC61
 P 22300 4400
 AR Path="/5DD55102/6077AC61" Ref="#PWR?"  Part="1" 
@@ -5015,7 +5015,7 @@ Wire Wire Line
 Wire Wire Line
 	22300 3950 22300 3800
 $Comp
-L power:+3.3V #PWR?
+L SDI-bridge:+3.3V #PWR?
 U 1 1 6077AC6B
 P 22300 3800
 AR Path="/5DD55102/6077AC6B" Ref="#PWR?"  Part="1" 
@@ -5028,34 +5028,34 @@ F 3 "" H 22300 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP3
+L SDI-bridge:TP_SMD1MM TP3
 U 1 1 60F8FDC3
 P 1750 4950
 F 0 "TP3" V 1750 4800 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1750 4850 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1950 5150 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_1mm" H 1950 5150 60  0001 L CNN
 F 3 "" H 1950 5250 60  0001 L CNN
 	1    1750 4950
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP4
+L SDI-bridge:TP_SMD1MM TP4
 U 1 1 60F8FDC9
 P 1750 5050
 F 0 "TP4" V 1750 4900 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1750 4950 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1950 5250 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_1mm" H 1950 5250 60  0001 L CNN
 F 3 "" H 1950 5350 60  0001 L CNN
 	1    1750 5050
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP5
+L SDI-bridge:TP_SMD1MM TP5
 U 1 1 61064EB7
 P 1750 5150
 F 0 "TP5" V 1750 5000 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1750 5050 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1950 5350 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_1mm" H 1950 5350 60  0001 L CNN
 F 3 "" H 1950 5450 60  0001 L CNN
 	1    1750 5150
 	0    -1   -1   0   
@@ -5129,12 +5129,12 @@ Wire Wire Line
 Wire Wire Line
 	4100 6800 4200 6800
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP18
+L SDI-bridge:TP_SMD1MM TP18
 U 1 1 5EFD5B26
 P 6050 7000
 F 0 "TP18" V 6050 6850 50  0000 C CNN
 F 1 "TP_SMD1MM" H 6050 6900 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6250 7200 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_1mm" H 6250 7200 60  0001 L CNN
 F 3 "" H 6250 7300 60  0001 L CNN
 	1    6050 7000
 	0    -1   -1   0   
@@ -5190,7 +5190,7 @@ SCL_GS
 Text Label 21500 6250 0    50   ~ 0
 SDA_GS
 $Comp
-L power:+3.3V #PWR?
+L SDI-bridge:+3.3V #PWR?
 U 1 1 6024188A
 P 21000 5000
 AR Path="/5DD55102/6024188A" Ref="#PWR?"  Part="1" 
@@ -5203,12 +5203,12 @@ F 3 "" H 21000 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R67
+L SDI-bridge:R_0R_0402 R67
 U 1 1 60241893
 P 21000 5300
 F 0 "R67" V 20955 5370 60  0000 L CNN
 F 1 "R_0R_0402" H 21000 5150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 21200 5500 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 21200 5500 60  0001 L CNN
 F 3 "" H 21000 5300 50  0001 C CNN
 F 4 "PANASONIC" H 21200 5700 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21200 5600 60  0001 L CNN "MPN"
@@ -5217,12 +5217,12 @@ F 6 "0R" V 21053 5370 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_2k37_0402 R66
+L SDI-bridge:R_2k37_0402 R66
 U 1 1 6024189C
 P 20750 5950
 F 0 "R66" V 20600 6150 60  0000 R CNN
 F 1 "R_2k37_0402" H 20750 5800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20950 6150 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20950 6150 60  0001 L CNN
 F 3 "" H 20750 5950 50  0001 C CNN
 F 4 "Vishay" H 20950 6350 60  0001 L CNN "Manufacturer"
 F 5 "CRCW04022K37FKED" H 20950 6250 60  0001 L CNN "MPN"
@@ -5231,12 +5231,12 @@ F 6 "2k37" V 20900 5900 50  0000 R CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_2k37_0402 R68
+L SDI-bridge:R_2k37_0402 R68
 U 1 1 602418A5
 P 21000 5950
 F 0 "R68" V 20850 6150 60  0000 R CNN
 F 1 "R_2k37_0402" H 21000 5800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 21200 6150 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 21200 6150 60  0001 L CNN
 F 3 "" H 21000 5950 50  0001 C CNN
 F 4 "Vishay" H 21200 6350 60  0001 L CNN "Manufacturer"
 F 5 "CRCW04022K37FKED" H 21200 6250 60  0001 L CNN "MPN"
@@ -5252,12 +5252,12 @@ Wire Wire Line
 Wire Wire Line
 	20250 5800 20250 5500
 $Comp
-L antmicroResistors0402:R_2k37_0402 R64
+L SDI-bridge:R_2k37_0402 R64
 U 1 1 602418C3
 P 20250 5950
 F 0 "R64" V 20100 6150 60  0000 R CNN
 F 1 "R_2k37_0402" H 20250 5800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20450 6150 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20450 6150 60  0001 L CNN
 F 3 "" H 20250 5950 50  0001 C CNN
 F 4 "Vishay" H 20450 6350 60  0001 L CNN "Manufacturer"
 F 5 "CRCW04022K37FKED" H 20450 6250 60  0001 L CNN "MPN"
@@ -5266,12 +5266,12 @@ F 6 "2k37" V 20400 5950 50  0000 R CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_2k37_0402 R65
+L SDI-bridge:R_2k37_0402 R65
 U 1 1 602418CC
 P 20500 5950
 F 0 "R65" V 20350 6150 60  0000 R CNN
 F 1 "R_2k37_0402" H 20500 5800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20700 6150 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20700 6150 60  0001 L CNN
 F 3 "" H 20500 5950 50  0001 C CNN
 F 4 "Vishay" H 20700 6350 60  0001 L CNN "Manufacturer"
 F 5 "CRCW04022K37FKED" H 20700 6250 60  0001 L CNN "MPN"
@@ -5300,12 +5300,12 @@ Wire Wire Line
 Text Notes 16200 700  0    79   ~ 0
 MIPI conector
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:MC-HVT1-S04-G J4
+L SDI-bridge:MC-HVT1-S04-G J4
 U 1 1 61968AAB
 P 19950 3950
 F 0 "J4" V 19725 4008 50  0000 C CNN
 F 1 "MC-HVT1-S04-G" V 19816 4008 50  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 20150 4250 60  0001 L CNN
+F 2 "SDI-bridge-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 20150 4250 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 20150 4350 60  0001 L CNN
 F 4 "MC-HVT1-S04-G" H 20150 4450 60  0001 L CNN "MPN"
 F 5 "Multicomp" H 20150 4550 60  0001 L CNN "Manufacturer"
@@ -5313,12 +5313,12 @@ F 5 "Multicomp" H 20150 4550 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:MC-HVT1-S04-G J5
+L SDI-bridge:MC-HVT1-S04-G J5
 U 1 1 619696B6
 P 21450 3950
 F 0 "J5" V 21225 4008 50  0000 C CNN
 F 1 "MC-HVT1-S04-G" V 21316 4008 50  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 21650 4250 60  0001 L CNN
+F 2 "SDI-bridge-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 21650 4250 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 21650 4350 60  0001 L CNN
 F 4 "MC-HVT1-S04-G" H 21650 4450 60  0001 L CNN "MPN"
 F 5 "Multicomp" H 21650 4550 60  0001 L CNN "Manufacturer"
@@ -5362,12 +5362,12 @@ Wire Wire Line
 Wire Wire Line
 	18100 2550 17600 2550
 $Comp
-L antmicroResistors0402:R_0R_0402 R55
+L SDI-bridge:R_0R_0402 R55
 U 1 1 6123E092
 P 19850 9200
 F 0 "R55" H 20050 9250 60  0000 C CNN
 F 1 "R_0R_0402" H 19850 9050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20050 9400 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20050 9400 60  0001 L CNN
 F 3 "" H 19850 9200 50  0001 C CNN
 F 4 "PANASONIC" H 20050 9600 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20050 9500 60  0001 L CNN "MPN"
@@ -5376,12 +5376,12 @@ F 6 "0R" H 19850 9200 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R54
+L SDI-bridge:R_0R_0402 R54
 U 1 1 6123F083
 P 19850 9100
 F 0 "R54" H 20050 9150 60  0000 C CNN
 F 1 "R_0R_0402" H 19850 8950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20050 9300 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20050 9300 60  0001 L CNN
 F 3 "" H 19850 9100 50  0001 C CNN
 F 4 "PANASONIC" H 20050 9500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20050 9400 60  0001 L CNN "MPN"
@@ -5390,12 +5390,12 @@ F 6 "0R" H 19850 9100 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R57
+L SDI-bridge:R_0R_0402 R57
 U 1 1 61458383
 P 19850 9400
 F 0 "R57" H 20050 9450 60  0000 C CNN
 F 1 "R_0R_0402" H 19850 9250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20050 9600 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20050 9600 60  0001 L CNN
 F 3 "" H 19850 9400 50  0001 C CNN
 F 4 "PANASONIC" H 20050 9800 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20050 9700 60  0001 L CNN "MPN"
@@ -5404,12 +5404,12 @@ F 6 "0R" H 19850 9400 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R56
+L SDI-bridge:R_0R_0402 R56
 U 1 1 6145838C
 P 19850 9300
 F 0 "R56" H 20050 9350 60  0000 C CNN
 F 1 "R_0R_0402" H 19850 9150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20050 9500 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20050 9500 60  0001 L CNN
 F 3 "" H 19850 9300 50  0001 C CNN
 F 4 "PANASONIC" H 20050 9700 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20050 9600 60  0001 L CNN "MPN"
@@ -5418,12 +5418,12 @@ F 6 "0R" H 19850 9300 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R59
+L SDI-bridge:R_0R_0402 R59
 U 1 1 614C4E92
 P 19850 9600
 F 0 "R59" H 20050 9650 60  0000 C CNN
 F 1 "R_0R_0402" H 19850 9450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20050 9800 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20050 9800 60  0001 L CNN
 F 3 "" H 19850 9600 50  0001 C CNN
 F 4 "PANASONIC" H 20050 10000 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20050 9900 60  0001 L CNN "MPN"
@@ -5432,12 +5432,12 @@ F 6 "0R" H 19850 9600 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R58
+L SDI-bridge:R_0R_0402 R58
 U 1 1 614C4E9B
 P 19850 9500
 F 0 "R58" H 20050 9550 60  0000 C CNN
 F 1 "R_0R_0402" H 19850 9350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20050 9700 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20050 9700 60  0001 L CNN
 F 3 "" H 19850 9500 50  0001 C CNN
 F 4 "PANASONIC" H 20050 9900 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20050 9800 60  0001 L CNN "MPN"
@@ -5446,12 +5446,12 @@ F 6 "0R" H 19850 9500 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R61
+L SDI-bridge:R_0R_0402 R61
 U 1 1 614C4EA4
 P 19850 9800
 F 0 "R61" H 20050 9850 60  0000 C CNN
 F 1 "R_0R_0402" H 19850 9650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20050 10000 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20050 10000 60  0001 L CNN
 F 3 "" H 19850 9800 50  0001 C CNN
 F 4 "PANASONIC" H 20050 10200 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20050 10100 60  0001 L CNN "MPN"
@@ -5460,12 +5460,12 @@ F 6 "0R" H 19850 9800 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R60
+L SDI-bridge:R_0R_0402 R60
 U 1 1 614C4EAD
 P 19850 9700
 F 0 "R60" H 20050 9750 60  0000 C CNN
 F 1 "R_0R_0402" H 19850 9550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20050 9900 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20050 9900 60  0001 L CNN
 F 3 "" H 19850 9700 50  0001 C CNN
 F 4 "PANASONIC" H 20050 10100 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20050 10000 60  0001 L CNN "MPN"
@@ -5474,12 +5474,12 @@ F 6 "0R" H 19850 9700 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R63
+L SDI-bridge:R_0R_0402 R63
 U 1 1 6152EB87
 P 19850 10000
 F 0 "R63" H 20050 10050 60  0000 C CNN
 F 1 "R_0R_0402" H 19850 9850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20050 10200 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20050 10200 60  0001 L CNN
 F 3 "" H 19850 10000 50  0001 C CNN
 F 4 "PANASONIC" H 20050 10400 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20050 10300 60  0001 L CNN "MPN"
@@ -5488,12 +5488,12 @@ F 6 "0R" H 19850 10000 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R62
+L SDI-bridge:R_0R_0402 R62
 U 1 1 6152EB90
 P 19850 9900
 F 0 "R62" H 20050 9950 60  0000 C CNN
 F 1 "R_0R_0402" H 19850 9750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20050 10100 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20050 10100 60  0001 L CNN
 F 3 "" H 19850 9900 50  0001 C CNN
 F 4 "PANASONIC" H 20050 10300 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20050 10200 60  0001 L CNN "MPN"
@@ -5502,12 +5502,12 @@ F 6 "0R" H 19850 9900 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R45
+L SDI-bridge:R_0R_0402 R45
 U 1 1 5E67D04D
 P 19800 10950
 F 0 "R45" H 19600 11000 60  0000 C CNN
 F 1 "R_0R_0402" H 19800 10800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20000 11150 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20000 11150 60  0001 L CNN
 F 3 "" H 19800 10950 50  0001 C CNN
 F 4 "PANASONIC" H 20000 11350 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20000 11250 60  0001 L CNN "MPN"
@@ -5516,12 +5516,12 @@ F 6 "0R" H 19800 10950 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R44
+L SDI-bridge:R_0R_0402 R44
 U 1 1 5E67D056
 P 19800 10850
 F 0 "R44" H 19600 10900 60  0000 C CNN
 F 1 "R_0R_0402" H 19800 10700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20000 11050 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20000 11050 60  0001 L CNN
 F 3 "" H 19800 10850 50  0001 C CNN
 F 4 "PANASONIC" H 20000 11250 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20000 11150 60  0001 L CNN "MPN"
@@ -5530,12 +5530,12 @@ F 6 "0R" H 19800 10850 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R47
+L SDI-bridge:R_0R_0402 R47
 U 1 1 5E67D05F
 P 19800 11150
 F 0 "R47" H 19600 11200 60  0000 C CNN
 F 1 "R_0R_0402" H 19800 11000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20000 11350 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20000 11350 60  0001 L CNN
 F 3 "" H 19800 11150 50  0001 C CNN
 F 4 "PANASONIC" H 20000 11550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20000 11450 60  0001 L CNN "MPN"
@@ -5544,12 +5544,12 @@ F 6 "0R" H 19800 11150 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R46
+L SDI-bridge:R_0R_0402 R46
 U 1 1 5E67D068
 P 19800 11050
 F 0 "R46" H 19600 11100 60  0000 C CNN
 F 1 "R_0R_0402" H 19800 10900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20000 11250 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20000 11250 60  0001 L CNN
 F 3 "" H 19800 11050 50  0001 C CNN
 F 4 "PANASONIC" H 20000 11450 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20000 11350 60  0001 L CNN "MPN"
@@ -5558,12 +5558,12 @@ F 6 "0R" H 19800 11050 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R49
+L SDI-bridge:R_0R_0402 R49
 U 1 1 5E67D071
 P 19800 11350
 F 0 "R49" H 19600 11400 60  0000 C CNN
 F 1 "R_0R_0402" H 19800 11200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20000 11550 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20000 11550 60  0001 L CNN
 F 3 "" H 19800 11350 50  0001 C CNN
 F 4 "PANASONIC" H 20000 11750 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20000 11650 60  0001 L CNN "MPN"
@@ -5572,12 +5572,12 @@ F 6 "0R" H 19800 11350 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R48
+L SDI-bridge:R_0R_0402 R48
 U 1 1 5E67D07A
 P 19800 11250
 F 0 "R48" H 19600 11300 60  0000 C CNN
 F 1 "R_0R_0402" H 19800 11100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20000 11450 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20000 11450 60  0001 L CNN
 F 3 "" H 19800 11250 50  0001 C CNN
 F 4 "PANASONIC" H 20000 11650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20000 11550 60  0001 L CNN "MPN"
@@ -5586,12 +5586,12 @@ F 6 "0R" H 19800 11250 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R51
+L SDI-bridge:R_0R_0402 R51
 U 1 1 5E67D083
 P 19800 11550
 F 0 "R51" H 19600 11600 60  0000 C CNN
 F 1 "R_0R_0402" H 19800 11400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20000 11750 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20000 11750 60  0001 L CNN
 F 3 "" H 19800 11550 50  0001 C CNN
 F 4 "PANASONIC" H 20000 11950 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20000 11850 60  0001 L CNN "MPN"
@@ -5600,12 +5600,12 @@ F 6 "0R" H 19800 11550 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R50
+L SDI-bridge:R_0R_0402 R50
 U 1 1 5E67D08C
 P 19800 11450
 F 0 "R50" H 19600 11500 60  0000 C CNN
 F 1 "R_0R_0402" H 19800 11300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20000 11650 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20000 11650 60  0001 L CNN
 F 3 "" H 19800 11450 50  0001 C CNN
 F 4 "PANASONIC" H 20000 11850 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20000 11750 60  0001 L CNN "MPN"
@@ -5614,12 +5614,12 @@ F 6 "0R" H 19800 11450 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R53
+L SDI-bridge:R_0R_0402 R53
 U 1 1 5E67D095
 P 19800 11750
 F 0 "R53" H 19600 11800 60  0000 C CNN
 F 1 "R_0R_0402" H 19800 11600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20000 11950 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20000 11950 60  0001 L CNN
 F 3 "" H 19800 11750 50  0001 C CNN
 F 4 "PANASONIC" H 20000 12150 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20000 12050 60  0001 L CNN "MPN"
@@ -5628,12 +5628,12 @@ F 6 "0R" H 19800 11750 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R52
+L SDI-bridge:R_0R_0402 R52
 U 1 1 5E67D09E
 P 19800 11650
 F 0 "R52" H 19600 11700 60  0000 C CNN
 F 1 "R_0R_0402" H 19800 11500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20000 11850 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20000 11850 60  0001 L CNN
 F 3 "" H 19800 11650 50  0001 C CNN
 F 4 "PANASONIC" H 20000 12050 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20000 11950 60  0001 L CNN "MPN"
@@ -5783,14 +5783,14 @@ Wire Wire Line
 Text Notes 13600 9700 0    50   ~ 0
 Locked from GS connected to CrossLink
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L SDI-bridge:R_0R_0402 R?
 U 1 1 60237758
 P 14550 6200
 AR Path="/5DD55102/60237758" Ref="R?"  Part="1" 
 AR Path="/60237758" Ref="R31"  Part="1" 
 F 0 "R31" V 14400 6100 60  0000 C CNN
 F 1 "R_0R_0402" H 14550 6050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 14750 6400 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 14750 6400 60  0001 L CNN
 F 3 "" H 14550 6200 50  0001 C CNN
 F 4 "PANASONIC" H 14750 6600 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 14750 6500 60  0001 L CNN "MPN"
@@ -5840,12 +5840,12 @@ Wire Wire Line
 Connection ~ 17800 4550
 Connection ~ 17700 4650
 $Comp
-L antmicroResistors0402:R_0R_0402 R40
+L SDI-bridge:R_0R_0402 R40
 U 1 1 633A2BCE
 P 17100 4650
 F 0 "R40" H 17350 4700 60  0000 C CNN
 F 1 "R_0R_0402" H 17100 4500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 17300 4850 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 17300 4850 60  0001 L CNN
 F 3 "" H 17100 4650 50  0001 C CNN
 F 4 "PANASONIC" H 17300 5050 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 17300 4950 60  0001 L CNN "MPN"
@@ -5854,12 +5854,12 @@ F 6 "0R" H 17100 4650 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R42
+L SDI-bridge:R_0R_0402 R42
 U 1 1 61725908
 P 17100 4850
 F 0 "R42" H 17350 4900 60  0000 C CNN
 F 1 "R_0R_0402" H 17100 4700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 17300 5050 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 17300 5050 60  0001 L CNN
 F 3 "" H 17100 4850 50  0001 C CNN
 F 4 "PANASONIC" H 17300 5250 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 17300 5150 60  0001 L CNN "MPN"
@@ -5868,12 +5868,12 @@ F 6 "0R" H 17100 4850 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R41
+L SDI-bridge:R_0R_0402 R41
 U 1 1 617258FF
 P 17100 4750
 F 0 "R41" H 17350 4800 60  0000 C CNN
 F 1 "R_0R_0402" H 17100 4600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 17300 4950 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 17300 4950 60  0001 L CNN
 F 3 "" H 17100 4750 50  0001 C CNN
 F 4 "PANASONIC" H 17300 5150 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 17300 5050 60  0001 L CNN "MPN"
@@ -5926,12 +5926,12 @@ Wire Notes Line style dash_dot
 Text Notes 19300 5750 0    50   ~ 0
 DNP if one I2C used
 $Comp
-L antmicroResistors0402:R_0R_0402 R37
+L SDI-bridge:R_0R_0402 R37
 U 1 1 612D8FCA
 P 17100 4350
 F 0 "R37" H 17350 4400 60  0000 C CNN
 F 1 "R_0R_0402" H 17100 4200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 17300 4550 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 17300 4550 60  0001 L CNN
 F 3 "" H 17100 4350 50  0001 C CNN
 F 4 "PANASONIC" H 17300 4750 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 17300 4650 60  0001 L CNN "MPN"
@@ -5940,12 +5940,12 @@ F 6 "0R" H 17100 4350 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R38
+L SDI-bridge:R_0R_0402 R38
 U 1 1 612D9539
 P 17100 4450
 F 0 "R38" H 17350 4500 60  0000 C CNN
 F 1 "R_0R_0402" H 17100 4300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 17300 4650 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 17300 4650 60  0001 L CNN
 F 3 "" H 17100 4450 50  0001 C CNN
 F 4 "PANASONIC" H 17300 4850 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 17300 4750 60  0001 L CNN "MPN"
@@ -5954,12 +5954,12 @@ F 6 "0R" H 17100 4450 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R39
+L SDI-bridge:R_0R_0402 R39
 U 1 1 633A2BC5
 P 17100 4550
 F 0 "R39" H 17350 4600 60  0000 C CNN
 F 1 "R_0R_0402" H 17100 4400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 17300 4750 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 17300 4750 60  0001 L CNN
 F 3 "" H 17100 4550 50  0001 C CNN
 F 4 "PANASONIC" H 17300 4950 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 17300 4850 60  0001 L CNN "MPN"
@@ -5968,12 +5968,12 @@ F 6 "0R" H 17100 4550 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroFCCConnectors:WE_68715014522_ONE-SIDE J3
+L SDI-bridge:WE_68715014522_ONE-SIDE J3
 U 1 1 6494FFEC
 P 18300 2350
 F 0 "J3" H 18380 1542 50  0000 L CNN
 F 1 "WE_68715014522_ONE-SIDE" H 18380 1451 50  0000 L CNN
-F 2 "antmicro-footprints:WE_68715014522_ONE-SIDE" H 18100 -1200 50  0001 C CNN
+F 2 "SDI-bridge-footprints:WE_68715014522_ONE-SIDE" H 18100 -1200 50  0001 C CNN
 F 3 "https://katalog.we-online.de/em/datasheet/6871xx14522.pdf" H 18300 -1300 50  0001 C CNN
 F 4 "68715014522 " H 18700 1750 60  0001 L CNN "MPN"
 F 5 "Wurth Elektronik " H 18950 550 60  0001 L CNN "Manufacturer"
@@ -6002,7 +6002,7 @@ GNDPLL_DPHY
 Wire Wire Line
 	10900 15000 11550 15000
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 5E7C1DBD
 P 10400 15200
 AR Path="/5DD55102/5E7C1DBD" Ref="#PWR?"  Part="1" 
@@ -6017,14 +6017,14 @@ $EndComp
 Wire Wire Line
 	10400 14750 10400 15000
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L SDI-bridge:R_0R_0402 R?
 U 1 1 5E844DF9
 P 10750 14750
 AR Path="/5DD55102/5E844DF9" Ref="R?"  Part="1" 
 AR Path="/5E844DF9" Ref="R69"  Part="1" 
 F 0 "R69" H 10650 14850 60  0000 C CNN
 F 1 "R_0R_0402" H 10750 14600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10950 14950 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 10950 14950 60  0001 L CNN
 F 3 "" H 10750 14750 50  0001 C CNN
 F 4 "PANASONIC" H 10950 15150 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 10950 15050 60  0001 L CNN "MPN"
@@ -6033,14 +6033,14 @@ F 6 "0R" H 10750 14750 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L SDI-bridge:R_0R_0402 R?
 U 1 1 5E8452EE
 P 10750 15000
 AR Path="/5DD55102/5E8452EE" Ref="R?"  Part="1" 
 AR Path="/5E8452EE" Ref="R70"  Part="1" 
 F 0 "R70" H 10650 15100 60  0000 C CNN
 F 1 "R_0R_0402" H 10750 14850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10950 15200 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 10950 15200 60  0001 L CNN
 F 3 "" H 10750 15000 50  0001 C CNN
 F 4 "PANASONIC" H 10950 15400 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 10950 15300 60  0001 L CNN "MPN"
@@ -6065,7 +6065,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 4850 2750 4900
 $Comp
-L power:GNDA #PWR?
+L SDI-bridge:GNDA #PWR?
 U 1 1 5FD9A417
 P 2750 5250
 AR Path="/5DD55102/5FD9A417" Ref="#PWR?"  Part="1" 
@@ -6080,12 +6080,12 @@ $EndComp
 Wire Wire Line
 	2750 5250 2750 5200
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C22
+L SDI-bridge:C_10n_0402 C22
 U 1 1 5FD9A410
 P 2750 5050
 F 0 "C22" H 2865 5095 60  0000 L CNN
 F 1 "C_10n_0402" H 2750 4900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2950 5250 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 2950 5250 60  0001 L CNN
 F 3 "" H 2750 5050 50  0001 C CNN
 F 4 "AVX" H 2950 5450 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 2950 5350 60  0001 L CNN "MPN"
@@ -6094,7 +6094,7 @@ F 6 "10n" H 2865 4997 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L SDI-bridge:GNDA #PWR?
 U 1 1 5EFE69A5
 P 3100 5250
 AR Path="/5DD55102/5EFE69A5" Ref="#PWR?"  Part="1" 
@@ -6111,12 +6111,12 @@ Wire Wire Line
 Wire Wire Line
 	3100 4850 3100 4900
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C18
+L SDI-bridge:C_10n_0402 C18
 U 1 1 5EF18413
 P 3100 5050
 F 0 "C18" H 3215 5095 60  0000 L CNN
 F 1 "C_10n_0402" H 3100 4900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3300 5250 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 3300 5250 60  0001 L CNN
 F 3 "" H 3100 5050 50  0001 C CNN
 F 4 "AVX" H 3300 5450 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3300 5350 60  0001 L CNN "MPN"
@@ -6128,12 +6128,12 @@ Wire Wire Line
 	4300 4800 4300 4850
 Connection ~ 4300 4850
 $Comp
-L antmicroInterfaceControllers:GS2988 U3
+L SDI-bridge:GS2988 U3
 U 1 1 5EB83E37
 P 3450 5900
 F 0 "U3" H 3800 6250 60  0000 L CNN
 F 1 "GS2988" H 4800 5200 60  0000 L CNN
-F 2 "antmicro-footprints:QFN-16_EP_4x4_Pitch0.65mm" H 3600 5950 60  0001 R CNN
+F 2 "SDI-bridge-footprints:QFN-16_EP_4x4_Pitch0.65mm" H 3600 5950 60  0001 R CNN
 F 3 "" H 3600 5750 60  0001 R CNN
 	1    3450 5900
 	1    0    0    -1  
@@ -6143,7 +6143,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 4850 4300 4850
 $Comp
-L power:VDD #PWR0102
+L SDI-bridge:VDD #PWR0102
 U 1 1 5F1F6D99
 P 4300 4800
 F 0 "#PWR0102" H 4300 4650 50  0001 C CNN
@@ -6157,14 +6157,14 @@ $EndComp
 Wire Wire Line
 	4300 4850 4300 5400
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L SDI-bridge:R_0R_0402 R?
 U 1 1 5F5CC410
 P 4500 5150
 AR Path="/5DD55102/5F5CC410" Ref="R?"  Part="1" 
 AR Path="/5F5CC410" Ref="R71"  Part="1" 
 F 0 "R71" V 4350 5100 60  0000 C CNN
 F 1 "R_0R_0402" H 4500 5000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4700 5350 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 4700 5350 60  0001 L CNN
 F 3 "" H 4500 5150 50  0001 C CNN
 F 4 "PANASONIC" H 4700 5550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4700 5450 60  0001 L CNN "MPN"
@@ -6178,7 +6178,7 @@ Connection ~ 6300 5650
 Wire Wire Line
 	6300 5650 6450 5650
 $Comp
-L power:GNDA #PWR?
+L SDI-bridge:GNDA #PWR?
 U 1 1 5FCBBF7D
 P 7200 6850
 AR Path="/5DD55102/5FCBBF7D" Ref="#PWR?"  Part="1" 
@@ -6193,7 +6193,7 @@ $EndComp
 Wire Wire Line
 	7200 6650 6900 6650
 $Comp
-L power:VDD #PWR0104
+L SDI-bridge:VDD #PWR0104
 U 1 1 5FCBBF85
 P 6500 6500
 F 0 "#PWR0104" H 6500 6350 50  0001 C CNN
@@ -6216,12 +6216,12 @@ Wire Wire Line
 Wire Wire Line
 	5800 6200 5400 6200
 $Comp
-L antmicroCapacitors0402:C_4u7_0402 C23
+L SDI-bridge:C_4u7_0402 C23
 U 1 1 5F7E8C3F
 P 5950 6200
 F 0 "C23" V 5692 6200 60  0000 C CNN
 F 1 "C_4u7_0402" H 5950 6050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6150 6400 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 6150 6400 60  0001 L CNN
 F 3 "" H 5950 6200 50  0001 C CNN
 F 4 "MURATA" H 6150 6600 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60G475ME" H 6150 6500 60  0001 L CNN "MPN"
@@ -6234,12 +6234,12 @@ Wire Wire Line
 Wire Wire Line
 	6100 5650 6300 5650
 $Comp
-L antmicroCapacitors0402:C_5n6_0402 C27
+L SDI-bridge:C_5n6_0402 C27
 U 1 1 5E6ADB35
 P 5950 5650
 F 0 "C27" V 5850 5500 60  0000 C CNN
 F 1 "C_5n6_0402" H 5950 5500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6150 5850 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 6150 5850 60  0001 L CNN
 F 3 "" H 5950 5650 50  0001 C CNN
 F 4 "Multicomp" H 6150 6050 60  0001 L CNN "Manufacturer"
 F 5 "MC0402B562K160CT" H 6150 5950 60  0001 L CNN "MPN"
@@ -6254,12 +6254,12 @@ Wire Wire Line
 Wire Wire Line
 	6750 6200 8100 6200
 $Comp
-L antmicroResistors0603:R_75R_0603 R20
+L SDI-bridge:R_75R_0603 R20
 U 1 1 5F7E8C35
 P 6600 6200
 F 0 "R20" H 6700 6150 60  0000 L CNN
 F 1 "R_75R_0603" H 6600 6050 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 6800 6400 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0603-res" H 6800 6400 60  0001 L CNN
 F 3 "" H 6600 6200 50  0001 C CNN
 F 4 "MULTICOMP" H 6800 6600 60  0001 L CNN "Manufacturer"
 F 5 "MCWR06X75R0FTL" H 6800 6500 60  0001 L CNN "MPN"
@@ -6286,12 +6286,12 @@ Wire Wire Line
 Wire Wire Line
 	5550 5900 5800 5900
 $Comp
-L antmicroResistors0603:R_75R_0603 R17
+L SDI-bridge:R_75R_0603 R17
 U 1 1 5F029AE6
 P 5950 5900
 F 0 "R17" H 5650 5950 60  0000 L CNN
 F 1 "R_75R_0603" H 5950 5750 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 6150 6100 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0603-res" H 6150 6100 60  0001 L CNN
 F 3 "" H 5950 5900 50  0001 C CNN
 F 4 "MULTICOMP" H 6150 6300 60  0001 L CNN "Manufacturer"
 F 5 "MCWR06X75R0FTL" H 6150 6200 60  0001 L CNN "MPN"
@@ -6301,14 +6301,14 @@ F 6 "75R" H 5950 5800 50  0000 L CNN "Val"
 $EndComp
 Connection ~ 8100 6200
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L SDI-bridge:C_10n_0402 C?
 U 1 1 5FCBBF77
 P 6750 6650
 AR Path="/5DD55102/5FCBBF77" Ref="C?"  Part="1" 
 AR Path="/5FCBBF77" Ref="C65"  Part="1" 
 F 0 "C65" V 6700 6500 60  0000 L CNN
 F 1 "C_10n_0402" H 6750 6500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6950 6850 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-cap" H 6950 6850 60  0001 L CNN
 F 3 "" H 6750 6650 50  0001 C CNN
 F 4 "AVX" H 6950 7050 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 6950 6950 60  0001 L CNN "MPN"
@@ -6331,12 +6331,12 @@ Wire Wire Line
 Wire Wire Line
 	7200 5400 7200 5250
 $Comp
-L antmicroInterfaceDriversReceiversTransceivers:SC18IS602BIPW U5
+L SDI-bridge:SC18IS602BIPW U5
 U 1 1 5E4CEC44
 P 20300 1550
 F 0 "U5" H 21100 1840 60  0000 C CNN
 F 1 "SC18IS602BIPW" H 21100 1734 60  0000 C CNN
-F 2 "antmicro-footprints:SC18IS602B" H 20500 1600 60  0001 L CNN
+F 2 "SDI-bridge-footprints:SC18IS602B" H 20500 1600 60  0001 L CNN
 F 3 "" H 20500 1400 60  0001 L CNN
 	1    20300 1550
 	1    0    0    -1  
@@ -6350,7 +6350,7 @@ Connection ~ 22700 2150
 Wire Wire Line
 	22700 2150 22700 2250
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 64A6D841
 P 22700 2450
 AR Path="/5DD55102/64A6D841" Ref="#PWR?"  Part="1" 
@@ -6369,12 +6369,12 @@ Wire Wire Line
 Wire Wire Line
 	21900 2050 22150 2050
 $Comp
-L antmicroResistors0402:R_0R_0402 R72
+L SDI-bridge:R_0R_0402 R72
 U 1 1 64AFAF51
 P 22300 2050
 F 0 "R72" H 22500 2000 60  0000 C CNN
 F 1 "R_0R_0402" H 22300 1900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 22500 2250 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 22500 2250 60  0001 L CNN
 F 3 "" H 22300 2050 50  0001 C CNN
 F 4 "PANASONIC" H 22500 2450 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 22500 2350 60  0001 L CNN "MPN"
@@ -6383,12 +6383,12 @@ F 6 "0R" H 22150 2100 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R73
+L SDI-bridge:R_0R_0402 R73
 U 1 1 64C20746
 P 22300 2150
 F 0 "R73" H 22500 2100 60  0000 C CNN
 F 1 "R_0R_0402" H 22300 2000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 22500 2350 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 22500 2350 60  0001 L CNN
 F 3 "" H 22300 2150 50  0001 C CNN
 F 4 "PANASONIC" H 22500 2550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 22500 2450 60  0001 L CNN "MPN"
@@ -6397,12 +6397,12 @@ F 6 "0R" H 22150 2200 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R74
+L SDI-bridge:R_0R_0402 R74
 U 1 1 64C2097F
 P 22300 2250
 F 0 "R74" H 22500 2200 60  0000 C CNN
 F 1 "R_0R_0402" H 22300 2100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 22500 2450 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 22500 2450 60  0001 L CNN
 F 3 "" H 22300 2250 50  0001 C CNN
 F 4 "PANASONIC" H 22500 2650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 22500 2550 60  0001 L CNN "MPN"
@@ -6417,12 +6417,12 @@ Wire Wire Line
 Wire Wire Line
 	22450 2250 22700 2250
 $Comp
-L antmicroResistors0402:R_100R_0402 R88
+L SDI-bridge:R_100R_0402 R88
 U 1 1 5E60361D
 P 14800 6900
 F 0 "R88" H 14650 7000 60  0000 L CNN
 F 1 "R_100R_0402" H 14800 6750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 15000 7100 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 15000 7100 60  0001 L CNN
 F 3 "" H 14800 6900 50  0001 C CNN
 F 4 "BOURNS" H 15000 7300 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 15000 7200 60  0001 L CNN "MPN"
@@ -6431,12 +6431,12 @@ F 6 "100R" H 14850 6800 50  0000 L CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D2
+L SDI-bridge:LG_L29K-G2J1-24-Z D2
 U 1 1 5E603625
 P 15400 6900
 F 0 "D2" H 15450 6800 60  0000 R CNN
 F 1 "LG_L29K-G2J1-24-Z" H 15700 7150 60  0000 R CNN
-F 2 "antmicro-footprints:LED_0603" H 15600 7100 60  0001 L CNN
+F 2 "SDI-bridge-footprints:LED_0603" H 15600 7100 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 15600 7200 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 15600 7400 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 15600 8000 60  0001 L CNN "Manufacturer"
@@ -6450,7 +6450,7 @@ Wire Wire Line
 Wire Wire Line
 	15500 6900 15750 6900
 $Comp
-L power:GNDA #PWR?
+L SDI-bridge:GNDA #PWR?
 U 1 1 5E603630
 P 15750 7000
 AR Path="/5DD55102/5E603630" Ref="#PWR?"  Part="1" 
@@ -6469,12 +6469,12 @@ CDONE
 Wire Wire Line
 	14100 6900 14650 6900
 $Comp
-L antmicroResistors0402:R_0R_0402 R90
+L SDI-bridge:R_0R_0402 R90
 U 1 1 5EB5D97D
 P 19800 11950
 F 0 "R90" H 19600 12000 60  0000 C CNN
 F 1 "R_0R_0402" H 19800 11800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20000 12150 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20000 12150 60  0001 L CNN
 F 3 "" H 19800 11950 50  0001 C CNN
 F 4 "PANASONIC" H 20000 12350 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20000 12250 60  0001 L CNN "MPN"
@@ -6485,12 +6485,12 @@ $EndComp
 Wire Wire Line
 	19950 11950 20300 11950
 $Comp
-L antmicroResistors0402:R_0R_0402 R91
+L SDI-bridge:R_0R_0402 R91
 U 1 1 5EB5E17C
 P 19850 10200
 F 0 "R91" H 19650 10250 60  0000 C CNN
 F 1 "R_0R_0402" H 19850 10050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20050 10400 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 20050 10400 60  0001 L CNN
 F 3 "" H 19850 10200 50  0001 C CNN
 F 4 "PANASONIC" H 20050 10600 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 20050 10500 60  0001 L CNN "MPN"
@@ -6501,7 +6501,7 @@ $EndComp
 Wire Wire Line
 	20000 10200 20300 10200
 $Comp
-L power:GNDREF #PWR?
+L SDI-bridge:GNDREF #PWR?
 U 1 1 5EB8EBC1
 P 15900 8000
 AR Path="/5DD55102/5EB8EBC1" Ref="#PWR?"  Part="1" 
@@ -6514,14 +6514,14 @@ F 3 "" H 15900 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L SDI-bridge:R_0R_0402 R?
 U 1 1 5EB8EBCB
 P 16250 8100
 AR Path="/5DD55102/5EB8EBCB" Ref="R?"  Part="1" 
 AR Path="/5EB8EBCB" Ref="R89"  Part="1" 
 F 0 "R89" V 16100 8050 60  0000 C CNN
 F 1 "R_0R_0402" H 16250 7950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 16450 8300 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 16450 8300 60  0001 L CNN
 F 3 "" H 16250 8100 50  0001 C CNN
 F 4 "PANASONIC" H 16450 8500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 16450 8400 60  0001 L CNN "MPN"
@@ -6548,12 +6548,12 @@ DNP
 Text GLabel 9600 1650 2    50   Input ~ 0
 IO_VDD
 $Comp
-L antmicroResistors0402:R_0R_0402 R75
+L SDI-bridge:R_0R_0402 R75
 U 1 1 5FBF8829
 P 9150 1900
 F 0 "R75" H 8950 1950 60  0000 C CNN
 F 1 "R_0R_0402" H 9150 1750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9350 2100 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 9350 2100 60  0001 L CNN
 F 3 "" H 9150 1900 50  0001 C CNN
 F 4 "PANASONIC" H 9350 2300 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9350 2200 60  0001 L CNN "MPN"
@@ -6562,12 +6562,12 @@ F 6 "0R" H 9300 1850 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R76
+L SDI-bridge:R_0R_0402 R76
 U 1 1 6008E17A
 P 9150 2000
 F 0 "R76" H 8950 2050 60  0000 C CNN
 F 1 "R_0R_0402" H 9150 1850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9350 2200 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 9350 2200 60  0001 L CNN
 F 3 "" H 9150 2000 50  0001 C CNN
 F 4 "PANASONIC" H 9350 2400 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9350 2300 60  0001 L CNN "MPN"
@@ -6576,12 +6576,12 @@ F 6 "0R" H 9300 1950 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R77
+L SDI-bridge:R_0R_0402 R77
 U 1 1 6008E4E7
 P 9150 2100
 F 0 "R77" H 8950 2150 60  0000 C CNN
 F 1 "R_0R_0402" H 9150 1950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9350 2300 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 9350 2300 60  0001 L CNN
 F 3 "" H 9150 2100 50  0001 C CNN
 F 4 "PANASONIC" H 9350 2500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9350 2400 60  0001 L CNN "MPN"
@@ -6600,7 +6600,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 1900 9000 1900
 $Comp
-L power:GNDA #PWR?
+L SDI-bridge:GNDA #PWR?
 U 1 1 604067A2
 P 9450 3550
 AR Path="/5DD55102/604067A2" Ref="#PWR?"  Part="1" 
@@ -6620,12 +6620,12 @@ Wire Wire Line
 Wire Wire Line
 	9300 2000 9600 2000
 $Comp
-L antmicroResistors0402:R_0R_0402 R78
+L SDI-bridge:R_0R_0402 R78
 U 1 1 605CF71A
 P 9150 2200
 F 0 "R78" H 8950 2250 60  0000 C CNN
 F 1 "R_0R_0402" H 9150 2050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9350 2400 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 9350 2400 60  0001 L CNN
 F 3 "" H 9150 2200 50  0001 C CNN
 F 4 "PANASONIC" H 9350 2600 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9350 2500 60  0001 L CNN "MPN"
@@ -6636,12 +6636,12 @@ $EndComp
 Wire Wire Line
 	8150 2200 9000 2200
 $Comp
-L antmicroResistors0402:R_0R_0402 R79
+L SDI-bridge:R_0R_0402 R79
 U 1 1 60665B73
 P 9150 2300
 F 0 "R79" H 8950 2350 60  0000 C CNN
 F 1 "R_0R_0402" H 9150 2150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9350 2500 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 9350 2500 60  0001 L CNN
 F 3 "" H 9150 2300 50  0001 C CNN
 F 4 "PANASONIC" H 9350 2700 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9350 2600 60  0001 L CNN "MPN"
@@ -6656,12 +6656,12 @@ Wire Wire Line
 Wire Wire Line
 	8150 2300 9000 2300
 $Comp
-L antmicroResistors0402:R_0R_0402 R84
+L SDI-bridge:R_0R_0402 R84
 U 1 1 6095BD97
 P 9150 3000
 F 0 "R84" H 8950 3050 60  0000 C CNN
 F 1 "R_0R_0402" H 9150 2850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9350 3200 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 9350 3200 60  0001 L CNN
 F 3 "" H 9150 3000 50  0001 C CNN
 F 4 "PANASONIC" H 9350 3400 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9350 3300 60  0001 L CNN "MPN"
@@ -6672,12 +6672,12 @@ $EndComp
 Wire Wire Line
 	8150 3000 9000 3000
 $Comp
-L antmicroResistors0402:R_0R_0402 R80
+L SDI-bridge:R_0R_0402 R80
 U 1 1 60B21A6B
 P 9150 2400
 F 0 "R80" H 8950 2450 60  0000 C CNN
 F 1 "R_0R_0402" H 9150 2250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9350 2600 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 9350 2600 60  0001 L CNN
 F 3 "" H 9150 2400 50  0001 C CNN
 F 4 "PANASONIC" H 9350 2800 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9350 2700 60  0001 L CNN "MPN"
@@ -6706,12 +6706,12 @@ Wire Wire Line
 	9600 2000 9600 1650
 Connection ~ 9600 2000
 $Comp
-L antmicroResistors0402:R_0R_0402 R86
+L SDI-bridge:R_0R_0402 R86
 U 1 1 60F51E9D
 P 9150 3200
 F 0 "R86" H 8950 3250 60  0000 C CNN
 F 1 "R_0R_0402" H 9150 3050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9350 3400 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 9350 3400 60  0001 L CNN
 F 3 "" H 9150 3200 50  0001 C CNN
 F 4 "PANASONIC" H 9350 3600 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9350 3500 60  0001 L CNN "MPN"
@@ -6720,12 +6720,12 @@ F 6 "0R" H 9300 3150 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R85
+L SDI-bridge:R_0R_0402 R85
 U 1 1 60F52D82
 P 9150 3100
 F 0 "R85" H 8950 3150 60  0000 C CNN
 F 1 "R_0R_0402" H 9150 2950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9350 3300 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 9350 3300 60  0001 L CNN
 F 3 "" H 9150 3100 50  0001 C CNN
 F 4 "PANASONIC" H 9350 3500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9350 3400 60  0001 L CNN "MPN"
@@ -6748,12 +6748,12 @@ Wire Wire Line
 	9600 3200 9600 3000
 Connection ~ 9600 3000
 $Comp
-L antmicroResistors0402:R_0R_0402 R82
+L SDI-bridge:R_0R_0402 R82
 U 1 1 611D75B1
 P 9150 2600
 F 0 "R82" H 8950 2650 60  0000 C CNN
 F 1 "R_0R_0402" H 9150 2450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9350 2800 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 9350 2800 60  0001 L CNN
 F 3 "" H 9150 2600 50  0001 C CNN
 F 4 "PANASONIC" H 9350 3000 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9350 2900 60  0001 L CNN "MPN"
@@ -6767,12 +6767,12 @@ Wire Wire Line
 	9300 2600 9600 2600
 Connection ~ 9600 2600
 $Comp
-L antmicroResistors0402:R_0R_0402 R87
+L SDI-bridge:R_0R_0402 R87
 U 1 1 61320331
 P 9150 3300
 F 0 "R87" H 8950 3350 60  0000 C CNN
 F 1 "R_0R_0402" H 9150 3150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9350 3500 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 9350 3500 60  0001 L CNN
 F 3 "" H 9150 3300 50  0001 C CNN
 F 4 "PANASONIC" H 9350 3700 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9350 3600 60  0001 L CNN "MPN"
@@ -6788,12 +6788,12 @@ Connection ~ 9600 3200
 Wire Wire Line
 	9300 3300 9600 3300
 $Comp
-L antmicroResistors0402:R_0R_0402 R81
+L SDI-bridge:R_0R_0402 R81
 U 1 1 616D5C65
 P 9150 2500
 F 0 "R81" H 8950 2550 60  0000 C CNN
 F 1 "R_0R_0402" H 9150 2350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9350 2700 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 9350 2700 60  0001 L CNN
 F 3 "" H 9150 2500 50  0001 C CNN
 F 4 "PANASONIC" H 9350 2900 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9350 2800 60  0001 L CNN "MPN"
@@ -6816,12 +6816,12 @@ Connection ~ 9600 2700
 Wire Wire Line
 	9600 2700 9600 2600
 $Comp
-L antmicroResistors0402:R_0R_0402 R83
+L SDI-bridge:R_0R_0402 R83
 U 1 1 619ED02D
 P 9150 2700
 F 0 "R83" H 8950 2750 60  0000 C CNN
 F 1 "R_0R_0402" H 9150 2550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9350 2900 60  0001 L CNN
+F 2 "SDI-bridge-footprints:0402-res" H 9350 2900 60  0001 L CNN
 F 3 "" H 9150 2700 50  0001 C CNN
 F 4 "PANASONIC" H 9350 3100 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9350 3000 60  0001 L CNN "MPN"
@@ -6832,45 +6832,45 @@ $EndComp
 Wire Wire Line
 	9300 2700 9600 2700
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP20
+L SDI-bridge:TP_SMD1MM TP20
 U 1 1 62A11C76
 P 1150 2200
 F 0 "TP20" V 1150 2050 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1150 2100 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1350 2400 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_1mm" H 1350 2400 60  0001 L CNN
 F 3 "" H 1350 2500 60  0001 L CNN
 	1    1150 2200
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP19
+L SDI-bridge:TP_SMD1MM TP19
 U 1 1 62A11C7C
 P 1150 2100
 F 0 "TP19" V 1150 1950 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1150 2000 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1350 2300 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_1mm" H 1350 2300 60  0001 L CNN
 F 3 "" H 1350 2400 60  0001 L CNN
 	1    1150 2100
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP22
+L SDI-bridge:TP_SMD1MM TP22
 U 1 1 62AB702C
 P 1150 2400
 F 0 "TP22" V 1150 2250 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1150 2300 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1350 2600 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_1mm" H 1350 2600 60  0001 L CNN
 F 3 "" H 1350 2700 60  0001 L CNN
 	1    1150 2400
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP21
+L SDI-bridge:TP_SMD1MM TP21
 U 1 1 62AB7032
 P 1150 2300
 F 0 "TP21" V 1150 2150 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1150 2200 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1350 2500 60  0001 L CNN
+F 2 "SDI-bridge-footprints:Testpoint_smd_1mm" H 1350 2500 60  0001 L CNN
 F 3 "" H 1350 2600 60  0001 L CNN
 	1    1150 2300
 	0    1    1    0   
@@ -6879,7 +6879,7 @@ Connection ~ 6900 12000
 Wire Wire Line
 	6900 12000 6900 11800
 $Comp
-L power:VDD #PWR0109
+L SDI-bridge:VDD #PWR0109
 U 1 1 5EE803BF
 P 2500 6200
 F 0 "#PWR0109" H 2500 6050 50  0001 C CNN
@@ -6891,7 +6891,7 @@ F 4 "CD_VDD" H 2517 6373 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR0110
+L SDI-bridge:VDD #PWR0110
 U 1 1 5EF21B4F
 P 6900 11800
 F 0 "#PWR0110" H 6900 11650 50  0001 C CNN
@@ -6915,7 +6915,7 @@ Wire Bus Line
 Wire Bus Line
 	4750 2850 4750 3750
 $Comp
-L power:GNDA #PWR?
+L SDI-bridge:GNDA #PWR?
 U 1 1 5EAA63F2
 P 9150 5750
 AR Path="/5DD55102/5EAA63F2" Ref="#PWR?"  Part="1" 
@@ -6928,7 +6928,7 @@ F 3 "" H 9150 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L SDI-bridge:GNDA #PWR?
 U 1 1 5EAA689F
 P 8100 6300
 AR Path="/5DD55102/5EAA689F" Ref="#PWR?"  Part="1" 
