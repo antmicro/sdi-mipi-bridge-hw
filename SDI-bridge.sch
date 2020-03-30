@@ -61,9 +61,9 @@ Wire Wire Line
 Wire Wire Line
 	10650 6500 10650 6250
 Text Label 11700 5350 2    50   ~ 0
-SDI
+SDI_P
 Text Label 11700 5750 2    50   ~ 0
-~SDI~
+SDI_N
 Wire Wire Line
 	10650 5750 10650 5950
 Wire Wire Line
@@ -251,9 +251,9 @@ Wire Wire Line
 Text Label 15000 12950 0    50   ~ 0
 AUDIO_MASTER_CLK
 Text Label 2750 6100 0    50   ~ 0
-~SDO~
+SDO_N
 Text Label 2750 6000 0    50   ~ 0
-SDO
+SDO_P
 Wire Notes Line
 	16000 4900 13950 4900
 $Bitmap
@@ -2425,9 +2425,9 @@ F 6 "22R" H 2050 2600 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 Text Label 1250 3550 0    50   ~ 0
-SDO
+SDO_P
 Text Label 1250 3650 0    50   ~ 0
-~SDO~
+SDO_N
 Wire Wire Line
 	2250 3550 1250 3550
 Wire Wire Line
@@ -2580,9 +2580,9 @@ F 3 "" H 10550 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5750 3400 0    50   ~ 0
-~SDI~
+SDI_N
 Text Label 5750 3300 0    50   ~ 0
-SDI
+SDI_P
 Wire Wire Line
 	6450 3400 5750 3400
 Wire Wire Line
@@ -6974,10 +6974,10 @@ Wire Wire Line
 Text Label 14950 9650 0    50   ~ 0
 LED_2
 $Comp
-L SDI-bridge:R_100R_0402 R?
+L SDI-bridge:R_100R_0402 R92
 U 1 1 5EDD71C4
 P 14750 6550
-F 0 "R?" H 14750 6650 60  0000 L CNN
+F 0 "R92" H 14750 6650 60  0000 L CNN
 F 1 "R_100R_0402" H 14750 6400 60  0001 C CNN
 F 2 "SDI-bridge-footprints:0402-res" H 14950 6750 60  0001 L CNN
 F 3 "" H 14750 6550 50  0001 C CNN
@@ -6988,10 +6988,10 @@ F 6 "100R" H 14650 6450 50  0000 L CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:LG_L29K-G2J1-24-Z D?
+L SDI-bridge:LG_L29K-G2J1-24-Z D3
 U 1 1 5EDD71CC
 P 15350 6550
-F 0 "D?" H 15350 6450 60  0000 R CNN
+F 0 "D3" H 15350 6450 60  0000 R CNN
 F 1 "LG_L29K-G2J1-24-Z" H 15650 6800 60  0000 R CNN
 F 2 "SDI-bridge-footprints:LED_0603" H 15550 6750 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 15550 6850 60  0001 L CNN
@@ -7011,8 +7011,8 @@ L SDI-bridge:GNDA #PWR?
 U 1 1 5EDD71D5
 P 15850 6650
 AR Path="/5DD55102/5EDD71D5" Ref="#PWR?"  Part="1" 
-AR Path="/5EDD71D5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 15850 6400 50  0001 C CNN
+AR Path="/5EDD71D5" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 15850 6400 50  0001 C CNN
 F 1 "GNDA" H 15855 6477 50  0000 C CNN
 F 2 "" H 15850 6650 50  0001 C CNN
 F 3 "" H 15850 6650 50  0001 C CNN
@@ -7024,10 +7024,10 @@ LED_1
 Wire Wire Line
 	14050 6550 14600 6550
 $Comp
-L SDI-bridge:R_100R_0402 R?
+L SDI-bridge:R_100R_0402 R93
 U 1 1 5EE8527F
 P 14750 7100
-F 0 "R?" H 14750 7200 60  0000 L CNN
+F 0 "R93" H 14750 7200 60  0000 L CNN
 F 1 "R_100R_0402" H 14750 6950 60  0001 C CNN
 F 2 "SDI-bridge-footprints:0402-res" H 14950 7300 60  0001 L CNN
 F 3 "" H 14750 7100 50  0001 C CNN
@@ -7038,10 +7038,10 @@ F 6 "100R" H 14650 7000 50  0000 L CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:LG_L29K-G2J1-24-Z D?
+L SDI-bridge:LG_L29K-G2J1-24-Z D4
 U 1 1 5EE85287
 P 15350 7100
-F 0 "D?" H 15350 7000 60  0000 R CNN
+F 0 "D4" H 15350 7000 60  0000 R CNN
 F 1 "LG_L29K-G2J1-24-Z" H 15650 7350 60  0000 R CNN
 F 2 "SDI-bridge-footprints:LED_0603" H 15550 7300 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 15550 7400 60  0001 L CNN
@@ -7061,8 +7061,8 @@ L SDI-bridge:GNDA #PWR?
 U 1 1 5EE85290
 P 15850 7200
 AR Path="/5DD55102/5EE85290" Ref="#PWR?"  Part="1" 
-AR Path="/5EE85290" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 15850 6950 50  0001 C CNN
+AR Path="/5EE85290" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 15850 6950 50  0001 C CNN
 F 1 "GNDA" H 15855 7027 50  0000 C CNN
 F 2 "" H 15850 7200 50  0001 C CNN
 F 3 "" H 15850 7200 50  0001 C CNN
