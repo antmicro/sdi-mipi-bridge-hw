@@ -4,11 +4,11 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "SDI Bridge"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Rev "1.1.0"
+Comp "Antmicro Ltd."
+Comment1 "Jakub Krzyska"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -6541,7 +6541,7 @@ Place close to GS2971A
 Text Notes 900  950  0    118  ~ 24
 GS2971A
 Text Notes 16850 8000 0    118  ~ 24
-Cross Link
+CrossLink
 Text Notes 19300 5100 0    79   ~ 16
 I2C pull-ups
 Wire Wire Line
