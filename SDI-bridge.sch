@@ -4,12 +4,12 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
-Title "SDI Bridge"
+Title "SDI-MIPI Bridge"
 Date ""
 Rev "1.1.0"
-Comp "Antmicro Ltd."
-Comment1 "Jakub Krzyska"
-Comment2 ""
+Comp ""
+Comment1 "www.antmicro.com"
+Comment2 "Antmicro Ltd."
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -207,7 +207,7 @@ Connection ~ 10500 6500
 Wire Wire Line
 	10500 6500 10650 6500
 Text Notes 8900 4700 0    79   ~ 16
-SDI input signal
+SDI input
 Wire Wire Line
 	9150 5550 9150 5750
 Wire Wire Line
@@ -1931,7 +1931,7 @@ Wire Wire Line
 Wire Wire Line
 	12800 6550 12800 6700
 Text Notes 12450 4700 0    59   ~ 12
-Place close to GS2971A
+Filtering
 Wire Wire Line
 	15050 4450 15900 4450
 Wire Wire Line
@@ -3294,7 +3294,7 @@ Wire Wire Line
 Wire Notes Line
 	450  4450 13950 4450
 Wire Notes Line
-	2550 4750 2550 7450
+	2550 4450 2550 7450
 Wire Wire Line
 	3950 3550 3550 3550
 Wire Wire Line
@@ -3344,7 +3344,7 @@ LED INDICATORS
 Wire Notes Line
 	11800 4450 11800 16050
 Text Notes 500  6950 0    79   ~ 16
-Logo
+Logotypes
 Wire Wire Line
 	3200 6100 4050 6100
 Wire Wire Line
@@ -3686,7 +3686,7 @@ Wire Wire Line
 Text Label 22400 4250 2    50   ~ 0
 AUDIO_OUTPUT_CH7_8
 Text Notes 2750 4650 0    79   ~ 16
-SDO\n
+SDI output
 Wire Wire Line
 	3500 6200 4050 6200
 Wire Wire Line
@@ -6539,11 +6539,11 @@ $EndComp
 Text Notes 14100 750  0    79   ~ 16
 Place close to GS2971A
 Text Notes 900  950  0    118  ~ 24
-GS2971A
+SDI deserializer
 Text Notes 16850 8000 0    118  ~ 24
-CrossLink
+CrossLink MIPI transmitter
 Text Notes 19300 5100 0    79   ~ 16
-I2C pull-ups
+Pull-up resistors
 Wire Wire Line
 	9900 13700 10300 13700
 Wire Wire Line
@@ -7303,9 +7303,9 @@ $EndComp
 Wire Wire Line
 	17950 9650 18000 9650
 Text Notes 500  4650 0    79   ~ 16
-CrossLink programming connector
+Programming interace
 Text Notes 14050 5450 0    79   ~ 16
-RESET_Switch
+RESET
 $Comp
 L SDI-bridge:GNDREF #PWR?
 U 1 1 5F3163ED
@@ -7359,7 +7359,7 @@ F 3 "" H 13900 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 12100 12450 0    79   ~ 16
-Conf DIP Switches
+Configuration DIP Switches
 Wire Notes Line
 	15350 16050 15350 7450
 Wire Notes Line
