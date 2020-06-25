@@ -3594,10 +3594,12 @@ $Comp
 L sdi-mipi-bridge:CrossLink_LIF-MD6000-6JMG80I U4
 U 1 1 5EA86705
 P 18000 9250
-F 0 "U4" H 18250 9600 60  0000 C CNN
-F 1 "CrossLink_LIF-MD6000-6JMG80I" H 21200 4800 60  0000 C CNN
+F 0 "U4" H 18225 9825 60  0000 C CNN
+F 1 "CrossLink_LIF-MD6000-6JMG80I" H 21200 4800 60  0001 C CNN
 F 2 "sdi-mipi-bridge-footprints:BGA-80pin_ckfBGA80_7.0x7.0mm" H 18150 9675 60  0001 R CNN
-F 3 "" H 18150 9475 60  0001 R CNN
+F 3 "http://www.latticesemi.com/view_document?document_id=51662" H 18150 9475 60  0001 R CNN
+F 4 "LIF-MD6000-6JMG80I" H 18600 9625 50  0000 C CNN "MPN"
+F 5 "Lattice Semiconductor" H 18600 9725 50  0000 C CNN "Manufacurer"
 	1    18000 9250
 	1    0    0    -1  
 $EndComp
@@ -5762,9 +5764,11 @@ L sdi-mipi-bridge:GS2988 U3
 U 1 1 5EB83E37
 P 3900 5900
 F 0 "U3" H 4250 6250 60  0000 L CNN
-F 1 "GS2988" H 5100 5150 60  0000 L CNN
+F 1 "GS2988" H 5100 5150 60  0001 L CNN
 F 2 "sdi-mipi-bridge-footprints:QFN-16_EP_4x4_Pitch0.65mm" H 4050 5950 60  0001 R CNN
-F 3 "" H 4050 5750 60  0001 R CNN
+F 3 "https://semtech.my.salesforce.com/sfc/p/E0000000JelG/a/44000000MDIY/URmNPYk6YrvngFjCh2n.ZRVsjLb90QOH1YLezdH9vhM" H 4050 5750 60  0001 R CNN
+F 4 "GS2988-INTE3" H 5150 5100 50  0000 C CNN "MPN"
+F 5 "Semtech" H 5025 5200 50  0000 C CNN "Manufacturer"
 	1    3900 5900
 	1    0    0    -1  
 $EndComp
@@ -6160,7 +6164,7 @@ Wire Wire Line
 Connection ~ 17650 9050
 Wire Wire Line
 	17650 9050 18000 9050
-Text Notes 18000 8500 0    50   ~ 10
+Text Notes 17700 8700 0    50   ~ 10
 DNP
 Text GLabel 14850 13050 2    50   Input ~ 0
 IO_VDD
