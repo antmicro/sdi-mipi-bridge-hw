@@ -1,4 +1,4 @@
-(module BGA-80pin_ckfBGA80_7.0x7.0mm (layer F.Cu) (tedit 5E8DB09D)
+(module BGA-80pin_ckfBGA80_7.0x7.0mm (layer F.Cu) (tedit 5E8DB17D)
   (attr smd)
   (fp_text reference REF** (at -1.9 -4.55) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))

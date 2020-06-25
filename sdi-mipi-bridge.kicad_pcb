@@ -12,29 +12,29 @@
   (page A4)
   (layers
     (0 F.Cu signal)
-    (1 In1.Cu power)
-    (2 In2.Cu power)
-    (3 In3.Cu signal)
+    (1 In1.Cu power hide)
+    (2 In2.Cu power hide)
+    (3 In3.Cu signal hide)
     (4 In4.Cu signal)
-    (31 B.Cu signal)
-    (32 B.Adhes user)
-    (33 F.Adhes user)
-    (34 B.Paste user)
-    (35 F.Paste user)
-    (36 B.SilkS user)
-    (37 F.SilkS user)
-    (38 B.Mask user)
+    (31 B.Cu signal hide)
+    (32 B.Adhes user hide)
+    (33 F.Adhes user hide)
+    (34 B.Paste user hide)
+    (35 F.Paste user hide)
+    (36 B.SilkS user hide)
+    (37 F.SilkS user hide)
+    (38 B.Mask user hide)
     (39 F.Mask user)
-    (40 Dwgs.User user)
-    (41 Cmts.User user)
-    (42 Eco1.User user)
-    (43 Eco2.User user)
-    (44 Edge.Cuts user)
-    (45 Margin user)
-    (46 B.CrtYd user)
-    (47 F.CrtYd user)
-    (48 B.Fab user)
-    (49 F.Fab user)
+    (40 Dwgs.User user hide)
+    (41 Cmts.User user hide)
+    (42 Eco1.User user hide)
+    (43 Eco2.User user hide)
+    (44 Edge.Cuts user hide)
+    (45 Margin user hide)
+    (46 B.CrtYd user hide)
+    (47 F.CrtYd user hide)
+    (48 B.Fab user hide)
+    (49 F.Fab user hide)
   )
 
   (setup
@@ -536,7 +536,7 @@
     (diff_pair_gap 0.25)
   )
 
-  (module antmicro-footprints:oshw-logo (layer F.Cu) (tedit 5E4A93CD) (tstamp 5EC2A7EC)
+  (module sdi-mipi-bridge-footprints:oshw-logo (layer F.Cu) (tedit 5E4A93CD) (tstamp 5EC2A7EC)
     (at 110.53 99.89)
     (path /5ED060A3)
     (attr virtual)
@@ -1674,7 +1674,7 @@
       (xy -1.520547 2.559315)) (layer F.Mask) (width 0.01))
   )
 
-  (module SDI-bridge-footprints:BGA100_11x11mm locked (layer F.Cu) (tedit 5E42C56C) (tstamp 5E21D479)
+  (module sdi-mipi-bridge-footprints:BGA100_11x11mm locked (layer F.Cu) (tedit 5E42C56C) (tstamp 5E21D479)
     (at 121 115.4)
     (path /5DCEEB7C)
     (attr smd)
@@ -1918,7 +1918,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:BGA-80pin_ckfBGA80_7.0x7.0mm (layer F.Cu) (tedit 5E8DB09D) (tstamp 5E51B648)
+  (module sdi-mipi-bridge-footprints:BGA-80pin_ckfBGA80_7.0x7.0mm (layer F.Cu) (tedit 5E8DB09D) (tstamp 5E51B648)
     (at 145.57 115.89 270)
     (path /5EA86705)
     (attr smd)
@@ -2118,7 +2118,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E685750)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E685750)
     (at 121 113.4 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2152,7 +2152,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E222F9B)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E222F9B)
     (at 122.5 110.9 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2186,7 +2186,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E222FC5)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E222FC5)
     (at 121 117.4 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2220,7 +2220,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E222FEF)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E222FEF)
     (at 123.5 110.9 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2254,7 +2254,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5AC031)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5AC031)
     (at 120 115.4 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2288,7 +2288,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5C817E)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5C817E)
     (at 126.5 110.9 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2322,7 +2322,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5AE1F7)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5AE1F7)
     (at 122 115.4 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2356,7 +2356,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E223097)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E223097)
     (at 124.5 110.9 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2390,7 +2390,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5A721C)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5A721C)
     (at 118 110.9 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2424,7 +2424,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E2230EB)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E2230EB)
     (at 116.5 112.9 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2458,7 +2458,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5A7246)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5A7246)
     (at 119 110.9 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2492,7 +2492,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E22313F)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E22313F)
     (at 116.5 115.4 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2526,7 +2526,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5A7270)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5A7270)
     (at 117 110.9 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2560,7 +2560,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E223193)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E223193)
     (at 116.5 118.4 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2594,7 +2594,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5E81A7CD)
+  (module sdi-mipi-bridge-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5E81A7CD)
     (at 109.47 112.2 90)
     (path /5E68ABC3)
     (attr smd)
@@ -2629,7 +2629,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E81A6F0)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E81A6F0)
     (at 113.84 112.9 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2663,7 +2663,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E81A79E)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E81A79E)
     (at 113.83 113.9 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2697,7 +2697,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E8B473A)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E8B473A)
     (at 126.1 134.58)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2731,7 +2731,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5CCCEA)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5CCCEA)
     (at 134.1 134.08 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2765,7 +2765,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E8EDDC1)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E8EDDC1)
     (at 120.15 130.73)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2799,7 +2799,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E8EDDEB)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E8EDDEB)
     (at 123.47 130.73 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2833,7 +2833,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E8731AC)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E8731AC)
     (at 113.77 117.4)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2867,7 +2867,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E22331C)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E22331C)
     (at 116.5 106.4 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2901,7 +2901,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E58818D)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E58818D)
     (at 117.5 106.4 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2935,7 +2935,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E4E8222)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E4E8222)
     (at 126.1 133.58)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2969,7 +2969,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5CCD14)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5CCD14)
     (at 134.1 133.08 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3003,7 +3003,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E873176)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E873176)
     (at 113.77 116.4 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3037,7 +3037,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E4E8174)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E4E8174)
     (at 126.1 132.58)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3071,7 +3071,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5CCD3E)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5CCD3E)
     (at 134.1 132.08 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3105,7 +3105,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E939F94)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E939F94)
     (at 126.1 131.58)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3139,7 +3139,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5CCD68)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5CCD68)
     (at 134.1 131.08 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3173,7 +3173,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:BNC_Edge_Conn (layer F.Cu) (tedit 5DD29673) (tstamp 5E43BE4D)
+  (module sdi-mipi-bridge-footprints:BNC_Edge_Conn (layer F.Cu) (tedit 5DD29673) (tstamp 5E43BE4D)
     (at 99 107 270)
     (path /5E6EB73C)
     (fp_text reference J2 (at -7.27 -4.99) (layer F.SilkS)
@@ -3199,7 +3199,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E222BEA)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E222BEA)
     (at 116.75 124 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3233,7 +3233,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E222C14)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E222C14)
     (at 118.75 124 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3267,7 +3267,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E222C3E)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E222C3E)
     (at 117.75 124 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3301,7 +3301,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E266BF0)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E266BF0)
     (at 131 118.4 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3335,7 +3335,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E266C1A)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E266C1A)
     (at 131 117.4 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3369,7 +3369,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E266C44)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E266C44)
     (at 131 116.4 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3403,7 +3403,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E266DBE)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E266DBE)
     (at 131 115.4 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3437,7 +3437,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E266DE8)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E266DE8)
     (at 131 114.4 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3471,7 +3471,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E266D94)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E266D94)
     (at 131 113.4 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3505,7 +3505,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E266E90)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E266E90)
     (at 131 112.4 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3539,7 +3539,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E266E12)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E266E12)
     (at 131 111.4 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3573,7 +3573,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E266E3C)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E266E3C)
     (at 131 110.4 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3607,7 +3607,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E266EBA)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E266EBA)
     (at 131 109.4 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3641,7 +3641,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5E81A728)
+  (module sdi-mipi-bridge-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5E81A728)
     (at 111.44 112.2 90)
     (path /5E632AF3)
     (attr smd)
@@ -3676,7 +3676,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5E81A761)
+  (module sdi-mipi-bridge-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5E81A761)
     (at 113.36 110.99 90)
     (path /5E6329C6)
     (attr smd)
@@ -3711,7 +3711,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E223661)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E223661)
     (at 120 110.9 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3745,7 +3745,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E81A804)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E81A804)
     (at 112.85 114.95 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3779,7 +3779,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E223523)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E223523)
     (at 119.5 106.4 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3813,7 +3813,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E22368B)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E22368B)
     (at 118.5 106.4 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3847,7 +3847,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8BF31F)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8BF31F)
     (at 126.1 130.5 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3881,7 +3881,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B4966)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B4966)
     (at 126.1 135.6 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3915,7 +3915,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E2236FF)
+  (module sdi-mipi-bridge-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E2236FF)
     (at 122.5 105.8492 180)
     (path /5DE76AF8)
     (attr virtual)
@@ -3929,7 +3929,7 @@
       (net 24 /H_HSYNC))
   )
 
-  (module SDI-bridge-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E222E3B)
+  (module sdi-mipi-bridge-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E222E3B)
     (at 122.5 107.3492 180)
     (path /5DE77CA8)
     (attr virtual)
@@ -3943,7 +3943,7 @@
       (net 25 /V_VSYNC))
   )
 
-  (module SDI-bridge-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E222BB6)
+  (module sdi-mipi-bridge-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E222BB6)
     (at 122.435 123.6742 180)
     (path /5DF7F0E0)
     (attr virtual)
@@ -3957,7 +3957,7 @@
       (net 139 "Net-(TP17-Pad1)"))
   )
 
-  (module SDI-bridge-footprints:ABM7_OSC (layer F.Cu) (tedit 5DD262ED) (tstamp 5E8EDE18)
+  (module sdi-mipi-bridge-footprints:ABM7_OSC (layer F.Cu) (tedit 5DD262ED) (tstamp 5E8EDE18)
     (at 121.81 128.17)
     (path /5DF9B1CF)
     (attr smd)
@@ -3990,7 +3990,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E223604)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E223604)
     (at 125.5 110.9 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4024,7 +4024,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 5E6028AA)
+  (module sdi-mipi-bridge-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 5E6028AA)
     (at 128.7 133.23 270)
     (path /5E26B2E2)
     (attr smd)
@@ -4059,7 +4059,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E56194D)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E56194D)
     (at 131.8 132.93 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4093,7 +4093,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 5E4E33BE)
+  (module sdi-mipi-bridge-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 5E4E33BE)
     (at 130.5 133.23 270)
     (path /5E2677C8)
     (attr smd)
@@ -4128,7 +4128,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 5EC3E477)
+  (module sdi-mipi-bridge-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 5EC3E477)
     (at 129 104.4 90)
     (path /5EDB9796)
     (attr smd)
@@ -4170,7 +4170,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5EC3E441)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5EC3E441)
     (at 129 107.4 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4204,7 +4204,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E5CCD92)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E5CCD92)
     (at 134.1 135.08 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4238,7 +4238,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E5CCDBC)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E5CCDBC)
     (at 134.1 136.08)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4272,7 +4272,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 5E22376E)
+  (module sdi-mipi-bridge-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 5E22376E)
     (at 121.25 110.85 270)
     (path /5F7ED5C0)
     (attr smd)
@@ -4307,7 +4307,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E6018ED)
+  (module sdi-mipi-bridge-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E6018ED)
     (at 131.6108 135.99 90)
     (path /5E62A426)
     (attr virtual)
@@ -4321,7 +4321,7 @@
       (net 138 "Net-(TP6-Pad1)"))
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E927158)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E927158)
     (at 130.4 129.025)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4355,7 +4355,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5FB03A)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5FB03A)
     (at 109.75 134.25 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4389,7 +4389,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E434399)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E434399)
     (at 110.7 117.77)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4423,7 +4423,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E832906)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E832906)
     (at 106.95 122.81 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4457,7 +4457,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5FB064)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5FB064)
     (at 110.75 134.25 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4491,7 +4491,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E86B88A)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E86B88A)
     (at 106.28 119.52)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4525,7 +4525,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5FB08E)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5FB08E)
     (at 112.75 134.25 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4559,7 +4559,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E832BD7)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E832BD7)
     (at 105.54 122.81 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4593,7 +4593,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5FB0B8)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E5FB0B8)
     (at 113.75 134.25 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4627,7 +4627,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E832A14)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E832A14)
     (at 107.89 118.18)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4661,7 +4661,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E434411)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E434411)
     (at 145.47 109.515 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4695,7 +4695,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E51B5BF)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E51B5BF)
     (at 143.25 117.19 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4729,7 +4729,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E51B736)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E51B736)
     (at 143.25 114.75 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4763,7 +4763,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E502018)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E502018)
     (at 145.255 114.96)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4797,7 +4797,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E6310F8)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E6310F8)
     (at 145.335 118.275)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4831,7 +4831,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E51B820)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E51B820)
     (at 146.41 113.49)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4865,7 +4865,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E43446B)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E43446B)
     (at 142.11 112.23 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4899,7 +4899,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E51B895)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E51B895)
     (at 147.96 114.93 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4933,7 +4933,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E51B8EC)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E51B8EC)
     (at 146.4 112.46 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4967,7 +4967,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E51B865)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E51B865)
     (at 148.1 108.01 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5001,7 +5001,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E51B8C2)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E51B8C2)
     (at 147.97 116.91 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5035,7 +5035,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E4FEB2B)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E4FEB2B)
     (at 146.93 118.86 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5069,7 +5069,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E6836C6)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E6836C6)
     (at 147.96 118.87 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5103,7 +5103,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E4344D4)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E4344D4)
     (at 148.99 118.87 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5137,7 +5137,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E4344E3)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E4344E3)
     (at 148.95 112.94 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5171,7 +5171,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E4344F2)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E4344F2)
     (at 149.02 116.9 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5205,7 +5205,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E434501)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E434501)
     (at 142.14 116.28 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5239,7 +5239,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E434510)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5E434510)
     (at 141.14 116.28 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5273,7 +5273,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 5E684A7B)
+  (module sdi-mipi-bridge-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 5E684A7B)
     (at 144.09 112.99 180)
     (path /672B5165)
     (attr smd)
@@ -5308,7 +5308,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 5E43456C)
+  (module sdi-mipi-bridge-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 5E43456C)
     (at 147.51 109.74)
     (path /61404A05)
     (attr smd)
@@ -5343,7 +5343,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 5E434580)
+  (module sdi-mipi-bridge-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 5E434580)
     (at 141.94 118.54 90)
     (path /672B7B16)
     (attr smd)
@@ -5378,7 +5378,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:BNC_Edge_Conn (layer F.Cu) (tedit 5DD29673) (tstamp 5E43458B)
+  (module sdi-mipi-bridge-footprints:BNC_Edge_Conn (layer F.Cu) (tedit 5DD29673) (tstamp 5E43458B)
     (at 99 126 270)
     (path /5F029B06)
     (fp_text reference J1 (at 6.93 -4.99 180) (layer F.SilkS)
@@ -5404,7 +5404,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E5FB0E2)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E5FB0E2)
     (at 113.96 119.41 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5438,7 +5438,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5E876739)
+  (module sdi-mipi-bridge-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5E876739)
     (at 106.28 121.07 180)
     (path /5F029AE6)
     (attr smd)
@@ -5473,7 +5473,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5E8329B0)
+  (module sdi-mipi-bridge-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5E8329B0)
     (at 108.38 120.37 90)
     (path /5F4254DB)
     (attr smd)
@@ -5508,7 +5508,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5E876C92)
+  (module sdi-mipi-bridge-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5E876C92)
     (at 108.38 122.93 270)
     (path /5F17DA84)
     (attr smd)
@@ -5543,7 +5543,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5E83293B)
+  (module sdi-mipi-bridge-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5E83293B)
     (at 107.65 125.16 180)
     (path /5F7E8C35)
     (attr smd)
@@ -5578,7 +5578,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E935035)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E935035)
     (at 111.75 134.25 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5612,7 +5612,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E434A98)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E434A98)
     (at 148.98 114.94 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5646,7 +5646,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E434AA7)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E434AA7)
     (at 144.2875 109.515 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5680,7 +5680,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E434AB6)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E434AB6)
     (at 143.105 109.515 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5714,7 +5714,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:Testpoint_smd_0_75mm (layer B.Cu) (tedit 5E4A9375) (tstamp 5E445831)
+  (module sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm (layer B.Cu) (tedit 5E4A9375) (tstamp 5E445831)
     (at 130.9492 122.4 90)
     (path /67C7D0F7)
     (attr virtual)
@@ -5728,7 +5728,7 @@
       (net 40 /D0))
   )
 
-  (module SDI-bridge-footprints:Testpoint_smd_0_75mm (layer B.Cu) (tedit 5E4A9375) (tstamp 5E445836)
+  (module sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm (layer B.Cu) (tedit 5E4A9375) (tstamp 5E445836)
     (at 130.9492 121.4 90)
     (path /67C7F14A)
     (attr virtual)
@@ -5742,7 +5742,7 @@
       (net 41 /D1))
   )
 
-  (module SDI-bridge-footprints:Testpoint_smd_0_75mm (layer B.Cu) (tedit 5E4A9375) (tstamp 5E44583B)
+  (module sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm (layer B.Cu) (tedit 5E4A9375) (tstamp 5E44583B)
     (at 130.9492 120.4 90)
     (path /67C7F5D4)
     (attr virtual)
@@ -5756,7 +5756,7 @@
       (net 42 /D2))
   )
 
-  (module SDI-bridge-footprints:Testpoint_smd_0_75mm (layer B.Cu) (tedit 5E4A9375) (tstamp 5E445840)
+  (module sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm (layer B.Cu) (tedit 5E4A9375) (tstamp 5E445840)
     (at 130.9492 119.4 90)
     (path /67C7F928)
     (attr virtual)
@@ -5770,7 +5770,7 @@
       (net 43 /D3))
   )
 
-  (module SDI-bridge-footprints:Testpoint_smd_0_75mm (layer B.Cu) (tedit 5E4A9375) (tstamp 5E445845)
+  (module sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm (layer B.Cu) (tedit 5E4A9375) (tstamp 5E445845)
     (at 130.9492 118.4 90)
     (path /67C7FD0B)
     (attr virtual)
@@ -5784,7 +5784,7 @@
       (net 44 /D4))
   )
 
-  (module SDI-bridge-footprints:Testpoint_smd_0_75mm (layer B.Cu) (tedit 5E4A9375) (tstamp 5E44584A)
+  (module sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm (layer B.Cu) (tedit 5E4A9375) (tstamp 5E44584A)
     (at 130.9492 117.4 90)
     (path /67C8011A)
     (attr virtual)
@@ -5798,7 +5798,7 @@
       (net 45 /D5))
   )
 
-  (module SDI-bridge-footprints:Testpoint_smd_0_75mm (layer B.Cu) (tedit 5E4A9375) (tstamp 5E44584F)
+  (module sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm (layer B.Cu) (tedit 5E4A9375) (tstamp 5E44584F)
     (at 130.9492 116.4 90)
     (path /67C804C0)
     (attr virtual)
@@ -5812,7 +5812,7 @@
       (net 46 /D6))
   )
 
-  (module SDI-bridge-footprints:Testpoint_smd_0_75mm (layer B.Cu) (tedit 5E4A9375) (tstamp 5E445854)
+  (module sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm (layer B.Cu) (tedit 5E4A9375) (tstamp 5E445854)
     (at 130.9492 115.4 90)
     (path /67C808CB)
     (attr virtual)
@@ -5826,7 +5826,7 @@
       (net 47 /D7))
   )
 
-  (module SDI-bridge-footprints:Testpoint_smd_0_75mm (layer B.Cu) (tedit 5E4A9375) (tstamp 5E445859)
+  (module sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm (layer B.Cu) (tedit 5E4A9375) (tstamp 5E445859)
     (at 130.9492 114.4 90)
     (path /67C80D31)
     (attr virtual)
@@ -5840,7 +5840,7 @@
       (net 48 /D8))
   )
 
-  (module SDI-bridge-footprints:Testpoint_smd_0_75mm (layer B.Cu) (tedit 5E4A9375) (tstamp 5E44585E)
+  (module sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm (layer B.Cu) (tedit 5E4A9375) (tstamp 5E44585E)
     (at 130.9492 113.4 90)
     (path /67C81112)
     (attr virtual)
@@ -5854,7 +5854,7 @@
       (net 49 /D9))
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E89271A)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E89271A)
     (at 114.318 125.277 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5888,7 +5888,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8C02CD)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8C02CD)
     (at 130.4 127.9)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5922,7 +5922,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E6323F9)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E6323F9)
     (at 156.945 118.71)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5956,7 +5956,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E679B4A)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E679B4A)
     (at 156.945 117.71)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5990,7 +5990,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E63244D)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E63244D)
     (at 156.945 120.71)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6024,7 +6024,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E632477)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E632477)
     (at 156.945 119.71)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6058,7 +6058,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E6324A1)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E6324A1)
     (at 156.945 122.71)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6092,7 +6092,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E6324CB)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E6324CB)
     (at 156.945 121.71)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6126,7 +6126,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E6324F5)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E6324F5)
     (at 156.945 124.71)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6160,7 +6160,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E63251F)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E63251F)
     (at 156.945 123.71)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6194,7 +6194,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E6756F2)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E6756F2)
     (at 156.945 126.71)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6228,7 +6228,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E632573)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E632573)
     (at 156.945 125.71)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6262,7 +6262,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E6832E3)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E6832E3)
     (at 156.945 108.71 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6296,7 +6296,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E68328F)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E68328F)
     (at 156.945 107.71 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6330,7 +6330,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E6832B9)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E6832B9)
     (at 156.945 110.71 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6364,7 +6364,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E68330D)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E68330D)
     (at 156.945 109.71 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6398,7 +6398,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E683337)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E683337)
     (at 156.945 112.71 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6432,7 +6432,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E683361)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E683361)
     (at 156.945 111.71 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6466,7 +6466,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E68338B)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E68338B)
     (at 156.945 114.71 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6500,7 +6500,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E683265)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E683265)
     (at 156.945 113.71 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6534,7 +6534,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E6833B5)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E6833B5)
     (at 156.945 116.71 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6568,7 +6568,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E68323B)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E68323B)
     (at 156.945 115.71 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6602,7 +6602,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E51E38C)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E51E38C)
     (at 150.21 109.99)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6636,7 +6636,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:SC18IS602B (layer F.Cu) (tedit 5E469CDE) (tstamp 5E8B613A)
+  (module sdi-mipi-bridge-footprints:SC18IS602B (layer F.Cu) (tedit 5E469CDE) (tstamp 5E8B613A)
     (at 130.75 125.3 270)
     (path /5E4CEC44)
     (attr smd)
@@ -6694,7 +6694,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:PinHeader_1x4_P1.27mm_Drill.7mm (layer F.Cu) (tedit 5DC13C34) (tstamp 5E90FAE9)
+  (module sdi-mipi-bridge-footprints:PinHeader_1x4_P1.27mm_Drill.7mm (layer F.Cu) (tedit 5DC13C34) (tstamp 5E90FAE9)
     (at 117.35 102.25 90)
     (descr http://cnctech.us/pdfs/3220-XX-0100-00.pdf)
     (path /619696B6)
@@ -6738,7 +6738,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E502842)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E502842)
     (at 130 107.4 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6772,7 +6772,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E51AD72)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E51AD72)
     (at 156.945 113.7 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6806,7 +6806,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E51A982)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E51A982)
     (at 156.945 111.3 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6840,7 +6840,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E615B9C)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E615B9C)
     (at 156.945 112.5 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6874,7 +6874,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E51AA54)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E51AA54)
     (at 156.945 110.1 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6908,7 +6908,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E51AD9C)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E51AD9C)
     (at 156.945 108.9 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6942,7 +6942,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E51AB50)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E51AB50)
     (at 156.945 107.7 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6976,7 +6976,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:WE_68715014522_ONE-SIDE (layer F.Cu) (tedit 5E4E6E48) (tstamp 5E50E35A)
+  (module sdi-mipi-bridge-footprints:WE_68715014522_ONE-SIDE (layer F.Cu) (tedit 5E4E6E48) (tstamp 5E50E35A)
     (at 162 116.7 90)
     (path /6494FFEC)
     (attr smd)
@@ -7111,7 +7111,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E55B3E6)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E55B3E6)
     (at 144.995 105.465 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7145,7 +7145,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E55B3F5)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E55B3F5)
     (at 145.995 105.465 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7179,7 +7179,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:TDFN2x2 (layer F.Cu) (tedit 5E552A57) (tstamp 5E4E27A3)
+  (module sdi-mipi-bridge-footprints:TDFN2x2 (layer F.Cu) (tedit 5E552A57) (tstamp 5E4E27A3)
     (at 129.6 133.28)
     (path /5E245590)
     (fp_text reference U1 (at 0.17 -1.48 180) (layer F.SilkS)
@@ -7221,7 +7221,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E8992FD)
+  (module sdi-mipi-bridge-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5E8992FD)
     (at 109.91 124.6 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7255,7 +7255,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E835AF6)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E835AF6)
     (at 114.316 124.282 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7289,7 +7289,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8BF2F5)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8BF2F5)
     (at 133.645001 124.932)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7323,7 +7323,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8BF2CB)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8BF2CB)
     (at 133.645001 123.932)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7357,7 +7357,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8BF2A1)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8BF2A1)
     (at 133.645001 122.932 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7391,7 +7391,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 5E5EB921)
+  (module sdi-mipi-bridge-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 5E5EB921)
     (at 131 104.4 90)
     (path /5E603625)
     (attr smd)
@@ -7433,7 +7433,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E569C63)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E569C63)
     (at 131 107.4 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7467,7 +7467,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E5FCF7F)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E5FCF7F)
     (at 144.78 107.86 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7501,7 +7501,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E569C81)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E569C81)
     (at 147.925 112.925 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7535,7 +7535,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E569C90)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E569C90)
     (at 145.315 119.295)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7569,7 +7569,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:QFN-16_EP_4x4_Pitch0.65mm (layer F.Cu) (tedit 5E5CCA15) (tstamp 5E82C653)
+  (module sdi-mipi-bridge-footprints:QFN-16_EP_4x4_Pitch0.65mm (layer F.Cu) (tedit 5E5CCA15) (tstamp 5E82C653)
     (at 111.935 120.925 180)
     (path /5EB83E37)
     (attr smd)
@@ -7636,7 +7636,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E5F7B18)
+  (module sdi-mipi-bridge-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E5F7B18)
     (at 122.5125 97.0398)
     (path /62A11C7C)
     (attr virtual)
@@ -7650,7 +7650,7 @@
       (net 29 /F_DE))
   )
 
-  (module SDI-bridge-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E5F7B1D)
+  (module sdi-mipi-bridge-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E5F7B1D)
     (at 124.329 97.0398)
     (path /62A11C76)
     (attr virtual)
@@ -7664,7 +7664,7 @@
       (net 30 /LOCKED))
   )
 
-  (module SDI-bridge-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E5F7B22)
+  (module sdi-mipi-bridge-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E5F7B22)
     (at 120.696 97.0398)
     (path /62AB7032)
     (attr virtual)
@@ -7678,7 +7678,7 @@
       (net 31 /Y_1ANC))
   )
 
-  (module SDI-bridge-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 5EC3D869)
+  (module sdi-mipi-bridge-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 5EC3D869)
     (at 127 104.4 90)
     (path /5EE85287)
     (attr smd)
@@ -7720,7 +7720,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5EC3D833)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5EC3D833)
     (at 127 107.4 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7754,7 +7754,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E82C6D8)
+  (module sdi-mipi-bridge-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5E82C6D8)
     (at 111.61 124.19 180)
     (path /5EFD5B26)
     (attr virtual)
@@ -7768,7 +7768,7 @@
       (net 126 "Net-(TP18-Pad1)"))
   )
 
-  (module SDI-bridge-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 5E8B0126)
+  (module sdi-mipi-bridge-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 5E8B0126)
     (at 133 104.4 90)
     (path /5FD0CB9E)
     (attr smd)
@@ -7810,7 +7810,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0A64)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0A64)
     (at 133.5 107.16)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7844,7 +7844,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0A73)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0A73)
     (at 142.5 123 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7878,7 +7878,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0A82)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0A82)
     (at 137.5 123 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7912,7 +7912,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0AAD)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0AAD)
     (at 141.5 123 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7946,7 +7946,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0B64)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0B64)
     (at 147.5 123 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7980,7 +7980,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E914CD3)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E914CD3)
     (at 140.5 123 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8014,7 +8014,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E914DEC)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E914DEC)
     (at 146.5 123 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8048,7 +8048,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0B91)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0B91)
     (at 139.5 123 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8082,7 +8082,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0BA0)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0BA0)
     (at 145.5 123 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8116,7 +8116,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0BAF)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0BAF)
     (at 138.5 123 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8150,7 +8150,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0BBE)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0BBE)
     (at 144.5 123 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8184,7 +8184,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E90F252)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E90F252)
     (at 136.5 123 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8218,7 +8218,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0BDC)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0BDC)
     (at 143.5 123 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8252,7 +8252,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0BEB)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0BEB)
     (at 148.5 123 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8286,7 +8286,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0BFA)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0BFA)
     (at 152.8 106.4)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8320,7 +8320,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0C09)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0C09)
     (at 152.8 107.6)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8354,7 +8354,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0C18)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0C18)
     (at 152.8 108.8)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8388,7 +8388,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0CCF)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E8B0CCF)
     (at 152.8 110)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8422,7 +8422,7 @@
     )
   )
 
-  (module antmicro-footprints:SW_SPST_6_Slide_MCDHN-06F-T-V_P1.27mm (layer F.Cu) (tedit 5E8758A6) (tstamp 5E8B0D41)
+  (module sdi-mipi-bridge-footprints:SW_SPST_6_Slide_MCDHN-06F-T-V_P1.27mm (layer F.Cu) (tedit 5E8758A6) (tstamp 5E8B0D41)
     (at 141.8 132.6 90)
     (tags "SMD DIP Switch SPST Slide 1.27mm")
     (path /60F1A1CF)
@@ -8542,7 +8542,7 @@
     )
   )
 
-  (module antmicro-footprints:SW_SPST_6_Slide_MCDHN-06F-T-V_P1.27mm (layer F.Cu) (tedit 5E8758A6) (tstamp 5E8B0D9B)
+  (module sdi-mipi-bridge-footprints:SW_SPST_6_Slide_MCDHN-06F-T-V_P1.27mm (layer F.Cu) (tedit 5E8758A6) (tstamp 5E8B0D9B)
     (at 151.6 132.6 90)
     (tags "SMD DIP Switch SPST Slide 1.27mm")
     (path /60F2F539)
@@ -8662,7 +8662,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E60A626)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E60A626)
     (at 135.6 131.58 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8696,7 +8696,7 @@
     )
   )
 
-  (module antmicro-footprints:Switch_Tactile_SMD_B3U-1000P (layer F.Cu) (tedit 5E8B1C8F) (tstamp 5E8B0CE7)
+  (module sdi-mipi-bridge-footprints:Switch_Tactile_SMD_B3U-1000P (layer F.Cu) (tedit 5E8B1C8F) (tstamp 5E8B0CE7)
     (at 159 133 270)
     (path /5F00FBA4)
     (attr smd)
@@ -8737,7 +8737,7 @@
     )
   )
 
-  (module antmicro-footprints:PinHeader_2x05_P1.27mm_Vertical (layer F.Cu) (tedit 5E8B3087) (tstamp 5E8FF5AB)
+  (module sdi-mipi-bridge-footprints:PinHeader_2x05_P1.27mm_Vertical (layer F.Cu) (tedit 5E8B3087) (tstamp 5E8FF5AB)
     (at 121.88 133.94 270)
     (descr "Through hole straight pin header, 2x05, 1.27mm pitch, double rows")
     (tags "Through hole pin header THT 2x05 1.27mm double row")
@@ -8800,7 +8800,7 @@
     )
   )
 
-  (module antmicro-footprints:PinHeader_2x05_P1.27mm_Vertical (layer F.Cu) (tedit 5E8B3087) (tstamp 5E916EAC)
+  (module sdi-mipi-bridge-footprints:PinHeader_2x05_P1.27mm_Vertical (layer F.Cu) (tedit 5E8B3087) (tstamp 5E916EAC)
     (at 158.5 102.75 180)
     (descr "Through hole straight pin header, 2x05, 1.27mm pitch, double rows")
     (tags "Through hole pin header THT 2x05 1.27mm double row")
@@ -8863,7 +8863,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E923D81)
+  (module sdi-mipi-bridge-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5E923D81)
     (at 141.855 109.515 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8897,7 +8897,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E91797C)
+  (module sdi-mipi-bridge-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5E91797C)
     (at 142.16 110.97 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -8931,7 +8931,7 @@
     )
   )
 
-  (module SDI-bridge-footprints:antmicro-logo_scaled_20mm (layer F.Cu) (tedit 5E4A93FA) (tstamp 5E385EE1)
+  (module sdi-mipi-bridge-footprints:antmicro-logo_scaled_20mm (layer F.Cu) (tedit 5E4A93FA) (tstamp 5E385EE1)
     (at 144.18 99.67)
     (path /5FE7A74E)
     (attr virtual)
@@ -9728,13 +9728,13 @@
   (gr_text "Rev.1.1.0 05/2020" (at 145.5234 103.6068) (layer F.Mask) (tstamp 5E385EC8)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
-  (gr_text "SDI Bridge" (at 144.49 102.1) (layer F.Mask) (tstamp 5E385FBB)
+  (gr_text "SDI-MIPI Bridge" (at 146.575 102.175) (layer F.Mask) (tstamp 5E385FBB)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_text "Rev.1.1.0 05/2020" (at 145.5234 103.6068) (layer F.Cu) (tstamp 5E385FB8)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
-  (gr_text "SDI Bridge" (at 144.49 102.1) (layer F.Cu) (tstamp 5E385EC5)
+  (gr_text "SDI-MIPI Bridge" (at 146.575 102.175) (layer F.Cu) (tstamp 5E385EC5)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_line (start 168 95.5) (end 168 137.5) (layer Edge.Cuts) (width 0.05) (tstamp 5E222D3F))
@@ -15472,7 +15472,7 @@
     (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 150 104) (xy 140.5 104) (xy 140.5 101.4) (xy 150 101.4)
+        (xy 153.075 104) (xy 140.5 104) (xy 140.5 101.4) (xy 153.075 101.4)
       )
     )
   )
@@ -15487,7 +15487,7 @@
       )
     )
   )
-  (zone (net 0) (net_name "") (layers F.Cu In1.Cu In2.Cu In3.Cu In4.Cu B.Cu) (tstamp 5E5FDF26) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layers F.Cu In1.Cu In2.Cu In3.Cu In4.Cu B.Cu) (tstamp 5EF43A21) (hatch edge 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.254)
     (keepout (tracks allowed) (vias not_allowed) (copperpour allowed))

@@ -31,11 +31,11 @@ X +3.3VA 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# +3.3V_0
+# +3V3
 #
-DEF +3.3V_0 #PWR 0 0 Y Y 1 F P
+DEF +3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+3.3V_0" 0 140 50 H V C CNN
+F1 "+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -52,7 +52,7 @@ ENDDEF
 DEF 031-70526-21 J 0 40 Y N 1 F N
 F0 "J" 10 120 50 H V C CNN
 F1 "031-70526-21" 115 0 50 V V C CNN
-F2 "SDI-bridge-footprints:BNC_Edge_Conn" -240 -830 50 H I C CNN
+F2 "sdi-mipi-bridge-footprints:BNC_Edge_Conn" -240 -830 50 H I C CNN
 F3 "https://www.farnell.com/cad/2305565.pdf?_ga=2.190633003.1014497200.1574067480-156563690.1566371002&_gac=1.57062104.1572875319.Cj0KCQiAtf_tBRDtARIsAIbAKe0A1M5y_jdFCiNLNrHM5L2GjmDvn_4qnRvhHAD9jBdL9AmoMNThLCoaAjhJEALw_wcB" -140 -730 50 H I C CNN
 F4 "031-70526-21" -40 -630 51 H I C CNN "MPN"
 F5 "Amphenol" 60 -530 51 H I C CNN "Manufacturer"
@@ -74,12 +74,49 @@ X Ext 2 -200 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 2199SB-10G-301523
+#
+DEF 2199SB-10G-301523 J 0 40 Y N 1 F N
+F0 "J" 50 300 50 H V C CNN
+F1 "2199SB-10G-301523" 50 -300 50 H V C CNN
+F2 "sdi-mipi-bridge-footprints:PinHeader_2x05_P1.27mm_Vertical" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "2199SB-10G-301523" 0 0 50 H I C CNN "MPN"
+F5 "MULTICOMP PRO" 0 0 50 H I C CNN "Manufacturer"
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 150 -250 1 1 10 f
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+S 150 205 100 195 1 1 6 N
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_10 10 300 -200 150 L 50 50 1 1 P
+X Pin_2 2 300 200 150 L 50 50 1 1 P
+X Pin_3 3 -200 100 150 R 50 50 1 1 P
+X Pin_4 4 300 100 150 L 50 50 1 1 P
+X Pin_5 5 -200 0 150 R 50 50 1 1 P
+X Pin_6 6 300 0 150 L 50 50 1 1 P
+X Pin_7 7 -200 -100 150 R 50 50 1 1 P
+X Pin_8 8 300 -100 150 L 50 50 1 1 P
+X Pin_9 9 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # ABM7_27.000MH_D2Y_T
 #
 DEF ABM7_27.000MH_D2Y_T Y 0 40 Y Y 1 F N
 F0 "Y" -50 100 31 H V C CNN
 F1 "ABM7_27.000MH_D2Y_T" 300 -100 31 H V C CNN
-F2 "SDI-bridge-footprints:ABM7_OSC" 2100 0 50 H I C CNN
+F2 "sdi-mipi-bridge-footprints:ABM7_OSC" 2100 0 50 H I C CNN
 F3 "http://www.farnell.com/datasheets/947971.pdf?_ga=2.27685436.1014497200.1574067480-156563690.1566371002&_gac=1.52917722.1572875319.Cj0KCQiAtf_tBRDtARIsAIbAKe0A1M5y_jdFCiNLNrHM5L2GjmDvn_4qnRvhHAD9jBdL9AmoMNThLCoaAjhJEALw_wcB" 2200 100 50 H I C CNN
 F4 "ABM7-27.000MHZ-D2Y-T" 475 -275 31 H V C CNN "MPN"
 F5 "Abracon" 300 -225 31 H V C CNN "Manufacturer"
@@ -92,12 +129,34 @@ X ~ 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# B3U-1000P
+#
+DEF B3U-1000P S 0 40 Y Y 1 F N
+F0 "S" 0 160 60 H V C CNN
+F1 "B3U-1000P" 0 -100 60 H V C CNN
+F2 "sdi-mipi-bridge-footprints:Switch_Tactile_SMD_B3U-1000P" 200 200 60 H I L CNN
+F3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" 200 300 60 H I L CNN
+F4 "B3U-1000P" 200 500 60 H I L CNN "MPN"
+F5 "Omron Electronics Inc-EMC Div" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+C -60 0 10 0 1 0 N
+C 60 0 10 0 1 0 N
+P 2 0 1 0 -100 0 -70 0 N
+P 2 0 1 0 -70 50 70 50 N
+P 2 0 1 0 -40 110 40 110 N
+P 2 0 1 0 0 50 0 110 N
+P 2 0 1 0 100 0 70 0 N
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # BLM18PG121SN1D
 #
 DEF BLM18PG121SN1D FB 0 40 Y Y 1 F N
 F0 "FB" -150 150 60 H V C CNN
 F1 "BLM18PG121SN1D" 0 -150 60 H V L CNN
-F2 "SDI-bridge-footprints:0603" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0603" 200 200 60 H I L CNN
 F3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" 200 300 60 H I L CNN
 F4 "BLM18PG121SN1D" 200 500 60 H I L CNN "MPN"
 F5 "Murata Electronics North America" 200 1100 60 H I L CNN "Manufacturer"
@@ -115,7 +174,7 @@ ENDDEF
 DEF C_100n_0402_6V3 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_100n_0402_6V3" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0402-cap" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Walsin" 200 400 60 H I L CNN "Manufacturer"
 F5 "0402X104K6R3CT" 200 300 60 H I L CNN "MPN"
@@ -133,7 +192,7 @@ ENDDEF
 DEF C_10n_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_10n_0402" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0402-cap" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "AVX" 200 400 60 H I L CNN "Manufacturer"
 F5 "04025G103ZAT2A" 200 300 60 H I L CNN "MPN"
@@ -151,7 +210,7 @@ ENDDEF
 DEF C_10u_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_10u_0603" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0603-cap" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0603-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "AVX" 200 400 60 H I L CNN "Manufacturer"
 F5 "06036D106MAT2A" 200 300 60 H I L CNN "MPN"
@@ -169,7 +228,7 @@ ENDDEF
 DEF C_16p_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_16p_0402" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0402-res" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Walsin" 200 400 60 H I L CNN "Manufacturer"
 F5 "0402N160J500CT" 200 300 60 H I L CNN "MPN"
@@ -187,7 +246,7 @@ ENDDEF
 DEF C_1u_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_1u_0402" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0402-cap" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
 F5 "C1005X6S1A105K050BC" 200 300 60 H I L CNN "MPN"
@@ -205,7 +264,7 @@ ENDDEF
 DEF C_2n2_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_2n2_0402" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0402-cap" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "KEMET" 200 400 60 H I L CNN "Manufacturer"
 F5 "CGA9N3X7R1C476M230KB" 200 300 60 H I L CNN "MPN"
@@ -223,7 +282,7 @@ ENDDEF
 DEF C_2u2_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_2u2_0402" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0402-cap" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
 F5 "C1005X5R1A225K050BC" 200 300 60 H I L CNN "MPN"
@@ -241,7 +300,7 @@ ENDDEF
 DEF C_33u_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_33u_0603" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0603" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0603" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Avx" 200 400 60 H I L CNN "Manufacturer"
 F5 "F980G336MMA" 200 300 60 H I L CNN "MPN"
@@ -264,7 +323,7 @@ ENDDEF
 DEF C_470n_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_470n_0402" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0402-cap" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
 F5 "C1005X5R1E474M050BB" 200 300 60 H I L CNN "MPN"
@@ -282,7 +341,7 @@ ENDDEF
 DEF C_47n_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_47n_0402" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0402-cap" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
 F5 "MC0402X473K160CT" 200 300 60 H I L CNN "MPN"
@@ -300,7 +359,7 @@ ENDDEF
 DEF C_4u7_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_4u7_0402" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0402-cap" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MURATA" 200 400 60 H I L CNN "Manufacturer"
 F5 "GRM155R61A475MEAAD" 200 300 60 H I L CNN "MPN"
@@ -318,7 +377,7 @@ ENDDEF
 DEF C_5n6_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_5n6_0402" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0402-res" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Multicomp" 200 400 60 H I L CNN "Manufacturer"
 F5 "MC0402B562K160CT" 200 300 60 H I L CNN "MPN"
@@ -336,7 +395,7 @@ ENDDEF
 DEF C_6n2_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_6n2_0603" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0603-res" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0603-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Kemet" 200 400 60 H I L CNN "Manufacturer"
 F5 "C0603C622J5GACAUTO" 200 300 60 H I L CNN "MPN"
@@ -354,7 +413,7 @@ ENDDEF
 DEF CrossLink_LIF-MD6000-6JMG80I U 0 40 Y Y 1 F N
 F0 "U" 250 850 60 H V R CNN
 F1 "CrossLink_LIF-MD6000-6JMG80I" 2150 -5175 60 H V R CNN
-F2 "SDI-bridge-footprints:BGA-80pin_ckfBGA80_7.0x7.0mm" 150 425 60 H I R CNN
+F2 "sdi-mipi-bridge-footprints:BGA-80pin_ckfBGA80_7.0x7.0mm" 150 425 60 H I R CNN
 F3 "" 150 225 60 H I R CNN
 DRAW
 T 900 1725 -1525 50 0 0 0 DPHY0 Normal 0 C C
@@ -485,7 +544,7 @@ ENDDEF
 DEF GS2971A U 0 40 Y Y 3 L N
 F0 "U" 200 250 60 H V L CNN
 F1 "GS2971A" 200 150 60 H V L CNN
-F2 "SDI-bridge-footprints:BGA100_11x11mm" 200 50 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:BGA100_11x11mm" 200 50 60 H I L CNN
 F3 "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/44000000MD3i/kpmMkrmUWgHlbCOwdLzVohMm1SDPoVH85guEGK.KXTc" 200 -1750 60 H I L CNN
 F4 "GS2971A" 300 350 50 H V C CNN "MPN"
 F5 "Semtech" 300 450 50 H V C CNN "Manufacturer"
@@ -601,7 +660,7 @@ ENDDEF
 DEF GS2988 U 0 40 Y Y 1 F N
 F0 "U" 400 375 60 H V R CNN
 F1 "GS2988" 1125 -175 60 H V R CNN
-F2 "SDI-bridge-footprints:QFN-16_EP_4x4_Pitch0.65mm" 300 -50 60 H I R CNN
+F2 "sdi-mipi-bridge-footprints:QFN-16_EP_4x4_Pitch0.65mm" 300 -50 60 H I R CNN
 F3 "" 300 -250 60 H I R CNN
 DRAW
 S 350 300 1500 -650 1 1 12 f
@@ -630,7 +689,7 @@ ENDDEF
 DEF LG_L29K-G2J1-24-Z D 0 0 Y Y 1 F N
 F0 "D" -200 150 60 H V C CNN
 F1 "LG_L29K-G2J1-24-Z" 0 -150 60 H V C CNN
-F2 "SDI-bridge-footprints:LED_0603" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:LED_0603" 200 200 60 H I L CNN
 F3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" 200 300 60 H I L CNN
 F4 "LG L29K-G2J1-24-Z" 200 500 60 H I L CNN "MPN"
 F5 "OSRAM Opto Semiconductors Inc." 200 1100 60 H I L CNN "Manufacturer"
@@ -651,7 +710,7 @@ ENDDEF
 DEF MAX8902B U 0 40 Y Y 1 F N
 F0 "U" 50 300 50 H V C CNN
 F1 "MAX8902B" 200 -600 50 H V C CNN
-F2 "SDI-bridge-footprints:TDFN2x2" 1350 50 50 H I C CNN
+F2 "sdi-mipi-bridge-footprints:TDFN2x2" 1350 50 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MAX8902B" 200 -750 50 H V C CNN "MPN"
 F5 "Maxim integrated" 200 -850 50 H V C CNN "Manufacturer"
@@ -674,7 +733,7 @@ ENDDEF
 DEF MC-HVT1-S04-G J 0 40 Y Y 1 F N
 F0 "J" -200 100 50 H V L CNN
 F1 "MC-HVT1-S04-G" 100 -100 50 H V C CNN
-F2 "SDI-bridge-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" 200 300 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" 200 300 60 H I L CNN
 F3 "" 200 400 60 H I L CNN
 F4 "MC-HVT1-S04-G" 200 500 60 H I L CNN "MPN"
 F5 "Multicomp" 200 600 60 H I L CNN "Manufacturer"
@@ -696,7 +755,7 @@ ENDDEF
 DEF R_0R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_0R_0402" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0402-res" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
 F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"
@@ -713,7 +772,7 @@ ENDDEF
 DEF R_100R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_100R_0402" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0402-res" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
 F5 "CR0402-FX-1000GLF" 200 300 60 H I L CNN "MPN"
@@ -730,7 +789,7 @@ ENDDEF
 DEF R_105R_0402 R 0 0 Y Y 1 F N
 F0 "R" -150 100 60 H V L CNN
 F1 "R_105R_0402" 50 -300 60 H I C CNN
-F2 "SDI-bridge-footprints:0402-res" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Multicomp" 200 400 60 H I L CNN "Manufacturer"
 F5 "MC00625W04021105R" 200 300 60 H I L CNN "MPN"
@@ -742,12 +801,29 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# R_10k_0402
+#
+DEF R_10k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "R_10k_0402" 0 -150 60 H I C CNN
+F2 "sdi-mipi-bridge-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW040210K0FKEDHP" 200 300 60 H I L CNN "MPN"
+F6 "10k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # R_120k_0402
 #
 DEF R_120k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_120k_0402" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0402-res" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW0402120KFKED" 200 300 60 H I L CNN "MPN"
@@ -764,7 +840,7 @@ ENDDEF
 DEF R_22R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_22R_0402" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0402-res" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW040222R0FKED" 200 300 60 H I L CNN "MPN"
@@ -776,18 +852,35 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_2k37_0402
+# R_2k2_0402
 #
-DEF R_2k37_0402 R 0 0 Y Y 1 F N
+DEF R_2k2_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "R_2k37_0402" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0402-res" 200 200 60 H I L CNN
+F1 "R_2k2_0402" 0 -150 60 H I C CNN
+F2 "sdi-mipi-bridge-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "Vishay" 200 400 60 H I L CNN "Manufacturer"
-F5 "CRCW04022K37FKED" 200 300 60 H I L CNN "MPN"
-F6 "2k37" 0 -100 50 H V C CNN "Val"
+F4 "YAGEO" 200 400 60 H I L CNN "Manufacturer"
+F5 "RC0402FR-072K2L" 200 300 60 H I L CNN "MPN"
+F6 "2k2" 0 -100 50 H V C CNN "Val"
 DRAW
-S 100 -40 -100 40 1 1 10 f
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_30R_0402
+#
+DEF R_30R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "R_30R_0402" 0 -150 60 H I C CNN
+F2 "sdi-mipi-bridge-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Panasonic" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2GEJ300X" 200 300 60 H I L CNN "MPN"
+F6 "30R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
 X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
@@ -798,7 +891,7 @@ ENDDEF
 DEF R_37R4_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_37R4_0402" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0402-res" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Multicomp" 200 400 60 H I L CNN "Manufacturer"
 F5 "MCWR04X37R4FTL" 200 300 60 H I L CNN "MPN"
@@ -815,7 +908,7 @@ ENDDEF
 DEF R_4k7_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_4k7_0402" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0402-res" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "PANASONIC_ELECTRONIC_COMPONENTS" 200 400 60 H I L CNN "Manufacturer"
 F5 "ERJ2GEJ472X" 200 300 60 H I L CNN "MPN"
@@ -832,7 +925,7 @@ ENDDEF
 DEF R_750R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_750R_0402" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0402-res" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Yageo" 200 400 60 H I L CNN "Manufacturer"
 F5 "RC0402FR-07750RL" 200 300 60 H I L CNN "MPN"
@@ -849,7 +942,7 @@ ENDDEF
 DEF R_75R_0603 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_75R_0603" 0 -150 60 H I C CNN
-F2 "SDI-bridge-footprints:0603-res" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:0603-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
 F5 "MCWR06X75R0FTL" 200 300 60 H I L CNN "MPN"
@@ -866,7 +959,7 @@ ENDDEF
 DEF SC18IS602BIPW U 0 40 Y Y 1 F N
 F0 "U" 200 250 60 H V L CNN
 F1 "SC18IS602BIPW" 200 150 60 H V L CNN
-F2 "SDI-bridge-footprints:SC18IS602B" 200 50 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:SC18IS602B" 200 50 60 H I L CNN
 F3 "" 200 -150 60 H I L CNN
 DRAW
 S 200 100 1400 -800 1 1 12 f
@@ -889,12 +982,59 @@ X ~INT 9 1600 0 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
+# SW_DIP_x06
+#
+DEF SW_DIP_x06 SW 0 0 Y N 1 F N
+F0 "SW" 0 450 50 H V C CNN
+F1 "SW_DIP_x06" 0 -350 50 H V C CNN
+F2 "sdi-mipi-bridge-footprints:SW_SPST_6_Slide_MCDHN-06F-T-V_P1.27mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "MCDHN-06F-T-V" 0 0 50 H I C CNN "MPN"
+F5 "MULTICOMP PRO" 0 0 50 H I C CNN "Manufacturer"
+$FPLIST
+ SW?DIP?x6*
+$ENDFPLIST
+DRAW
+C -80 -200 20 0 0 0 N
+C -80 -100 20 0 0 0 N
+C -80 0 20 0 0 0 N
+C -80 100 20 0 0 0 N
+C -80 200 20 0 0 0 N
+C -80 300 20 0 0 0 N
+C 80 -200 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 0 20 0 0 0 N
+C 80 100 20 0 0 0 N
+C 80 200 20 0 0 0 N
+C 80 300 20 0 0 0 N
+S -150 400 150 -300 0 1 10 f
+P 2 0 0 0 -60 -194 93 -153 N
+P 2 0 0 0 -60 -94 93 -53 N
+P 2 0 0 0 -60 5 93 46 N
+P 2 0 0 0 -60 105 93 146 N
+P 2 0 0 0 -60 205 93 246 N
+P 2 0 0 0 -60 305 93 346 N
+X ~ 1 -300 300 200 R 50 50 1 1 P
+X ~ 10 300 100 200 L 50 50 1 1 P
+X ~ 11 300 200 200 L 50 50 1 1 P
+X ~ 12 300 300 200 L 50 50 1 1 P
+X ~ 2 -300 200 200 R 50 50 1 1 P
+X ~ 3 -300 100 200 R 50 50 1 1 P
+X ~ 4 -300 0 200 R 50 50 1 1 P
+X ~ 5 -300 -100 200 R 50 50 1 1 P
+X ~ 6 -300 -200 200 R 50 50 1 1 P
+X ~ 7 300 -200 200 L 50 50 1 1 P
+X ~ 8 300 -100 200 L 50 50 1 1 P
+X ~ 9 300 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # TP_SMD1MM
 #
 DEF TP_SMD1MM TP 0 0 N Y 1 F N
 F0 "TP" -100 50 50 H V R CNN
 F1 "TP_SMD1MM" 0 -100 50 H I C CNN
-F2 "SDI-bridge-footprints:Testpoint_smd_1mm" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:Testpoint_smd_1mm" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 DRAW
 C 0 0 22 0 1 0 N
@@ -907,7 +1047,7 @@ ENDDEF
 DEF TP_SMD_0_75MM TP 0 0 N Y 1 F N
 F0 "TP" -100 50 50 H V R CNN
 F1 "TP_SMD_0_75MM" 0 -100 50 H I C CNN
-F2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" 200 200 60 H I L CNN
+F2 "sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 DRAW
 C 0 0 22 0 1 0 N
@@ -949,7 +1089,7 @@ ENDDEF
 DEF WE_68715014522_ONE-SIDE J 0 40 Y N 1 F N
 F0 "J" 0 1700 50 H V C CNN
 F1 "WE_68715014522_ONE-SIDE" -100 -3450 50 H V C CNN
-F2 "SDI-bridge-footprints:WE_68715014522_ONE-SIDE" -200 -3550 50 H I C CNN
+F2 "sdi-mipi-bridge-footprints:WE_68715014522_ONE-SIDE" -200 -3550 50 H I C CNN
 F3 "" 0 -3650 50 H I C CNN
 F4 "68715014522 " 400 -600 60 H I L CNN "MPN"
 F5 "Wurth Elektronik " 650 -1800 60 H I L CNN "Manufacturer"
@@ -1063,10 +1203,22 @@ ENDDEF
 DEF antmicro_logo N 0 40 Y Y 1 F N
 F0 "N" 0 350 50 H V C CNN
 F1 "antmicro_logo" 0 -200 50 H V C CNN
-F2 "SDI-bridge-footprints:antmicro-logo" -100 250 50 H I C CNN
+F2 "sdi-mipi-bridge-footprints:antmicro-logo" -100 250 50 H I C CNN
 F3 "" 0 350 50 H I C CNN
 DRAW
 T 0 50 50 79 0 0 0 Logo Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+# oshw_logo
+#
+DEF oshw_logo N 0 40 Y Y 1 F N
+F0 "N" 20 40 50 H V C CNN
+F1 "oshw_logo" 30 -150 50 H V C CNN
+F2 "sdi-mipi-bridge-footprints:oshw-logo" 20 -240 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 30 -40 79 0 1 1 Logo Normal 0 C C
 ENDDRAW
 ENDDEF
 #

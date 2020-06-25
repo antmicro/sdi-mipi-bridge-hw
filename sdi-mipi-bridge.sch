@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SDI-bridge:C_1u_0402 C55
+L sdi-mipi-bridge:C_1u_0402 C55
 U 1 1 5DD37F89
 P 11100 5350
 F 0 "C55" V 11000 5200 60  0000 C CNN
 F 1 "C_1u_0402" H 11100 5200 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 11300 5550 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 11300 5550 60  0001 L CNN
 F 3 "" H 11100 5350 50  0001 C CNN
 F 4 "TDK" H 11300 5750 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 11300 5650 60  0001 L CNN "MPN"
@@ -28,12 +28,12 @@ F 6 "1u" V 11150 5450 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L SDI-bridge:C_1u_0402 C56
+L sdi-mipi-bridge:C_1u_0402 C56
 U 1 1 5DD37FE9
 P 11100 5750
 F 0 "C56" V 11000 5600 60  0000 C CNN
 F 1 "C_1u_0402" H 11100 5600 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 11300 5950 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 11300 5950 60  0001 L CNN
 F 3 "" H 11100 5750 50  0001 C CNN
 F 4 "TDK" H 11300 6150 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 11300 6050 60  0001 L CNN "MPN"
@@ -109,12 +109,12 @@ Wire Wire Line
 Text Label 19900 4150 0    50   ~ 0
 AUDIO_OUTPUT_CH1_2
 $Comp
-L SDI-bridge:R_75R_0603 R28
+L sdi-mipi-bridge:R_75R_0603 R28
 U 1 1 5E6329C6
 P 10300 6100
 F 0 "R28" V 10150 5900 60  0000 L CNN
 F 1 "R_75R_0603" H 10300 5950 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0603-res" H 10500 6300 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0603-res" H 10500 6300 60  0001 L CNN
 F 3 "" H 10300 6100 50  0001 C CNN
 F 4 "MULTICOMP" H 10500 6500 60  0001 L CNN "Manufacturer"
 F 5 "MCWR06X75R0FTL" H 10500 6400 60  0001 L CNN "MPN"
@@ -123,12 +123,12 @@ F 6 "75R" V 10450 6150 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L SDI-bridge:R_75R_0603 R27
+L sdi-mipi-bridge:R_75R_0603 R27
 U 1 1 5E632AF3
 P 9850 5350
 F 0 "R27" H 9800 5250 60  0000 L CNN
 F 1 "R_75R_0603" H 9850 5200 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0603-res" H 10050 5550 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0603-res" H 10050 5550 60  0001 L CNN
 F 3 "" H 9850 5350 50  0001 C CNN
 F 4 "MULTICOMP" H 10050 5750 60  0001 L CNN "Manufacturer"
 F 5 "MCWR06X75R0FTL" H 10050 5650 60  0001 L CNN "MPN"
@@ -137,12 +137,12 @@ F 6 "75R" H 9750 5450 50  0000 L CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L SDI-bridge:C_6n2_0603 C43
+L sdi-mipi-bridge:C_6n2_0603 C43
 U 1 1 5E68ABC3
 P 9850 5000
 F 0 "C43" V 9750 4850 60  0000 C CNN
 F 1 "C_6n2_0603" H 9850 4850 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0603-res" H 10050 5200 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0603-res" H 10050 5200 60  0001 L CNN
 F 3 "" H 9850 5000 50  0001 C CNN
 F 4 "Kemet" H 10050 5400 60  0001 L CNN "Manufacturer"
 F 5 "C0603C622J5GACAUTO" H 10050 5300 60  0001 L CNN "MPN"
@@ -162,12 +162,12 @@ Connection ~ 9450 5350
 Wire Wire Line
 	9450 5350 9700 5350
 $Comp
-L SDI-bridge:R_37R4_0402 R29
+L sdi-mipi-bridge:R_37R4_0402 R29
 U 1 1 5E6A8A0A
 P 10650 6100
 F 0 "R29" V 10500 5900 60  0000 L CNN
 F 1 "R_37R4_0402" H 10650 5950 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 10850 6300 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 10850 6300 60  0001 L CNN
 F 3 "" H 10650 6100 50  0001 C CNN
 F 4 "Multicomp" H 10850 6500 60  0001 L CNN "Manufacturer"
 F 5 "MCWR04X37R4FTL" H 10850 6400 60  0001 L CNN "MPN"
@@ -176,12 +176,12 @@ F 6 "37R4" V 10800 6150 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L SDI-bridge:031-70526-21 J2
+L sdi-mipi-bridge:031-70526-21 J2
 U 1 1 5E6EB73C
 P 9150 5350
 F 0 "J2" H 9250 5500 50  0000 L CNN
 F 1 "031-70526-21" H 8500 5200 50  0000 L CNN
-F 2 "SDI-bridge-footprints:BNC_Edge_Conn" H 8910 4520 50  0001 C CNN
+F 2 "sdi-mipi-bridge-footprints:BNC_Edge_Conn" H 8910 4520 50  0001 C CNN
 F 3 "https://www.farnell.com/cad/2305565.pdf?_ga=2.190633003.1014497200.1574067480-156563690.1566371002&_gac=1.57062104.1572875319.Cj0KCQiAtf_tBRDtARIsAIbAKe0A1M5y_jdFCiNLNrHM5L2GjmDvn_4qnRvhHAD9jBdL9AmoMNThLCoaAjhJEALw_wcB" H 9010 4620 50  0001 C CNN
 F 4 "031-70526-21" H 9110 4720 51  0001 C CNN "MPN"
 F 5 "Amphenol" H 9210 4820 51  0001 C CNN "Manufacturer"
@@ -189,7 +189,7 @@ F 5 "Amphenol" H 9210 4820 51  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 5E718752
 P 10500 6600
 AR Path="/5DD55102/5E718752" Ref="#PWR?"  Part="1" 
@@ -1038,7 +1038,7 @@ AE 42 60 82
 EndData
 $EndBitmap
 $Comp
-L SDI-bridge:+1V2 #PWR?
+L sdi-mipi-bridge:+1V2 #PWR?
 U 1 1 5F7ED3F0
 P 1550 11650
 AR Path="/5DD55102/5F7ED3F0" Ref="#PWR?"  Part="1" 
@@ -1051,7 +1051,7 @@ F 3 "" H 1550 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:+1V2 #PWR?
+L sdi-mipi-bridge:+1V2 #PWR?
 U 1 1 5F7ED3F6
 P 5450 10200
 AR Path="/5DD55102/5F7ED3F6" Ref="#PWR?"  Part="1" 
@@ -1064,20 +1064,7 @@ F 3 "" H 5450 10200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:+3.3V #PWR?
-U 1 1 5F7ED3FC
-P 5450 8600
-AR Path="/5DD55102/5F7ED3FC" Ref="#PWR?"  Part="1" 
-AR Path="/5F7ED3FC" Ref="#PWR018"  Part="1" 
-F 0 "#PWR018" H 5450 8450 50  0001 C CNN
-F 1 "+3.3V" H 5465 8773 50  0000 C CNN
-F 2 "" H 5450 8600 50  0001 C CNN
-F 3 "" H 5450 8600 50  0001 C CNN
-	1    5450 8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L SDI-bridge:+3.3VA #PWR?
+L sdi-mipi-bridge:+3.3VA #PWR?
 U 1 1 5F7ED402
 P 7300 8600
 AR Path="/5DD55102/5F7ED402" Ref="#PWR?"  Part="1" 
@@ -1090,7 +1077,7 @@ F 3 "" H 7300 8600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5F7ED408
 P 1550 12600
 AR Path="/5DD55102/5F7ED408" Ref="#PWR?"  Part="1" 
@@ -1103,14 +1090,14 @@ F 3 "" H 1550 12600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5F7ED411
 P 1550 12150
 AR Path="/5DD55102/5F7ED411" Ref="C?"  Part="1" 
 AR Path="/5F7ED411" Ref="C2"  Part="1" 
 F 0 "C2" H 1400 12250 60  0000 L CNN
 F 1 "C_10n_0402" H 1550 12000 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 1750 12350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 1750 12350 60  0001 L CNN
 F 3 "" H 1550 12150 50  0001 C CNN
 F 4 "AVX" H 1750 12550 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 1750 12450 60  0001 L CNN "MPN"
@@ -1119,14 +1106,14 @@ F 6 "10n" H 1600 12050 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5F7ED41A
 P 1850 12150
 AR Path="/5DD55102/5F7ED41A" Ref="C?"  Part="1" 
 AR Path="/5F7ED41A" Ref="C4"  Part="1" 
 F 0 "C4" H 1700 12250 60  0000 L CNN
 F 1 "C_10n_0402" H 1850 12000 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 2050 12350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 2050 12350 60  0001 L CNN
 F 3 "" H 1850 12150 50  0001 C CNN
 F 4 "AVX" H 2050 12550 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 2050 12450 60  0001 L CNN "MPN"
@@ -1135,14 +1122,14 @@ F 6 "10n" H 1900 12050 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5F7ED423
 P 2150 12150
 AR Path="/5DD55102/5F7ED423" Ref="C?"  Part="1" 
 AR Path="/5F7ED423" Ref="C6"  Part="1" 
 F 0 "C6" H 2000 12250 60  0000 L CNN
 F 1 "C_10n_0402" H 2150 12000 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 2350 12350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 2350 12350 60  0001 L CNN
 F 3 "" H 2150 12150 50  0001 C CNN
 F 4 "AVX" H 2350 12550 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 2350 12450 60  0001 L CNN "MPN"
@@ -1151,14 +1138,14 @@ F 6 "10n" H 2200 12050 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5F7ED42C
 P 2450 12150
 AR Path="/5DD55102/5F7ED42C" Ref="C?"  Part="1" 
 AR Path="/5F7ED42C" Ref="C8"  Part="1" 
 F 0 "C8" H 2300 12250 60  0000 L CNN
 F 1 "C_10n_0402" H 2450 12000 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 2650 12350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 2650 12350 60  0001 L CNN
 F 3 "" H 2450 12150 50  0001 C CNN
 F 4 "AVX" H 2650 12550 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 2650 12450 60  0001 L CNN "MPN"
@@ -1205,14 +1192,14 @@ Connection ~ 2150 11850
 Wire Wire Line
 	2150 11850 1850 11850
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5F7ED44B
 P 3300 12150
 AR Path="/5DD55102/5F7ED44B" Ref="C?"  Part="1" 
 AR Path="/5F7ED44B" Ref="C11"  Part="1" 
 F 0 "C11" H 3100 12250 60  0000 L CNN
 F 1 "C_10n_0402" H 3300 12000 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 3500 12350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 3500 12350 60  0001 L CNN
 F 3 "" H 3300 12150 50  0001 C CNN
 F 4 "AVX" H 3500 12550 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3500 12450 60  0001 L CNN "MPN"
@@ -1221,14 +1208,14 @@ F 6 "10n" H 3350 12050 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5F7ED454
 P 3600 12150
 AR Path="/5DD55102/5F7ED454" Ref="C?"  Part="1" 
 AR Path="/5F7ED454" Ref="C13"  Part="1" 
 F 0 "C13" H 3400 12250 60  0000 L CNN
 F 1 "C_10n_0402" H 3600 12000 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 3800 12350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 3800 12350 60  0001 L CNN
 F 3 "" H 3600 12150 50  0001 C CNN
 F 4 "AVX" H 3800 12550 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3800 12450 60  0001 L CNN "MPN"
@@ -1237,14 +1224,14 @@ F 6 "10n" H 3650 12050 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5F7ED45D
 P 3900 12150
 AR Path="/5DD55102/5F7ED45D" Ref="C?"  Part="1" 
 AR Path="/5F7ED45D" Ref="C16"  Part="1" 
 F 0 "C16" H 3700 12250 60  0000 L CNN
 F 1 "C_10n_0402" H 3900 12000 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 4100 12350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 4100 12350 60  0001 L CNN
 F 3 "" H 3900 12150 50  0001 C CNN
 F 4 "AVX" H 4100 12550 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 4100 12450 60  0001 L CNN "MPN"
@@ -1281,7 +1268,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 11850 3600 11850
 $Comp
-L SDI-bridge:VPP #PWR?
+L sdi-mipi-bridge:VPP #PWR?
 U 1 1 5F7ED474
 P 3300 11650
 AR Path="/5DD55102/5F7ED474" Ref="#PWR?"  Part="1" 
@@ -1295,7 +1282,7 @@ F 4 "+1.2VA" H 3315 11823 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 5F7ED47A
 P 3300 12600
 AR Path="/5DD55102/5F7ED47A" Ref="#PWR?"  Part="1" 
@@ -1308,14 +1295,14 @@ F 3 "" H 3300 12600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5F7ED483
 P 7300 9100
 AR Path="/5DD55102/5F7ED483" Ref="C?"  Part="1" 
 AR Path="/5F7ED483" Ref="C32"  Part="1" 
 F 0 "C32" H 7100 9200 60  0000 L CNN
 F 1 "C_10n_0402" H 7300 8950 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 7500 9300 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 7500 9300 60  0001 L CNN
 F 3 "" H 7300 9100 50  0001 C CNN
 F 4 "AVX" H 7500 9500 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 7500 9400 60  0001 L CNN "MPN"
@@ -1324,14 +1311,14 @@ F 6 "10n" H 7350 9000 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5F7ED48C
 P 5450 9100
 AR Path="/5DD55102/5F7ED48C" Ref="C?"  Part="1" 
 AR Path="/5F7ED48C" Ref="C19"  Part="1" 
 F 0 "C19" H 5250 9200 60  0000 L CNN
 F 1 "C_10n_0402" H 5450 8950 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 5650 9300 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 5650 9300 60  0001 L CNN
 F 3 "" H 5450 9100 50  0001 C CNN
 F 4 "AVX" H 5650 9500 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 5650 9400 60  0001 L CNN "MPN"
@@ -1340,14 +1327,14 @@ F 6 "10n" H 5500 9000 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_1u_0402 C?
+L sdi-mipi-bridge:C_1u_0402 C?
 U 1 1 5F7ED495
 P 5950 9100
 AR Path="/5DD55102/5F7ED495" Ref="C?"  Part="1" 
 AR Path="/5F7ED495" Ref="C24"  Part="1" 
 F 0 "C24" H 5750 9200 60  0000 L CNN
 F 1 "C_1u_0402" H 5950 8950 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 6150 9300 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 6150 9300 60  0001 L CNN
 F 3 "" H 5950 9100 50  0001 C CNN
 F 4 "TDK" H 6150 9500 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 6150 9400 60  0001 L CNN "MPN"
@@ -1356,14 +1343,14 @@ F 6 "1u" H 6000 9000 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R?
+L sdi-mipi-bridge:R_0R_0402 R?
 U 1 1 5F7ED49E
 P 6400 8800
 AR Path="/5DD55102/5F7ED49E" Ref="R?"  Part="1" 
 AR Path="/5F7ED49E" Ref="R21"  Part="1" 
 F 0 "R21" H 6300 8900 60  0000 C CNN
 F 1 "R_0R_0402" H 6400 8650 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 6600 9000 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 6600 9000 60  0001 L CNN
 F 3 "" H 6400 8800 50  0001 C CNN
 F 4 "PANASONIC" H 6600 9200 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6600 9100 60  0001 L CNN "MPN"
@@ -1379,7 +1366,7 @@ Wire Wire Line
 	5950 8800 5450 8800
 Connection ~ 5450 8800
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5F7ED4A8
 P 5450 9550
 AR Path="/5DD55102/5F7ED4A8" Ref="#PWR?"  Part="1" 
@@ -1401,14 +1388,14 @@ Wire Wire Line
 	5450 9350 5450 9550
 Connection ~ 5450 9350
 $Comp
-L SDI-bridge:C_1u_0402 C?
+L sdi-mipi-bridge:C_1u_0402 C?
 U 1 1 5F7ED4B6
 P 6850 9100
 AR Path="/5DD55102/5F7ED4B6" Ref="C?"  Part="1" 
 AR Path="/5F7ED4B6" Ref="C28"  Part="1" 
 F 0 "C28" H 6650 9200 60  0000 L CNN
 F 1 "C_1u_0402" H 6850 8950 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 7050 9300 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 7050 9300 60  0001 L CNN
 F 3 "" H 6850 9100 50  0001 C CNN
 F 4 "TDK" H 7050 9500 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 7050 9400 60  0001 L CNN "MPN"
@@ -1441,7 +1428,7 @@ Wire Wire Line
 	7300 9350 7300 9550
 Connection ~ 7300 9350
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 5F7ED4CA
 P 7300 9550
 AR Path="/5DD55102/5F7ED4CA" Ref="#PWR?"  Part="1" 
@@ -1454,14 +1441,14 @@ F 3 "" H 7300 9550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R?
+L sdi-mipi-bridge:R_0R_0402 R?
 U 1 1 5F7ED4D3
 P 6400 9350
 AR Path="/5DD55102/5F7ED4D3" Ref="R?"  Part="1" 
 AR Path="/5F7ED4D3" Ref="R22"  Part="1" 
 F 0 "R22" H 6350 9450 60  0000 C CNN
 F 1 "R_0R_0402" H 6400 9200 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 6600 9550 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 6600 9550 60  0001 L CNN
 F 3 "" H 6400 9350 50  0001 C CNN
 F 4 "PANASONIC" H 6600 9750 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6600 9650 60  0001 L CNN "MPN"
@@ -1476,14 +1463,14 @@ Wire Wire Line
 Connection ~ 5950 9350
 Connection ~ 6850 9350
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5F7ED4E0
 P 7300 10700
 AR Path="/5DD55102/5F7ED4E0" Ref="C?"  Part="1" 
 AR Path="/5F7ED4E0" Ref="C33"  Part="1" 
 F 0 "C33" H 7100 10800 60  0000 L CNN
 F 1 "C_10n_0402" H 7300 10550 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 7500 10900 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 7500 10900 60  0001 L CNN
 F 3 "" H 7300 10700 50  0001 C CNN
 F 4 "AVX" H 7500 11100 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 7500 11000 60  0001 L CNN "MPN"
@@ -1492,14 +1479,14 @@ F 6 "10n" H 7350 10600 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5F7ED4E9
 P 5450 10700
 AR Path="/5DD55102/5F7ED4E9" Ref="C?"  Part="1" 
 AR Path="/5F7ED4E9" Ref="C20"  Part="1" 
 F 0 "C20" H 5250 10800 60  0000 L CNN
 F 1 "C_10n_0402" H 5450 10550 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 5650 10900 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 5650 10900 60  0001 L CNN
 F 3 "" H 5450 10700 50  0001 C CNN
 F 4 "AVX" H 5650 11100 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 5650 11000 60  0001 L CNN "MPN"
@@ -1508,14 +1495,14 @@ F 6 "10n" H 5500 10600 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_1u_0402 C?
+L sdi-mipi-bridge:C_1u_0402 C?
 U 1 1 5F7ED4F2
 P 5950 10700
 AR Path="/5DD55102/5F7ED4F2" Ref="C?"  Part="1" 
 AR Path="/5F7ED4F2" Ref="C25"  Part="1" 
 F 0 "C25" H 5750 10800 60  0000 L CNN
 F 1 "C_1u_0402" H 5950 10550 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 6150 10900 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 6150 10900 60  0001 L CNN
 F 3 "" H 5950 10700 50  0001 C CNN
 F 4 "TDK" H 6150 11100 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 6150 11000 60  0001 L CNN "MPN"
@@ -1524,14 +1511,14 @@ F 6 "1u" H 6000 10600 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R?
+L sdi-mipi-bridge:R_0R_0402 R?
 U 1 1 5F7ED4FB
 P 6400 10400
 AR Path="/5DD55102/5F7ED4FB" Ref="R?"  Part="1" 
 AR Path="/5F7ED4FB" Ref="R23"  Part="1" 
 F 0 "R23" H 6300 10500 60  0000 C CNN
 F 1 "R_0R_0402" H 6400 10250 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 6600 10600 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 6600 10600 60  0001 L CNN
 F 3 "" H 6400 10400 50  0001 C CNN
 F 4 "PANASONIC" H 6600 10800 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6600 10700 60  0001 L CNN "MPN"
@@ -1549,7 +1536,7 @@ Wire Wire Line
 	5950 10400 5450 10400
 Connection ~ 5450 10400
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5F7ED506
 P 5450 11150
 AR Path="/5DD55102/5F7ED506" Ref="#PWR?"  Part="1" 
@@ -1571,14 +1558,14 @@ Wire Wire Line
 	5450 10950 5450 11150
 Connection ~ 5450 10950
 $Comp
-L SDI-bridge:C_1u_0402 C?
+L sdi-mipi-bridge:C_1u_0402 C?
 U 1 1 5F7ED514
 P 6850 10700
 AR Path="/5DD55102/5F7ED514" Ref="C?"  Part="1" 
 AR Path="/5F7ED514" Ref="C29"  Part="1" 
 F 0 "C29" H 6650 10800 60  0000 L CNN
 F 1 "C_1u_0402" H 6850 10550 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 7050 10900 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 7050 10900 60  0001 L CNN
 F 3 "" H 6850 10700 50  0001 C CNN
 F 4 "TDK" H 7050 11100 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 7050 11000 60  0001 L CNN "MPN"
@@ -1611,7 +1598,7 @@ Wire Wire Line
 	7300 10950 7300 11150
 Connection ~ 7300 10950
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 5F7ED528
 P 7300 11150
 AR Path="/5DD55102/5F7ED528" Ref="#PWR?"  Part="1" 
@@ -1624,7 +1611,7 @@ F 3 "" H 7300 11150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:VPP #PWR?
+L sdi-mipi-bridge:VPP #PWR?
 U 1 1 5F7ED52F
 P 7300 10200
 AR Path="/5DD55102/5F7ED52F" Ref="#PWR?"  Part="1" 
@@ -1640,14 +1627,14 @@ $EndComp
 Wire Wire Line
 	5450 8600 5450 8800
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5F7ED539
 P 1550 13950
 AR Path="/5DD55102/5F7ED539" Ref="C?"  Part="1" 
 AR Path="/5F7ED539" Ref="C3"  Part="1" 
 F 0 "C3" H 1400 14050 60  0000 L CNN
 F 1 "C_10n_0402" H 1550 13800 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 1750 14150 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 1750 14150 60  0001 L CNN
 F 3 "" H 1550 13950 50  0001 C CNN
 F 4 "AVX" H 1750 14350 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 1750 14250 60  0001 L CNN "MPN"
@@ -1656,14 +1643,14 @@ F 6 "10n" H 1600 13850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5F7ED542
 P 1850 13950
 AR Path="/5DD55102/5F7ED542" Ref="C?"  Part="1" 
 AR Path="/5F7ED542" Ref="C5"  Part="1" 
 F 0 "C5" H 1700 14050 60  0000 L CNN
 F 1 "C_10n_0402" H 1850 13800 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 2050 14150 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 2050 14150 60  0001 L CNN
 F 3 "" H 1850 13950 50  0001 C CNN
 F 4 "AVX" H 2050 14350 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 2050 14250 60  0001 L CNN "MPN"
@@ -1672,14 +1659,14 @@ F 6 "10n" H 1900 13850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5F7ED54B
 P 2150 13950
 AR Path="/5DD55102/5F7ED54B" Ref="C?"  Part="1" 
 AR Path="/5F7ED54B" Ref="C7"  Part="1" 
 F 0 "C7" H 2000 14050 60  0000 L CNN
 F 1 "C_10n_0402" H 2150 13800 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 2350 14150 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 2350 14150 60  0001 L CNN
 F 3 "" H 2150 13950 50  0001 C CNN
 F 4 "AVX" H 2350 14350 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 2350 14250 60  0001 L CNN "MPN"
@@ -1688,14 +1675,14 @@ F 6 "10n" H 2200 13850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5F7ED554
 P 2450 13950
 AR Path="/5DD55102/5F7ED554" Ref="C?"  Part="1" 
 AR Path="/5F7ED554" Ref="C9"  Part="1" 
 F 0 "C9" H 2300 14050 60  0000 L CNN
 F 1 "C_10n_0402" H 2450 13800 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 2650 14150 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 2650 14150 60  0001 L CNN
 F 3 "" H 2450 13950 50  0001 C CNN
 F 4 "AVX" H 2650 14350 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 2650 14250 60  0001 L CNN "MPN"
@@ -1742,14 +1729,14 @@ Connection ~ 2150 13650
 Wire Wire Line
 	2150 13650 1850 13650
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5F7ED573
 P 3300 13950
 AR Path="/5DD55102/5F7ED573" Ref="C?"  Part="1" 
 AR Path="/5F7ED573" Ref="C12"  Part="1" 
 F 0 "C12" H 3100 14050 60  0000 L CNN
 F 1 "C_10n_0402" H 3300 13800 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 3500 14150 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 3500 14150 60  0001 L CNN
 F 3 "" H 3300 13950 50  0001 C CNN
 F 4 "AVX" H 3500 14350 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3500 14250 60  0001 L CNN "MPN"
@@ -1758,14 +1745,14 @@ F 6 "10n" H 3350 13850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5F7ED57C
 P 3600 13950
 AR Path="/5DD55102/5F7ED57C" Ref="C?"  Part="1" 
 AR Path="/5F7ED57C" Ref="C14"  Part="1" 
 F 0 "C14" H 3400 14050 60  0000 L CNN
 F 1 "C_10n_0402" H 3600 13800 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 3800 14150 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 3800 14150 60  0001 L CNN
 F 3 "" H 3600 13950 50  0001 C CNN
 F 4 "AVX" H 3800 14350 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3800 14250 60  0001 L CNN "MPN"
@@ -1774,14 +1761,14 @@ F 6 "10n" H 3650 13850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5F7ED585
 P 3900 13950
 AR Path="/5DD55102/5F7ED585" Ref="C?"  Part="1" 
 AR Path="/5F7ED585" Ref="C17"  Part="1" 
 F 0 "C17" H 3700 14050 60  0000 L CNN
 F 1 "C_10n_0402" H 3900 13800 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 4100 14150 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 4100 14150 60  0001 L CNN
 F 3 "" H 3900 13950 50  0001 C CNN
 F 4 "AVX" H 4100 14350 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 4100 14250 60  0001 L CNN "MPN"
@@ -1818,7 +1805,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 13650 3600 13650
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 5F7ED59B
 P 3300 14400
 AR Path="/5DD55102/5F7ED59B" Ref="#PWR?"  Part="1" 
@@ -1831,7 +1818,7 @@ F 3 "" H 3300 14400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5F7ED5A1
 P 1550 14400
 AR Path="/5DD55102/5F7ED5A1" Ref="#PWR?"  Part="1" 
@@ -1844,7 +1831,7 @@ F 3 "" H 1550 14400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:+3.3VA #PWR?
+L sdi-mipi-bridge:+3.3VA #PWR?
 U 1 1 5F7ED5A7
 P 3300 13450
 AR Path="/5DD55102/5F7ED5A7" Ref="#PWR?"  Part="1" 
@@ -1861,7 +1848,7 @@ Power decoupling
 Text Notes 4850 8000 0    79   ~ 16
 GS Power Filtering
 $Comp
-L SDI-bridge:VPP #PWR?
+L sdi-mipi-bridge:VPP #PWR?
 U 1 1 5F7ED5B7
 P 12800 5350
 AR Path="/5DD55102/5F7ED5B7" Ref="#PWR?"  Part="1" 
@@ -1875,14 +1862,14 @@ F 4 "+1.2VA" H 12815 5523 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_33u_0603 C58
+L sdi-mipi-bridge:C_33u_0603 C58
 U 1 1 5F7ED5C0
 P 12800 6350
 AR Path="/5F7ED5C0" Ref="C58"  Part="1" 
 AR Path="/5DD55102/5F7ED5C0" Ref="C?"  Part="1" 
 F 0 "C58" H 12550 6450 60  0000 L CNN
 F 1 "C_33u_0603" H 12800 6200 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0603-cap" H 13000 6550 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0603-cap" H 13000 6550 60  0001 L CNN
 F 3 "" H 12800 6350 50  0001 C CNN
 F 4 "Avx" H 13000 6750 60  0001 L CNN "Manufacturer"
 F 5 "F980G336MMA" H 13000 6650 60  0001 L CNN "MPN"
@@ -1891,14 +1878,14 @@ F 6 "33u" H 12850 6200 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_105R_0402 R30
+L sdi-mipi-bridge:R_105R_0402 R30
 U 1 1 5F7ED5C9
 P 12800 5650
 AR Path="/5F7ED5C9" Ref="R30"  Part="1" 
 AR Path="/5DD55102/5F7ED5C9" Ref="R?"  Part="1" 
 F 0 "R30" V 12650 5450 60  0000 L CNN
 F 1 "R_105R_0402" H 12850 5350 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 13000 5850 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 13000 5850 60  0001 L CNN
 F 3 "" H 12800 5650 50  0001 C CNN
 F 4 "Multicomp" H 13000 6050 60  0001 L CNN "Manufacturer"
 F 5 "MC00625W04021105R" H 13000 5950 60  0001 L CNN "MPN"
@@ -1907,7 +1894,7 @@ F 6 "105R" V 12950 5700 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 5F7ED5CF
 P 12800 6700
 AR Path="/5DD55102/5F7ED5CF" Ref="#PWR?"  Part="1" 
@@ -1955,7 +1942,7 @@ Wire Wire Line
 Wire Wire Line
 	14500 3150 14150 3150
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 5E07F22D
 P 14150 3850
 AR Path="/5DD55102/5E07F22D" Ref="#PWR?"  Part="1" 
@@ -1970,7 +1957,7 @@ $EndComp
 Wire Wire Line
 	15200 2700 15200 2600
 $Comp
-L SDI-bridge:+3.3VA #PWR?
+L sdi-mipi-bridge:+3.3VA #PWR?
 U 1 1 5E07866F
 P 15200 2600
 AR Path="/5DD55102/5E07866F" Ref="#PWR?"  Part="1" 
@@ -2000,12 +1987,12 @@ LF
 Text Label 15900 3150 2    50   ~ 0
 LB_CONT
 $Comp
-L SDI-bridge:R_0R_0402 R32
+L sdi-mipi-bridge:R_0R_0402 R32
 U 1 1 5DFFCF9B
 P 14650 3150
 F 0 "R32" H 14550 3250 60  0000 C CNN
 F 1 "R_0R_0402" H 14650 3000 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 14850 3350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 14850 3350 60  0001 L CNN
 F 3 "" H 14650 3150 50  0001 C CNN
 F 4 "PANASONIC" H 14850 3550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 14850 3450 60  0001 L CNN "MPN"
@@ -2015,12 +2002,12 @@ F 7 "1" H 14650 3150 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R34
+L sdi-mipi-bridge:R_0R_0402 R34
 U 1 1 5DFFCE31
 P 15200 2850
 F 0 "R34" V 15050 2650 60  0000 L CNN
 F 1 "R_0R_0402" H 15200 2700 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 15400 3050 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 15400 3050 60  0001 L CNN
 F 3 "" H 15200 2850 50  0001 C CNN
 F 4 "PANASONIC" H 15400 3250 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 15400 3150 60  0001 L CNN "MPN"
@@ -2030,12 +2017,12 @@ F 7 "1" V 15200 2850 50  0001 C CNN "DNP"
 	0    1    1    0   
 $EndComp
 $Comp
-L SDI-bridge:C_47n_0402 C63
+L sdi-mipi-bridge:C_47n_0402 C63
 U 1 1 5DFF02A6
 P 14650 3750
 F 0 "C63" V 14750 3800 60  0000 L CNN
 F 1 "C_47n_0402" H 14650 3600 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 14850 3950 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 14850 3950 60  0001 L CNN
 F 3 "" H 14650 3750 50  0001 C CNN
 F 4 "MULTICOMP" H 14850 4150 60  0001 L CNN "Manufacturer"
 F 5 "MC0402X473K160CT" H 14850 4050 60  0001 L CNN "MPN"
@@ -2044,12 +2031,12 @@ F 6 "47n" V 14600 3550 50  0000 L CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SDI-bridge:C_1u_0402 C62
+L sdi-mipi-bridge:C_1u_0402 C62
 U 1 1 5DFF0076
 P 14650 3450
 F 0 "C62" V 14750 3500 60  0000 L CNN
 F 1 "C_1u_0402" H 14650 3300 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 14850 3650 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 14850 3650 60  0001 L CNN
 F 3 "" H 14650 3450 50  0001 C CNN
 F 4 "TDK" H 14850 3850 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 14850 3750 60  0001 L CNN "MPN"
@@ -2081,12 +2068,12 @@ Wire Wire Line
 Wire Wire Line
 	14700 1350 15000 1350
 $Comp
-L SDI-bridge:C_16p_0402 C60
+L sdi-mipi-bridge:C_16p_0402 C60
 U 1 1 5DFA6E27
 P 14550 1900
 F 0 "C60" V 14450 1750 60  0000 C CNN
 F 1 "C_16p_0402" H 14550 1750 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 14750 2100 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 14750 2100 60  0001 L CNN
 F 3 "" H 14550 1900 50  0001 C CNN
 F 4 "Walsin" H 14750 2300 60  0001 L CNN "Manufacturer"
 F 5 "0402N160J500CT" H 14750 2200 60  0001 L CNN "MPN"
@@ -2095,12 +2082,12 @@ F 6 "16p" V 14650 2050 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L SDI-bridge:C_16p_0402 C59
+L sdi-mipi-bridge:C_16p_0402 C59
 U 1 1 5DFA6980
 P 14550 1350
 F 0 "C59" V 14450 1200 60  0000 C CNN
 F 1 "C_16p_0402" H 14550 1200 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 14750 1550 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 14750 1550 60  0001 L CNN
 F 3 "" H 14550 1350 50  0001 C CNN
 F 4 "Walsin" H 14750 1750 60  0001 L CNN "Manufacturer"
 F 5 "0402N160J500CT" H 14750 1650 60  0001 L CNN "MPN"
@@ -2109,7 +2096,7 @@ F 6 "16p" V 14650 1500 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5DFA63DA
 P 14150 1950
 AR Path="/5DD55102/5DFA63DA" Ref="#PWR?"  Part="1" 
@@ -2122,12 +2109,12 @@ F 3 "" H 14150 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:ABM7_27.000MH_D2Y_T Y1
+L sdi-mipi-bridge:ABM7_27.000MH_D2Y_T Y1
 U 1 1 5DF9B1CF
 P 15000 1650
 F 0 "Y1" V 14900 1500 31  0000 L CNN
 F 1 "ABM7_27.000MH_D2Y_T" V 15100 1700 31  0000 L CNN
-F 2 "SDI-bridge-footprints:ABM7_OSC" H 17100 1650 50  0001 C CNN
+F 2 "sdi-mipi-bridge-footprints:ABM7_OSC" H 17100 1650 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/947971.pdf?_ga=2.27685436.1014497200.1574067480-156563690.1566371002&_gac=1.52917722.1572875319.Cj0KCQiAtf_tBRDtARIsAIbAKe0A1M5y_jdFCiNLNrHM5L2GjmDvn_4qnRvhHAD9jBdL9AmoMNThLCoaAjhJEALw_wcB" H 17200 1750 50  0001 C CNN
 F 4 "ABM7-27.000MHZ-D2Y-T" V 15031 1753 31  0001 L CNN "MPN"
 F 5 "Abracon" V 15093 1753 31  0001 L CNN "Manufacturer"
@@ -2143,7 +2130,7 @@ Wire Wire Line
 Wire Wire Line
 	14450 4450 14150 4450
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 5DF1B752
 P 14150 4600
 AR Path="/5DD55102/5DF1B752" Ref="#PWR?"  Part="1" 
@@ -2167,12 +2154,12 @@ Wire Wire Line
 Wire Wire Line
 	15350 4350 15350 4050
 $Comp
-L SDI-bridge:C_470n_0402 C61
+L sdi-mipi-bridge:C_470n_0402 C61
 U 1 1 5DED9FFB
 P 14600 4450
 F 0 "C61" V 14500 4200 60  0000 L CNN
 F 1 "C_470n_0402" H 14600 4300 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 14800 4650 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 14800 4650 60  0001 L CNN
 F 3 "" H 14600 4450 50  0001 C CNN
 F 4 "TDK" H 14800 4850 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1E474M050BB" H 14800 4750 60  0001 L CNN "MPN"
@@ -2181,12 +2168,12 @@ F 6 "470n" V 14650 4550 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L SDI-bridge:C_470n_0402 C64
+L sdi-mipi-bridge:C_470n_0402 C64
 U 1 1 5DED51AA
 P 15050 4250
 F 0 "C64" H 14850 4350 60  0000 L CNN
 F 1 "C_470n_0402" H 15050 4100 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 15250 4450 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 15250 4450 60  0001 L CNN
 F 3 "" H 15050 4250 50  0001 C CNN
 F 4 "TDK" H 15250 4650 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1E474M050BB" H 15250 4550 60  0001 L CNN "MPN"
@@ -2329,23 +2316,23 @@ Entry Wire Line
 Wire Bus Line
 	4850 2850 5400 2850
 $Comp
-L SDI-bridge:TP_SMD1MM TP2
+L sdi-mipi-bridge:TP_SMD1MM TP2
 U 1 1 5DE77CA8
 P 1150 2000
 F 0 "TP2" V 1150 1850 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1150 1900 50  0001 C CNN
-F 2 "SDI-bridge-footprints:Testpoint_smd_1mm" H 1350 2200 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_1mm" H 1350 2200 60  0001 L CNN
 F 3 "" H 1350 2300 60  0001 L CNN
 	1    1150 2000
 	0    1    1    0   
 $EndComp
 $Comp
-L SDI-bridge:TP_SMD1MM TP1
+L sdi-mipi-bridge:TP_SMD1MM TP1
 U 1 1 5DE76AF8
 P 1150 1900
 F 0 "TP1" V 1150 1750 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1150 1800 50  0001 C CNN
-F 2 "SDI-bridge-footprints:Testpoint_smd_1mm" H 1350 2100 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_1mm" H 1350 2100 60  0001 L CNN
 F 3 "" H 1350 2200 60  0001 L CNN
 	1    1150 1900
 	0    1    1    0   
@@ -2383,12 +2370,12 @@ Wire Wire Line
 Wire Wire Line
 	2200 2600 2250 2600
 $Comp
-L SDI-bridge:R_22R_0402 R1
+L sdi-mipi-bridge:R_22R_0402 R1
 U 1 1 5E3383AE
 P 2050 2800
 F 0 "R1" H 1850 2850 60  0000 C CNN
 F 1 "R_22R_0402" H 2050 2650 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 2250 3000 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 2250 3000 60  0001 L CNN
 F 3 "" H 2050 2800 50  0001 C CNN
 F 4 "VISHAY" H 2250 3200 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 2250 3100 60  0001 L CNN "MPN"
@@ -2397,12 +2384,12 @@ F 6 "22R" H 2050 2800 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_22R_0402 R2
+L sdi-mipi-bridge:R_22R_0402 R2
 U 1 1 5E33836A
 P 2050 2700
 F 0 "R2" H 1850 2750 60  0000 C CNN
 F 1 "R_22R_0402" H 2050 2550 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 2250 2900 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 2250 2900 60  0001 L CNN
 F 3 "" H 2050 2700 50  0001 C CNN
 F 4 "VISHAY" H 2250 3100 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 2250 3000 60  0001 L CNN "MPN"
@@ -2411,12 +2398,12 @@ F 6 "22R" H 2050 2700 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_22R_0402 R3
+L sdi-mipi-bridge:R_22R_0402 R3
 U 1 1 5E33815E
 P 2050 2600
 F 0 "R3" H 1850 2650 60  0000 C CNN
 F 1 "R_22R_0402" H 2050 2450 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 2250 2800 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 2250 2800 60  0001 L CNN
 F 3 "" H 2050 2600 50  0001 C CNN
 F 4 "VISHAY" H 2250 3000 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 2250 2900 60  0001 L CNN "MPN"
@@ -2483,12 +2470,12 @@ XTAL2
 Text Label 5750 2300 0    50   ~ 0
 XTAL1
 $Comp
-L SDI-bridge:TP_SMD1MM TP17
+L sdi-mipi-bridge:TP_SMD1MM TP17
 U 1 1 5DF7F0E0
 P 5750 2500
 F 0 "TP17" V 5750 2350 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5750 2400 50  0001 C CNN
-F 2 "SDI-bridge-footprints:Testpoint_smd_1mm" H 5950 2700 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_1mm" H 5950 2700 60  0001 L CNN
 F 3 "" H 5950 2800 60  0001 L CNN
 	1    5750 2500
 	0    1    1    0   
@@ -2514,7 +2501,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 1700 10600 1600
 $Comp
-L SDI-bridge:+3.3VA #PWR?
+L sdi-mipi-bridge:+3.3VA #PWR?
 U 1 1 5DE1FA32
 P 10600 1950
 AR Path="/5DD55102/5DE1FA32" Ref="#PWR?"  Part="1" 
@@ -2527,7 +2514,7 @@ F 3 "" H 10600 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 5DE1F9B4
 P 13300 3000
 AR Path="/5DD55102/5DE1F9B4" Ref="#PWR?"  Part="1" 
@@ -2540,7 +2527,7 @@ F 3 "" H 13300 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:VPP #PWR?
+L sdi-mipi-bridge:VPP #PWR?
 U 1 1 5DE1F9AE
 P 10600 1600
 AR Path="/5DD55102/5DE1F9AE" Ref="#PWR?"  Part="1" 
@@ -2554,7 +2541,7 @@ F 4 "+1.2VA" H 10615 1773 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5DE1F93B
 P 13300 4050
 AR Path="/5DD55102/5DE1F93B" Ref="#PWR?"  Part="1" 
@@ -2567,7 +2554,7 @@ F 3 "" H 13300 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:+1V2 #PWR?
+L sdi-mipi-bridge:+1V2 #PWR?
 U 1 1 5DE1F935
 P 10550 2900
 AR Path="/5DD55102/5DE1F935" Ref="#PWR?"  Part="1" 
@@ -2799,12 +2786,12 @@ Wire Wire Line
 Wire Wire Line
 	12500 1550 13050 1550
 $Comp
-L SDI-bridge:GS2971A U2
+L sdi-mipi-bridge:GS2971A U2
 U 3 1 5DCEEB7C
 P 11100 1550
 F 0 "U2" H 11400 1700 60  0000 C CNN
 F 1 "GS2971A" H 11800 -900 60  0000 C CNN
-F 2 "SDI-bridge-footprints:BGA100_11x11mm" H 11300 1600 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:BGA100_11x11mm" H 11300 1600 60  0001 L CNN
 F 3 "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/44000000MD3i/kpmMkrmUWgHlbCOwdLzVohMm1SDPoVH85guEGK.KXTc" H 11300 -200 60  0001 L CNN
 F 4 "GS2971A" H 11800 -1050 50  0000 C CNN "MPN"
 F 5 "Semtech" H 11800 -1150 50  0000 C CNN "Manufacturer"
@@ -2812,12 +2799,12 @@ F 5 "Semtech" H 11800 -1150 50  0000 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:GS2971A U2
+L sdi-mipi-bridge:GS2971A U2
 U 2 1 5DCEEACF
 P 6450 1900
 F 0 "U2" H 7300 2372 60  0000 C CNN
 F 1 "GS2971A" H 7300 2266 60  0000 C CNN
-F 2 "SDI-bridge-footprints:BGA100_11x11mm" H 6650 1950 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:BGA100_11x11mm" H 6650 1950 60  0001 L CNN
 F 3 "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/44000000MD3i/kpmMkrmUWgHlbCOwdLzVohMm1SDPoVH85guEGK.KXTc" H 6650 150 60  0001 L CNN
 F 4 "GS2971A" H 7300 2168 50  0000 C CNN "MPN"
 F 5 "Semtech" H 7300 2077 50  0000 C CNN "Manufacturer"
@@ -2825,12 +2812,12 @@ F 5 "Semtech" H 7300 2077 50  0000 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:GS2971A U2
+L sdi-mipi-bridge:GS2971A U2
 U 1 1 5DCEE9BC
 P 2250 1750
 F 0 "U2" H 2900 2222 60  0000 C CNN
 F 1 "GS2971A" H 2900 2116 60  0000 C CNN
-F 2 "SDI-bridge-footprints:BGA100_11x11mm" H 2450 1800 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:BGA100_11x11mm" H 2450 1800 60  0001 L CNN
 F 3 "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/44000000MD3i/kpmMkrmUWgHlbCOwdLzVohMm1SDPoVH85guEGK.KXTc" H 2450 0   60  0001 L CNN
 F 4 "GS2971A" H 2900 2018 50  0000 C CNN "MPN"
 F 5 "Semtech" H 2900 1927 50  0000 C CNN "Manufacturer"
@@ -2838,14 +2825,14 @@ F 5 "Semtech" H 2900 1927 50  0000 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5E256ACD
 P 3000 9150
 AR Path="/5DD55102/5E256ACD" Ref="C?"  Part="1" 
 AR Path="/5E256ACD" Ref="C10"  Part="1" 
 F 0 "C10" H 2750 9250 60  0000 L CNN
 F 1 "C_10n_0402" H 3000 9000 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 3200 9350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 3200 9350 60  0001 L CNN
 F 3 "" H 3000 9150 50  0001 C CNN
 F 4 "AVX" H 3200 9550 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3200 9450 60  0001 L CNN "MPN"
@@ -2854,12 +2841,12 @@ F 6 "10n" H 3050 9050 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_10u_0603 C1
+L sdi-mipi-bridge:C_10u_0603 C1
 U 1 1 5E26B2E2
 P 1300 9150
 F 0 "C1" H 1050 9200 60  0000 L CNN
 F 1 "C_10u_0603" H 1300 9000 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0603-cap" H 1500 9350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0603-cap" H 1500 9350 60  0001 L CNN
 F 3 "" H 1300 9150 50  0001 C CNN
 F 4 "AVX" H 1500 9550 60  0001 L CNN "Manufacturer"
 F 5 "06036D106MAT2A" H 1500 9450 60  0001 L CNN "MPN"
@@ -2902,7 +2889,7 @@ Wire Wire Line
 	2750 9550 2750 9700
 Connection ~ 2750 9700
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5E55D97B
 P 1950 9900
 AR Path="/5DD55102/5E55D97B" Ref="#PWR?"  Part="1" 
@@ -2915,7 +2902,7 @@ F 3 "" H 1950 9900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5E55DF7B
 P 2750 9900
 AR Path="/5DD55102/5E55DF7B" Ref="#PWR?"  Part="1" 
@@ -2932,7 +2919,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 9000 1000 8900
 $Comp
-L SDI-bridge:+1V2 #PWR?
+L sdi-mipi-bridge:+1V2 #PWR?
 U 1 1 5E5EC7C7
 P 4200 8900
 AR Path="/5DD55102/5E5EC7C7" Ref="#PWR?"  Part="1" 
@@ -2945,20 +2932,7 @@ F 3 "" H 4200 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:+3.3V #PWR?
-U 1 1 5E5ED539
-P 1000 8900
-AR Path="/5DD55102/5E5ED539" Ref="#PWR?"  Part="1" 
-AR Path="/5E5ED539" Ref="#PWR01"  Part="1" 
-F 0 "#PWR01" H 1000 8750 50  0001 C CNN
-F 1 "+3.3V" H 1015 9073 50  0000 C CNN
-F 2 "" H 1000 8900 50  0001 C CNN
-F 3 "" H 1000 8900 50  0001 C CNN
-	1    1000 8900
-	1    0    0    -1  
-$EndComp
-$Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5E5EFD99
 P 3400 10050
 AR Path="/5DD55102/5E5EFD99" Ref="#PWR?"  Part="1" 
@@ -2971,12 +2945,12 @@ F 3 "" H 3400 10050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:TP_SMD1MM TP6
+L sdi-mipi-bridge:TP_SMD1MM TP6
 U 1 1 5E62A426
 P 1850 9350
 F 0 "TP6" V 1850 9200 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1850 9250 50  0001 C CNN
-F 2 "SDI-bridge-footprints:Testpoint_smd_1mm" H 2050 9550 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_1mm" H 2050 9550 60  0001 L CNN
 F 3 "" H 2050 9650 60  0001 L CNN
 	1    1850 9350
 	0    1    1    0   
@@ -2984,7 +2958,7 @@ $EndComp
 Wire Wire Line
 	2050 9350 1950 9350
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5E660FA3
 P 1300 9400
 AR Path="/5DD55102/5E660FA3" Ref="#PWR?"  Part="1" 
@@ -3004,42 +2978,29 @@ Wire Wire Line
 Wire Wire Line
 	1300 9000 1950 9000
 $Comp
-L SDI-bridge:MAX8902B U1
+L sdi-mipi-bridge:MAX8902B U1
 U 1 1 5E245590
 P 2150 9200
 F 0 "U1" H 2200 9500 50  0000 C CNN
 F 1 "MAX8902B" H 2350 8600 50  0000 C CNN
-F 2 "SDI-bridge-footprints:TDFN2x2" H 3500 9250 50  0001 C CNN
+F 2 "sdi-mipi-bridge-footprints:TDFN2x2" H 3500 9250 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2002233.pdf?_ga=2.198934252.297580991.1575276704-156563690.1566371002&_gac=1.48591188.1572875319.Cj0KCQiAtf_tBRDtARIsAIbAKe0A1M5y_jdFCiNLNrHM5L2GjmDvn_4qnRvhHAD9jBdL9AmoMNThLCoaAjhJEALw_wcB" H 2150 9200 50  0001 C CNN
 F 4 "MAX8902B" H 2350 9625 50  0001 C CNN "MPN"
 F 5 "Maxim integrated" H 2350 9534 50  0001 C CNN "Manufacturer"
 	1    2150 9200
 	1    0    0    -1  
 $EndComp
-$Comp
-L SDI-bridge:+3.3V #PWR?
-U 1 1 5EBC8ECF
-P 5900 14150
-AR Path="/5DD55102/5EBC8ECF" Ref="#PWR?"  Part="1" 
-AR Path="/5EBC8ECF" Ref="#PWR030"  Part="1" 
-F 0 "#PWR030" H 5900 14000 50  0001 C CNN
-F 1 "+3.3V" H 5915 14323 50  0000 C CNN
-F 2 "" H 5900 14150 50  0001 C CNN
-F 3 "" H 5900 14150 50  0001 C CNN
-	1    5900 14150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6400 14350 6300 14350
 $Comp
-L SDI-bridge:C_1u_0402 C?
+L sdi-mipi-bridge:C_1u_0402 C?
 U 1 1 5EBC8F11
 P 6400 14650
 AR Path="/5DD55102/5EBC8F11" Ref="C?"  Part="1" 
 AR Path="/5EBC8F11" Ref="C35"  Part="1" 
 F 0 "C35" H 6200 14750 60  0000 L CNN
 F 1 "C_1u_0402" H 6400 14500 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 6600 14850 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 6600 14850 60  0001 L CNN
 F 3 "" H 6400 14650 50  0001 C CNN
 F 4 "TDK" H 6600 15050 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 6600 14950 60  0001 L CNN "MPN"
@@ -3050,7 +3011,7 @@ $EndComp
 Wire Wire Line
 	5900 14150 5900 14350
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5EBFB4BE
 P 6400 15100
 AR Path="/5DD55102/5EBFB4BE" Ref="#PWR?"  Part="1" 
@@ -3063,12 +3024,12 @@ F 3 "" H 6400 15100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_100R_0402 R33
+L sdi-mipi-bridge:R_100R_0402 R33
 U 1 1 5EDB6812
 P 13000 8350
 F 0 "R33" H 13000 8450 60  0000 L CNN
 F 1 "R_100R_0402" H 13000 8200 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 13200 8550 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 13200 8550 60  0001 L CNN
 F 3 "" H 13000 8350 50  0001 C CNN
 F 4 "BOURNS" H 13200 8750 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 13200 8650 60  0001 L CNN "MPN"
@@ -3077,12 +3038,12 @@ F 6 "100R" H 12900 8250 50  0000 L CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:LG_L29K-G2J1-24-Z D1
+L sdi-mipi-bridge:LG_L29K-G2J1-24-Z D1
 U 1 1 5EDB9796
 P 13400 8350
 F 0 "D1" H 13400 8250 60  0000 R CNN
 F 1 "LG_L29K-G2J1-24-Z" H 13700 8600 60  0000 R CNN
-F 2 "SDI-bridge-footprints:LED_0603" H 13600 8550 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:LED_0603" H 13600 8550 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 13600 8650 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 13600 8850 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 13600 9450 60  0001 L CNN "Manufacturer"
@@ -3115,23 +3076,23 @@ Wire Wire Line
 Text Notes 550  7700 0    118  ~ 24
 Power supply 
 $Comp
-L SDI-bridge:antmicro_logo N1
+L sdi-mipi-bridge:antmicro_logo N1
 U 1 1 5FE7A74E
 P 800 7200
 F 0 "N1" H 1014 7293 50  0000 L CNN
 F 1 "antmicro_logo" H 1014 7202 50  0000 L CNN
-F 2 "SDI-bridge-footprints:antmicro-logo_scaled_20mm" H 700 7450 50  0001 C CNN
+F 2 "sdi-mipi-bridge-footprints:antmicro-logo_scaled_20mm" H 700 7450 50  0001 C CNN
 F 3 "" H 800 7550 50  0001 C CNN
 	1    800  7200
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R7
+L sdi-mipi-bridge:R_0R_0402 R7
 U 1 1 5DED67D1
 P 4100 2750
 F 0 "R7" H 4300 2800 60  0000 C CNN
 F 1 "R_0R_0402" H 4100 2600 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 4300 2950 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 4300 2950 60  0001 L CNN
 F 3 "" H 4100 2750 50  0001 C CNN
 F 4 "PANASONIC" H 4300 3150 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4300 3050 60  0001 L CNN "MPN"
@@ -3140,12 +3101,12 @@ F 6 "0R" H 4100 2750 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R8
+L sdi-mipi-bridge:R_0R_0402 R8
 U 1 1 5DED76DC
 P 4100 2850
 F 0 "R8" H 4300 2900 60  0000 C CNN
 F 1 "R_0R_0402" H 4100 2700 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 4300 3050 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 4300 3050 60  0001 L CNN
 F 3 "" H 4100 2850 50  0001 C CNN
 F 4 "PANASONIC" H 4300 3250 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4300 3150 60  0001 L CNN "MPN"
@@ -3154,12 +3115,12 @@ F 6 "0R" H 4100 2850 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R9
+L sdi-mipi-bridge:R_0R_0402 R9
 U 1 1 5DED86FD
 P 4100 2950
 F 0 "R9" H 4300 3000 60  0000 C CNN
 F 1 "R_0R_0402" H 4100 2800 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 4300 3150 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 4300 3150 60  0001 L CNN
 F 3 "" H 4100 2950 50  0001 C CNN
 F 4 "PANASONIC" H 4300 3350 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4300 3250 60  0001 L CNN "MPN"
@@ -3168,12 +3129,12 @@ F 6 "0R" H 4100 2950 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R10
+L sdi-mipi-bridge:R_0R_0402 R10
 U 1 1 5DEDF9EA
 P 4100 3050
 F 0 "R10" H 4300 3100 60  0000 C CNN
 F 1 "R_0R_0402" H 4100 2900 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 4300 3250 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 4300 3250 60  0001 L CNN
 F 3 "" H 4100 3050 50  0001 C CNN
 F 4 "PANASONIC" H 4300 3450 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4300 3350 60  0001 L CNN "MPN"
@@ -3182,12 +3143,12 @@ F 6 "0R" H 4100 3050 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R11
+L sdi-mipi-bridge:R_0R_0402 R11
 U 1 1 5DEDF9F3
 P 4100 3150
 F 0 "R11" H 4300 3200 60  0000 C CNN
 F 1 "R_0R_0402" H 4100 3000 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 4300 3350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 4300 3350 60  0001 L CNN
 F 3 "" H 4100 3150 50  0001 C CNN
 F 4 "PANASONIC" H 4300 3550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4300 3450 60  0001 L CNN "MPN"
@@ -3196,12 +3157,12 @@ F 6 "0R" H 4100 3150 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R12
+L sdi-mipi-bridge:R_0R_0402 R12
 U 1 1 5DEDF9FC
 P 4100 3250
 F 0 "R12" H 4300 3300 60  0000 C CNN
 F 1 "R_0R_0402" H 4100 3100 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 4300 3450 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 4300 3450 60  0001 L CNN
 F 3 "" H 4100 3250 50  0001 C CNN
 F 4 "PANASONIC" H 4300 3650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4300 3550 60  0001 L CNN "MPN"
@@ -3210,12 +3171,12 @@ F 6 "0R" H 4100 3250 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R13
+L sdi-mipi-bridge:R_0R_0402 R13
 U 1 1 5DEF5CB7
 P 4100 3350
 F 0 "R13" H 4300 3400 60  0000 C CNN
 F 1 "R_0R_0402" H 4100 3200 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 4300 3550 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 4300 3550 60  0001 L CNN
 F 3 "" H 4100 3350 50  0001 C CNN
 F 4 "PANASONIC" H 4300 3750 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4300 3650 60  0001 L CNN "MPN"
@@ -3224,12 +3185,12 @@ F 6 "0R" H 4100 3350 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R14
+L sdi-mipi-bridge:R_0R_0402 R14
 U 1 1 5DEF5CC0
 P 4100 3450
 F 0 "R14" H 4300 3500 60  0000 C CNN
 F 1 "R_0R_0402" H 4100 3300 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 4300 3650 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 4300 3650 60  0001 L CNN
 F 3 "" H 4100 3450 50  0001 C CNN
 F 4 "PANASONIC" H 4300 3850 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4300 3750 60  0001 L CNN "MPN"
@@ -3238,14 +3199,14 @@ F 6 "0R" H 4100 3450 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R?
+L sdi-mipi-bridge:R_0R_0402 R?
 U 1 1 5E310B02
 P 6150 14350
 AR Path="/5DD55102/5E310B02" Ref="R?"  Part="1" 
 AR Path="/5E310B02" Ref="R25"  Part="1" 
 F 0 "R25" H 6100 14450 60  0000 C CNN
 F 1 "R_0R_0402" H 6150 14200 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 6350 14550 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 6350 14550 60  0001 L CNN
 F 3 "" H 6150 14350 50  0001 C CNN
 F 4 "PANASONIC" H 6350 14750 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6350 14650 60  0001 L CNN "MPN"
@@ -3256,7 +3217,7 @@ $EndComp
 Wire Wire Line
 	6000 14350 5900 14350
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5E34416D
 P 3850 10050
 AR Path="/5DD55102/5E34416D" Ref="#PWR?"  Part="1" 
@@ -3271,12 +3232,12 @@ $EndComp
 Wire Wire Line
 	3850 9400 3850 10050
 $Comp
-L SDI-bridge:C_10u_0603 C15
+L sdi-mipi-bridge:C_10u_0603 C15
 U 1 1 5E2677C8
 P 3850 9250
 F 0 "C15" H 3965 9295 60  0000 L CNN
 F 1 "C_10u_0603" H 3850 9100 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0603-cap" H 4050 9450 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0603-cap" H 4050 9450 60  0001 L CNN
 F 3 "" H 3850 9250 50  0001 C CNN
 F 4 "AVX" H 4050 9650 60  0001 L CNN "Manufacturer"
 F 5 "06036D106MAT2A" H 4050 9550 60  0001 L CNN "MPN"
@@ -3300,12 +3261,12 @@ Wire Wire Line
 Wire Wire Line
 	4750 3550 4250 3550
 $Comp
-L SDI-bridge:R_0R_0402 R15
+L sdi-mipi-bridge:R_0R_0402 R15
 U 1 1 5DEF5CC9
 P 4100 3550
 F 0 "R15" H 4300 3600 60  0000 C CNN
 F 1 "R_0R_0402" H 4100 3400 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 4300 3750 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 4300 3750 60  0001 L CNN
 F 3 "" H 4100 3550 50  0001 C CNN
 F 4 "PANASONIC" H 4300 3950 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4300 3850 60  0001 L CNN "MPN"
@@ -3318,12 +3279,12 @@ Wire Wire Line
 Wire Wire Line
 	4750 3650 4250 3650
 $Comp
-L SDI-bridge:R_0R_0402 R16
+L sdi-mipi-bridge:R_0R_0402 R16
 U 1 1 5DEF5CD2
 P 4100 3650
 F 0 "R16" H 4300 3700 60  0000 C CNN
 F 1 "R_0R_0402" H 4100 3500 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 4300 3850 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 4300 3850 60  0001 L CNN
 F 3 "" H 4100 3650 50  0001 C CNN
 F 4 "PANASONIC" H 4300 4050 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4300 3950 60  0001 L CNN "MPN"
@@ -3350,27 +3311,14 @@ Wire Wire Line
 Wire Wire Line
 	3200 6000 4050 6000
 $Comp
-L SDI-bridge:+3.3V #PWR?
-U 1 1 5EE74378
-P 5450 11950
-AR Path="/5DD55102/5EE74378" Ref="#PWR?"  Part="1" 
-AR Path="/5EE74378" Ref="#PWR022"  Part="1" 
-F 0 "#PWR022" H 5450 11800 50  0001 C CNN
-F 1 "+3.3V" H 5465 12123 50  0000 C CNN
-F 2 "" H 5450 11950 50  0001 C CNN
-F 3 "" H 5450 11950 50  0001 C CNN
-	1    5450 11950
-	1    0    0    -1  
-$EndComp
-$Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5EE74387
 P 7300 12450
 AR Path="/5DD55102/5EE74387" Ref="C?"  Part="1" 
 AR Path="/5EE74387" Ref="C34"  Part="1" 
 F 0 "C34" H 7100 12550 60  0000 L CNN
 F 1 "C_10n_0402" H 7300 12300 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 7500 12650 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 7500 12650 60  0001 L CNN
 F 3 "" H 7300 12450 50  0001 C CNN
 F 4 "AVX" H 7500 12850 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 7500 12750 60  0001 L CNN "MPN"
@@ -3379,14 +3327,14 @@ F 6 "10n" H 7350 12350 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5EE74390
 P 5450 12450
 AR Path="/5DD55102/5EE74390" Ref="C?"  Part="1" 
 AR Path="/5EE74390" Ref="C21"  Part="1" 
 F 0 "C21" H 5250 12550 60  0000 L CNN
 F 1 "C_10n_0402" H 5450 12300 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 5650 12650 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 5650 12650 60  0001 L CNN
 F 3 "" H 5450 12450 50  0001 C CNN
 F 4 "AVX" H 5650 12850 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 5650 12750 60  0001 L CNN "MPN"
@@ -3395,14 +3343,14 @@ F 6 "10n" H 5500 12350 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_1u_0402 C?
+L sdi-mipi-bridge:C_1u_0402 C?
 U 1 1 5EE74399
 P 5950 12450
 AR Path="/5DD55102/5EE74399" Ref="C?"  Part="1" 
 AR Path="/5EE74399" Ref="C26"  Part="1" 
 F 0 "C26" H 5750 12550 60  0000 L CNN
 F 1 "C_1u_0402" H 5950 12300 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 6150 12650 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 6150 12650 60  0001 L CNN
 F 3 "" H 5950 12450 50  0001 C CNN
 F 4 "TDK" H 6150 12850 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 6150 12750 60  0001 L CNN "MPN"
@@ -3411,14 +3359,14 @@ F 6 "1u" H 6000 12350 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R?
+L sdi-mipi-bridge:R_0R_0402 R?
 U 1 1 5EE743A2
 P 6400 12150
 AR Path="/5DD55102/5EE743A2" Ref="R?"  Part="1" 
 AR Path="/5EE743A2" Ref="R24"  Part="1" 
 F 0 "R24" H 6300 12250 60  0000 C CNN
 F 1 "R_0R_0402" H 6400 12000 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 6600 12350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 6600 12350 60  0001 L CNN
 F 3 "" H 6400 12150 50  0001 C CNN
 F 4 "PANASONIC" H 6600 12550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6600 12450 60  0001 L CNN "MPN"
@@ -3434,7 +3382,7 @@ Wire Wire Line
 	5950 12150 5450 12150
 Connection ~ 5450 12150
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5EE743AC
 P 5450 12900
 AR Path="/5DD55102/5EE743AC" Ref="#PWR?"  Part="1" 
@@ -3456,14 +3404,14 @@ Wire Wire Line
 	5450 12700 5450 12900
 Connection ~ 5450 12700
 $Comp
-L SDI-bridge:C_1u_0402 C?
+L sdi-mipi-bridge:C_1u_0402 C?
 U 1 1 5EE743BA
 P 6850 12450
 AR Path="/5DD55102/5EE743BA" Ref="C?"  Part="1" 
 AR Path="/5EE743BA" Ref="C30"  Part="1" 
 F 0 "C30" H 6650 12550 60  0000 L CNN
 F 1 "C_1u_0402" H 6850 12300 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 7050 12650 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 7050 12650 60  0001 L CNN
 F 3 "" H 6850 12450 50  0001 C CNN
 F 4 "TDK" H 7050 12850 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 7050 12750 60  0001 L CNN "MPN"
@@ -3493,7 +3441,7 @@ Wire Wire Line
 	7300 12700 7300 12900
 Connection ~ 7300 12700
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 5EE743CE
 P 7300 12900
 AR Path="/5DD55102/5EE743CE" Ref="#PWR?"  Part="1" 
@@ -3508,12 +3456,12 @@ $EndComp
 Wire Wire Line
 	5450 11950 5450 12150
 $Comp
-L SDI-bridge:R_75R_0603 R19
+L sdi-mipi-bridge:R_75R_0603 R19
 U 1 1 5F17DA84
 P 6400 6650
 F 0 "R19" H 6100 6550 60  0000 L CNN
 F 1 "R_75R_0603" H 6400 6500 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0603-res" H 6600 6850 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0603-res" H 6600 6850 60  0001 L CNN
 F 3 "" H 6400 6650 50  0001 C CNN
 F 4 "MULTICOMP" H 6600 7050 60  0001 L CNN "Manufacturer"
 F 5 "MCWR06X75R0FTL" H 6600 6950 60  0001 L CNN "MPN"
@@ -3522,12 +3470,12 @@ F 6 "75R" H 6550 6700 50  0000 L CNN "Val"
 	1    0    0    1   
 $EndComp
 $Comp
-L SDI-bridge:031-70526-21 J1
+L sdi-mipi-bridge:031-70526-21 J1
 U 1 1 5F029B06
 P 8550 5650
 F 0 "J1" H 8400 5850 50  0000 L CNN
 F 1 "031-70526-21" H 7900 5500 50  0000 L CNN
-F 2 "SDI-bridge-footprints:BNC_Edge_Conn" H 8310 4820 50  0001 C CNN
+F 2 "sdi-mipi-bridge-footprints:BNC_Edge_Conn" H 8310 4820 50  0001 C CNN
 F 3 "https://www.farnell.com/cad/2305565.pdf?_ga=2.190633003.1014497200.1574067480-156563690.1566371002&_gac=1.57062104.1572875319.Cj0KCQiAtf_tBRDtARIsAIbAKe0A1M5y_jdFCiNLNrHM5L2GjmDvn_4qnRvhHAD9jBdL9AmoMNThLCoaAjhJEALw_wcB" H 8410 4920 50  0001 C CNN
 F 4 "031-70526-21" H 8510 5020 51  0001 C CNN "MPN"
 F 5 "Amphenol" H 8610 5120 51  0001 C CNN "Manufacturer"
@@ -3539,14 +3487,14 @@ Wire Wire Line
 Wire Wire Line
 	6750 5900 6750 5650
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5F39C66F
 P 7250 5250
 AR Path="/5DD55102/5F39C66F" Ref="C?"  Part="1" 
 AR Path="/5F39C66F" Ref="C36"  Part="1" 
 F 0 "C36" V 7150 5000 60  0000 L CNN
 F 1 "C_10n_0402" H 7250 5100 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 7450 5450 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 7450 5450 60  0001 L CNN
 F 3 "" H 7250 5250 50  0001 C CNN
 F 4 "AVX" H 7450 5650 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 7450 5550 60  0001 L CNN "MPN"
@@ -3555,7 +3503,7 @@ F 6 "10n" V 7300 5350 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 5F3A168D
 P 7650 5400
 AR Path="/5DD55102/5F3A168D" Ref="#PWR?"  Part="1" 
@@ -3570,12 +3518,12 @@ $EndComp
 Wire Wire Line
 	7650 5250 7400 5250
 $Comp
-L SDI-bridge:R_75R_0603 R18
+L sdi-mipi-bridge:R_75R_0603 R18
 U 1 1 5F4254DB
 P 6400 5250
 F 0 "R18" H 6100 5150 60  0000 L CNN
 F 1 "R_75R_0603" H 6400 5100 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0603-res" H 6600 5450 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0603-res" H 6600 5450 60  0001 L CNN
 F 3 "" H 6400 5250 50  0001 C CNN
 F 4 "MULTICOMP" H 6600 5650 60  0001 L CNN "Manufacturer"
 F 5 "MCWR06X75R0FTL" H 6600 5550 60  0001 L CNN "MPN"
@@ -3584,7 +3532,7 @@ F 6 "75R" H 6550 5300 50  0000 L CNN "Val"
 	1    0    0    1   
 $EndComp
 $Comp
-L SDI-bridge:VDD #PWR034
+L sdi-mipi-bridge:VDD #PWR034
 U 1 1 5F533C99
 P 6950 5100
 F 0 "#PWR034" H 6950 4950 50  0001 C CNN
@@ -3596,12 +3544,12 @@ F 4 "CD_VDD" H 6967 5273 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_4u7_0402 C31
+L sdi-mipi-bridge:C_4u7_0402 C31
 U 1 1 5F692D03
 P 7050 5650
 F 0 "C31" V 6950 5500 60  0000 C CNN
 F 1 "C_4u7_0402" H 7050 5500 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 7250 5850 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 7250 5850 60  0001 L CNN
 F 3 "" H 7050 5650 50  0001 C CNN
 F 4 "MURATA" H 7250 6050 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60G475ME" H 7250 5950 60  0001 L CNN "MPN"
@@ -3614,7 +3562,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 6100 5600 6100
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 5FEB1CFA
 P 4650 6900
 AR Path="/5DD55102/5FEB1CFA" Ref="#PWR?"  Part="1" 
@@ -3629,12 +3577,12 @@ $EndComp
 Text Label 3950 5350 0    50   ~ 0
 SDO_EN_DIS
 $Comp
-L SDI-bridge:R_750R_0402 R4
+L sdi-mipi-bridge:R_750R_0402 R4
 U 1 1 5E6BA40B
 P 3350 6200
 F 0 "R4" H 3150 6250 60  0000 C CNN
 F 1 "R_750R_0402" H 3350 6050 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 3550 6400 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 3550 6400 60  0001 L CNN
 F 3 "" H 3350 6200 50  0001 C CNN
 F 4 "Yageo" H 3550 6600 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-07750RL" H 3550 6500 60  0001 L CNN "MPN"
@@ -3643,12 +3591,12 @@ F 6 "750R" H 3350 6200 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:CrossLink_LIF-MD6000-6JMG80I U4
+L sdi-mipi-bridge:CrossLink_LIF-MD6000-6JMG80I U4
 U 1 1 5EA86705
 P 18000 9250
 F 0 "U4" H 18250 9600 60  0000 C CNN
 F 1 "CrossLink_LIF-MD6000-6JMG80I" H 21200 4800 60  0000 C CNN
-F 2 "SDI-bridge-footprints:BGA-80pin_ckfBGA80_7.0x7.0mm" H 18150 9675 60  0001 R CNN
+F 2 "sdi-mipi-bridge-footprints:BGA-80pin_ckfBGA80_7.0x7.0mm" H 18150 9675 60  0001 R CNN
 F 3 "" H 18150 9475 60  0001 R CNN
 	1    18000 9250
 	1    0    0    -1  
@@ -3743,23 +3691,10 @@ Wire Wire Line
 	17500 2150 17500 2450
 Wire Wire Line
 	18150 2150 17500 2150
-$Comp
-L SDI-bridge:+3.3V #PWR?
-U 1 1 61D74F93
-P 17750 5850
-AR Path="/5DD55102/61D74F93" Ref="#PWR?"  Part="1" 
-AR Path="/61D74F93" Ref="#PWR062"  Part="1" 
-F 0 "#PWR062" H 17750 5700 50  0001 C CNN
-F 1 "+3.3V" H 17765 6023 50  0000 C CNN
-F 2 "" H 17750 5850 50  0001 C CNN
-F 3 "" H 17750 5850 50  0001 C CNN
-	1    17750 5850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	17750 5850 17750 5950
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 61E201DD
 P 17500 6650
 AR Path="/5DD55102/61E201DD" Ref="#PWR?"  Part="1" 
@@ -3842,7 +3777,7 @@ SPI_SS(SCL)
 Text Label 16950 9650 0    50   ~ 0
 SPI_SCK(SDA)
 $Comp
-L SDI-bridge:+1V2 #PWR?
+L sdi-mipi-bridge:+1V2 #PWR?
 U 1 1 5FE001F0
 P 8850 11900
 AR Path="/5DD55102/5FE001F0" Ref="#PWR?"  Part="1" 
@@ -3855,7 +3790,7 @@ F 3 "" H 8850 11900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:+1V2 #PWR?
+L sdi-mipi-bridge:+1V2 #PWR?
 U 1 1 5FFEE258
 P 8850 10000
 AR Path="/5DD55102/5FFEE258" Ref="#PWR?"  Part="1" 
@@ -3868,12 +3803,12 @@ F 3 "" H 8850 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_4u7_0402 C42
+L sdi-mipi-bridge:C_4u7_0402 C42
 U 1 1 602000BC
 P 9500 12350
 F 0 "C42" H 9400 12450 60  0000 C CNN
 F 1 "C_4u7_0402" H 9500 12200 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 9700 12550 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 9700 12550 60  0001 L CNN
 F 3 "" H 9500 12350 50  0001 C CNN
 F 4 "MURATA" H 9700 12750 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60G475ME" H 9700 12650 60  0001 L CNN "MPN"
@@ -3882,12 +3817,12 @@ F 6 "4u7" H 9650 12250 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_100n_0402_6V3 C39
+L sdi-mipi-bridge:C_100n_0402_6V3 C39
 U 1 1 602A42D9
 P 9100 12350
 F 0 "C39" H 8900 12450 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 9100 12200 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 9300 12550 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 9300 12550 60  0001 L CNN
 F 3 "" H 9100 12350 50  0001 C CNN
 F 4 "Walsin" H 9300 12750 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9300 12650 60  0001 L CNN "MPN"
@@ -3896,12 +3831,12 @@ F 6 "100n" H 9150 12250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_4u7_0402 C52
+L sdi-mipi-bridge:C_4u7_0402 C52
 U 1 1 6041F3CD
 P 10350 12350
 F 0 "C52" H 10250 12450 60  0000 C CNN
 F 1 "C_4u7_0402" H 10350 12200 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 10550 12550 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 10550 12550 60  0001 L CNN
 F 3 "" H 10350 12350 50  0001 C CNN
 F 4 "MURATA" H 10550 12750 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60G475ME" H 10550 12650 60  0001 L CNN "MPN"
@@ -3910,12 +3845,12 @@ F 6 "4u7" H 10500 12250 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_100n_0402_6V3 C48
+L sdi-mipi-bridge:C_100n_0402_6V3 C48
 U 1 1 6041F3D6
 P 9950 12350
 F 0 "C48" H 9750 12450 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 9950 12200 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 10150 12550 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 10150 12550 60  0001 L CNN
 F 3 "" H 9950 12350 50  0001 C CNN
 F 4 "Walsin" H 10150 12750 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10150 12650 60  0001 L CNN "MPN"
@@ -3945,7 +3880,7 @@ Connection ~ 9100 12050
 Wire Wire Line
 	8850 12050 8850 11900
 $Comp
-L SDI-bridge:+1V2 #PWR?
+L sdi-mipi-bridge:+1V2 #PWR?
 U 1 1 605CF593
 P 19700 8400
 AR Path="/5DD55102/605CF593" Ref="#PWR?"  Part="1" 
@@ -3958,7 +3893,7 @@ F 3 "" H 19700 8400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:+1V2 #PWR?
+L sdi-mipi-bridge:+1V2 #PWR?
 U 1 1 606B1863
 P 19950 8400
 AR Path="/5DD55102/606B1863" Ref="#PWR?"  Part="1" 
@@ -3997,7 +3932,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 12950 9700 12750
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 6099806A
 P 9700 12950
 AR Path="/5DD55102/6099806A" Ref="#PWR?"  Part="1" 
@@ -4013,12 +3948,12 @@ Connection ~ 9700 12750
 Wire Wire Line
 	9700 12750 9950 12750
 $Comp
-L SDI-bridge:C_100n_0402_6V3 C41
+L sdi-mipi-bridge:C_100n_0402_6V3 C41
 U 1 1 60A83141
 P 9500 9050
 F 0 "C41" H 9300 9150 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 9500 8900 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 9700 9250 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 9700 9250 60  0001 L CNN
 F 3 "" H 9500 9050 50  0001 C CNN
 F 4 "Walsin" H 9700 9450 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9700 9350 60  0001 L CNN "MPN"
@@ -4027,12 +3962,12 @@ F 6 "100n" H 9550 8950 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_100n_0402_6V3 C46
+L sdi-mipi-bridge:C_100n_0402_6V3 C46
 U 1 1 60DDB9AC
 P 9900 9050
 F 0 "C46" H 9700 9150 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 9900 8900 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 10100 9250 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 10100 9250 60  0001 L CNN
 F 3 "" H 9900 9050 50  0001 C CNN
 F 4 "Walsin" H 10100 9450 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10100 9350 60  0001 L CNN "MPN"
@@ -4041,12 +3976,12 @@ F 6 "100n" H 9950 8950 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_100n_0402_6V3 C50
+L sdi-mipi-bridge:C_100n_0402_6V3 C50
 U 1 1 60E2A5A7
 P 10250 9050
 F 0 "C50" H 10050 9150 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 10250 8900 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 10450 9250 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 10450 9250 60  0001 L CNN
 F 3 "" H 10250 9050 50  0001 C CNN
 F 4 "Walsin" H 10450 9450 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10450 9350 60  0001 L CNN "MPN"
@@ -4055,12 +3990,12 @@ F 6 "100n" H 10300 8950 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_100n_0402_6V3 C54
+L sdi-mipi-bridge:C_100n_0402_6V3 C54
 U 1 1 60E7AD47
 P 10600 9050
 F 0 "C54" H 10400 9150 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 10600 8900 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 10800 9250 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 10800 9250 60  0001 L CNN
 F 3 "" H 10600 9050 50  0001 C CNN
 F 4 "Walsin" H 10800 9450 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10800 9350 60  0001 L CNN "MPN"
@@ -4069,12 +4004,12 @@ F 6 "100n" H 10650 8950 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_100n_0402_6V3 C57
+L sdi-mipi-bridge:C_100n_0402_6V3 C57
 U 1 1 60ECD63B
 P 10950 9050
 F 0 "C57" H 10750 9150 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 10950 8900 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 11150 9250 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 11150 9250 60  0001 L CNN
 F 3 "" H 10950 9050 50  0001 C CNN
 F 4 "Walsin" H 11150 9450 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 11150 9350 60  0001 L CNN "MPN"
@@ -4083,12 +4018,12 @@ F 6 "100n" H 11000 8950 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:BLM18PG121SN1D FB2
+L sdi-mipi-bridge:BLM18PG121SN1D FB2
 U 1 1 61404A05
 P 8850 10250
 F 0 "FB2" H 8850 10537 60  0000 C CNN
 F 1 "BLM18PG121SN1D" H 8850 10431 60  0000 C CNN
-F 2 "SDI-bridge-footprints:0603-res" H 9050 10450 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0603-res" H 9050 10450 60  0001 L CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 9050 10550 60  0001 L CNN
 F 4 "BLM18PG121SN1D" H 9050 10750 60  0001 L CNN "MPN"
 F 5 "Murata Electronics North America" H 9050 11350 60  0001 L CNN "Manufacturer"
@@ -4096,12 +4031,12 @@ F 5 "Murata Electronics North America" H 9050 11350 60  0001 L CNN "Manufacturer
 	0    1    1    0   
 $EndComp
 $Comp
-L SDI-bridge:C_100n_0402_6V3 C51
+L sdi-mipi-bridge:C_100n_0402_6V3 C51
 U 1 1 624B7820
 P 10300 13950
 F 0 "C51" H 10100 14050 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 10300 13800 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 10500 14150 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 10500 14150 60  0001 L CNN
 F 3 "" H 10300 13950 50  0001 C CNN
 F 4 "Walsin" H 10500 14350 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10500 14250 60  0001 L CNN "MPN"
@@ -4120,30 +4055,17 @@ Wire Wire Line
 	10100 14200 9900 14200
 Wire Wire Line
 	8800 13700 9150 13700
-$Comp
-L SDI-bridge:+3.3V #PWR?
-U 1 1 626304ED
-P 8850 8300
-AR Path="/5DD55102/626304ED" Ref="#PWR?"  Part="1" 
-AR Path="/626304ED" Ref="#PWR037"  Part="1" 
-F 0 "#PWR037" H 8850 8150 50  0001 C CNN
-F 1 "+3.3V" H 8865 8473 50  0000 C CNN
-F 2 "" H 8850 8300 50  0001 C CNN
-F 3 "" H 8850 8300 50  0001 C CNN
-	1    8850 8300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9550 13700 9900 13700
 $Comp
-L SDI-bridge:C_1u_0402 C?
+L sdi-mipi-bridge:C_1u_0402 C?
 U 1 1 6286915C
 P 9900 13950
 AR Path="/5DD55102/6286915C" Ref="C?"  Part="1" 
 AR Path="/6286915C" Ref="C47"  Part="1" 
 F 0 "C47" H 9650 14050 60  0000 L CNN
 F 1 "C_1u_0402" H 9900 13800 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 10100 14150 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 10100 14150 60  0001 L CNN
 F 3 "" H 9900 13950 50  0001 C CNN
 F 4 "TDK" H 10100 14350 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 10100 14250 60  0001 L CNN "MPN"
@@ -4153,7 +4075,7 @@ F 6 "1u" H 9950 13850 50  0000 L CNN "Val"
 $EndComp
 Connection ~ 9900 13700
 $Comp
-L SDI-bridge:+1V2 #PWR?
+L sdi-mipi-bridge:+1V2 #PWR?
 U 1 1 628D8611
 P 8800 13550
 AR Path="/5DD55102/628D8611" Ref="#PWR?"  Part="1" 
@@ -4168,27 +4090,14 @@ $EndComp
 Wire Wire Line
 	8800 13700 8800 13550
 $Comp
-L SDI-bridge:+3.3V #PWR?
-U 1 1 62A4ADAB
-P 8700 14850
-AR Path="/5DD55102/62A4ADAB" Ref="#PWR?"  Part="1" 
-AR Path="/62A4ADAB" Ref="#PWR042"  Part="1" 
-F 0 "#PWR042" H 8700 14700 50  0001 C CNN
-F 1 "+3.3V" H 8715 15023 50  0000 C CNN
-F 2 "" H 8700 14850 50  0001 C CNN
-F 3 "" H 8700 14850 50  0001 C CNN
-	1    8700 14850
-	1    0    0    -1  
-$EndComp
-$Comp
-L SDI-bridge:C_1u_0402 C?
+L sdi-mipi-bridge:C_1u_0402 C?
 U 1 1 62A4ADB5
 P 9550 15250
 AR Path="/5DD55102/62A4ADB5" Ref="C?"  Part="1" 
 AR Path="/62A4ADB5" Ref="C45"  Part="1" 
 F 0 "C45" H 9350 15350 60  0000 L CNN
 F 1 "C_1u_0402" H 9550 15100 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 9750 15450 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 9750 15450 60  0001 L CNN
 F 3 "" H 9550 15250 50  0001 C CNN
 F 4 "TDK" H 9750 15650 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 9750 15550 60  0001 L CNN "MPN"
@@ -4199,7 +4108,7 @@ $EndComp
 Wire Wire Line
 	8700 14850 8700 15000
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 62A4ADBC
 P 9550 15500
 AR Path="/5DD55102/62A4ADBC" Ref="#PWR?"  Part="1" 
@@ -4214,14 +4123,14 @@ $EndComp
 Wire Wire Line
 	9550 15400 9550 15500
 $Comp
-L SDI-bridge:R_0R_0402 R?
+L sdi-mipi-bridge:R_0R_0402 R?
 U 1 1 62A4ADD0
 P 9150 15000
 AR Path="/5DD55102/62A4ADD0" Ref="R?"  Part="1" 
 AR Path="/62A4ADD0" Ref="R26"  Part="1" 
 F 0 "R26" H 9050 15100 60  0000 C CNN
 F 1 "R_0R_0402" H 9150 14850 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 9350 15200 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 9350 15200 60  0001 L CNN
 F 3 "" H 9150 15000 50  0001 C CNN
 F 4 "PANASONIC" H 9350 15400 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9350 15300 60  0001 L CNN "MPN"
@@ -4246,12 +4155,12 @@ Wire Wire Line
 Wire Wire Line
 	20600 10750 21200 10750
 $Comp
-L SDI-bridge:R_4k7_0402 R35
+L sdi-mipi-bridge:R_4k7_0402 R35
 U 1 1 644FF4FC
 P 16700 9050
 F 0 "R35" H 16900 9000 60  0000 C CNN
 F 1 "R_4k7_0402" H 16700 8900 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 16900 9250 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 16900 9250 60  0001 L CNN
 F 3 "" H 16700 9050 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 16900 9450 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 16900 9350 60  0001 L CNN "MPN"
@@ -4260,12 +4169,12 @@ F 6 "4k7" H 16700 9050 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L SDI-bridge:R_4k7_0402 R36
+L sdi-mipi-bridge:R_4k7_0402 R36
 U 1 1 6456BF0A
 P 16700 9150
 F 0 "R36" H 16900 9100 60  0000 C CNN
 F 1 "R_4k7_0402" H 16700 9000 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 16900 9350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 16900 9350 60  0001 L CNN
 F 3 "" H 16700 9150 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 16900 9550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 16900 9450 60  0001 L CNN "MPN"
@@ -4308,7 +4217,7 @@ Wire Wire Line
 Wire Wire Line
 	19850 14250 19850 14050
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 652F5BB8
 P 19850 14250
 AR Path="/5DD55102/652F5BB8" Ref="#PWR?"  Part="1" 
@@ -4325,7 +4234,7 @@ Wire Wire Line
 Wire Wire Line
 	9900 9200 9900 9300
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 658B06AB
 P 8850 9500
 AR Path="/5DD55102/658B06AB" Ref="#PWR?"  Part="1" 
@@ -4363,19 +4272,6 @@ Wire Wire Line
 	20150 8650 20800 8650
 Wire Wire Line
 	20150 8750 20150 8650
-$Comp
-L SDI-bridge:+3.3V #PWR?
-U 1 1 66FF3BC3
-P 20200 8400
-AR Path="/5DD55102/66FF3BC3" Ref="#PWR?"  Part="1" 
-AR Path="/66FF3BC3" Ref="#PWR066"  Part="1" 
-F 0 "#PWR066" H 20200 8250 50  0001 C CNN
-F 1 "+3.3V" H 20215 8573 50  0000 C CNN
-F 2 "" H 20200 8400 50  0001 C CNN
-F 3 "" H 20200 8400 50  0001 C CNN
-	1    20200 8400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	20200 8400 20200 8550
 Wire Wire Line
@@ -4383,12 +4279,12 @@ Wire Wire Line
 Wire Wire Line
 	20050 8550 20200 8550
 $Comp
-L SDI-bridge:BLM18PG121SN1D FB1
+L sdi-mipi-bridge:BLM18PG121SN1D FB1
 U 1 1 672B5165
 P 8850 8550
 F 0 "FB1" H 8850 8837 60  0000 C CNN
 F 1 "BLM18PG121SN1D" H 8850 8731 60  0000 C CNN
-F 2 "SDI-bridge-footprints:0603-res" H 9050 8750 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0603-res" H 9050 8750 60  0001 L CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 9050 8850 60  0001 L CNN
 F 4 "BLM18PG121SN1D" H 9050 9050 60  0001 L CNN "MPN"
 F 5 "Murata Electronics North America" H 9050 9650 60  0001 L CNN "Manufacturer"
@@ -4396,12 +4292,12 @@ F 5 "Murata Electronics North America" H 9050 9650 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L SDI-bridge:BLM18PG121SN1D FB3
+L sdi-mipi-bridge:BLM18PG121SN1D FB3
 U 1 1 672B7B16
 P 9350 13700
 F 0 "FB3" H 9350 13987 60  0000 C CNN
 F 1 "BLM18PG121SN1D" H 9350 13881 60  0000 C CNN
-F 2 "SDI-bridge-footprints:0603-res" H 9550 13900 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0603-res" H 9550 13900 60  0001 L CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 9550 14000 60  0001 L CNN
 F 4 "BLM18PG121SN1D" H 9550 14200 60  0001 L CNN "MPN"
 F 5 "Murata Electronics North America" H 9550 14800 60  0001 L CNN "Manufacturer"
@@ -4409,7 +4305,7 @@ F 5 "Murata Electronics North America" H 9550 14800 60  0001 L CNN "Manufacturer
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 6792CDA4
 P 8850 11250
 AR Path="/5DD55102/6792CDA4" Ref="#PWR?"  Part="1" 
@@ -4486,111 +4382,111 @@ Entry Wire Line
 Entry Wire Line
 	17000 11450 16900 11550
 $Comp
-L SDI-bridge:TP_SMD_0_75MM TP7
+L sdi-mipi-bridge:TP_SMD_0_75MM TP7
 U 1 1 67C7D0F7
 P 4000 1750
 F 0 "TP7" V 4000 1700 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 4000 1650 50  0001 C CNN
-F 2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" H 4200 1950 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm" H 4200 1950 60  0001 L CNN
 F 3 "" H 4200 2050 60  0001 L CNN
 	1    4000 1750
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SDI-bridge:TP_SMD_0_75MM TP8
+L sdi-mipi-bridge:TP_SMD_0_75MM TP8
 U 1 1 67C7F14A
 P 4000 1850
 F 0 "TP8" V 4000 1800 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 4000 1750 50  0001 C CNN
-F 2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2050 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2050 60  0001 L CNN
 F 3 "" H 4200 2150 60  0001 L CNN
 	1    4000 1850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SDI-bridge:TP_SMD_0_75MM TP9
+L sdi-mipi-bridge:TP_SMD_0_75MM TP9
 U 1 1 67C7F5D4
 P 4000 1950
 F 0 "TP9" V 4000 1900 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 4000 1850 50  0001 C CNN
-F 2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2150 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2150 60  0001 L CNN
 F 3 "" H 4200 2250 60  0001 L CNN
 	1    4000 1950
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SDI-bridge:TP_SMD_0_75MM TP10
+L sdi-mipi-bridge:TP_SMD_0_75MM TP10
 U 1 1 67C7F928
 P 4000 2050
 F 0 "TP10" V 4000 2000 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 4000 1950 50  0001 C CNN
-F 2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2250 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2250 60  0001 L CNN
 F 3 "" H 4200 2350 60  0001 L CNN
 	1    4000 2050
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SDI-bridge:TP_SMD_0_75MM TP11
+L sdi-mipi-bridge:TP_SMD_0_75MM TP11
 U 1 1 67C7FD0B
 P 4000 2150
 F 0 "TP11" V 4000 2100 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 4000 2050 50  0001 C CNN
-F 2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2350 60  0001 L CNN
 F 3 "" H 4200 2450 60  0001 L CNN
 	1    4000 2150
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SDI-bridge:TP_SMD_0_75MM TP12
+L sdi-mipi-bridge:TP_SMD_0_75MM TP12
 U 1 1 67C8011A
 P 4000 2250
 F 0 "TP12" V 4000 2200 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 4000 2150 50  0001 C CNN
-F 2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2450 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2450 60  0001 L CNN
 F 3 "" H 4200 2550 60  0001 L CNN
 	1    4000 2250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SDI-bridge:TP_SMD_0_75MM TP13
+L sdi-mipi-bridge:TP_SMD_0_75MM TP13
 U 1 1 67C804C0
 P 4000 2350
 F 0 "TP13" V 4000 2300 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 4000 2250 50  0001 C CNN
-F 2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2550 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2550 60  0001 L CNN
 F 3 "" H 4200 2650 60  0001 L CNN
 	1    4000 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SDI-bridge:TP_SMD_0_75MM TP14
+L sdi-mipi-bridge:TP_SMD_0_75MM TP14
 U 1 1 67C808CB
 P 4000 2450
 F 0 "TP14" V 4000 2400 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 4000 2350 50  0001 C CNN
-F 2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2650 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2650 60  0001 L CNN
 F 3 "" H 4200 2750 60  0001 L CNN
 	1    4000 2450
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SDI-bridge:TP_SMD_0_75MM TP15
+L sdi-mipi-bridge:TP_SMD_0_75MM TP15
 U 1 1 67C80D31
 P 4000 2550
 F 0 "TP15" V 4000 2500 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 4000 2450 50  0001 C CNN
-F 2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2750 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2750 60  0001 L CNN
 F 3 "" H 4200 2850 60  0001 L CNN
 	1    4000 2550
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SDI-bridge:TP_SMD_0_75MM TP16
+L sdi-mipi-bridge:TP_SMD_0_75MM TP16
 U 1 1 67C81112
 P 4000 2650
 F 0 "TP16" V 4000 2600 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 4000 2550 50  0001 C CNN
-F 2 "SDI-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2850 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2850 60  0001 L CNN
 F 3 "" H 4200 2950 60  0001 L CNN
 	1    4000 2650
 	0    -1   -1   0   
@@ -4634,12 +4530,12 @@ Wire Wire Line
 Wire Wire Line
 	8850 9300 8850 9500
 $Comp
-L SDI-bridge:C_2n2_0402 C37
+L sdi-mipi-bridge:C_2n2_0402 C37
 U 1 1 658AC3D4
 P 8850 9050
 F 0 "C37" H 8965 9095 60  0000 L CNN
 F 1 "C_2n2_0402" H 8850 8900 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 9050 9250 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 9050 9250 60  0001 L CNN
 F 3 "" H 8850 9050 50  0001 C CNN
 F 4 "KEMET" H 9050 9450 60  0001 L CNN "Manufacturer"
 F 5 "CGA9N3X7R1C476M230KB" H 9050 9350 60  0001 L CNN "MPN"
@@ -4660,12 +4556,12 @@ GNDPLL_DPHY
 Wire Wire Line
 	10400 11200 11000 11200
 $Comp
-L SDI-bridge:C_100n_0402_6V3 C53
+L sdi-mipi-bridge:C_100n_0402_6V3 C53
 U 1 1 61635152
 P 10400 10850
 F 0 "C53" H 10200 10950 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 10400 10700 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 10600 11050 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 10600 11050 60  0001 L CNN
 F 3 "" H 10400 10850 50  0001 C CNN
 F 4 "Walsin" H 10600 11250 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10600 11150 60  0001 L CNN "MPN"
@@ -4678,12 +4574,12 @@ Wire Wire Line
 Wire Wire Line
 	10050 11000 10050 11200
 $Comp
-L SDI-bridge:C_100n_0402_6V3 C49
+L sdi-mipi-bridge:C_100n_0402_6V3 C49
 U 1 1 614B7071
 P 10050 10850
 F 0 "C49" H 9850 10950 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 10050 10700 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 10250 11050 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 10250 11050 60  0001 L CNN
 F 3 "" H 10050 10850 50  0001 C CNN
 F 4 "Walsin" H 10250 11250 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10250 11150 60  0001 L CNN "MPN"
@@ -4692,7 +4588,7 @@ F 6 "100n" H 10100 10750 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 6145C54C
 P 9700 11250
 AR Path="/5DD55102/6145C54C" Ref="#PWR?"  Part="1" 
@@ -4705,12 +4601,12 @@ F 3 "" H 9700 11250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:C_100n_0402_6V3 C44
+L sdi-mipi-bridge:C_100n_0402_6V3 C44
 U 1 1 6145C53D
 P 9700 10850
 F 0 "C44" H 9500 10950 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 9700 10700 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 9900 11050 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 9900 11050 60  0001 L CNN
 F 3 "" H 9700 10850 50  0001 C CNN
 F 4 "Walsin" H 9900 11250 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9900 11150 60  0001 L CNN "MPN"
@@ -4719,7 +4615,7 @@ F 6 "100n" H 9750 10750 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 61404A26
 P 9300 11250
 AR Path="/5DD55102/61404A26" Ref="#PWR?"  Part="1" 
@@ -4734,12 +4630,12 @@ $EndComp
 Wire Wire Line
 	9300 11000 9300 11250
 $Comp
-L SDI-bridge:C_100n_0402_6V3 C40
+L sdi-mipi-bridge:C_100n_0402_6V3 C40
 U 1 1 61404A17
 P 9300 10850
 F 0 "C40" H 9100 10950 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 9300 10700 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 9500 11050 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 9500 11050 60  0001 L CNN
 F 3 "" H 9300 10850 50  0001 C CNN
 F 4 "Walsin" H 9500 11250 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9500 11150 60  0001 L CNN "MPN"
@@ -4776,12 +4672,12 @@ Wire Wire Line
 Wire Wire Line
 	8850 11000 8850 11250
 $Comp
-L SDI-bridge:C_2u2_0402 C38
+L sdi-mipi-bridge:C_2u2_0402 C38
 U 1 1 61404A0E
 P 8850 10850
 F 0 "C38" H 8650 10950 60  0000 L CNN
 F 1 "C_2u2_0402" H 8850 10700 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 9050 11050 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 9050 11050 60  0001 L CNN
 F 3 "" H 8850 10850 50  0001 C CNN
 F 4 "TDK" H 9050 11250 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1A225K050BC" H 9050 11150 60  0001 L CNN "MPN"
@@ -4817,20 +4713,7 @@ Wire Wire Line
 Wire Wire Line
 	22650 2000 22650 1600
 $Comp
-L SDI-bridge:+3.3V #PWR?
-U 1 1 5EF7A1F4
-P 22650 1600
-AR Path="/5DD55102/5EF7A1F4" Ref="#PWR?"  Part="1" 
-AR Path="/5EF7A1F4" Ref="#PWR074"  Part="1" 
-F 0 "#PWR074" H 22650 1450 50  0001 C CNN
-F 1 "+3.3V" H 22665 1773 50  0000 C CNN
-F 2 "" H 22650 1600 50  0001 C CNN
-F 3 "" H 22650 1600 50  0001 C CNN
-	1    22650 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5EFFF457
 P 19350 2900
 AR Path="/5DD55102/5EFFF457" Ref="#PWR?"  Part="1" 
@@ -4847,12 +4730,12 @@ Wire Wire Line
 Wire Wire Line
 	19350 2000 20250 2000
 $Comp
-L SDI-bridge:R_0R_0402 R43
+L sdi-mipi-bridge:R_0R_0402 R43
 U 1 1 5F2E2471
 P 19350 1600
 F 0 "R43" V 19200 1500 60  0000 C CNN
 F 1 "R_0R_0402" H 19350 1450 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 19550 1800 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 19550 1800 60  0001 L CNN
 F 3 "" H 19350 1600 50  0001 C CNN
 F 4 "PANASONIC" H 19550 2000 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 19550 1900 60  0001 L CNN "MPN"
@@ -4862,19 +4745,6 @@ F 6 "0R" V 19500 1700 50  0000 C CNN "Val"
 $EndComp
 Wire Wire Line
 	19350 1200 19350 1450
-$Comp
-L SDI-bridge:+3.3V #PWR?
-U 1 1 5F416839
-P 19350 1200
-AR Path="/5DD55102/5F416839" Ref="#PWR?"  Part="1" 
-AR Path="/5F416839" Ref="#PWR067"  Part="1" 
-F 0 "#PWR067" H 19350 1050 50  0001 C CNN
-F 1 "+3.3V" H 19365 1373 50  0000 C CNN
-F 2 "" H 19350 1200 50  0001 C CNN
-F 3 "" H 19350 1200 50  0001 C CNN
-	1    19350 1200
-	1    0    0    -1  
-$EndComp
 NoConn ~ 21850 1800
 NoConn ~ 21850 2100
 NoConn ~ 20250 1800
@@ -4888,7 +4758,7 @@ SCL_GS
 Text Label 1900 6150 2    50   ~ 0
 SDA_GS
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 6028D67D
 P 2350 5400
 AR Path="/5DD55102/6028D67D" Ref="#PWR?"  Part="1" 
@@ -4909,20 +4779,7 @@ Wire Wire Line
 Wire Wire Line
 	650  4950 650  4900
 $Comp
-L SDI-bridge:+3.3V #PWR?
-U 1 1 602FB825
-P 650 4900
-AR Path="/5DD55102/602FB825" Ref="#PWR?"  Part="1" 
-AR Path="/602FB825" Ref="#PWR069"  Part="1" 
-F 0 "#PWR069" H 650 4750 50  0001 C CNN
-F 1 "+3.3V" H 665 5073 50  0000 C CNN
-F 2 "" H 650 4900 50  0001 C CNN
-F 3 "" H 650 4900 50  0001 C CNN
-	1    650  4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 6077AC61
 P 1900 6500
 AR Path="/5DD55102/6077AC61" Ref="#PWR?"  Part="1" 
@@ -4942,19 +4799,6 @@ Wire Wire Line
 	1200 6050 1900 6050
 Wire Wire Line
 	1900 6050 1900 5900
-$Comp
-L SDI-bridge:+3.3V #PWR?
-U 1 1 6077AC6B
-P 1900 5900
-AR Path="/5DD55102/6077AC6B" Ref="#PWR?"  Part="1" 
-AR Path="/6077AC6B" Ref="#PWR072"  Part="1" 
-F 0 "#PWR072" H 1900 5750 50  0001 C CNN
-F 1 "+3.3V" H 1915 6073 50  0000 C CNN
-F 2 "" H 1900 5900 50  0001 C CNN
-F 3 "" H 1900 5900 50  0001 C CNN
-	1    1900 5900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	20600 9850 21350 9850
 Wire Wire Line
@@ -5024,12 +4868,12 @@ Wire Wire Line
 Wire Wire Line
 	4550 6800 4650 6800
 $Comp
-L SDI-bridge:TP_SMD1MM TP18
+L sdi-mipi-bridge:TP_SMD1MM TP18
 U 1 1 5EFD5B26
 P 6500 7000
 F 0 "TP18" V 6500 6850 50  0000 C CNN
 F 1 "TP_SMD1MM" H 6500 6900 50  0001 C CNN
-F 2 "SDI-bridge-footprints:Testpoint_smd_1mm" H 6700 7200 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_1mm" H 6700 7200 60  0001 L CNN
 F 3 "" H 6700 7300 60  0001 L CNN
 	1    6500 7000
 	0    -1   -1   0   
@@ -5079,25 +4923,12 @@ SCL_GS
 Text Label 21900 6500 0    50   ~ 0
 SDA_GS
 $Comp
-L SDI-bridge:+3.3V #PWR?
-U 1 1 6024188A
-P 21400 5250
-AR Path="/5DD55102/6024188A" Ref="#PWR?"  Part="1" 
-AR Path="/6024188A" Ref="#PWR071"  Part="1" 
-F 0 "#PWR071" H 21400 5100 50  0001 C CNN
-F 1 "+3.3V" H 21415 5423 50  0000 C CNN
-F 2 "" H 21400 5250 50  0001 C CNN
-F 3 "" H 21400 5250 50  0001 C CNN
-	1    21400 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L SDI-bridge:R_0R_0402 R67
+L sdi-mipi-bridge:R_0R_0402 R67
 U 1 1 60241893
 P 21400 5550
 F 0 "R67" V 21250 5350 60  0000 L CNN
 F 1 "R_0R_0402" H 21400 5400 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21600 5750 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21600 5750 60  0001 L CNN
 F 3 "" H 21400 5550 50  0001 C CNN
 F 4 "PANASONIC" H 21600 5950 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21600 5850 60  0001 L CNN "MPN"
@@ -5165,12 +4996,12 @@ Wire Wire Line
 Wire Wire Line
 	18150 3150 17650 3150
 $Comp
-L SDI-bridge:R_0R_0402 R55
+L sdi-mipi-bridge:R_0R_0402 R55
 U 1 1 6123E092
 P 21500 9750
 F 0 "R55" H 21300 9800 60  0000 C CNN
 F 1 "R_0R_0402" H 21500 9600 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21700 9950 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21700 9950 60  0001 L CNN
 F 3 "" H 21500 9750 50  0001 C CNN
 F 4 "PANASONIC" H 21700 10150 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21700 10050 60  0001 L CNN "MPN"
@@ -5179,12 +5010,12 @@ F 6 "0R" H 21500 9750 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R54
+L sdi-mipi-bridge:R_0R_0402 R54
 U 1 1 6123F083
 P 21500 9650
 F 0 "R54" H 21300 9700 60  0000 C CNN
 F 1 "R_0R_0402" H 21500 9500 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21700 9850 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21700 9850 60  0001 L CNN
 F 3 "" H 21500 9650 50  0001 C CNN
 F 4 "PANASONIC" H 21700 10050 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21700 9950 60  0001 L CNN "MPN"
@@ -5193,12 +5024,12 @@ F 6 "0R" H 21500 9650 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R57
+L sdi-mipi-bridge:R_0R_0402 R57
 U 1 1 61458383
 P 21500 9950
 F 0 "R57" H 21300 10000 60  0000 C CNN
 F 1 "R_0R_0402" H 21500 9800 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21700 10150 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21700 10150 60  0001 L CNN
 F 3 "" H 21500 9950 50  0001 C CNN
 F 4 "PANASONIC" H 21700 10350 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21700 10250 60  0001 L CNN "MPN"
@@ -5207,12 +5038,12 @@ F 6 "0R" H 21500 9950 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R56
+L sdi-mipi-bridge:R_0R_0402 R56
 U 1 1 6145838C
 P 21500 9850
 F 0 "R56" H 21300 9900 60  0000 C CNN
 F 1 "R_0R_0402" H 21500 9700 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21700 10050 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21700 10050 60  0001 L CNN
 F 3 "" H 21500 9850 50  0001 C CNN
 F 4 "PANASONIC" H 21700 10250 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21700 10150 60  0001 L CNN "MPN"
@@ -5221,12 +5052,12 @@ F 6 "0R" H 21500 9850 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R59
+L sdi-mipi-bridge:R_0R_0402 R59
 U 1 1 614C4E92
 P 21500 10150
 F 0 "R59" H 21300 10200 60  0000 C CNN
 F 1 "R_0R_0402" H 21500 10000 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21700 10350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21700 10350 60  0001 L CNN
 F 3 "" H 21500 10150 50  0001 C CNN
 F 4 "PANASONIC" H 21700 10550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21700 10450 60  0001 L CNN "MPN"
@@ -5235,12 +5066,12 @@ F 6 "0R" H 21500 10150 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R58
+L sdi-mipi-bridge:R_0R_0402 R58
 U 1 1 614C4E9B
 P 21500 10050
 F 0 "R58" H 21300 10100 60  0000 C CNN
 F 1 "R_0R_0402" H 21500 9900 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21700 10250 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21700 10250 60  0001 L CNN
 F 3 "" H 21500 10050 50  0001 C CNN
 F 4 "PANASONIC" H 21700 10450 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21700 10350 60  0001 L CNN "MPN"
@@ -5249,12 +5080,12 @@ F 6 "0R" H 21500 10050 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R61
+L sdi-mipi-bridge:R_0R_0402 R61
 U 1 1 614C4EA4
 P 21500 10350
 F 0 "R61" H 21300 10400 60  0000 C CNN
 F 1 "R_0R_0402" H 21500 10200 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21700 10550 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21700 10550 60  0001 L CNN
 F 3 "" H 21500 10350 50  0001 C CNN
 F 4 "PANASONIC" H 21700 10750 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21700 10650 60  0001 L CNN "MPN"
@@ -5263,12 +5094,12 @@ F 6 "0R" H 21500 10350 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R60
+L sdi-mipi-bridge:R_0R_0402 R60
 U 1 1 614C4EAD
 P 21500 10250
 F 0 "R60" H 21300 10300 60  0000 C CNN
 F 1 "R_0R_0402" H 21500 10100 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21700 10450 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21700 10450 60  0001 L CNN
 F 3 "" H 21500 10250 50  0001 C CNN
 F 4 "PANASONIC" H 21700 10650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21700 10550 60  0001 L CNN "MPN"
@@ -5277,12 +5108,12 @@ F 6 "0R" H 21500 10250 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R63
+L sdi-mipi-bridge:R_0R_0402 R63
 U 1 1 6152EB87
 P 21500 10550
 F 0 "R63" H 21300 10600 60  0000 C CNN
 F 1 "R_0R_0402" H 21500 10400 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21700 10750 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21700 10750 60  0001 L CNN
 F 3 "" H 21500 10550 50  0001 C CNN
 F 4 "PANASONIC" H 21700 10950 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21700 10850 60  0001 L CNN "MPN"
@@ -5291,12 +5122,12 @@ F 6 "0R" H 21500 10550 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R62
+L sdi-mipi-bridge:R_0R_0402 R62
 U 1 1 6152EB90
 P 21500 10450
 F 0 "R62" H 21300 10500 60  0000 C CNN
 F 1 "R_0R_0402" H 21500 10300 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21700 10650 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21700 10650 60  0001 L CNN
 F 3 "" H 21500 10450 50  0001 C CNN
 F 4 "PANASONIC" H 21700 10850 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21700 10750 60  0001 L CNN "MPN"
@@ -5305,12 +5136,12 @@ F 6 "0R" H 21500 10450 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R45
+L sdi-mipi-bridge:R_0R_0402 R45
 U 1 1 5E67D04D
 P 21600 11500
 F 0 "R45" H 21800 11550 60  0000 C CNN
 F 1 "R_0R_0402" H 21600 11350 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21800 11700 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21800 11700 60  0001 L CNN
 F 3 "" H 21600 11500 50  0001 C CNN
 F 4 "PANASONIC" H 21800 11900 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21800 11800 60  0001 L CNN "MPN"
@@ -5319,12 +5150,12 @@ F 6 "0R" H 21600 11500 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R44
+L sdi-mipi-bridge:R_0R_0402 R44
 U 1 1 5E67D056
 P 21600 11400
 F 0 "R44" H 21800 11450 60  0000 C CNN
 F 1 "R_0R_0402" H 21600 11250 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21800 11600 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21800 11600 60  0001 L CNN
 F 3 "" H 21600 11400 50  0001 C CNN
 F 4 "PANASONIC" H 21800 11800 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21800 11700 60  0001 L CNN "MPN"
@@ -5333,12 +5164,12 @@ F 6 "0R" H 21600 11400 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R47
+L sdi-mipi-bridge:R_0R_0402 R47
 U 1 1 5E67D05F
 P 21600 11700
 F 0 "R47" H 21800 11750 60  0000 C CNN
 F 1 "R_0R_0402" H 21600 11550 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21800 11900 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21800 11900 60  0001 L CNN
 F 3 "" H 21600 11700 50  0001 C CNN
 F 4 "PANASONIC" H 21800 12100 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21800 12000 60  0001 L CNN "MPN"
@@ -5347,12 +5178,12 @@ F 6 "0R" H 21600 11700 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R46
+L sdi-mipi-bridge:R_0R_0402 R46
 U 1 1 5E67D068
 P 21600 11600
 F 0 "R46" H 21800 11650 60  0000 C CNN
 F 1 "R_0R_0402" H 21600 11450 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21800 11800 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21800 11800 60  0001 L CNN
 F 3 "" H 21600 11600 50  0001 C CNN
 F 4 "PANASONIC" H 21800 12000 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21800 11900 60  0001 L CNN "MPN"
@@ -5361,12 +5192,12 @@ F 6 "0R" H 21600 11600 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R49
+L sdi-mipi-bridge:R_0R_0402 R49
 U 1 1 5E67D071
 P 21600 11900
 F 0 "R49" H 21800 11950 60  0000 C CNN
 F 1 "R_0R_0402" H 21600 11750 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21800 12100 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21800 12100 60  0001 L CNN
 F 3 "" H 21600 11900 50  0001 C CNN
 F 4 "PANASONIC" H 21800 12300 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21800 12200 60  0001 L CNN "MPN"
@@ -5375,12 +5206,12 @@ F 6 "0R" H 21600 11900 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R48
+L sdi-mipi-bridge:R_0R_0402 R48
 U 1 1 5E67D07A
 P 21600 11800
 F 0 "R48" H 21800 11850 60  0000 C CNN
 F 1 "R_0R_0402" H 21600 11650 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21800 12000 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21800 12000 60  0001 L CNN
 F 3 "" H 21600 11800 50  0001 C CNN
 F 4 "PANASONIC" H 21800 12200 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21800 12100 60  0001 L CNN "MPN"
@@ -5389,12 +5220,12 @@ F 6 "0R" H 21600 11800 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R51
+L sdi-mipi-bridge:R_0R_0402 R51
 U 1 1 5E67D083
 P 21600 12100
 F 0 "R51" H 21800 12150 60  0000 C CNN
 F 1 "R_0R_0402" H 21600 11950 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21800 12300 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21800 12300 60  0001 L CNN
 F 3 "" H 21600 12100 50  0001 C CNN
 F 4 "PANASONIC" H 21800 12500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21800 12400 60  0001 L CNN "MPN"
@@ -5403,12 +5234,12 @@ F 6 "0R" H 21600 12100 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R50
+L sdi-mipi-bridge:R_0R_0402 R50
 U 1 1 5E67D08C
 P 21600 12000
 F 0 "R50" H 21800 12050 60  0000 C CNN
 F 1 "R_0R_0402" H 21600 11850 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21800 12200 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21800 12200 60  0001 L CNN
 F 3 "" H 21600 12000 50  0001 C CNN
 F 4 "PANASONIC" H 21800 12400 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21800 12300 60  0001 L CNN "MPN"
@@ -5417,12 +5248,12 @@ F 6 "0R" H 21600 12000 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R53
+L sdi-mipi-bridge:R_0R_0402 R53
 U 1 1 5E67D095
 P 21600 12300
 F 0 "R53" H 21800 12350 60  0000 C CNN
 F 1 "R_0R_0402" H 21600 12150 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21800 12500 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21800 12500 60  0001 L CNN
 F 3 "" H 21600 12300 50  0001 C CNN
 F 4 "PANASONIC" H 21800 12700 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21800 12600 60  0001 L CNN "MPN"
@@ -5431,12 +5262,12 @@ F 6 "0R" H 21600 12300 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R52
+L sdi-mipi-bridge:R_0R_0402 R52
 U 1 1 5E67D09E
 P 21600 12200
 F 0 "R52" H 21800 12250 60  0000 C CNN
 F 1 "R_0R_0402" H 21600 12050 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21800 12400 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21800 12400 60  0001 L CNN
 F 3 "" H 21600 12200 50  0001 C CNN
 F 4 "PANASONIC" H 21800 12600 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21800 12500 60  0001 L CNN "MPN"
@@ -5584,14 +5415,14 @@ Wire Wire Line
 Wire Wire Line
 	10850 1200 10600 1200
 $Comp
-L SDI-bridge:R_0R_0402 R?
+L sdi-mipi-bridge:R_0R_0402 R?
 U 1 1 60237758
 P 12550 8650
 AR Path="/5DD55102/60237758" Ref="R?"  Part="1" 
 AR Path="/60237758" Ref="R31"  Part="1" 
 F 0 "R31" V 12400 8550 60  0000 C CNN
 F 1 "R_0R_0402" H 12550 8500 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 12750 8850 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 12750 8850 60  0001 L CNN
 F 3 "" H 12550 8650 50  0001 C CNN
 F 4 "PANASONIC" H 12750 9050 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 12750 8950 60  0001 L CNN "MPN"
@@ -5641,12 +5472,12 @@ Wire Wire Line
 Connection ~ 17850 5150
 Connection ~ 17750 5250
 $Comp
-L SDI-bridge:R_0R_0402 R40
+L sdi-mipi-bridge:R_0R_0402 R40
 U 1 1 633A2BCE
 P 17150 5250
 F 0 "R40" H 17400 5300 60  0000 C CNN
 F 1 "R_0R_0402" H 17150 5100 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 17350 5450 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 17350 5450 60  0001 L CNN
 F 3 "" H 17150 5250 50  0001 C CNN
 F 4 "PANASONIC" H 17350 5650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 17350 5550 60  0001 L CNN "MPN"
@@ -5655,12 +5486,12 @@ F 6 "0R" H 17150 5250 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R42
+L sdi-mipi-bridge:R_0R_0402 R42
 U 1 1 61725908
 P 17150 5450
 F 0 "R42" H 17400 5500 60  0000 C CNN
 F 1 "R_0R_0402" H 17150 5300 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 17350 5650 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 17350 5650 60  0001 L CNN
 F 3 "" H 17150 5450 50  0001 C CNN
 F 4 "PANASONIC" H 17350 5850 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 17350 5750 60  0001 L CNN "MPN"
@@ -5669,12 +5500,12 @@ F 6 "0R" H 17150 5450 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R41
+L sdi-mipi-bridge:R_0R_0402 R41
 U 1 1 617258FF
 P 17150 5350
 F 0 "R41" H 17400 5400 60  0000 C CNN
 F 1 "R_0R_0402" H 17150 5200 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 17350 5550 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 17350 5550 60  0001 L CNN
 F 3 "" H 17150 5350 50  0001 C CNN
 F 4 "PANASONIC" H 17350 5750 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 17350 5650 60  0001 L CNN "MPN"
@@ -5727,12 +5558,12 @@ Wire Notes Line style dash_dot
 Text Notes 19700 6250 0    50   ~ 0
 DNP if one I2C used
 $Comp
-L SDI-bridge:R_0R_0402 R37
+L sdi-mipi-bridge:R_0R_0402 R37
 U 1 1 612D8FCA
 P 17150 4950
 F 0 "R37" H 17400 5000 60  0000 C CNN
 F 1 "R_0R_0402" H 17150 4800 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 17350 5150 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 17350 5150 60  0001 L CNN
 F 3 "" H 17150 4950 50  0001 C CNN
 F 4 "PANASONIC" H 17350 5350 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 17350 5250 60  0001 L CNN "MPN"
@@ -5741,12 +5572,12 @@ F 6 "0R" H 17150 4950 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R38
+L sdi-mipi-bridge:R_0R_0402 R38
 U 1 1 612D9539
 P 17150 5050
 F 0 "R38" H 17400 5100 60  0000 C CNN
 F 1 "R_0R_0402" H 17150 4900 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 17350 5250 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 17350 5250 60  0001 L CNN
 F 3 "" H 17150 5050 50  0001 C CNN
 F 4 "PANASONIC" H 17350 5450 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 17350 5350 60  0001 L CNN "MPN"
@@ -5755,12 +5586,12 @@ F 6 "0R" H 17150 5050 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R39
+L sdi-mipi-bridge:R_0R_0402 R39
 U 1 1 633A2BC5
 P 17150 5150
 F 0 "R39" H 17400 5200 60  0000 C CNN
 F 1 "R_0R_0402" H 17150 5000 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 17350 5350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 17350 5350 60  0001 L CNN
 F 3 "" H 17150 5150 50  0001 C CNN
 F 4 "PANASONIC" H 17350 5550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 17350 5450 60  0001 L CNN "MPN"
@@ -5769,12 +5600,12 @@ F 6 "0R" H 17150 5150 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:WE_68715014522_ONE-SIDE J3
+L sdi-mipi-bridge:WE_68715014522_ONE-SIDE J3
 U 1 1 6494FFEC
 P 18350 2950
 F 0 "J3" H 18430 2142 50  0000 L CNN
 F 1 "WE_68715014522_ONE-SIDE" H 17900 -500 50  0000 L CNN
-F 2 "SDI-bridge-footprints:WE_68715014522_ONE-SIDE" H 18150 -600 50  0001 C CNN
+F 2 "sdi-mipi-bridge-footprints:WE_68715014522_ONE-SIDE" H 18150 -600 50  0001 C CNN
 F 3 "https://katalog.we-online.de/em/datasheet/6871xx14522.pdf" H 18350 -700 50  0001 C CNN
 F 4 "68715014522 " H 18750 2350 60  0001 L CNN "MPN"
 F 5 "Wurth Elektronik " H 19000 1150 60  0001 L CNN "Manufacturer"
@@ -5801,7 +5632,7 @@ GNDPLL_DPHY
 Wire Wire Line
 	10800 15250 11450 15250
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5E7C1DBD
 P 10300 15450
 AR Path="/5DD55102/5E7C1DBD" Ref="#PWR?"  Part="1" 
@@ -5816,14 +5647,14 @@ $EndComp
 Wire Wire Line
 	10300 15000 10300 15250
 $Comp
-L SDI-bridge:R_0R_0402 R?
+L sdi-mipi-bridge:R_0R_0402 R?
 U 1 1 5E844DF9
 P 10650 15000
 AR Path="/5DD55102/5E844DF9" Ref="R?"  Part="1" 
 AR Path="/5E844DF9" Ref="R69"  Part="1" 
 F 0 "R69" H 10550 15100 60  0000 C CNN
 F 1 "R_0R_0402" H 10650 14850 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 10850 15200 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 10850 15200 60  0001 L CNN
 F 3 "" H 10650 15000 50  0001 C CNN
 F 4 "PANASONIC" H 10850 15400 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 10850 15300 60  0001 L CNN "MPN"
@@ -5832,14 +5663,14 @@ F 6 "0R" H 10650 15000 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R?
+L sdi-mipi-bridge:R_0R_0402 R?
 U 1 1 5E8452EE
 P 10650 15250
 AR Path="/5DD55102/5E8452EE" Ref="R?"  Part="1" 
 AR Path="/5E8452EE" Ref="R70"  Part="1" 
 F 0 "R70" H 10550 15350 60  0000 C CNN
 F 1 "R_0R_0402" H 10650 15100 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 10850 15450 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 10850 15450 60  0001 L CNN
 F 3 "" H 10650 15250 50  0001 C CNN
 F 4 "PANASONIC" H 10850 15650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 10850 15550 60  0001 L CNN "MPN"
@@ -5864,7 +5695,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 4850 3200 4900
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 5FD9A417
 P 3200 5250
 AR Path="/5DD55102/5FD9A417" Ref="#PWR?"  Part="1" 
@@ -5879,12 +5710,12 @@ $EndComp
 Wire Wire Line
 	3200 5250 3200 5200
 $Comp
-L SDI-bridge:C_10n_0402 C22
+L sdi-mipi-bridge:C_10n_0402 C22
 U 1 1 5FD9A410
 P 3200 5050
 F 0 "C22" H 3000 5150 60  0000 L CNN
 F 1 "C_10n_0402" H 3200 4900 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 3400 5250 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 3400 5250 60  0001 L CNN
 F 3 "" H 3200 5050 50  0001 C CNN
 F 4 "AVX" H 3400 5450 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3400 5350 60  0001 L CNN "MPN"
@@ -5893,7 +5724,7 @@ F 6 "10n" H 3315 4997 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 5EFE69A5
 P 3550 5250
 AR Path="/5DD55102/5EFE69A5" Ref="#PWR?"  Part="1" 
@@ -5910,12 +5741,12 @@ Wire Wire Line
 Wire Wire Line
 	3550 4850 3550 4900
 $Comp
-L SDI-bridge:C_10n_0402 C18
+L sdi-mipi-bridge:C_10n_0402 C18
 U 1 1 5EF18413
 P 3550 5050
 F 0 "C18" H 3665 5095 60  0000 L CNN
 F 1 "C_10n_0402" H 3550 4900 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 3750 5250 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 3750 5250 60  0001 L CNN
 F 3 "" H 3550 5050 50  0001 C CNN
 F 4 "AVX" H 3750 5450 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3750 5350 60  0001 L CNN "MPN"
@@ -5927,12 +5758,12 @@ Wire Wire Line
 	4750 4800 4750 4850
 Connection ~ 4750 4850
 $Comp
-L SDI-bridge:GS2988 U3
+L sdi-mipi-bridge:GS2988 U3
 U 1 1 5EB83E37
 P 3900 5900
 F 0 "U3" H 4250 6250 60  0000 L CNN
 F 1 "GS2988" H 5100 5150 60  0000 L CNN
-F 2 "SDI-bridge-footprints:QFN-16_EP_4x4_Pitch0.65mm" H 4050 5950 60  0001 R CNN
+F 2 "sdi-mipi-bridge-footprints:QFN-16_EP_4x4_Pitch0.65mm" H 4050 5950 60  0001 R CNN
 F 3 "" H 4050 5750 60  0001 R CNN
 	1    3900 5900
 	1    0    0    -1  
@@ -5942,7 +5773,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 4850 4750 4850
 $Comp
-L SDI-bridge:VDD #PWR0102
+L sdi-mipi-bridge:VDD #PWR0102
 U 1 1 5F1F6D99
 P 4750 4800
 F 0 "#PWR0102" H 4750 4650 50  0001 C CNN
@@ -5956,14 +5787,14 @@ $EndComp
 Wire Wire Line
 	4750 4850 4750 5400
 $Comp
-L SDI-bridge:R_0R_0402 R?
+L sdi-mipi-bridge:R_0R_0402 R?
 U 1 1 5F5CC410
 P 4950 5150
 AR Path="/5DD55102/5F5CC410" Ref="R?"  Part="1" 
 AR Path="/5F5CC410" Ref="R71"  Part="1" 
 F 0 "R71" V 4800 5050 60  0000 C CNN
 F 1 "R_0R_0402" H 4950 5000 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 5150 5350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 5150 5350 60  0001 L CNN
 F 3 "" H 4950 5150 50  0001 C CNN
 F 4 "PANASONIC" H 5150 5550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 5150 5450 60  0001 L CNN "MPN"
@@ -5977,7 +5808,7 @@ Connection ~ 6750 5650
 Wire Wire Line
 	6750 5650 6900 5650
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 5FCBBF7D
 P 7650 6850
 AR Path="/5DD55102/5FCBBF7D" Ref="#PWR?"  Part="1" 
@@ -5992,7 +5823,7 @@ $EndComp
 Wire Wire Line
 	7650 6650 7350 6650
 $Comp
-L SDI-bridge:VDD #PWR0104
+L sdi-mipi-bridge:VDD #PWR0104
 U 1 1 5FCBBF85
 P 6850 6500
 F 0 "#PWR0104" H 6850 6350 50  0001 C CNN
@@ -6015,12 +5846,12 @@ Wire Wire Line
 Wire Wire Line
 	6250 6200 5850 6200
 $Comp
-L SDI-bridge:C_4u7_0402 C23
+L sdi-mipi-bridge:C_4u7_0402 C23
 U 1 1 5F7E8C3F
 P 6400 6200
 F 0 "C23" V 6500 6350 60  0000 C CNN
 F 1 "C_4u7_0402" H 6400 6050 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 6600 6400 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 6600 6400 60  0001 L CNN
 F 3 "" H 6400 6200 50  0001 C CNN
 F 4 "MURATA" H 6600 6600 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60G475ME" H 6600 6500 60  0001 L CNN "MPN"
@@ -6033,12 +5864,12 @@ Wire Wire Line
 Wire Wire Line
 	6550 5650 6750 5650
 $Comp
-L SDI-bridge:C_5n6_0402 C27
+L sdi-mipi-bridge:C_5n6_0402 C27
 U 1 1 5E6ADB35
 P 6400 5650
 F 0 "C27" V 6300 5500 60  0000 C CNN
 F 1 "C_5n6_0402" H 6400 5500 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 6600 5850 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 6600 5850 60  0001 L CNN
 F 3 "" H 6400 5650 50  0001 C CNN
 F 4 "Multicomp" H 6600 6050 60  0001 L CNN "Manufacturer"
 F 5 "MC0402B562K160CT" H 6600 5950 60  0001 L CNN "MPN"
@@ -6053,12 +5884,12 @@ Wire Wire Line
 Wire Wire Line
 	7200 6200 8550 6200
 $Comp
-L SDI-bridge:R_75R_0603 R20
+L sdi-mipi-bridge:R_75R_0603 R20
 U 1 1 5F7E8C35
 P 7050 6200
 F 0 "R20" H 7200 6100 60  0000 L CNN
 F 1 "R_75R_0603" H 7050 6050 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0603-res" H 7250 6400 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0603-res" H 7250 6400 60  0001 L CNN
 F 3 "" H 7050 6200 50  0001 C CNN
 F 4 "MULTICOMP" H 7250 6600 60  0001 L CNN "Manufacturer"
 F 5 "MCWR06X75R0FTL" H 7250 6500 60  0001 L CNN "MPN"
@@ -6085,12 +5916,12 @@ Wire Wire Line
 Wire Wire Line
 	6000 5900 6250 5900
 $Comp
-L SDI-bridge:R_75R_0603 R17
+L sdi-mipi-bridge:R_75R_0603 R17
 U 1 1 5F029AE6
 P 6400 5900
 F 0 "R17" H 6100 6000 60  0000 L CNN
 F 1 "R_75R_0603" H 6400 5750 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0603-res" H 6600 6100 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0603-res" H 6600 6100 60  0001 L CNN
 F 3 "" H 6400 5900 50  0001 C CNN
 F 4 "MULTICOMP" H 6600 6300 60  0001 L CNN "Manufacturer"
 F 5 "MCWR06X75R0FTL" H 6600 6200 60  0001 L CNN "MPN"
@@ -6100,14 +5931,14 @@ F 6 "75R" H 6550 5850 50  0000 L CNN "Val"
 $EndComp
 Connection ~ 8550 6200
 $Comp
-L SDI-bridge:C_10n_0402 C?
+L sdi-mipi-bridge:C_10n_0402 C?
 U 1 1 5FCBBF77
 P 7200 6650
 AR Path="/5DD55102/5FCBBF77" Ref="C?"  Part="1" 
 AR Path="/5FCBBF77" Ref="C65"  Part="1" 
 F 0 "C65" V 7100 6400 60  0000 L CNN
 F 1 "C_10n_0402" H 7200 6500 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-cap" H 7400 6850 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-cap" H 7400 6850 60  0001 L CNN
 F 3 "" H 7200 6650 50  0001 C CNN
 F 4 "AVX" H 7400 7050 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 7400 6950 60  0001 L CNN "MPN"
@@ -6130,12 +5961,12 @@ Wire Wire Line
 Wire Wire Line
 	7650 5400 7650 5250
 $Comp
-L SDI-bridge:SC18IS602BIPW U5
+L sdi-mipi-bridge:SC18IS602BIPW U5
 U 1 1 5E4CEC44
 P 20250 1700
 F 0 "U5" H 20500 1850 60  0000 C CNN
 F 1 "SC18IS602BIPW" H 20800 800 60  0000 C CNN
-F 2 "SDI-bridge-footprints:SC18IS602B" H 20450 1750 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:SC18IS602B" H 20450 1750 60  0001 L CNN
 F 3 "" H 20450 1550 60  0001 L CNN
 	1    20250 1700
 	1    0    0    -1  
@@ -6149,7 +5980,7 @@ Connection ~ 22650 2300
 Wire Wire Line
 	22650 2300 22650 2400
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 64A6D841
 P 22650 2600
 AR Path="/5DD55102/64A6D841" Ref="#PWR?"  Part="1" 
@@ -6168,12 +5999,12 @@ Wire Wire Line
 Wire Wire Line
 	21850 2200 22100 2200
 $Comp
-L SDI-bridge:R_0R_0402 R72
+L sdi-mipi-bridge:R_0R_0402 R72
 U 1 1 64AFAF51
 P 22250 2200
 F 0 "R72" H 22500 2150 60  0000 C CNN
 F 1 "R_0R_0402" H 22250 2050 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 22450 2400 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 22450 2400 60  0001 L CNN
 F 3 "" H 22250 2200 50  0001 C CNN
 F 4 "PANASONIC" H 22450 2600 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 22450 2500 60  0001 L CNN "MPN"
@@ -6182,12 +6013,12 @@ F 6 "0R" H 22250 2200 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R73
+L sdi-mipi-bridge:R_0R_0402 R73
 U 1 1 64C20746
 P 22250 2300
 F 0 "R73" H 22500 2250 60  0000 C CNN
 F 1 "R_0R_0402" H 22250 2150 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 22450 2500 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 22450 2500 60  0001 L CNN
 F 3 "" H 22250 2300 50  0001 C CNN
 F 4 "PANASONIC" H 22450 2700 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 22450 2600 60  0001 L CNN "MPN"
@@ -6196,12 +6027,12 @@ F 6 "0R" H 22250 2300 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R74
+L sdi-mipi-bridge:R_0R_0402 R74
 U 1 1 64C2097F
 P 22250 2400
 F 0 "R74" H 22500 2350 60  0000 C CNN
 F 1 "R_0R_0402" H 22250 2250 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 22450 2600 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 22450 2600 60  0001 L CNN
 F 3 "" H 22250 2400 50  0001 C CNN
 F 4 "PANASONIC" H 22450 2800 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 22450 2700 60  0001 L CNN "MPN"
@@ -6216,12 +6047,12 @@ Wire Wire Line
 Wire Wire Line
 	22400 2400 22650 2400
 $Comp
-L SDI-bridge:R_100R_0402 R88
+L sdi-mipi-bridge:R_100R_0402 R88
 U 1 1 5E60361D
 P 12800 9100
 F 0 "R88" H 12800 9200 60  0000 L CNN
 F 1 "R_100R_0402" H 12800 8950 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 13000 9300 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 13000 9300 60  0001 L CNN
 F 3 "" H 12800 9100 50  0001 C CNN
 F 4 "BOURNS" H 13000 9500 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 13000 9400 60  0001 L CNN "MPN"
@@ -6230,12 +6061,12 @@ F 6 "100R" H 12700 9000 50  0000 L CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:LG_L29K-G2J1-24-Z D2
+L sdi-mipi-bridge:LG_L29K-G2J1-24-Z D2
 U 1 1 5E603625
 P 13400 9100
 F 0 "D2" H 13400 9000 60  0000 R CNN
 F 1 "LG_L29K-G2J1-24-Z" H 13700 9350 60  0000 R CNN
-F 2 "SDI-bridge-footprints:LED_0603" H 13600 9300 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:LED_0603" H 13600 9300 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 13600 9400 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 13600 9600 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 13600 10200 60  0001 L CNN "Manufacturer"
@@ -6255,12 +6086,12 @@ CDONE
 Wire Wire Line
 	12100 9100 12650 9100
 $Comp
-L SDI-bridge:R_0R_0402 R90
+L sdi-mipi-bridge:R_0R_0402 R90
 U 1 1 5EB5D97D
 P 21600 12500
 F 0 "R90" H 21800 12550 60  0000 C CNN
 F 1 "R_0R_0402" H 21600 12350 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21800 12700 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21800 12700 60  0001 L CNN
 F 3 "" H 21600 12500 50  0001 C CNN
 F 4 "PANASONIC" H 21800 12900 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21800 12800 60  0001 L CNN "MPN"
@@ -6271,12 +6102,12 @@ $EndComp
 Wire Wire Line
 	21750 12500 21950 12500
 $Comp
-L SDI-bridge:R_0R_0402 R91
+L sdi-mipi-bridge:R_0R_0402 R91
 U 1 1 5EB5E17C
 P 21500 10750
 F 0 "R91" H 21700 10800 60  0000 C CNN
 F 1 "R_0R_0402" H 21500 10600 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 21700 10950 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21700 10950 60  0001 L CNN
 F 3 "" H 21500 10750 50  0001 C CNN
 F 4 "PANASONIC" H 21700 11150 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 21700 11050 60  0001 L CNN "MPN"
@@ -6287,7 +6118,7 @@ $EndComp
 Wire Wire Line
 	21650 10750 21950 10750
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5EB8EBC1
 P 17300 8500
 AR Path="/5DD55102/5EB8EBC1" Ref="#PWR?"  Part="1" 
@@ -6300,14 +6131,14 @@ F 3 "" H 17300 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:R_0R_0402 R?
+L sdi-mipi-bridge:R_0R_0402 R?
 U 1 1 5EB8EBCB
 P 17650 8650
 AR Path="/5DD55102/5EB8EBCB" Ref="R?"  Part="1" 
 AR Path="/5EB8EBCB" Ref="R89"  Part="1" 
 F 0 "R89" V 17500 8550 60  0000 C CNN
 F 1 "R_0R_0402" H 17650 8500 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 17850 8850 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 17850 8850 60  0001 L CNN
 F 3 "" H 17650 8650 50  0001 C CNN
 F 4 "PANASONIC" H 17850 9050 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 17850 8950 60  0001 L CNN "MPN"
@@ -6340,7 +6171,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 1900 8800 1900
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 604067A2
 P 13650 15650
 AR Path="/5DD55102/604067A2" Ref="#PWR?"  Part="1" 
@@ -6399,34 +6230,34 @@ Wire Wire Line
 Wire Wire Line
 	8150 2700 8800 2700
 $Comp
-L SDI-bridge:TP_SMD1MM TP20
+L sdi-mipi-bridge:TP_SMD1MM TP20
 U 1 1 62A11C76
 P 1150 2200
 F 0 "TP20" V 1150 2050 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1150 2100 50  0001 C CNN
-F 2 "SDI-bridge-footprints:Testpoint_smd_1mm" H 1350 2400 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_1mm" H 1350 2400 60  0001 L CNN
 F 3 "" H 1350 2500 60  0001 L CNN
 	1    1150 2200
 	0    1    1    0   
 $EndComp
 $Comp
-L SDI-bridge:TP_SMD1MM TP19
+L sdi-mipi-bridge:TP_SMD1MM TP19
 U 1 1 62A11C7C
 P 1150 2100
 F 0 "TP19" V 1150 1950 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1150 2000 50  0001 C CNN
-F 2 "SDI-bridge-footprints:Testpoint_smd_1mm" H 1350 2300 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_1mm" H 1350 2300 60  0001 L CNN
 F 3 "" H 1350 2400 60  0001 L CNN
 	1    1150 2100
 	0    1    1    0   
 $EndComp
 $Comp
-L SDI-bridge:TP_SMD1MM TP21
+L sdi-mipi-bridge:TP_SMD1MM TP21
 U 1 1 62AB7032
 P 1150 2300
 F 0 "TP21" V 1150 2150 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1150 2200 50  0001 C CNN
-F 2 "SDI-bridge-footprints:Testpoint_smd_1mm" H 1350 2500 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_1mm" H 1350 2500 60  0001 L CNN
 F 3 "" H 1350 2600 60  0001 L CNN
 	1    1150 2300
 	0    1    1    0   
@@ -6435,7 +6266,7 @@ Connection ~ 7300 12150
 Wire Wire Line
 	7300 12150 7300 11950
 $Comp
-L SDI-bridge:VDD #PWR0109
+L sdi-mipi-bridge:VDD #PWR0109
 U 1 1 5EE803BF
 P 2950 6200
 F 0 "#PWR0109" H 2950 6050 50  0001 C CNN
@@ -6447,7 +6278,7 @@ F 4 "CD_VDD" H 2967 6373 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:VDD #PWR0110
+L sdi-mipi-bridge:VDD #PWR0110
 U 1 1 5EF21B4F
 P 7300 11950
 F 0 "#PWR0110" H 7300 11800 50  0001 C CNN
@@ -6467,7 +6298,7 @@ VCCGPLL
 Text GLabel 10950 13700 2    50   Input ~ 0
 VCCGPLL
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 5EAA63F2
 P 9150 5750
 AR Path="/5DD55102/5EAA63F2" Ref="#PWR?"  Part="1" 
@@ -6480,7 +6311,7 @@ F 3 "" H 9150 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 5EAA689F
 P 8550 6300
 AR Path="/5DD55102/5EAA689F" Ref="#PWR?"  Part="1" 
@@ -6509,12 +6340,12 @@ Wire Wire Line
 Wire Wire Line
 	19350 1900 19350 1750
 $Comp
-L SDI-bridge:R_120k_0402 R5
+L sdi-mipi-bridge:R_120k_0402 R5
 U 1 1 5E2FC2B1
 P 3400 9150
 F 0 "R5" V 3300 8950 60  0000 L CNN
 F 1 "R_120k_0402" H 3400 9000 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 3600 9350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 3600 9350 60  0001 L CNN
 F 3 "" H 3400 9150 50  0001 C CNN
 F 4 "VISHAY" H 3600 9550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402120KFKED" H 3600 9450 60  0001 L CNN "MPN"
@@ -6523,12 +6354,12 @@ F 6 "120k" V 3500 9200 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L SDI-bridge:R_120k_0402 R6
+L sdi-mipi-bridge:R_120k_0402 R6
 U 1 1 5E26CB23
 P 3400 9700
 F 0 "R6" V 3250 9550 60  0000 L CNN
 F 1 "R_120k_0402" H 3400 9550 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 3600 9900 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 3600 9900 60  0001 L CNN
 F 3 "" H 3400 9700 50  0001 C CNN
 F 4 "VISHAY" H 3600 10100 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402120KFKED" H 3600 10000 60  0001 L CNN "MPN"
@@ -6562,12 +6393,12 @@ Wire Wire Line
 Text Label 17000 13150 0    50   ~ 0
 USER_LED
 $Comp
-L SDI-bridge:R_100R_0402 R93
+L sdi-mipi-bridge:R_100R_0402 R93
 U 1 1 5EE8527F
 P 12800 9650
 F 0 "R93" H 12800 9750 60  0000 L CNN
 F 1 "R_100R_0402" H 12800 9500 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 13000 9850 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 13000 9850 60  0001 L CNN
 F 3 "" H 12800 9650 50  0001 C CNN
 F 4 "BOURNS" H 13000 10050 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 13000 9950 60  0001 L CNN "MPN"
@@ -6576,12 +6407,12 @@ F 6 "100R" H 12700 9550 50  0000 L CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:LG_L29K-G2J1-24-Z D4
+L sdi-mipi-bridge:LG_L29K-G2J1-24-Z D4
 U 1 1 5EE85287
 P 13400 9650
 F 0 "D4" H 13400 9550 60  0000 R CNN
 F 1 "LG_L29K-G2J1-24-Z" H 13700 9900 60  0000 R CNN
-F 2 "SDI-bridge-footprints:LED_0603" H 13600 9850 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:LED_0603" H 13600 9850 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 13600 9950 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 13600 10150 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 13600 10750 60  0001 L CNN "Manufacturer"
@@ -6613,12 +6444,12 @@ MOSI
 Text Label 16950 9750 0    50   ~ 0
 MISO
 $Comp
-L SDI-bridge:MC-HVT1-S04-G J5
+L sdi-mipi-bridge:MC-HVT1-S04-G J5
 U 1 1 619696B6
 P 1050 6050
 F 0 "J5" V 950 6000 50  0000 C CNN
 F 1 "MC-HVT1-S04-G" V 1450 6050 50  0000 C CNN
-F 2 "SDI-bridge-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 1250 6350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 1250 6350 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 1250 6450 60  0001 L CNN
 F 4 "MC-HVT1-S04-G" H 1250 6550 60  0001 L CNN "MPN"
 F 5 "Multicomp" H 1250 6650 60  0001 L CNN "Manufacturer"
@@ -6626,12 +6457,12 @@ F 5 "Multicomp" H 1250 6650 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTactileSwitches:B3U-1000P S1
+L sdi-mipi-bridge:B3U-1000P S1
 U 1 1 5F00FBA4
 P 15350 6550
 F 0 "S1" H 15350 6847 60  0000 C CNN
 F 1 "B3U-1000P" H 15350 6741 60  0000 C CNN
-F 2 "antmicro-footprints:Switch_Tactile_SMD_B3U-1000P" H 15550 6750 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:Switch_Tactile_SMD_B3U-1000P" H 15550 6750 60  0001 L CNN
 F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 15550 6850 60  0001 L CNN
 F 4 "B3U-1000P" H 15550 7050 60  0001 L CNN "MPN"
 F 5 "Omron Electronics Inc-EMC Div" H 15550 7650 60  0001 L CNN "Manufacturer"
@@ -6647,7 +6478,7 @@ Wire Wire Line
 Wire Wire Line
 	15700 6550 15700 6650
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 5F28A2C5
 P 15700 6650
 AR Path="/5DD55102/5F28A2C5" Ref="#PWR?"  Part="1" 
@@ -6667,12 +6498,12 @@ Connection ~ 14750 6550
 Wire Wire Line
 	14750 6550 15150 6550
 $Comp
-L antmicroResistors0402:R_2k2_0402 R85
+L sdi-mipi-bridge:R_2k2_0402 R85
 U 1 1 5F6DDE52
 P 20650 6200
 F 0 "R85" V 20500 6000 60  0000 L CNN
 F 1 "R_2k2_0402" H 20650 6050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20850 6400 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 20850 6400 60  0001 L CNN
 F 3 "" H 20650 6200 50  0001 C CNN
 F 4 "YAGEO" H 20850 6600 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-072K2L" H 20850 6500 60  0001 L CNN "MPN"
@@ -6681,12 +6512,12 @@ F 6 "2k2" V 20800 6250 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_2k2_0402 R86
+L sdi-mipi-bridge:R_2k2_0402 R86
 U 1 1 5FB2AF4F
 P 20900 6200
 F 0 "R86" V 20750 6000 60  0000 L CNN
 F 1 "R_2k2_0402" H 20900 6050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 21100 6400 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21100 6400 60  0001 L CNN
 F 3 "" H 20900 6200 50  0001 C CNN
 F 4 "YAGEO" H 21100 6600 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-072K2L" H 21100 6500 60  0001 L CNN "MPN"
@@ -6695,12 +6526,12 @@ F 6 "2k2" V 21050 6250 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_2k2_0402 R87
+L sdi-mipi-bridge:R_2k2_0402 R87
 U 1 1 5FB2B220
 P 21150 6200
 F 0 "R87" V 21000 6000 60  0000 L CNN
 F 1 "R_2k2_0402" H 21150 6050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 21350 6400 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21350 6400 60  0001 L CNN
 F 3 "" H 21150 6200 50  0001 C CNN
 F 4 "YAGEO" H 21350 6600 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-072K2L" H 21350 6500 60  0001 L CNN "MPN"
@@ -6709,12 +6540,12 @@ F 6 "2k2" V 21300 6250 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_2k2_0402 R94
+L sdi-mipi-bridge:R_2k2_0402 R94
 U 1 1 5FB2B4FD
 P 21400 6200
 F 0 "R94" V 21250 6000 60  0000 L CNN
 F 1 "R_2k2_0402" H 21400 6050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 21600 6400 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 21600 6400 60  0001 L CNN
 F 3 "" H 21400 6200 50  0001 C CNN
 F 4 "YAGEO" H 21600 6600 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-072K2L" H 21600 6500 60  0001 L CNN "MPN"
@@ -6725,12 +6556,12 @@ $EndComp
 Wire Wire Line
 	14750 5950 14750 6100
 $Comp
-L antmicroResistors0402:R_2k2_0402 R84
+L sdi-mipi-bridge:R_2k2_0402 R84
 U 1 1 5F55ED44
 P 14750 6250
 F 0 "R84" V 14600 6050 60  0000 L CNN
 F 1 "R_2k2_0402" H 14750 6100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 14950 6450 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 14950 6450 60  0001 L CNN
 F 3 "" H 14750 6250 50  0001 C CNN
 F 4 "YAGEO" H 14950 6650 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-072K2L" H 14950 6550 60  0001 L CNN "MPN"
@@ -6739,12 +6570,12 @@ F 6 "2k2" V 14900 6300 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L SDI-bridge:R_100R_0402 R64
+L sdi-mipi-bridge:R_100R_0402 R64
 U 1 1 5FD0CB96
 P 12850 10250
 F 0 "R64" H 12850 10350 60  0000 L CNN
 F 1 "R_100R_0402" H 12850 10100 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 13050 10450 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 13050 10450 60  0001 L CNN
 F 3 "" H 12850 10250 50  0001 C CNN
 F 4 "BOURNS" H 13050 10650 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 13050 10550 60  0001 L CNN "MPN"
@@ -6753,12 +6584,12 @@ F 6 "100R" H 12750 10150 50  0000 L CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:LG_L29K-G2J1-24-Z D5
+L sdi-mipi-bridge:LG_L29K-G2J1-24-Z D5
 U 1 1 5FD0CB9E
 P 13450 10250
 F 0 "D5" H 13450 10150 60  0000 R CNN
 F 1 "LG_L29K-G2J1-24-Z" H 13750 10500 60  0000 R CNN
-F 2 "SDI-bridge-footprints:LED_0603" H 13650 10450 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:LED_0603" H 13650 10450 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 13650 10550 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 13650 10750 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 13650 11350 60  0001 L CNN "Manufacturer"
@@ -6774,12 +6605,12 @@ Wire Wire Line
 Text Label 12150 10250 0    50   ~ 0
 DATA_ERRORb
 $Comp
-L antmicroSlideSwitches:SW_DIP_x06 SW1
+L sdi-mipi-bridge:SW_DIP_x06 SW1
 U 1 1 60F1A1CF
 P 14250 13700
 F 0 "SW1" H 14250 14267 50  0000 C CNN
 F 1 "SW_DIP_x06" H 14250 14176 50  0000 C CNN
-F 2 "antmicro-footprints:SW_SPST_6_Slide_MCDHN-06F-T-V_P1.27mm" H 14250 13700 50  0001 C CNN
+F 2 "sdi-mipi-bridge-footprints:SW_SPST_6_Slide_MCDHN-06F-T-V_P1.27mm" H 14250 13700 50  0001 C CNN
 F 3 "" H 14250 13700 50  0001 C CNN
 F 4 "MCDHN-06F-T-V" H 14250 13700 50  0001 C CNN "MPN"
 F 5 "MULTICOMP PRO" H 14250 13700 50  0001 C CNN "Manufacturer"
@@ -6787,12 +6618,12 @@ F 5 "MULTICOMP PRO" H 14250 13700 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroSlideSwitches:SW_DIP_x06 SW2
+L sdi-mipi-bridge:SW_DIP_x06 SW2
 U 1 1 60F2F539
 P 14250 14650
 F 0 "SW2" H 14250 15217 50  0000 C CNN
 F 1 "SW_DIP_x06" H 14250 15126 50  0000 C CNN
-F 2 "antmicro-footprints:SW_SPST_6_Slide_MCDHN-06F-T-V_P1.27mm" H 14250 14650 50  0001 C CNN
+F 2 "sdi-mipi-bridge-footprints:SW_SPST_6_Slide_MCDHN-06F-T-V_P1.27mm" H 14250 14650 50  0001 C CNN
 F 3 "" H 14250 14650 50  0001 C CNN
 F 4 "MCDHN-06F-T-V" H 14250 14650 50  0001 C CNN "MPN"
 F 5 "MULTICOMP PRO" H 14250 14650 50  0001 C CNN "Manufacturer"
@@ -6889,12 +6720,12 @@ Wire Wire Line
 Wire Wire Line
 	13650 12900 13650 13000
 $Comp
-L antmicroResistors0402:R_10k_0402 R77
+L sdi-mipi-bridge:R_10k_0402 R77
 U 1 1 656F6957
 P 13050 15150
 F 0 "R77" V 12900 15000 60  0000 L CNN
 F 1 "R_10k_0402" H 13050 15000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13250 15350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 13250 15350 60  0001 L CNN
 F 3 "" H 13050 15150 50  0001 C CNN
 F 4 "VISHAY" H 13250 15550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 13250 15450 60  0001 L CNN "MPN"
@@ -6950,12 +6781,12 @@ Wire Wire Line
 	13650 15650 13650 15400
 Connection ~ 13650 15400
 $Comp
-L antmicroResistors0402:R_10k_0402 R75
+L sdi-mipi-bridge:R_10k_0402 R75
 U 1 1 67587E9D
 P 12900 15150
 F 0 "R75" V 12750 15000 60  0000 L CNN
 F 1 "R_10k_0402" H 12900 15000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13100 15350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 13100 15350 60  0001 L CNN
 F 3 "" H 12900 15150 50  0001 C CNN
 F 4 "VISHAY" H 13100 15550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 13100 15450 60  0001 L CNN "MPN"
@@ -6964,12 +6795,12 @@ F 6 "10k" H 12850 15150 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R66
+L sdi-mipi-bridge:R_10k_0402 R66
 U 1 1 675883BE
 P 13500 13150
 F 0 "R66" V 13350 13000 60  0000 L CNN
 F 1 "R_10k_0402" H 13500 13000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13700 13350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 13700 13350 60  0001 L CNN
 F 3 "" H 13500 13150 50  0001 C CNN
 F 4 "VISHAY" H 13700 13550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 13700 13450 60  0001 L CNN "MPN"
@@ -6978,12 +6809,12 @@ F 6 "10k" H 13450 13150 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R79
+L sdi-mipi-bridge:R_10k_0402 R79
 U 1 1 6758887B
 P 13200 15150
 F 0 "R79" V 13050 15000 60  0000 L CNN
 F 1 "R_10k_0402" H 13200 15000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13400 15350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 13400 15350 60  0001 L CNN
 F 3 "" H 13200 15150 50  0001 C CNN
 F 4 "VISHAY" H 13400 15550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 13400 15450 60  0001 L CNN "MPN"
@@ -6992,12 +6823,12 @@ F 6 "10k" H 13150 15150 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R81
+L sdi-mipi-bridge:R_10k_0402 R81
 U 1 1 67588C94
 P 13350 15150
 F 0 "R81" V 13200 15000 60  0000 L CNN
 F 1 "R_10k_0402" H 13350 15000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13550 15350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 13550 15350 60  0001 L CNN
 F 3 "" H 13350 15150 50  0001 C CNN
 F 4 "VISHAY" H 13550 15550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 13550 15450 60  0001 L CNN "MPN"
@@ -7006,12 +6837,12 @@ F 6 "10k" H 13300 15150 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R83
+L sdi-mipi-bridge:R_10k_0402 R83
 U 1 1 675891E1
 P 13500 15150
 F 0 "R83" V 13350 15000 60  0000 L CNN
 F 1 "R_10k_0402" H 13500 15000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13700 15350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 13700 15350 60  0001 L CNN
 F 3 "" H 13500 15150 50  0001 C CNN
 F 4 "VISHAY" H 13700 15550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 13700 15450 60  0001 L CNN "MPN"
@@ -7032,12 +6863,12 @@ Wire Wire Line
 Wire Wire Line
 	13650 15000 13650 14350
 $Comp
-L antmicroResistors0402:R_10k_0402 R76
+L sdi-mipi-bridge:R_10k_0402 R76
 U 1 1 67B0EE6A
 P 13050 13150
 F 0 "R76" V 12900 13000 60  0000 L CNN
 F 1 "R_10k_0402" H 13050 13000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13250 13350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 13250 13350 60  0001 L CNN
 F 3 "" H 13050 13150 50  0001 C CNN
 F 4 "VISHAY" H 13250 13550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 13250 13450 60  0001 L CNN "MPN"
@@ -7046,12 +6877,12 @@ F 6 "10k" H 13000 13150 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R68
+L sdi-mipi-bridge:R_10k_0402 R68
 U 1 1 67B0EE73
 P 12900 13150
 F 0 "R68" V 12750 13000 60  0000 L CNN
 F 1 "R_10k_0402" H 12900 13000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13100 13350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 13100 13350 60  0001 L CNN
 F 3 "" H 12900 13150 50  0001 C CNN
 F 4 "VISHAY" H 13100 13550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 13100 13450 60  0001 L CNN "MPN"
@@ -7060,12 +6891,12 @@ F 6 "10k" H 12850 13150 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R65
+L sdi-mipi-bridge:R_10k_0402 R65
 U 1 1 67B0EE7C
 P 13650 15150
 F 0 "R65" V 13500 15000 60  0000 L CNN
 F 1 "R_10k_0402" H 13650 15000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13850 15350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 13850 15350 60  0001 L CNN
 F 3 "" H 13650 15150 50  0001 C CNN
 F 4 "VISHAY" H 13850 15550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 13850 15450 60  0001 L CNN "MPN"
@@ -7074,12 +6905,12 @@ F 6 "10k" H 13600 15150 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R78
+L sdi-mipi-bridge:R_10k_0402 R78
 U 1 1 67B0EE85
 P 13200 13150
 F 0 "R78" V 13050 13000 60  0000 L CNN
 F 1 "R_10k_0402" H 13200 13000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13400 13350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 13400 13350 60  0001 L CNN
 F 3 "" H 13200 13150 50  0001 C CNN
 F 4 "VISHAY" H 13400 13550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 13400 13450 60  0001 L CNN "MPN"
@@ -7088,12 +6919,12 @@ F 6 "10k" H 13150 13150 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R80
+L sdi-mipi-bridge:R_10k_0402 R80
 U 1 1 67B0EE8E
 P 13350 13150
 F 0 "R80" V 13200 13000 60  0000 L CNN
 F 1 "R_10k_0402" H 13350 13000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13550 13350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 13550 13350 60  0001 L CNN
 F 3 "" H 13350 13150 50  0001 C CNN
 F 4 "VISHAY" H 13550 13550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 13550 13450 60  0001 L CNN "MPN"
@@ -7102,12 +6933,12 @@ F 6 "10k" H 13300 13150 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R82
+L sdi-mipi-bridge:R_10k_0402 R82
 U 1 1 67B0EE97
 P 13650 13150
 F 0 "R82" V 13500 13000 60  0000 L CNN
 F 1 "R_10k_0402" H 13650 13000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13850 13350 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 13850 13350 60  0001 L CNN
 F 3 "" H 13650 13150 50  0001 C CNN
 F 4 "VISHAY" H 13850 13550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 13850 13450 60  0001 L CNN "MPN"
@@ -7147,7 +6978,7 @@ Wire Wire Line
 Wire Wire Line
 	13650 13300 13650 13400
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 68221787
 P 13900 13050
 AR Path="/5DD55102/68221787" Ref="#PWR?"  Part="1" 
@@ -7180,12 +7011,12 @@ Text Label 12150 13900 0    50   ~ 0
 Text Label 12150 14550 0    50   ~ 0
 TIM_861
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:2199SB-10G-301523 J4
+L sdi-mipi-bridge:2199SB-10G-301523 J4
 U 1 1 60B66F6B
 P 21100 4150
 F 0 "J4" H 21150 4567 50  0000 C CNN
 F 1 "2199SB-10G-301523" H 21150 4476 50  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_2x05_P1.27mm_Vertical" H 21100 4150 50  0001 C CNN
+F 2 "sdi-mipi-bridge-footprints:PinHeader_2x05_P1.27mm_Vertical" H 21100 4150 50  0001 C CNN
 F 3 "~" H 21100 4150 50  0001 C CNN
 F 4 "2199SB-10G-301523" H 21100 4150 50  0001 C CNN "MPN"
 F 5 "MULTICOMP PRO" H 21100 4150 50  0001 C CNN "Manufacturer"
@@ -7201,7 +7032,7 @@ Wire Wire Line
 Text Label 19900 4050 0    50   ~ 0
 AUDIO_WORD_CLK
 $Comp
-L SDI-bridge:GNDA #PWR?
+L sdi-mipi-bridge:GNDA #PWR?
 U 1 1 6164637F
 P 19900 4450
 AR Path="/5DD55102/6164637F" Ref="#PWR?"  Part="1" 
@@ -7247,12 +7078,12 @@ Wire Wire Line
 	1800 5250 2350 5250
 NoConn ~ 1800 5150
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:2199SB-10G-301523 J6
+L sdi-mipi-bridge:2199SB-10G-301523 J6
 U 1 1 62E8C7AB
 P 1500 5150
 F 0 "J6" H 1550 5567 50  0000 C CNN
 F 1 "2199SB-10G-301523" H 1550 5476 50  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_2x05_P1.27mm_Vertical" H 1500 5150 50  0001 C CNN
+F 2 "sdi-mipi-bridge-footprints:PinHeader_2x05_P1.27mm_Vertical" H 1500 5150 50  0001 C CNN
 F 3 "~" H 1500 5150 50  0001 C CNN
 F 4 "2199SB-10G-301523" H 1500 5150 50  0001 C CNN "MPN"
 F 5 "MULTICOMP PRO" H 1500 5150 50  0001 C CNN "Manufacturer"
@@ -7268,12 +7099,12 @@ USER_SDA
 Text Label 2350 5050 2    50   ~ 0
 USER_SCL
 $Comp
-L SDI-bridge:R_4k7_0402 R95
+L sdi-mipi-bridge:R_4k7_0402 R95
 U 1 1 65A29387
 P 16700 9550
 F 0 "R95" H 16900 9500 60  0000 C CNN
 F 1 "R_4k7_0402" H 16700 9400 60  0001 C CNN
-F 2 "SDI-bridge-footprints:0402-res" H 16900 9750 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 16900 9750 60  0001 L CNN
 F 3 "" H 16700 9550 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 16900 9950 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 16900 9850 60  0001 L CNN "MPN"
@@ -7287,12 +7118,12 @@ Wire Wire Line
 	16350 9550 16350 9150
 Connection ~ 16350 9150
 $Comp
-L antmicroResistors0402:R_30R_0402 R96
+L sdi-mipi-bridge:R_30R_0402 R96
 U 1 1 65F14B18
 P 17800 9650
 F 0 "R96" H 17550 9700 60  0000 C CNN
 F 1 "R_30R_0402" H 17800 9500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 18000 9850 60  0001 L CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 18000 9850 60  0001 L CNN
 F 3 "" H 17800 9650 50  0001 C CNN
 F 4 "Panasonic" H 18000 10050 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ300X" H 18000 9950 60  0001 L CNN "MPN"
@@ -7307,7 +7138,7 @@ Programming interace
 Text Notes 14050 5450 0    79   ~ 16
 RESET
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5F3163ED
 P 13900 10350
 AR Path="/5DD55102/5F3163ED" Ref="#PWR?"  Part="1" 
@@ -7320,7 +7151,7 @@ F 3 "" H 13900 10350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5F3E1049
 P 13900 9750
 AR Path="/5DD55102/5F3E1049" Ref="#PWR?"  Part="1" 
@@ -7333,7 +7164,7 @@ F 3 "" H 13900 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5F576A90
 P 13900 9200
 AR Path="/5DD55102/5F576A90" Ref="#PWR?"  Part="1" 
@@ -7346,7 +7177,7 @@ F 3 "" H 13900 9200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SDI-bridge:GNDREF #PWR?
+L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5F6417DF
 P 13900 8450
 AR Path="/5DD55102/5F6417DF" Ref="#PWR?"  Part="1" 
@@ -7365,12 +7196,12 @@ Wire Notes Line
 Wire Notes Line
 	11850 11700 15350 11700
 $Comp
-L antmicroMechanicalParts:oshw_logo N2
+L sdi-mipi-bridge:oshw_logo N2
 U 1 1 5ED060A3
 P 1800 7100
 F 0 "N2" H 1994 7103 50  0000 L CNN
 F 1 "oshw_logo" H 1994 7012 50  0000 L CNN
-F 2 "antmicro-footprints:oshw-logo" H 1820 6860 50  0001 C CNN
+F 2 "sdi-mipi-bridge-footprints:oshw-logo" H 1820 6860 50  0001 C CNN
 F 3 "" H 1800 7100 50  0001 C CNN
 	1    1800 7100
 	1    0    0    -1  
@@ -7379,6 +7210,149 @@ Text Label 12150 13400 0    50   ~ 0
 USER_SW
 Text Label 17000 13050 0    50   ~ 0
 USER_SW
+$Comp
+L sdi-mipi-bridge:+3.3V #PWR?
+U 1 1 5F00FCB5
+P 1900 5900
+F 0 "#PWR?" H 1900 5750 50  0001 C CNN
+F 1 "+3.3V" H 1915 6073 50  0000 C CNN
+F 2 "" H 1900 5900 50  0001 C CNN
+F 3 "" H 1900 5900 50  0001 C CNN
+	1    1900 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L sdi-mipi-bridge:+3.3V #PWR?
+U 1 1 5F012144
+P 650 4900
+F 0 "#PWR?" H 650 4750 50  0001 C CNN
+F 1 "+3.3V" H 665 5073 50  0000 C CNN
+F 2 "" H 650 4900 50  0001 C CNN
+F 3 "" H 650 4900 50  0001 C CNN
+	1    650  4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L sdi-mipi-bridge:+3.3V #PWR?
+U 1 1 5F0129FD
+P 1000 8900
+F 0 "#PWR?" H 1000 8750 50  0001 C CNN
+F 1 "+3.3V" H 1015 9073 50  0000 C CNN
+F 2 "" H 1000 8900 50  0001 C CNN
+F 3 "" H 1000 8900 50  0001 C CNN
+	1    1000 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L sdi-mipi-bridge:+3.3V #PWR?
+U 1 1 5F013169
+P 5450 8600
+F 0 "#PWR?" H 5450 8450 50  0001 C CNN
+F 1 "+3.3V" H 5465 8773 50  0000 C CNN
+F 2 "" H 5450 8600 50  0001 C CNN
+F 3 "" H 5450 8600 50  0001 C CNN
+	1    5450 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L sdi-mipi-bridge:+3.3V #PWR?
+U 1 1 5F013EF0
+P 5450 11950
+F 0 "#PWR?" H 5450 11800 50  0001 C CNN
+F 1 "+3.3V" H 5465 12123 50  0000 C CNN
+F 2 "" H 5450 11950 50  0001 C CNN
+F 3 "" H 5450 11950 50  0001 C CNN
+	1    5450 11950
+	1    0    0    -1  
+$EndComp
+$Comp
+L sdi-mipi-bridge:+3.3V #PWR?
+U 1 1 5F0146FF
+P 5900 14150
+F 0 "#PWR?" H 5900 14000 50  0001 C CNN
+F 1 "+3.3V" H 5915 14323 50  0000 C CNN
+F 2 "" H 5900 14150 50  0001 C CNN
+F 3 "" H 5900 14150 50  0001 C CNN
+	1    5900 14150
+	1    0    0    -1  
+$EndComp
+$Comp
+L sdi-mipi-bridge:+3.3V #PWR?
+U 1 1 5F014DD8
+P 8700 14850
+F 0 "#PWR?" H 8700 14700 50  0001 C CNN
+F 1 "+3.3V" H 8715 15023 50  0000 C CNN
+F 2 "" H 8700 14850 50  0001 C CNN
+F 3 "" H 8700 14850 50  0001 C CNN
+	1    8700 14850
+	1    0    0    -1  
+$EndComp
+$Comp
+L sdi-mipi-bridge:+3.3V #PWR?
+U 1 1 5F015709
+P 8850 8300
+F 0 "#PWR?" H 8850 8150 50  0001 C CNN
+F 1 "+3.3V" H 8865 8473 50  0000 C CNN
+F 2 "" H 8850 8300 50  0001 C CNN
+F 3 "" H 8850 8300 50  0001 C CNN
+	1    8850 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L sdi-mipi-bridge:+3.3V #PWR?
+U 1 1 5F015DE0
+P 20200 8400
+F 0 "#PWR?" H 20200 8250 50  0001 C CNN
+F 1 "+3.3V" H 20215 8573 50  0000 C CNN
+F 2 "" H 20200 8400 50  0001 C CNN
+F 3 "" H 20200 8400 50  0001 C CNN
+	1    20200 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L sdi-mipi-bridge:+3.3V #PWR?
+U 1 1 5F01677E
+P 21400 5250
+F 0 "#PWR?" H 21400 5100 50  0001 C CNN
+F 1 "+3.3V" H 21415 5423 50  0000 C CNN
+F 2 "" H 21400 5250 50  0001 C CNN
+F 3 "" H 21400 5250 50  0001 C CNN
+	1    21400 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L sdi-mipi-bridge:+3.3V #PWR?
+U 1 1 5F017561
+P 19350 1200
+F 0 "#PWR?" H 19350 1050 50  0001 C CNN
+F 1 "+3.3V" H 19365 1373 50  0000 C CNN
+F 2 "" H 19350 1200 50  0001 C CNN
+F 3 "" H 19350 1200 50  0001 C CNN
+	1    19350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L sdi-mipi-bridge:+3.3V #PWR?
+U 1 1 5F017C70
+P 22650 1600
+F 0 "#PWR?" H 22650 1450 50  0001 C CNN
+F 1 "+3.3V" H 22665 1773 50  0000 C CNN
+F 2 "" H 22650 1600 50  0001 C CNN
+F 3 "" H 22650 1600 50  0001 C CNN
+	1    22650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L sdi-mipi-bridge:+3.3V #PWR?
+U 1 1 5F01C0DA
+P 17750 5850
+F 0 "#PWR?" H 17750 5700 50  0001 C CNN
+F 1 "+3.3V" H 17765 6023 50  0000 C CNN
+F 2 "" H 17750 5850 50  0001 C CNN
+F 3 "" H 17750 5850 50  0001 C CNN
+	1    17750 5850
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	16900 10650 16900 11550
 Wire Bus Line

@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name SDI-bridge-footprints)(type KiCad)(uri ${KIPRJMOD}/lib/SDI-bridge-footprints)(options "")(descr ""))
+  (lib (name sdi-mipi-bridge-footprints)(type Kicad)(uri ${KIPRJMOD}/lib/sdi-mipi-bridge-footprints)(options "")(descr ""))
 )
