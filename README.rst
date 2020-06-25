@@ -3,7 +3,7 @@ SDI to MIPI CSI-2 bridge
 ========================
 Copyright (c) 2020 `Antmicro <https://www.antmicro.com>`_
 
-.. figure:: img/vis_front.png
+.. figure:: img/sdi-mipi-bridge.png
 
 Overview
 ========
