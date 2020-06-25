@@ -1,58 +1,63 @@
-==========
-SDI bridge
-==========
-Copyright (c) 2020 Antmicro <`www.antmicro.com <https://www.antmicro.com>`_>
+========================
+SDI to MIPI CSI-2 bridge
+========================
+Copyright (c) 2020 `Antmicro <https://www.antmicro.com>`_
 
 .. figure:: img/vis_front.png
 
-Introduction
-============
+Overview
+========
 
-This repository contains design files for SDI to MIPI CSI-2 bridging device created by `Antmicro <https://antmicro.com/>`_.
-This device enables to connect industrial and broadcast cameras to the devices with digital signal processors that are operating with MIPI CSI-2 signal standard.
-The design was created in `KiCad EDA <https://kicad-pcb.org/>`_ and it is Open Source Hardware (OSHW).
-
-Board overview
-==============
-
-The board is equipped with input BNC connector and output 50-pin MIPI CSI-2 connector. Additional SDI loopback BNC connector also has been provided. SDI signal conversion is implemented with a `Semtech GS2971A <https://www.semtech.com/products/broadcast-video/receivers-deserializers/gs2971a>`_ deserializer which is passing the parrallel 10-bit signal to the `CrossLink LIF-MD6000-6KMG80I <http://www.latticesemi.com/en/Products/FPGAandCPLD/CrossLink>`_. The CrossLink is video bridging and processing optimized FPGA with MIPI D-PHY bridging capabilities and it converts parallel signal to the output MIPI CSI-2 format. There are SPI and I2C programming interfaces and audio I2S output connector. Configuration DIP switches has been implemented to make this device more comprehensive platform for signal processing.
+This repository contains open hardware design files for SDI to MIPI CSI-2 bridging device.
+This device enables to connect industrial and filmmaking cameras and video accessories to platforms accepting MIPI CSI-2 interface.
+The design was created in KiCad EDA.
+The board is equipped with input BNC connector accepting SDI signal and 50-pin FFC output connector exposing MIPI CSI-2 lanes and I2C bus for board configuration.
+Additional SDI output (loopback) BNC connector is also available.
+SDI signal conversion is implemented with a `Semtech GS2971A <https://www.semtech.com/products/broadcast-video/receivers-deserializers/gs2971a>`_ deserializer which is passing the parrallel 10-bit video data to the `Lattice CrossLink LIF-MD6000-6KMG80I <http://www.latticesemi.com/en/Products/FPGAandCPLD/CrossLink>`_.
+The CrossLink IC includes programmable logic and dedicated MIPI D-PHY transceivers. 
+It can be configured to accept parallel video data from the deserializer and transmit it over MIPI CSI-2 towards the host platform.
+There are SPI and I2C programming interfaces exposed so the deserializer and CrossLink programmable logic device can be configured from the host platform.
+Additionally a set of DIP switches allows to easily pre-set the mode of operation of the deserializer.
 
 Repository structure
-====================
+--------------------
 
-The main repository directory contains the KiCad PCB project files, the Outjob file, LICENSE and README.
+The main repository directory contains the KiCad PCB project files, LICENSE and README.
 The remaining files are stored in the following directories:
 
-* ``lib`` - contains the component libraries and 3D model of each component
+* ``3d-model`` - contains a mechanical model of the board in stl mesh format
+* ``lib`` - contains the component libraries
 * ``doc`` - contains selected files for device fabrication (schematic in PDF, BoM)
 * ``img`` - contains graphics for this README
 
 Key Features
 ============
 
-* Operation at 2.97Gb/s, 2.97/1.001Gb/s, 1.485Gb/s, 1.485/1.001Gb/s and 270Mb/s
-* Supports SMPTE ST 425 (Level A and Level B), SMPTE ST 424, SMPTE ST 292, SMPTE ST 259-C and DVB-ASI
-* Integrated adaptive cable equalizer and output loopback BNC connector
+* Implements a Single Link (3G-SDI) video conversion
+* Supports SMPTE ST 425 (Level A and Level B), SMPTE ST 424, SMPTE ST 292, SMPTE ST 259-C and DVB-ASI as defined by the Semtec GS2971 specification
+* Integrated loopback BNC connector for ease of daisy chaining with multiple SDI video accessories
 * Audio de-embedder for 8 channels of 48kHz audio exposed on I2S 10 pin header
 * Two 4-lane MIPI D-PHY transceivers up to 6 Gbps per PHY exposed at 50 pin FFC connector
-* I2C programming and communication interface to CrossLink and Semtech deserializer
-* SPI programming interface to program CrossLink
-* 12x DIP switches Semtech configuration pins
+* I2C configuration interface to handle CrossLink FPGA and SDI deserializer
+* SPI interface for CrossLink configuration
+* 12x DIP switches to initially configure the deserializer
 * 2 LED indicators for user purposes
 
 Board dimensions
 ================
 
-.. figure:: img/SDI_dimensions.png   
+.. figure:: img/SDI_dimensions.png
 
 Getting started
 ===============
 
-The board is powered by a 3.3V DC through programming connectors or 50-pin host connector.
-It is recommended to use at least 1A power supply. To make sure the board run properly, use reset button after turning the device on.
-On board deserializer - Semtech GS2971A - offers many different operating modes. Included in design 12x configuration DIP switches, which are available to the user, allow to easily configure the device without using additional programming tools.
+The SDI-MIPI PCB can be manufactured and assembled from the provided design files.
+It is recommended to pick the PCB manufacturing technology which guarantees impedance matching for the SDI and CSI high speed data lanes.
+The board is powered with a 3.3V DC through a 50-pin FFC host connector.
+It is recommended to provide at least 1A of power supply.
 
-Recomended configuration (10-bit multiplexed 3G DDR FORMAT):
+The PCB includes a 12x configuration DIP switches to pre-set the initial mode of operation.
+Typical switch configuration for a 10-bit multiplexed 3G DDR FORMAT is:
 
 *  20BIT/10BIT - LOW
 *  RATE_SEL0  - LOW
@@ -60,8 +65,11 @@ Recomended configuration (10-bit multiplexed 3G DDR FORMAT):
 *  SMPTE_BYPASS   -  HIGH
 *  DVB-ASI  -  LOW
 
-To configure deserializer with specific operating mode, please refer to the `GS2971A datasheet <https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/44000000MD3i/kpmMkrmUWgHlbCOwdLzVohMm1SDPoVH85guEGK.KXTc>`_
+Please refer to the `GS2971A datasheet <https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/44000000MD3i/kpmMkrmUWgHlbCOwdLzVohMm1SDPoVH85guEGK.KXTc>`_ for more configuration options.
 
-``Note:``
+Supported platforms
+===================
 
-This revision of the device has only 10 parallel data lines, so the only 10bit modes are available. For more detailed information, please refer to the design files.
+The SDI-MIPI bridge is electrically compatible a range of processing platforms designed by Antmicro.
+Some of them like the NVIDIA `Jetson Nano/Jetson Xavier NX baseboard <https://github.com/antmicro/jetson-nano-baseboard>`_ or the `TX2 Deep Learning Platform <https://github.com/antmicro/jetson-tx2-deep-learning-platform>`_ are available as OSHW designs.
+
