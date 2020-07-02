@@ -7214,12 +7214,8 @@ Text Label 12150 13400 0    50   ~ 0
 USER_SW
 Text Label 17000 13050 0    50   ~ 0
 USER_SW
-Wire Bus Line
-	16900 10650 16900 11550
-Wire Bus Line
-	4850 2850 4850 3750
 $Comp
-L power:+3.3V #PWR?
+L sdi-mipi-bridge:+3V3 #PWR?
 U 1 1 5F0AA363
 P 5900 14150
 F 0 "#PWR?" H 5900 14000 50  0001 C CNN
@@ -7230,7 +7226,7 @@ F 3 "" H 5900 14150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L sdi-mipi-bridge:+3V3 #PWR?
 U 1 1 5F0AF54D
 P 5450 11950
 F 0 "#PWR?" H 5450 11800 50  0001 C CNN
@@ -7241,7 +7237,7 @@ F 3 "" H 5450 11950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L sdi-mipi-bridge:+3V3 #PWR?
 U 1 1 5F0B8283
 P 8850 8300
 F 0 "#PWR?" H 8850 8150 50  0001 C CNN
@@ -7252,18 +7248,7 @@ F 3 "" H 8850 8300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
-U 1 1 5F0BBC17
-P 5450 8600
-F 0 "#PWR?" H 5450 8450 50  0001 C CNN
-F 1 "+3.3V" H 5465 8773 50  0000 C CNN
-F 2 "" H 5450 8600 50  0001 C CNN
-F 3 "" H 5450 8600 50  0001 C CNN
-	1    5450 8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR?
+L sdi-mipi-bridge:+3V3 #PWR?
 U 1 1 5F0C4337
 P 8700 14850
 F 0 "#PWR?" H 8700 14700 50  0001 C CNN
@@ -7274,7 +7259,7 @@ F 3 "" H 8700 14850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L sdi-mipi-bridge:+3V3 #PWR?
 U 1 1 5F0CE737
 P 1000 8900
 F 0 "#PWR?" H 1000 8750 50  0001 C CNN
@@ -7285,7 +7270,7 @@ F 3 "" H 1000 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L sdi-mipi-bridge:+3V3 #PWR?
 U 1 1 5F0D19F3
 P 1900 5900
 F 0 "#PWR?" H 1900 5750 50  0001 C CNN
@@ -7296,7 +7281,7 @@ F 3 "" H 1900 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L sdi-mipi-bridge:+3V3 #PWR?
 U 1 1 5F0D73D2
 P 650 4900
 F 0 "#PWR?" H 650 4750 50  0001 C CNN
@@ -7307,7 +7292,7 @@ F 3 "" H 650 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L sdi-mipi-bridge:+3V3 #PWR?
 U 1 1 5F0E97F8
 P 20200 8400
 F 0 "#PWR?" H 20200 8250 50  0001 C CNN
@@ -7318,7 +7303,7 @@ F 3 "" H 20200 8400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L sdi-mipi-bridge:+3V3 #PWR?
 U 1 1 5F0F58E5
 P 21400 5250
 F 0 "#PWR?" H 21400 5100 50  0001 C CNN
@@ -7329,7 +7314,7 @@ F 3 "" H 21400 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L sdi-mipi-bridge:+3V3 #PWR?
 U 1 1 5F0FDF23
 P 22650 1600
 F 0 "#PWR?" H 22650 1450 50  0001 C CNN
@@ -7340,7 +7325,7 @@ F 3 "" H 22650 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L sdi-mipi-bridge:+3V3 #PWR?
 U 1 1 5F0FE78D
 P 19350 1200
 F 0 "#PWR?" H 19350 1050 50  0001 C CNN
@@ -7351,7 +7336,7 @@ F 3 "" H 19350 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L sdi-mipi-bridge:+3V3 #PWR?
 U 1 1 5F104E29
 P 17750 5850
 F 0 "#PWR?" H 17750 5700 50  0001 C CNN
@@ -7359,6 +7344,21 @@ F 1 "+3.3V" H 17765 6023 50  0000 C CNN
 F 2 "" H 17750 5850 50  0001 C CNN
 F 3 "" H 17750 5850 50  0001 C CNN
 	1    17750 5850
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	16900 10650 16900 11550
+Wire Bus Line
+	4850 2850 4850 3750
+$Comp
+L sdi-mipi-bridge:+3V3 #PWR?
+U 1 1 5F1F5CC8
+P 5450 8600
+F 0 "#PWR?" H 5450 8450 50  0001 C CNN
+F 1 "+3V3" H 5465 8773 50  0000 C CNN
+F 2 "" H 5450 8600 50  0001 C CNN
+F 3 "" H 5450 8600 50  0001 C CNN
+	1    5450 8600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
