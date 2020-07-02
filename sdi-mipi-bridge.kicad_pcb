@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.5+dfsg1-2~bpo10+1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.4+dfsg1-1~bpo10+1)
 
   (general
     (thickness 1.6)
@@ -15,8 +15,8 @@
     (1 In1.Cu power hide)
     (2 In2.Cu power hide)
     (3 In3.Cu signal hide)
-    (4 In4.Cu signal)
-    (31 B.Cu signal hide)
+    (4 In4.Cu signal hide)
+    (31 B.Cu signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
