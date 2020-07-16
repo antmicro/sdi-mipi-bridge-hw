@@ -77,3 +77,7 @@ Supported platforms
 The SDI-MIPI bridge is electrically compatible a range of processing platforms designed by Antmicro.
 Most of them, such as the NVIDIA `Jetson Nano/Jetson Xavier NX baseboard <https://github.com/antmicro/jetson-nano-baseboard>`_ or the `TX2 Deep Learning Platform <https://github.com/antmicro/jetson-tx2-deep-learning-platform>`_ are available as OSHW designs.
 
+License
+=======
+
+`MIT <LICENSE>`_
