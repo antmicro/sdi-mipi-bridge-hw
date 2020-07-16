@@ -1,6 +1,7 @@
 ========================
 SDI to MIPI CSI-2 bridge
 ========================
+
 Copyright (c) 2020 `Antmicro <https://www.antmicro.com>`_
 
 .. figure:: img/sdi-mipi-bridge.png
@@ -8,21 +9,24 @@ Copyright (c) 2020 `Antmicro <https://www.antmicro.com>`_
 Overview
 ========
 
-This repository contains open hardware design files for an SDI to MIPI CSI-2 bridging device.
-This device enables connecting industrial and filmmaking cameras and video accessories to platforms compatible with the MIPI CSI-2 interface.
-The design was created in KiCad EDA.
-The board is equipped with an input BNC connector accepting the SDI signal and a 50-pin FFC output connector exposing MIPI CSI-2 lanes and an I2C bus for board configuration.
+This repository contains open hardware design files for Antmicro's SDI to MIPI CSI-2 bridging device.
+This device enables connecting industrial and filmmaking cameras and video accessories to platforms which include the MIPI CSI-2 interface.
+The design was created in the KiCad EDA suite.
+
+The board has an input BNC connector accepting the SDI signal and Antmicro's standard 50-pin FFC output connector (compatible wit ha range of our open hardwware boards) exposing MIPI CSI-2 lanes and an I2C bus for board configuration.
+
 An additional SDI output (loopback) BNC connector is also available.
+
 SDI signal conversion is implemented with a `Semtech GS2971A <https://www.semtech.com/products/broadcast-video/receivers-deserializers/gs2971a>`_ deserializer which passes the parrallel 10-bit video data to the `Lattice CrossLink LIF-MD6000-6KMG80I <http://www.latticesemi.com/en/Products/FPGAandCPLD/CrossLink>`_.
-The CrossLink IC includes programmable logic and dedicated MIPI D-PHY transceivers. 
+The CrossLink IC includes programmable logic and dedicated MIPI D-PHY transceivers.
 It can be configured to accept parallel video data from the deserializer and transmit it over MIPI CSI-2 to the host platform.
-There are SPI and I2C programming interfaces exposed so the deserializer and CrossLink programmable logic device can be configured from the host platform.
+SPI and I2C programming interfaces are exposed so the deserializer and CrossLink programmable logic device can be configured from the host platform.
 Additionally, a set of DIP switches allows the user to easily pre-set the mode of operation of the deserializer.
 
 Repository structure
 --------------------
 
-The main repository directory contains KiCad PCB project files, LICENSE and README.
+The main repository directory contains KiCad PCB project files, a LICENSE and README.
 The remaining files are stored in the following directories:
 
 * ``3d-model`` - contains a mechanical model of the board in stl mesh format
@@ -37,7 +41,7 @@ Key Features
 * Supports SMPTE ST 425 (Level A and Level B), SMPTE ST 424, SMPTE ST 292, SMPTE ST 259-C and DVB-ASI as defined by the Semtec GS2971 specification
 * Integrated loopback BNC connector for easy daisy-chaining with multiple SDI video accessories
 * Audio de-embedder for 8 channels of 48kHz audio exposed on I2S 10 pin header
-* Two 4 lane MIPI CSI-2 interfaces with up to 6 Gbps, each exposed on the 50 pin FFC connector.
+* Two 4-lane MIPI CSI-2 interfaces with up to 6 Gbps, each exposed on the 50 pin FFC connector.
 * I2C configuration interface to handle CrossLink FPGA and SDI deserializer
 * SPI interface for CrossLink configuration
 * 12x DIP switches to initially configure the deserializer
@@ -71,5 +75,5 @@ Supported platforms
 ===================
 
 The SDI-MIPI bridge is electrically compatible a range of processing platforms designed by Antmicro.
-Some of them, such as the NVIDIA `Jetson Nano/Jetson Xavier NX baseboard <https://github.com/antmicro/jetson-nano-baseboard>`_ or the `TX2 Deep Learning Platform <https://github.com/antmicro/jetson-tx2-deep-learning-platform>`_ are available as OSHW designs.
+Most of them, such as the NVIDIA `Jetson Nano/Jetson Xavier NX baseboard <https://github.com/antmicro/jetson-nano-baseboard>`_ or the `TX2 Deep Learning Platform <https://github.com/antmicro/jetson-tx2-deep-learning-platform>`_ are available as OSHW designs.
 
