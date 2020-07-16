@@ -29,7 +29,7 @@ Repository structure
 The main repository directory contains KiCad PCB project files, a LICENSE and README.
 The remaining files are stored in the following directories:
 
-* ``3d-model`` - contains a mechanical model of the board in stl mesh format
+* ``3d-model`` - contains a `mechanical model <3d-model/sdi-mipi-bridge.stl>`_ of the board in stl mesh format
 * ``lib`` - contains the component libraries
 * ``doc`` - contains selected files for device fabrication (schematic in PDF, BoM)
 * ``img`` - contains graphics for this README
