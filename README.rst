@@ -38,7 +38,7 @@ Key Features
 ============
 
 * Implements Single Link (3G-SDI) video conversion
-* Supports SMPTE ST 425 (Level A and Level B), SMPTE ST 424, SMPTE ST 292, SMPTE ST 259-C and DVB-ASI as defined by the Semtec GS2971 specification
+* Supports SMPTE ST 425 (Level A and Level B), SMPTE ST 424, SMPTE ST 292, SMPTE ST 259-C and DVB-ASI as defined by the Semtec GS2971A specification
 * Integrated loopback BNC connector for easy daisy-chaining with multiple SDI video accessories
 * Audio de-embedder for 8 channels of 48kHz audio exposed on I2S 10 pin header
 * Two 4-lane MIPI CSI-2 interfaces with up to 6 Gbps, each exposed on the 50 pin FFC connector.
