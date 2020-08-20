@@ -1,4 +1,4 @@
-(module BNC_Edge_Conn (layer F.Cu) (tedit 5DD29673)
+(module BNC_Edge_Conn (layer F.Cu) (tedit 5F3E1CE1)
   (fp_text reference REF** (at -0.05 -7.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -13,8 +13,8 @@
   (pad 1 smd rect (at 4.85 -2.35) (size 1.1 6.45) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0 0) (size 1.1 1.75) (layers F.Cu F.Paste F.Mask))
   (model ${KIPRJMOD}/lib/3d-models/BNC_Edge_Conn.step
-    (offset (xyz 0 -7.35 0.2))
+    (offset (xyz 0 -20.35 0.7))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 90))
+    (rotate (xyz -90 90 180))
   )
 )
