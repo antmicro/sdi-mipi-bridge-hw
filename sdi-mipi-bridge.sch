@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "SDI-MIPI Bridge"
 Date ""
-Rev "1.1.0"
+Rev "1.2.0"
 Comp ""
 Comment1 "www.antmicro.com"
 Comment2 "Antmicro Ltd."
@@ -2197,12 +2197,6 @@ Text Label 4350 3050 0    50   ~ 0
 DOUT13
 Text Label 4350 2950 0    50   ~ 0
 DOUT12
-Text Label 4350 2850 0    50   ~ 0
-DOUT11
-Text Label 4350 2750 0    50   ~ 0
-DOUT10
-Wire Wire Line
-	4250 2750 4750 2750
 Text Label 3550 3650 0    50   ~ 0
 D19
 Text Label 3550 3550 0    50   ~ 0
@@ -2219,10 +2213,6 @@ Text Label 3550 3050 0    50   ~ 0
 D13
 Text Label 3550 2950 0    50   ~ 0
 D12
-Text Label 3550 2850 0    50   ~ 0
-D11
-Text Label 3550 2750 0    50   ~ 0
-D10
 Text Label 3550 2650 0    50   ~ 0
 D9
 Text Label 3550 2550 0    50   ~ 0
@@ -2248,11 +2238,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 2650 3550 2650
 Wire Wire Line
-	3950 2750 3550 2750
-Wire Wire Line
 	3550 3050 3950 3050
-Wire Wire Line
-	3550 2850 3950 2850
 Wire Wire Line
 	3950 2950 3550 2950
 Wire Wire Line
@@ -2275,8 +2261,6 @@ Wire Wire Line
 	4250 3050 4750 3050
 Wire Wire Line
 	4750 2950 4250 2950
-Wire Wire Line
-	4750 2850 4250 2850
 Wire Wire Line
 	3550 2450 3900 2450
 Wire Wire Line
@@ -2309,12 +2293,8 @@ Entry Wire Line
 	4750 3050 4850 3150
 Entry Wire Line
 	4750 2950 4850 3050
-Entry Wire Line
-	4750 2850 4850 2950
-Entry Wire Line
-	4750 2750 4850 2850
 Wire Bus Line
-	4850 2850 5400 2850
+	4850 3050 5400 3050
 $Comp
 L sdi-mipi-bridge:TP_SMD1MM TP2
 U 1 1 5DE77CA8
@@ -2624,8 +2604,8 @@ Wire Wire Line
 	8150 2900 8800 2900
 Wire Wire Line
 	8150 2800 8800 2800
-Text Label 4900 2850 0    50   ~ 0
-DOUT[19:10]
+Text Label 4900 3050 0    50   ~ 0
+DOUT[19:12]
 Wire Wire Line
 	10850 1800 10850 1700
 Connection ~ 10850 1800
@@ -3085,34 +3065,6 @@ F 2 "sdi-mipi-bridge-footprints:antmicro-logo_scaled_20mm" H 700 7450 50  0001 C
 F 3 "" H 800 7550 50  0001 C CNN
 	1    800  7200
 	1    0    0    -1  
-$EndComp
-$Comp
-L sdi-mipi-bridge:R_0R_0402 R7
-U 1 1 5DED67D1
-P 4100 2750
-F 0 "R7" H 4300 2800 60  0000 C CNN
-F 1 "R_0R_0402" H 4100 2600 60  0001 C CNN
-F 2 "sdi-mipi-bridge-footprints:0402-res" H 4300 2950 60  0001 L CNN
-F 3 "" H 4100 2750 50  0001 C CNN
-F 4 "PANASONIC" H 4300 3150 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 4300 3050 60  0001 L CNN "MPN"
-F 6 "0R" H 4100 2750 50  0000 C CNN "Val"
-	1    4100 2750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L sdi-mipi-bridge:R_0R_0402 R8
-U 1 1 5DED76DC
-P 4100 2850
-F 0 "R8" H 4300 2900 60  0000 C CNN
-F 1 "R_0R_0402" H 4100 2700 60  0001 C CNN
-F 2 "sdi-mipi-bridge-footprints:0402-res" H 4300 3050 60  0001 L CNN
-F 3 "" H 4100 2850 50  0001 C CNN
-F 4 "PANASONIC" H 4300 3250 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 4300 3150 60  0001 L CNN "MPN"
-F 6 "0R" H 4100 2850 50  0000 C CNN "Val"
-	1    4100 2850
-	-1   0    0    -1  
 $EndComp
 $Comp
 L sdi-mipi-bridge:R_0R_0402 R9
@@ -4353,7 +4305,7 @@ Wire Wire Line
 Wire Wire Line
 	18000 10750 17000 10750
 Text Label 16350 10850 0    50   ~ 0
-DOUT[19:10]
+DOUT[19:12]
 Wire Bus Line
 	16900 10850 16350 10850
 Entry Wire Line
@@ -7350,8 +7302,34 @@ F 3 "" H 5450 8600 50  0001 C CNN
 $EndComp
 NoConn ~ 18000 10150
 NoConn ~ 18000 10650
+Wire Wire Line
+	3900 2750 3550 2750
+Wire Wire Line
+	3900 2850 3550 2850
+$Comp
+L sdi-mipi-bridge:TP_SMD_0_75MM TP3
+U 1 1 60D6CAD4
+P 4000 2750
+F 0 "TP3" V 4000 2700 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 4000 2650 50  0001 C CNN
+F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2950 60  0001 L CNN
+F 3 "" H 4200 3050 60  0001 L CNN
+	1    4000 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sdi-mipi-bridge:TP_SMD_0_75MM TP4
+U 1 1 60D6CADA
+P 4000 2850
+F 0 "TP4" V 4000 2800 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 4000 2750 50  0001 C CNN
+F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm" H 4200 3050 60  0001 L CNN
+F 3 "" H 4200 3150 60  0001 L CNN
+	1    4000 2850
+	0    -1   -1   0   
+$EndComp
+Wire Bus Line
+	4850 3050 4850 3750
 Wire Bus Line
 	16900 10850 16900 11550
-Wire Bus Line
-	4850 2850 4850 3750
 $EndSCHEMATC
