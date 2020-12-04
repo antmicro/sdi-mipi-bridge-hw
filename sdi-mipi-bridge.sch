@@ -4949,7 +4949,7 @@ Wire Notes Line
 Wire Wire Line
 	20900 5750 21150 5750
 Text Notes 16250 750  0    118  ~ 24
-MIPI conector
+MIPI connector
 Text Label 17650 3150 0    50   ~ 0
 MIPI1_D3_N
 Text Label 17650 3350 0    50   ~ 0
