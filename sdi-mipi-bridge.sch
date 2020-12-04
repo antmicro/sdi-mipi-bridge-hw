@@ -2192,15 +2192,15 @@ DOUT16
 Text Label 4350 3250 0    50   ~ 0
 DOUT15
 Text Label 4350 3050 0    50   ~ 0
-DOUT14
-Text Label 4350 2950 0    50   ~ 0
 DOUT13
-Text Label 4350 2850 0    50   ~ 0
+Text Label 4350 2950 0    50   ~ 0
 DOUT12
-Text Label 4350 2750 0    50   ~ 0
+Text Label 4350 2850 0    50   ~ 0
 DOUT11
-Text Label 4350 3150 0    50   ~ 0
+Text Label 4350 2750 0    50   ~ 0
 DOUT10
+Text Label 4350 3150 0    50   ~ 0
+DOUT14
 Wire Wire Line
 	4250 2750 4750 2750
 Text Label 3550 3650 0    50   ~ 0
@@ -2214,15 +2214,15 @@ D16
 Text Label 3550 3250 0    50   ~ 0
 D15
 Text Label 3550 3050 0    50   ~ 0
-D14
-Text Label 3550 2950 0    50   ~ 0
 D13
-Text Label 3550 2850 0    50   ~ 0
+Text Label 3550 2950 0    50   ~ 0
 D12
-Text Label 3550 2750 0    50   ~ 0
+Text Label 3550 2850 0    50   ~ 0
 D11
-Text Label 3550 3150 0    50   ~ 0
+Text Label 3550 2750 0    50   ~ 0
 D10
+Text Label 3550 3150 0    50   ~ 0
+D14
 Text Label 3550 2650 0    50   ~ 0
 D9
 Text Label 3550 2550 0    50   ~ 0
@@ -4330,11 +4330,11 @@ Text Label 17300 11150 2    50   ~ 0
 DOUT16
 Text Label 17300 11050 2    50   ~ 0
 DOUT15
-Text Label 17300 10950 2    50   ~ 0
+Text Label 17275 10150 2    50   ~ 0
 DOUT14
-Text Label 17300 10850 2    50   ~ 0
+Text Label 17300 10950 2    50   ~ 0
 DOUT13
-Text Label 17300 10750 2    50   ~ 0
+Text Label 17300 10850 2    50   ~ 0
 DOUT12
 Wire Wire Line
 	18000 11450 17000 11450
@@ -7346,9 +7346,9 @@ F 3 "" H 5450 8600 50  0001 C CNN
 	1    5450 8600
 	1    0    0    -1  
 $EndComp
-Text Label 17300 10650 2    50   ~ 0
+Text Label 17300 10750 2    50   ~ 0
 DOUT11
-Text Label 17000 10150 0    50   ~ 0
+Text Label 17000 10650 0    50   ~ 0
 DOUT10
 Wire Wire Line
 	18000 10650 17000 10650
