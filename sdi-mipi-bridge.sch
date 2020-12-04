@@ -215,28 +215,28 @@ Wire Wire Line
 Wire Wire Line
 	18000 12450 17000 12450
 Wire Wire Line
-	18000 10250 17000 10250
+	18000 10250 17075 10250
 Wire Wire Line
 	18000 12350 17000 12350
 Wire Wire Line
-	18000 10450 17000 10450
+	18000 10450 17075 10450
 Wire Wire Line
-	18000 10350 17000 10350
+	18000 10350 17075 10350
 Wire Wire Line
-	18000 10550 17000 10550
+	18000 10550 17075 10550
 Text Label 17000 12250 0    50   ~ 0
 DATA_ERRORb
 Text Label 17000 12450 0    50   ~ 0
 Y_1ANC
-Text Label 17000 10250 0    50   ~ 0
+Text Label 17075 10250 0    50   ~ 0
 LOCKED_CL
 Text Label 17000 12350 0    50   ~ 0
 F_DE
-Text Label 17000 10450 0    50   ~ 0
+Text Label 17075 10450 0    50   ~ 0
 V_VSYNC
-Text Label 17000 10350 0    50   ~ 0
+Text Label 17075 10350 0    50   ~ 0
 H_HSYNC
-Text Label 17000 10550 0    50   ~ 0
+Text Label 17075 10550 0    50   ~ 0
 PCLK
 Wire Wire Line
 	21400 4050 22400 4050
@@ -2191,12 +2191,18 @@ Text Label 4350 3350 0    50   ~ 0
 DOUT16
 Text Label 4350 3250 0    50   ~ 0
 DOUT15
-Text Label 4350 3150 0    50   ~ 0
-DOUT14
 Text Label 4350 3050 0    50   ~ 0
-DOUT13
+DOUT14
 Text Label 4350 2950 0    50   ~ 0
+DOUT13
+Text Label 4350 2850 0    50   ~ 0
 DOUT12
+Text Label 4350 2750 0    50   ~ 0
+DOUT11
+Text Label 4350 3150 0    50   ~ 0
+DOUT10
+Wire Wire Line
+	4250 2750 4750 2750
 Text Label 3550 3650 0    50   ~ 0
 D19
 Text Label 3550 3550 0    50   ~ 0
@@ -2207,12 +2213,16 @@ Text Label 3550 3350 0    50   ~ 0
 D16
 Text Label 3550 3250 0    50   ~ 0
 D15
-Text Label 3550 3150 0    50   ~ 0
-D14
 Text Label 3550 3050 0    50   ~ 0
-D13
+D14
 Text Label 3550 2950 0    50   ~ 0
+D13
+Text Label 3550 2850 0    50   ~ 0
 D12
+Text Label 3550 2750 0    50   ~ 0
+D11
+Text Label 3550 3150 0    50   ~ 0
+D10
 Text Label 3550 2650 0    50   ~ 0
 D9
 Text Label 3550 2550 0    50   ~ 0
@@ -2238,7 +2248,11 @@ Wire Wire Line
 Wire Wire Line
 	3900 2650 3550 2650
 Wire Wire Line
+	3950 2750 3550 2750
+Wire Wire Line
 	3550 3050 3950 3050
+Wire Wire Line
+	3550 2850 3950 2850
 Wire Wire Line
 	3950 2950 3550 2950
 Wire Wire Line
@@ -2261,6 +2275,8 @@ Wire Wire Line
 	4250 3050 4750 3050
 Wire Wire Line
 	4750 2950 4250 2950
+Wire Wire Line
+	4750 2850 4250 2850
 Wire Wire Line
 	3550 2450 3900 2450
 Wire Wire Line
@@ -2293,8 +2309,12 @@ Entry Wire Line
 	4750 3050 4850 3150
 Entry Wire Line
 	4750 2950 4850 3050
+Entry Wire Line
+	4750 2850 4850 2950
+Entry Wire Line
+	4750 2750 4850 2850
 Wire Bus Line
-	4850 3050 5400 3050
+	4850 2850 5400 2850
 $Comp
 L sdi-mipi-bridge:TP_SMD1MM TP2
 U 1 1 5DE77CA8
@@ -2604,8 +2624,8 @@ Wire Wire Line
 	8150 2900 8800 2900
 Wire Wire Line
 	8150 2800 8800 2800
-Text Label 4900 3050 0    50   ~ 0
-DOUT[19:12]
+Text Label 4900 2850 0    50   ~ 0
+DOUT[19:10]
 Wire Wire Line
 	10850 1800 10850 1700
 Connection ~ 10850 1800
@@ -3065,6 +3085,34 @@ F 2 "sdi-mipi-bridge-footprints:antmicro-logo_scaled_20mm" H 700 7450 50  0001 C
 F 3 "" H 800 7550 50  0001 C CNN
 	1    800  7200
 	1    0    0    -1  
+$EndComp
+$Comp
+L sdi-mipi-bridge:R_0R_0402 R7
+U 1 1 5DED67D1
+P 4100 2750
+F 0 "R7" H 4300 2800 60  0000 C CNN
+F 1 "R_0R_0402" H 4100 2600 60  0001 C CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 4300 2950 60  0001 L CNN
+F 3 "" H 4100 2750 50  0001 C CNN
+F 4 "PANASONIC" H 4300 3150 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 4300 3050 60  0001 L CNN "MPN"
+F 6 "0R" H 4100 2750 50  0000 C CNN "Val"
+	1    4100 2750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sdi-mipi-bridge:R_0R_0402 R8
+U 1 1 5DED76DC
+P 4100 2850
+F 0 "R8" H 4300 2900 60  0000 C CNN
+F 1 "R_0R_0402" H 4100 2700 60  0001 C CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 4300 3050 60  0001 L CNN
+F 3 "" H 4100 2850 50  0001 C CNN
+F 4 "PANASONIC" H 4300 3250 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 4300 3150 60  0001 L CNN "MPN"
+F 6 "0R" H 4100 2850 50  0000 C CNN "Val"
+	1    4100 2850
+	-1   0    0    -1  
 $EndComp
 $Comp
 L sdi-mipi-bridge:R_0R_0402 R9
@@ -4304,12 +4352,8 @@ Wire Wire Line
 	18000 10850 17000 10850
 Wire Wire Line
 	18000 10750 17000 10750
-Text Label 16350 10850 0    50   ~ 0
-DOUT[19:12]
-Wire Bus Line
-	16900 10850 16350 10850
 Entry Wire Line
-	17000 10750 16900 10850
+	17000 10650 16900 10750
 Entry Wire Line
 	17000 10850 16900 10950
 Entry Wire Line
@@ -6340,7 +6384,7 @@ Wire Wire Line
 Wire Wire Line
 	17000 13150 18000 13150
 Text Label 17000 13150 0    50   ~ 0
-USER_LED1
+USER_LED
 $Comp
 L sdi-mipi-bridge:R_100R_0402 R93
 U 1 1 5EE8527F
@@ -6375,7 +6419,7 @@ Wire Wire Line
 Wire Wire Line
 	13500 9650 13900 9650
 Text Label 12100 9650 0    50   ~ 0
-USER_LED1
+USER_LED
 Wire Wire Line
 	12100 9650 12650 9650
 Wire Notes Line
@@ -6521,37 +6565,37 @@ $EndComp
 $Comp
 L sdi-mipi-bridge:R_100R_0402 R64
 U 1 1 5FD0CB96
-P 12825 10250
-F 0 "R64" H 12825 10350 60  0000 L CNN
-F 1 "R_100R_0402" H 12825 10100 60  0001 C CNN
-F 2 "sdi-mipi-bridge-footprints:0402-res" H 13025 10450 60  0001 L CNN
-F 3 "" H 12825 10250 50  0001 C CNN
-F 4 "BOURNS" H 13025 10650 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 13025 10550 60  0001 L CNN "MPN"
-F 6 "100R" H 12725 10150 50  0000 L CNN "Val"
-	1    12825 10250
+P 12850 10250
+F 0 "R64" H 12850 10350 60  0000 L CNN
+F 1 "R_100R_0402" H 12850 10100 60  0001 C CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 13050 10450 60  0001 L CNN
+F 3 "" H 12850 10250 50  0001 C CNN
+F 4 "BOURNS" H 13050 10650 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 13050 10550 60  0001 L CNN "MPN"
+F 6 "100R" H 12750 10150 50  0000 L CNN "Val"
+	1    12850 10250
 	-1   0    0    -1  
 $EndComp
 $Comp
 L sdi-mipi-bridge:LG_L29K-G2J1-24-Z D5
 U 1 1 5FD0CB9E
-P 13425 10250
-F 0 "D5" H 13425 10150 60  0000 R CNN
-F 1 "LG_L29K-G2J1-24-Z" H 13725 10500 60  0000 R CNN
-F 2 "sdi-mipi-bridge-footprints:LED_0603" H 13625 10450 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 13625 10550 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 13625 10750 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 13625 11350 60  0001 L CNN "Manufacturer"
-	1    13425 10250
+P 13450 10250
+F 0 "D5" H 13450 10150 60  0000 R CNN
+F 1 "LG_L29K-G2J1-24-Z" H 13750 10500 60  0000 R CNN
+F 2 "sdi-mipi-bridge-footprints:LED_0603" H 13650 10450 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 13650 10550 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 13650 10750 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 13650 11350 60  0001 L CNN "Manufacturer"
+	1    13450 10250
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	12975 10250 13225 10250
+	13000 10250 13250 10250
 Wire Wire Line
-	13875 10250 13875 10350
+	13900 10250 13900 10350
 Wire Wire Line
-	13525 10250 13875 10250
-Text Label 12125 10250 0    50   ~ 0
+	13550 10250 13900 10250
+Text Label 12150 10250 0    50   ~ 0
 DATA_ERRORb
 $Comp
 L sdi-mipi-bridge:SW_DIP_x06 SW1
@@ -6998,7 +7042,7 @@ Wire Wire Line
 Wire Wire Line
 	19900 4350 19900 4450
 Wire Wire Line
-	12125 10250 12675 10250
+	12150 10250 12700 10250
 Text Label 16950 9050 0    50   ~ 0
 CRESET_B
 Text Label 2350 5250 2    50   ~ 0
@@ -7089,14 +7133,14 @@ RESET
 $Comp
 L sdi-mipi-bridge:GNDREF #PWR?
 U 1 1 5F3163ED
-P 13875 10350
+P 13900 10350
 AR Path="/5DD55102/5F3163ED" Ref="#PWR?"  Part="1" 
 AR Path="/5F3163ED" Ref="#PWR0106"  Part="1" 
-F 0 "#PWR0106" H 13875 10100 50  0001 C CNN
-F 1 "GNDREF" H 13880 10177 50  0000 C CNN
-F 2 "" H 13875 10350 50  0001 C CNN
-F 3 "" H 13875 10350 50  0001 C CNN
-	1    13875 10350
+F 0 "#PWR0106" H 13900 10100 50  0001 C CNN
+F 1 "GNDREF" H 13905 10177 50  0000 C CNN
+F 2 "" H 13900 10350 50  0001 C CNN
+F 3 "" H 13900 10350 50  0001 C CNN
+	1    13900 10350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -7302,89 +7346,24 @@ F 3 "" H 5450 8600 50  0001 C CNN
 	1    5450 8600
 	1    0    0    -1  
 $EndComp
-NoConn ~ 18000 10650
-Wire Wire Line
-	3900 2750 3550 2750
-Wire Wire Line
-	3900 2850 3550 2850
-$Comp
-L sdi-mipi-bridge:TP_SMD_0_75MM TP3
-U 1 1 60D6CAD4
-P 4000 2750
-F 0 "TP3" V 4000 2700 50  0000 R CNN
-F 1 "TP_SMD_0_75MM" H 4000 2650 50  0001 C CNN
-F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm" H 4200 2950 60  0001 L CNN
-F 3 "" H 4200 3050 60  0001 L CNN
-	1    4000 2750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L sdi-mipi-bridge:TP_SMD_0_75MM TP4
-U 1 1 60D6CADA
-P 4000 2850
-F 0 "TP4" V 4000 2800 50  0000 R CNN
-F 1 "TP_SMD_0_75MM" H 4000 2750 50  0001 C CNN
-F 2 "sdi-mipi-bridge-footprints:Testpoint_smd_0_75mm" H 4200 3050 60  0001 L CNN
-F 3 "" H 4200 3150 60  0001 L CNN
-	1    4000 2850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L sdi-mipi-bridge:R_100R_0402 R7
-U 1 1 61076EBA
-P 12800 10925
-F 0 "R7" H 12800 11025 60  0000 L CNN
-F 1 "R_100R_0402" H 12800 10775 60  0001 C CNN
-F 2 "sdi-mipi-bridge-footprints:0402-res" H 13000 11125 60  0001 L CNN
-F 3 "" H 12800 10925 50  0001 C CNN
-F 4 "BOURNS" H 13000 11325 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 13000 11225 60  0001 L CNN "MPN"
-F 6 "100R" H 12700 10825 50  0000 L CNN "Val"
-	1    12800 10925
-	-1   0    0    -1  
-$EndComp
-$Comp
-L sdi-mipi-bridge:LG_L29K-G2J1-24-Z D3
-U 1 1 61076EC2
-P 13400 10925
-F 0 "D3" H 13400 10825 60  0000 R CNN
-F 1 "LG_L29K-G2J1-24-Z" H 13700 11175 60  0000 R CNN
-F 2 "sdi-mipi-bridge-footprints:LED_0603" H 13600 11125 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 13600 11225 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 13600 11425 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 13600 12025 60  0001 L CNN "Manufacturer"
-	1    13400 10925
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	12950 10925 13200 10925
-Wire Wire Line
-	13900 10925 13900 11025
-Wire Wire Line
-	13500 10925 13900 10925
-Text Label 12100 10925 0    50   ~ 0
-USER_LED2
-Wire Wire Line
-	12100 10925 12650 10925
-$Comp
-L sdi-mipi-bridge:GNDREF #PWR?
-U 1 1 61076ECD
-P 13900 11025
-AR Path="/5DD55102/61076ECD" Ref="#PWR?"  Part="1" 
-AR Path="/61076ECD" Ref="#PWR01"  Part="1" 
-F 0 "#PWR01" H 13900 10775 50  0001 C CNN
-F 1 "GNDREF" H 13905 10852 50  0000 C CNN
-F 2 "" H 13900 11025 50  0001 C CNN
-F 3 "" H 13900 11025 50  0001 C CNN
-	1    13900 11025
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	17000 10150 18000 10150
+Text Label 17300 10650 2    50   ~ 0
+DOUT11
 Text Label 17000 10150 0    50   ~ 0
-USER_LED2
+DOUT10
+Wire Wire Line
+	18000 10650 17000 10650
+Entry Wire Line
+	17000 10750 16900 10850
 Wire Bus Line
-	4850 3050 4850 3750
+	16900 10250 16350 10250
+Text Label 16350 10250 0    50   ~ 0
+DOUT[19:10]
+Wire Wire Line
+	18000 10150 17000 10150
+Entry Wire Line
+	17000 10150 16900 10250
 Wire Bus Line
-	16900 10850 16900 11550
+	16900 10250 16900 11550
+Wire Bus Line
+	4850 2850 4850 3750
 $EndSCHEMATC
