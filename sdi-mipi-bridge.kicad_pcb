@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.8-0-10_14)")
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5+dfsg1-2~bpo10+1)
 
   (general
     (thickness 1.6)
@@ -22,7 +22,7 @@
     (34 B.Paste user hide)
     (35 F.Paste user hide)
     (36 B.SilkS user hide)
-    (37 F.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user hide)
     (40 Dwgs.User user hide)
@@ -9525,8 +9525,8 @@
     (tags resistor)
     (path /5FF458A2)
     (attr smd)
-    (fp_text reference R92 (at 0 -1.17) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text reference R92 (at 3.3 0.025) (layer F.SilkS)
+      (effects (font (size 0.8 0.8) (thickness 0.12)))
     )
     (fp_text value R_0R_0402 (at 0 1.17) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
