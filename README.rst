@@ -2,7 +2,7 @@
 SDI to MIPI CSI-2 bridge
 ========================
 
-Copyright (c) 2020 `Antmicro <https://www.antmicro.com>`_
+Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
 
 .. figure:: img/sdi-mipi-bridge.png
 
@@ -80,4 +80,4 @@ Most of them, such as the NVIDIA `Jetson Nano/Jetson Xavier NX baseboard <https:
 License
 =======
 
-`MIT <LICENSE>`_
+`Apache-2.0 <LICENSE>`_
