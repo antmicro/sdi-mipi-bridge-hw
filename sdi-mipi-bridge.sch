@@ -4930,10 +4930,6 @@ Wire Wire Line
 	20650 6800 22400 6800
 Wire Wire Line
 	20650 6350 20650 6800
-Text Label 21900 6800 0    50   ~ 0
-SCL_CL
-Text Label 21900 6700 0    50   ~ 0
-SDA_CL
 Wire Wire Line
 	21400 5700 21400 5750
 Wire Notes Line
@@ -7399,4 +7395,8 @@ Wire Bus Line
 	16900 10250 16900 11550
 Wire Bus Line
 	4850 2850 4850 3750
+Text Label 21900 6700 0    50   ~ 0
+SPI_SCK(SDA)
+Text Label 21900 6800 0    50   ~ 0
+SPI_SS(SCL)
 $EndSCHEMATC
