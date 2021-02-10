@@ -5424,22 +5424,14 @@ Text Label 18150 5250 2    50   ~ 0
 SCL1
 Text Label 18150 5150 2    50   ~ 0
 SDA1
-Text Label 16450 5250 0    50   ~ 0
+Text Label 16225 5250 0    50   ~ 0
 SCL_GS
-Text Label 16450 5150 0    50   ~ 0
+Text Label 16225 5150 0    50   ~ 0
 SDA_GS
-Text Label 16450 5050 0    50   ~ 0
-SCL_CL
-Text Label 16450 4950 0    50   ~ 0
-SDA_CL
 Text Label 18150 5350 2    50   ~ 0
 SDA2
 Text Label 18150 5450 2    50   ~ 0
 SCL2
-Text Label 16450 5450 0    50   ~ 0
-SCL_CL
-Text Label 16450 5350 0    50   ~ 0
-SDA_CL
 Wire Wire Line
 	17750 5050 17750 5250
 Wire Wire Line
@@ -5464,46 +5456,14 @@ F 6 "0R" H 17150 5250 50  0000 C CNN "Val"
 	1    17150 5250
 	-1   0    0    -1  
 $EndComp
-$Comp
-L sdi-mipi-bridge:R_0R_0402 R42
-U 1 1 61725908
-P 17150 5450
-F 0 "R42" H 17400 5500 60  0000 C CNN
-F 1 "R_0R_0402" H 17150 5300 60  0001 C CNN
-F 2 "sdi-mipi-bridge-footprints:0402-res" H 17350 5650 60  0001 L CNN
-F 3 "" H 17150 5450 50  0001 C CNN
-F 4 "PANASONIC" H 17350 5850 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 17350 5750 60  0001 L CNN "MPN"
-F 6 "0R" H 17150 5450 50  0000 C CNN "Val"
-	1    17150 5450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L sdi-mipi-bridge:R_0R_0402 R41
-U 1 1 617258FF
-P 17150 5350
-F 0 "R41" H 17400 5400 60  0000 C CNN
-F 1 "R_0R_0402" H 17150 5200 60  0001 C CNN
-F 2 "sdi-mipi-bridge-footprints:0402-res" H 17350 5550 60  0001 L CNN
-F 3 "" H 17150 5350 50  0001 C CNN
-F 4 "PANASONIC" H 17350 5750 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 17350 5650 60  0001 L CNN "MPN"
-F 6 "0R" H 17150 5350 50  0000 C CNN "Val"
-	1    17150 5350
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	16450 5450 17000 5450
+	16225 5250 17000 5250
 Wire Wire Line
-	16450 5350 17000 5350
+	16225 5150 17000 5150
 Wire Wire Line
-	16450 5250 17000 5250
+	16225 5050 17000 5050
 Wire Wire Line
-	16450 5150 17000 5150
-Wire Wire Line
-	16450 5050 17000 5050
-Wire Wire Line
-	16450 4950 17000 4950
+	16225 4950 17000 4950
 Wire Wire Line
 	17300 5250 17750 5250
 Wire Wire Line
@@ -5516,16 +5476,6 @@ Wire Wire Line
 	17300 5050 17750 5050
 Wire Wire Line
 	17300 4950 17850 4950
-Text Notes 16150 4750 0    39   ~ 0
-CrossLink and Semtech at same I2C Line
-Wire Notes Line style dash_dot
-	16100 4650 16100 5050
-Wire Notes Line style dash_dot
-	17450 5050 16100 5050
-Wire Notes Line style dash_dot
-	17450 5050 17450 4650
-Wire Notes Line style dash_dot
-	17450 4650 16100 4650
 Wire Notes Line style dash_dot
 	19650 5900 19650 6450
 Wire Notes Line style dash_dot
@@ -7379,9 +7329,9 @@ Wire Wire Line
 Connection ~ 18050 5950
 Wire Wire Line
 	17300 5950 18050 5950
-Text Notes 17250 4950 0    50   ~ 10
+Text Notes 17275 5350 0    50   ~ 10
 DNP
-Text Notes 17250 5050 0    50   ~ 10
+Text Notes 17275 5450 0    50   ~ 10
 DNP
 Text Notes 21450 6300 0    50   ~ 10
 DNP
@@ -7395,56 +7345,58 @@ Text Label 22550 1800 2    50   ~ 0
 CRESET_B
 Wire Wire Line
 	21850 1800 22550 1800
-Text Label 625  5325 0    50   ~ 0
+Wire Wire Line
+	16225 5450 17000 5450
+Wire Wire Line
+	16225 5350 17000 5350
+$Comp
+L sdi-mipi-bridge:R_0R_0402 R42
+U 1 1 61725908
+P 17150 5450
+F 0 "R42" H 17400 5500 60  0000 C CNN
+F 1 "R_0R_0402" H 17150 5300 60  0001 C CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 17350 5650 60  0001 L CNN
+F 3 "" H 17150 5450 50  0001 C CNN
+F 4 "PANASONIC" H 17350 5850 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 17350 5750 60  0001 L CNN "MPN"
+F 6 "0R" H 17150 5450 50  0000 C CNN "Val"
+	1    17150 5450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sdi-mipi-bridge:R_0R_0402 R41
+U 1 1 617258FF
+P 17150 5350
+F 0 "R41" H 17400 5400 60  0000 C CNN
+F 1 "R_0R_0402" H 17150 5200 60  0001 C CNN
+F 2 "sdi-mipi-bridge-footprints:0402-res" H 17350 5550 60  0001 L CNN
+F 3 "" H 17150 5350 50  0001 C CNN
+F 4 "PANASONIC" H 17350 5750 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 17350 5650 60  0001 L CNN "MPN"
+F 6 "0R" H 17150 5350 50  0000 C CNN "Val"
+	1    17150 5350
+	-1   0    0    -1  
+$EndComp
+Wire Notes Line style dash_dot
+	16100 4650 16100 5050
+Wire Notes Line style dash_dot
+	17450 5050 16100 5050
+Wire Notes Line style dash_dot
+	17450 5050 17450 4650
+Wire Notes Line style dash_dot
+	17450 4650 16100 4650
+Text Notes 16150 4750 0    39   ~ 0
+CrossLink and Semtech at same I2C Line
+Text Label 16225 5350 0    50   ~ 0
 SPI_SCK(SDA)
-Text Label 625  5475 0    50   ~ 0
+Text Label 16225 4950 0    50   ~ 0
+SPI_SCK(SDA)
+Text Label 16225 5050 0    50   ~ 0
 SPI_SS(SCL)
-$Comp
-L sdi-mipi-bridge:R_0R_0402 R?
-U 1 1 609716DE
-P 1425 5325
-AR Path="/5DD55102/609716DE" Ref="R?"  Part="1" 
-AR Path="/609716DE" Ref="R97"  Part="1" 
-F 0 "R97" H 1600 5275 60  0000 C CNN
-F 1 "R_0R_0402" H 1425 5175 60  0001 C CNN
-F 2 "sdi-mipi-bridge-footprints:0402-res" H 1625 5525 60  0001 L CNN
-F 3 "" H 1425 5325 50  0001 C CNN
-F 4 "PANASONIC" H 1625 5725 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 1625 5625 60  0001 L CNN "MPN"
-F 6 "0R" H 1425 5325 50  0000 C CNN "Val"
-	1    1425 5325
-	-1   0    0    1   
-$EndComp
-$Comp
-L sdi-mipi-bridge:R_0R_0402 R?
-U 1 1 60972551
-P 1425 5475
-AR Path="/5DD55102/60972551" Ref="R?"  Part="1" 
-AR Path="/60972551" Ref="R98"  Part="1" 
-F 0 "R98" H 1600 5425 60  0000 C CNN
-F 1 "R_0R_0402" H 1425 5325 60  0001 C CNN
-F 2 "sdi-mipi-bridge-footprints:0402-res" H 1625 5675 60  0001 L CNN
-F 3 "" H 1425 5475 50  0001 C CNN
-F 4 "PANASONIC" H 1625 5875 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 1625 5775 60  0001 L CNN "MPN"
-F 6 "0R" H 1425 5475 50  0000 C CNN "Val"
-	1    1425 5475
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1275 5325 625  5325
-Wire Wire Line
-	1275 5475 625  5475
-Wire Wire Line
-	1575 5325 2100 5325
-Wire Wire Line
-	1575 5475 2100 5475
+Text Label 16225 5450 0    50   ~ 0
+SPI_SS(SCL)
 Wire Bus Line
 	16900 10250 16900 11550
 Wire Bus Line
 	4850 2850 4850 3750
-Text Label 2100 5325 2    50   ~ 0
-SDA_GS
-Text Label 2100 5475 2    50   ~ 0
-SCL_GS
 $EndSCHEMATC
