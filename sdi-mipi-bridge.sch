@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "SDI-MIPI Bridge"
 Date ""
-Rev "1.2.0"
+Rev "1.3.0"
 Comp ""
 Comment1 "www.antmicro.com"
 Comment2 "Antmicro Ltd."
@@ -7384,10 +7384,6 @@ Text Notes 17250 4950 0    50   ~ 10
 DNP
 Text Notes 17250 5050 0    50   ~ 10
 DNP
-Wire Bus Line
-	16900 10250 16900 11550
-Wire Bus Line
-	4850 2850 4850 3750
 Text Notes 21450 6300 0    50   ~ 10
 DNP
 Text Notes 21200 6300 0    50   ~ 10
@@ -7396,4 +7392,8 @@ Text Notes 20950 6300 0    50   ~ 10
 DNP
 Text Notes 20700 6300 0    50   ~ 10
 DNP
+Wire Bus Line
+	16900 10250 16900 11550
+Wire Bus Line
+	4850 2850 4850 3750
 $EndSCHEMATC
