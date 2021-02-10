@@ -4725,7 +4725,6 @@ F 6 "0R" V 19500 1700 50  0000 C CNN "Val"
 $EndComp
 Wire Wire Line
 	19350 1200 19350 1450
-NoConn ~ 21850 1800
 NoConn ~ 21850 2100
 NoConn ~ 20250 1800
 NoConn ~ 21850 1700
@@ -7392,6 +7391,10 @@ Text Notes 20950 6300 0    50   ~ 10
 DNP
 Text Notes 20700 6300 0    50   ~ 10
 DNP
+Text Label 22550 1800 2    50   ~ 0
+CRESET_B
+Wire Wire Line
+	21850 1800 22550 1800
 Wire Bus Line
 	16900 10250 16900 11550
 Wire Bus Line
