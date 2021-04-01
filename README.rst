@@ -80,7 +80,7 @@ Most of them, such as the NVIDIA `Jetson Nano/Jetson Xavier NX baseboard <https:
 Software support
 ================
 
-Adapting Linux4Tegra BSP to support the SDI Bridge board is described `here <sw_setup.rst>`_.
+Adapting NVIDIA's Linux4Tegra BSP to support the SDI Bridge board is described `here <sw_setup.rst>`_.
 
 License
 =======
