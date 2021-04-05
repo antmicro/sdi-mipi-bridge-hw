@@ -56,7 +56,7 @@ Getting started
 
 The SDI-MIPI PCB can be manufactured and assembled from the provided design files.
 
-The board can also be purchased preassembled from our partner [Capable Robot Components](https://capablerobot.com/products/sdi-mipi-bridge/).
+The board can also be purchased preassembled from our partner `Capable Robot Components <https://capablerobot.com/products/sdi-mipi-bridge/>`_.
 
 If you want to manufacture the board yourself, it is recommended to pick PCB manufacturing technology which guarantees impedance matching of the SDI and CSI high speed data lanes.
 The board is powered with 3.3V DC through the 50-pin FFC host connector.
