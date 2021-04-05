@@ -9,18 +9,17 @@ Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
 Overview
 ========
 
-This repository contains open hardware design files for Antmicro's SDI to MIPI CSI-2 bridging device.
-This device enables connecting industrial and filmmaking cameras and video accessories to platforms which include the MIPI CSI-2 interface.
-The design was created in the KiCad EDA suite.
+This repository contains open hardware KiCad design files for Antmicro's SDI to MIPI CSI-2 bridge.
+This device enables connecting industrial and filmmaking cameras and video accessories to edge AI platforms which often include the MIPI CSI-2 interface.
 
-The board has an input BNC connector accepting the SDI signal and Antmicro's standard 50-pin FFC output connector (compatible wit ha range of our open hardwware boards) exposing MIPI CSI-2 lanes and an I2C bus for board configuration.
+The board includes an SDI input BNC connector and Antmicro's standard 50-pin FFC output connector (compatible with a range of our open hardware boards) exposing MIPI CSI-2 lanes as well as an I2C bus for configuration.
 
 An additional SDI output (loopback) BNC connector is also available.
 
 SDI signal conversion is implemented with a `Semtech GS2971A <https://www.semtech.com/products/broadcast-video/receivers-deserializers/gs2971a>`_ deserializer which passes the parrallel 10-bit video data to the `Lattice CrossLink LIF-MD6000-6KMG80I <http://www.latticesemi.com/en/Products/FPGAandCPLD/CrossLink>`_.
-The CrossLink IC includes programmable logic and dedicated MIPI D-PHY transceivers.
+The CrossLink FPGA includes programmable logic and dedicated MIPI D-PHY transceivers.
 It can be configured to accept parallel video data from the deserializer and transmit it over MIPI CSI-2 to the host platform.
-SPI and I2C programming interfaces are exposed so the deserializer and CrossLink programmable logic device can be configured from the host platform.
+SPI and I2C programming interfaces are exposed so the deserializer and the CrossLink FPGA can be configured from the host platform.
 Additionally, a set of DIP switches allows the user to easily pre-set the mode of operation of the deserializer.
 
 Repository structure
@@ -56,8 +55,11 @@ Getting started
 ===============
 
 The SDI-MIPI PCB can be manufactured and assembled from the provided design files.
-It is recommended to pick the PCB manufacturing technology which guarantees impedance matching the SDI and CSI high speed data lanes.
-The board is powered with a 3.3V DC through the 50-pin FFC host connector.
+
+The board can also be purchased preassembled from our partner [Capable Robot Components](https://capablerobot.com/products/sdi-mipi-bridge/).
+
+If you want to manufacture the board yourself, it is recommended to pick PCB manufacturing technology which guarantees impedance matching of the SDI and CSI high speed data lanes.
+The board is powered with 3.3V DC through the 50-pin FFC host connector.
 It is recommended to provide at least 1A of power supply.
 
 The PCB includes 12 configuration DIP switches to pre-set the initial mode of operation.
@@ -80,7 +82,8 @@ Most of them, such as the NVIDIA `Jetson Nano/Jetson Xavier NX baseboard <https:
 Software support
 ================
 
-Adapting NVIDIA's Linux4Tegra BSP to support the SDI Bridge board is described `here <sw_setup.rst>`_.
+Adapting NVIDIA's Linux4Tegra BSP to support the SDI bridge board is described `in a dedicated tutorial <sw_setup.rst>`_.
+If you need help to make the board work with other edge AI platforms or integrate the SDI interface into your own, dedicated device, Antmicro offers custom hardware and software engineering services - please reach out at contact@antmicro.com and let us know about your requirements.
 
 License
 =======
