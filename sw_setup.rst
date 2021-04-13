@@ -32,6 +32,8 @@ To enable SDI-MIPI Bridge support, a custom kernel needs to be built. The steps 
       sudo tar xf Tegra_Linux_Sample-Root-Filesystem_R32.4.4_aarch64.tbz2 -C Linux_for_Tegra/rootfs/
       pushd Linux_for_Tegra
       sudo ./apply_binaries.sh
+      sudo chown -R $USER rootfs/lib/modules
+      sudo chown -R $USER rootfs/lib/firmware
       popd
 
 3. Obtain the kernel sources
@@ -57,7 +59,10 @@ To enable SDI-MIPI Bridge support, a custom kernel needs to be built. The steps 
       cp ./arch/arm64/boot/Image ../Linux_for_Tegra/kernel/
       cp ./arch/arm64/boot/dts/tegra194-p3668-all-p3509-0000.dtb ../Linux_for_Tegra/kernel/dtb/
       INSTALL_MOD_PATH=../Linux_for_Tegra/rootfs/ make modules_install
+      sudo chown -R root ../Linux_for_Tegra/rootfs/lib/modules
+      sudo chown -R root ../Linux_for_Tegra/rootfs/lib/firmware
       popd
+
 
 6. Copy helper scripts from this repository to the root filesystem
 
@@ -65,7 +70,7 @@ To enable SDI-MIPI Bridge support, a custom kernel needs to be built. The steps 
 
       git clone https://github.com/antmicro/sdi-mipi-bridge
       pushd sdi-mipi-bridge
-      cp -r scripts/* ../Linux_for_tegra/rootfs/usr/local/bin/
+      cp -r scripts/* ../Linux_for_Tegra/rootfs/usr/local/bin/
       popd
 
 Flashing BSP to the device
