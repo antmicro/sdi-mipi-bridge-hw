@@ -1,12 +1,12 @@
-BSP supporting SDI-MIPI Bridge
+Host software supporting SDI-MIPI Bridge
 ==============================
 
-The BSP is based on Linux4Tegra 32.4.4 release.
+The host software is based on Linux4Tegra 32.4.4 release.
 
 Hardware setup
 --------------
 
-The BSP is prepared for Jetson Xavier NX module on `Antmicro's Jetson Nano Baseboard <https://github.com/antmicro/jetson-nano-baseboard>`_.
+The host software is prepared for Jetson Xavier NX module on `Antmicro's Jetson Nano Baseboard <https://github.com/antmicro/jetson-nano-baseboard>`_.
 The SDI-MIPI Bridge board is connected to the J7 FFC connector of the baseboard.
 
 Building the software
@@ -22,7 +22,7 @@ To enable SDI-MIPI Bridge support, a custom kernel needs to be built. The steps 
       tar xf gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu.tar.xz
       export PATH=$(pwd)/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin:$PATH
 
-2. Obtain and set up the L4T BSP
+2. Obtain and set up the L4T-based host software
 
    .. code-block:: bash
 
@@ -52,7 +52,7 @@ To enable SDI-MIPI Bridge support, a custom kernel needs to be built. The steps 
       make tegra_defconfig
       make -j$(nproc)
 
-5. Install the kernel image, modules and device tree blob to the BSP
+5. Install the kernel image, modules and device tree blob to the host software
 
    .. code-block:: bash
 
@@ -73,10 +73,10 @@ To enable SDI-MIPI Bridge support, a custom kernel needs to be built. The steps 
       cp -r scripts/* ../Linux_for_Tegra/rootfs/usr/local/bin/
       popd
 
-Flashing BSP to the device
+Flashing host software to the device
 --------------------------
 
-To flash the BSP to the device, put it in recovery mode, connect to the host PC with a USB cable and use the following command to flash it:
+To flash the host software to the device, put it in recovery mode, connect to the host PC with a USB cable and use the following command to flash it:
 
 .. code-block:: bash
 
@@ -87,7 +87,7 @@ To flash the BSP to the device, put it in recovery mode, connect to the host PC 
 Software usage
 --------------
 
-After flashing with the modified BSP and booting the device, there should be a ``/dev/video0`` file and ``/sys/class/fpga_manager/fpga0`` directory present in the filesystem.
+After flashing with the modified host software and booting the device, there should be a ``/dev/video0`` file and ``/sys/class/fpga_manager/fpga0`` directory present in the filesystem.
 In order to test the video streaming from the SDI-MIPI bridge, perform the following steps:
 
 1. Load appropriate firmware for the desired format:
