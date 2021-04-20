@@ -14,7 +14,7 @@ Building the software
 
 To enable SDI-MIPI Bridge support, a custom kernel needs to be built. The steps to fetch, build and apply it to stock L4T 32.4.4 package are listed below.
 
-1. Obtain and extract cross-compilation toolchain
+1. Obtain and extract cross-compilation toolchain:
 
    .. code-block:: bash
 
@@ -22,7 +22,7 @@ To enable SDI-MIPI Bridge support, a custom kernel needs to be built. The steps 
       tar xf gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu.tar.xz
       export PATH=$(pwd)/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin:$PATH
 
-2. Obtain and set up the L4T-based host software
+2. Obtain and set up the L4T-based host software:
 
    .. code-block:: bash
 
@@ -36,13 +36,13 @@ To enable SDI-MIPI Bridge support, a custom kernel needs to be built. The steps 
       sudo chown -R $USER rootfs/lib/firmware
       popd
 
-3. Obtain the kernel sources
+3. Obtain the kernel sources:
 
    .. code-block:: bash
 
       git clone https://github.com/antmicro/sdi-mipi-bridge-linux
 
-4. Build the kernel
+4. Build the kernel:
 
    .. code-block:: bash
 
@@ -52,7 +52,7 @@ To enable SDI-MIPI Bridge support, a custom kernel needs to be built. The steps 
       make tegra_defconfig
       make -j$(nproc)
 
-5. Install the kernel image, modules and device tree blob to the host software
+5. Install the kernel image, modules and device tree blob to the host software:
 
    .. code-block:: bash
 
@@ -64,7 +64,7 @@ To enable SDI-MIPI Bridge support, a custom kernel needs to be built. The steps 
       popd
 
 
-6. Copy helper scripts from this repository to the root filesystem
+6. Copy helper scripts from this repository to the root filesystem:
 
    .. code-block:: bash
 
