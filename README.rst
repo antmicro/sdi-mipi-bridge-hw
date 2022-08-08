@@ -82,7 +82,8 @@ Most of them, such as the NVIDIA `Jetson Nano/Jetson Xavier NX baseboard <https:
 Software support
 ================
 
-Adapting NVIDIA's Linux4Tegra BSP to support the SDI bridge board is described `in a dedicated tutorial <sw_setup.rst>`_.
+Adapting NVIDIA's Linux4Tegra BSP to support the SDI bridge board is described `in a dedicated tutorial <sw_setup_l4t.rst>`_.
+There is also `a tutorial <sw_setup_rpi.rst>`_ detailing the setup of the SDI bridge with the Raspberry Pi CM4 module.
 If you need help to make the board work with other edge AI platforms or integrate the SDI interface into your own, dedicated device, Antmicro offers custom hardware and software engineering services - please reach out at contact@antmicro.com and let us know about your requirements.
 
 License
