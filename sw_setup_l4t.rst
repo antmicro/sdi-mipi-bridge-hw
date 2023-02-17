@@ -18,29 +18,29 @@ Below you can find short description of each switch with its default value which
 +--------------+---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Name         | Default | Notes                                                                                                                                                                                                                                                          |
 +==============+=========+================================================================================================================================================================================================================================================================+
-| USER_SW      | OFF     | "Connected to PB6D input of Crosslink FPGA."                                                                                                                                                                                                                   |
+| USER_SW      | OFF     | General purpose digital input connected to PB6D input of Crosslink FPGA.                                                                                                                                                                                       |
 +--------------+---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| SDO_EN       | ON      | "Enable/disable to SDO output of the GS2971A, which is buffered and exposed on the 'SDI Output' BNC."                                                                                                                                                          |
+| SDO_EN       | ON      | Enable/disable to SDO output of the GS2971A, which is buffered and exposed on the 'SDI Output' BNC.                                                                                                                                                            |
 +--------------+---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| AUDIO_EN     | ON      | "Enables/disables audio extraction fuctionality of the GS2971A."                                                                                                                                                                                               |
+| AUDIO_EN     | ON      | Enables/disables audio extraction fuctionality of the GS2971A.                                                                                                                                                                                                 |
 +--------------+---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| IOPROC_EN    | ON      | "Enables/disables signal processing features of the GS2971A like error correction and level conversion."                                                                                                                                                       |
+| IOPROC_EN    | ON      | Enables/disables signal processing features of the GS2971A like error correction and level conversion.                                                                                                                                                         |
 +--------------+---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 20bit_10bit  | OFF     | "Used to select the output bus width. Must be set low for proper operation on this board."                                                                                                                                                                     |
+| 20bit_10bit  | OFF     | Used to select the output bus width. Must be set low for proper operation on this board.                                                                                                                                                                       |
 +--------------+---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| SMPTE_BYPASS | OFF     | "When on, the GS2971A carries out SMPTE scrambling and I/O processing. When OFF, GS2971A operates in data-through mode."                                                                                                                                       |
+| SMPTE_BYPASS | OFF     | When on, the GS2971A carries out SMPTE scrambling and I/O processing. When OFF, GS2971A operates in data-through mode.                                                                                                                                         |
 +--------------+---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| DVB_ASI      | OFF     | "Enables/disables DVB-ASI mode of the GS2971A."                                                                                                                                                                                                                |
+| DVB_ASI      | OFF     | Enables/disables DVB-ASI mode of the GS2971A.                                                                                                                                                                                                                  |
 +--------------+---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| SW_EN        | OFF     | "When OFF, the default state of GS2971A's SW_EN pin is low. A rising edge (via switch or FPGA GPIO) will cause the GS2971A to re-lock on the input video stream. Generally not needed unless the video source has been externally switched between two source" |
+| SW_EN        | OFF     | When OFF, the default state of GS2971A's SW_EN pin is low. A rising edge (via switch or FPGA GPIO) will cause the GS2971A to re-lock on the input video stream. Generally not needed unless the video source has been externally switched between two source   |
 +--------------+---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| TIM_861      | ON      | "When TIM_861 is HIGH, the GS2971A outputs CEA 861 timing signals (HSYNC/VSYNC/DE) instead of H:V:F digital timing signals."                                                                                                                                   |
+| TIM_861      | ON      | When TIM_861 is HIGH, the GS2971A outputs CEA 861 timing signals (HSYNC/VSYNC/DE) instead of H:V:F digital timing signals.                                                                                                                                     |
 +--------------+---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| RC_BYP       | OFF     | "When on, the serial digital output is the re-timed version of the serial input. When OFF, the serial digital output is simply the buffered version of the serial input, bypassing the GS2971A's internal reclocker."                                          |
+| RC_BYP       | OFF     | When on, the serial digital output is the re-timed version of the serial input. When OFF, the serial digital output is simply the buffered version of the serial input, bypassing the GS2971A's internal reclocker.                                            |
 +--------------+---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| STANDBY      | OFF     | "When on, the GS2971A is placed in a power-saving mode. No data processing occurs, and the digital I/Os are powered down."                                                                                                                                     |
+| STANDBY      | OFF     | When on, the GS2971A is placed in a power-saving mode. No data processing occurs, and the digital I/Os are powered down.                                                                                                                                       |
 +--------------+---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| JTAG_HOST    | OFF     | "When on, the GS2971A's host interface port is configured for JTAG test. When OFF, the GS2971A operates normally."                                                                                                                                             |
+| JTAG_HOST    | OFF     | When on, the GS2971A's host interface port is configured for JTAG test. When OFF, the GS2971A operates normally.                                                                                                                                               |
 +--------------+---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Building the software
@@ -130,19 +130,19 @@ In order to test the video streaming from the SDI-MIPI bridge, perform the follo
 
    .. code-block:: bash
 
-      echo "sdi_bridge/sdi_bridge_720p60.bit" | sudo tee /sys/class/fpga_manager/fpga0/load
+      echo sdi_bridge/sdi_bridge_720p60.bit | sudo tee /sys/class/fpga_manager/fpga0/load
 
    For 1080p30:
 
    .. code-block:: bash
 
-      echo "sdi_bridge/sdi_bridge_1080p30.bit" | sudo tee /sys/class/fpga_manager/fpga0/load
+      echo sdi_bridge/sdi_bridge_1080p30.bit | sudo tee /sys/class/fpga_manager/fpga0/load
 
    For 1080p60:
 
    .. code-block:: bash
 
-      echo "sdi_bridge/sdi_bridge_1080p60.bit" | sudo tee /sys/class/fpga_manager/fpga0/load
+      echo sdi_bridge/sdi_bridge_1080p60.bit | sudo tee /sys/class/fpga_manager/fpga0/load
 
 2. Test streaming using gstreamer (make sure to set up framesize of the SDI source correctly)
 
