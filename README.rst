@@ -62,17 +62,6 @@ If you want to manufacture the board yourself, it is recommended to pick PCB man
 The board is powered with 3.3V DC through the 50-pin FFC host connector.
 It is recommended to provide at least 1A of power supply.
 
-The PCB includes 12 configuration DIP switches to pre-set the initial mode of operation.
-Typical switch configuration for a 10-bit multiplexed 3G DDR FORMAT is:
-
-*  20BIT/10BIT - LOW
-*  RATE_SEL0  - LOW
-*  RATE_SEL1  -  HIGH
-*  SMPTE_BYPASS   -  HIGH
-*  DVB-ASI  -  LOW
-
-Please refer to the `GS2971A datasheet <https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/44000000MD3i/kpmMkrmUWgHlbCOwdLzVohMm1SDPoVH85guEGK.KXTc>`_ for more configuration options.
-
 Supported platforms
 ===================
 
@@ -82,8 +71,11 @@ Most of them, such as the NVIDIA `Jetson Nano/Jetson Xavier NX baseboard <https:
 Software support
 ================
 
-Adapting NVIDIA's Linux4Tegra BSP to support the SDI bridge board is described `in a dedicated tutorial <sw_setup_l4t.rst>`_.
-There is also `a tutorial <sw_setup_rpi.rst>`_ detailing the setup of the SDI bridge with the Raspberry Pi CM4 module.
+Currently there are two tutorials available for preparing BSPs which integrate the SDI-MIPI Bridge for:
+
+* Jetson Nano Baseboard with Jetson Xavier NX - see the `tutorial <sw_setup_l4t.rst>`_
+* Rasbperry Pi CM4 module - see the `tutorial <sw_setup_rpi.rst>`_
+
 If you need help to make the board work with other edge AI platforms or integrate the SDI interface into your own, dedicated device, Antmicro offers custom hardware and software engineering services - please reach out at contact@antmicro.com and let us know about your requirements.
 
 License
