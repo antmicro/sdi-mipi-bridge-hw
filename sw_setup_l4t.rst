@@ -13,7 +13,7 @@ Due to the SDI-MIPI Bridge's wide range of capabilities and possible support for
 Those variants can be altered by setting the initial switches configuration.
 Detailed description of their functions is available in the `Semtech Deserializer documentation <https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/44000000MD3i/kpmMkrmUWgHlbCOwdLzVohMm1SDPoVH85guEGK.KXTc>`_.
 
-Below you can find short description of each switch with its default value:
+Below you can find short description of each switch with its default value which should be set in order to make the board run with the software/bistream configuration described in this tutorial:
 
 +--------------+---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Name         | Default | Notes                                                                                                                                                                                                                                                          |
@@ -42,7 +42,6 @@ Below you can find short description of each switch with its default value:
 +--------------+---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | JTAG_HOST    | OFF     | "When on, the GS2971A's host interface port is configured for JTAG test. When OFF, the GS2971A operates normally."                                                                                                                                             |
 +--------------+---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
 
 Building the software
 ---------------------
