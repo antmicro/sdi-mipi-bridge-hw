@@ -16264,7 +16264,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_0R_0402") (at 384.81 162.56 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 05ced764-7da9-45d5-9c07-8867d3c7969d)
-    (property "Reference" "R?" (id 0) (at 379.73 161.29 0)
+    (property "Reference" "R105" (id 0) (at 384.81 160.02 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "R_0R_0402" (id 1) (at 384.81 166.37 0)
@@ -16282,7 +16282,7 @@
     (property "MPN" "ERJ2GE0R00X" (id 5) (at 379.73 154.94 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
-    (property "Val" "0R" (id 6) (at 384.81 162.56 0))
+    (property "Val" "0R" (id 6) (at 384.81 165.1 0))
     (pin "1" (uuid 0ec1d9c7-1657-4ecf-a8be-aed6a2934b35))
     (pin "2" (uuid f3a22764-6e85-4b35-99f6-53f02ec1712c))
   )
@@ -16290,7 +16290,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 369.57 168.91 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0efbad50-e8f2-4aa3-9a95-36889ac6db38)
-    (property "Reference" "R?" (id 0) (at 372.11 167.64 90)
+    (property "Reference" "R98" (id 0) (at 372.11 167.64 90)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 373.38 168.91 0)
@@ -16318,7 +16318,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 330.2 297.18 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1aaae8b0-7ad0-4ac3-8cb6-7d247139010b)
-    (property "Reference" "R?" (id 0) (at 330.2 288.29 0)
+    (property "Reference" "R68" (id 0) (at 330.2 287.02 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 334.01 297.18 0)
@@ -16346,7 +16346,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 374.65 297.18 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 24c680ae-cc5a-4b13-a4ae-b29716258762)
-    (property "Reference" "R?" (id 0) (at 374.65 288.29 0)
+    (property "Reference" "R99" (id 0) (at 374.65 287.02 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 378.46 297.18 0)
@@ -16375,7 +16375,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 378.46 297.18 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2dfaf480-6d09-4dfa-ac05-263e35085e9f)
-    (property "Reference" "R?" (id 0) (at 378.46 288.29 0)
+    (property "Reference" "R101" (id 0) (at 378.46 285.75 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 382.27 297.18 0)
@@ -16404,7 +16404,7 @@
   (symbol (lib_id "sdi-mipi-bridge:GNDA") (at 369.57 172.72 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2f429dc3-2d74-4f8a-8798-f288f91843e8)
-    (property "Reference" "#PWR?" (id 0) (at 369.57 179.07 0)
+    (property "Reference" "#PWR022" (id 0) (at 369.57 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (id 1) (at 369.697 177.1142 0))
@@ -16420,7 +16420,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 337.82 297.18 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 439a760f-5643-4e03-81a5-ea368c1e3687)
-    (property "Reference" "R?" (id 0) (at 337.82 288.29 0)
+    (property "Reference" "R78" (id 0) (at 337.82 287.02 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 341.63 297.18 0)
@@ -16448,7 +16448,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 389.89 321.31 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 50faed86-5b12-4c4b-84f1-072eb57ed24f)
-    (property "Reference" "R?" (id 0) (at 389.89 331.47 0)
+    (property "Reference" "R109" (id 0) (at 389.89 331.47 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 393.7 321.31 0)
@@ -16476,7 +16476,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 378.46 321.31 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 54ade798-40c9-4eed-a020-fc250e391291)
-    (property "Reference" "R?" (id 0) (at 378.46 331.47 0)
+    (property "Reference" "R102" (id 0) (at 378.46 331.47 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 382.27 321.31 0)
@@ -16504,7 +16504,7 @@
   (symbol (lib_id "sdi-mipi-bridge:GNDA") (at 368.3 331.47 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 55b4a730-dc71-4c92-937e-dff2265dc17f)
-    (property "Reference" "#PWR?" (id 0) (at 368.3 337.82 0)
+    (property "Reference" "#PWR018" (id 0) (at 368.3 337.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (id 1) (at 368.427 335.8642 0))
@@ -16520,7 +16520,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 386.08 297.18 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 57f391e1-7a89-4e29-b216-c1a0ff3a762c)
-    (property "Reference" "R?" (id 0) (at 386.08 288.29 0)
+    (property "Reference" "R106" (id 0) (at 386.08 285.75 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 389.89 297.18 0)
@@ -16549,7 +16549,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 341.63 297.18 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5a184e82-aea9-4837-9bed-cf4412c74d55)
-    (property "Reference" "R?" (id 0) (at 341.63 288.29 0)
+    (property "Reference" "R80" (id 0) (at 341.63 287.02 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 345.44 297.18 0)
@@ -16578,7 +16578,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 389.89 297.18 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 69e6ce0e-5bc9-49e8-9b55-b57a8f7370f1)
-    (property "Reference" "R?" (id 0) (at 389.89 288.29 0)
+    (property "Reference" "R108" (id 0) (at 389.89 285.75 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 393.7 297.18 0)
@@ -16607,7 +16607,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 393.7 321.31 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 768761de-7573-4e1a-b185-284c850ebaca)
-    (property "Reference" "R?" (id 0) (at 393.7 331.47 0)
+    (property "Reference" "R111" (id 0) (at 393.7 331.47 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 397.51 321.31 0)
@@ -16635,7 +16635,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 334.01 321.31 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 79b5d608-79de-48e8-8c54-7b096e96fd2d)
-    (property "Reference" "R?" (id 0) (at 334.01 331.47 0)
+    (property "Reference" "R77" (id 0) (at 334.01 331.47 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 337.82 321.31 0)
@@ -16664,7 +16664,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 326.39 297.18 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7fd95740-9380-4dc8-ac5e-fbab80b50b31)
-    (property "Reference" "R?" (id 0) (at 326.39 288.29 0)
+    (property "Reference" "R65" (id 0) (at 326.39 287.02 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 330.2 297.18 0)
@@ -16692,7 +16692,7 @@
   (symbol (lib_id "sdi-mipi-bridge:B3U-1000P") (at 354.33 378.46 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 808e230b-0c48-4054-b361-4e58d8d28255)
-    (property "Reference" "S?" (id 0) (at 355.6 377.19 90)
+    (property "Reference" "S1" (id 0) (at 355.6 377.19 90)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "B3U-1000P" (id 1) (at 355.6 381 90)
@@ -16717,7 +16717,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 326.39 321.31 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9d49bb57-0abf-43f4-8e97-ef696c9032cf)
-    (property "Reference" "R?" (id 0) (at 326.39 331.47 0)
+    (property "Reference" "R66" (id 0) (at 326.39 331.47 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 330.2 321.31 0)
@@ -16746,7 +16746,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 382.27 321.31 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a899079e-23ac-4863-9a54-2ebfdc66ab04)
-    (property "Reference" "R?" (id 0) (at 382.27 331.47 0)
+    (property "Reference" "R104" (id 0) (at 382.27 331.47 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 386.08 321.31 0)
@@ -16775,7 +16775,7 @@
   (symbol (lib_id "sdi-mipi-bridge:GNDA") (at 320.04 331.47 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid addb4747-d271-4d4d-b9b3-83bdd70f772c)
-    (property "Reference" "#PWR?" (id 0) (at 320.04 337.82 0)
+    (property "Reference" "#PWR01" (id 0) (at 320.04 337.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (id 1) (at 320.167 335.8642 0))
@@ -16791,7 +16791,7 @@
   (symbol (lib_id "sdi-mipi-bridge:GNDA") (at 354.33 388.62 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b1e8a90c-1a93-4e78-a1bb-bf258ae700ad)
-    (property "Reference" "#PWR?" (id 0) (at 354.33 394.97 0)
+    (property "Reference" "#PWR07" (id 0) (at 354.33 394.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (id 1) (at 354.457 393.0142 0))
@@ -16807,7 +16807,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 382.27 297.18 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid be1e6720-8db9-4176-85f3-a19cd716b0e0)
-    (property "Reference" "R?" (id 0) (at 382.27 288.29 0)
+    (property "Reference" "R103" (id 0) (at 382.27 285.75 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 386.08 297.18 0)
@@ -16835,7 +16835,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 386.08 321.31 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c2f71424-6efc-4bea-87b8-b3f015dc7399)
-    (property "Reference" "R?" (id 0) (at 386.08 331.47 0)
+    (property "Reference" "R107" (id 0) (at 386.08 331.47 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 389.89 321.31 0)
@@ -16863,7 +16863,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 337.82 321.31 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c50fdf93-02a9-44b1-ae68-f2ab992f89c5)
-    (property "Reference" "R?" (id 0) (at 337.82 331.47 0)
+    (property "Reference" "R79" (id 0) (at 337.82 331.47 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 341.63 321.31 0)
@@ -16892,7 +16892,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 330.2 321.31 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid cba8138e-fa47-4c5e-8b29-c14ae7802b80)
-    (property "Reference" "R?" (id 0) (at 330.2 331.47 0)
+    (property "Reference" "R75" (id 0) (at 330.2 331.47 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 334.01 321.31 0)
@@ -16950,7 +16950,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 393.7 297.18 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d7c657db-059f-4ae6-8091-5ae1732c5710)
-    (property "Reference" "R?" (id 0) (at 393.7 288.29 0)
+    (property "Reference" "R110" (id 0) (at 393.7 285.75 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 397.51 297.18 0)
@@ -16979,7 +16979,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 345.44 321.31 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e2959d6e-c6cf-4bef-9a11-8b66482d85fc)
-    (property "Reference" "R?" (id 0) (at 345.44 331.47 0)
+    (property "Reference" "R97" (id 0) (at 345.44 331.47 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 349.25 321.31 0)
@@ -17007,7 +17007,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 341.63 321.31 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e6a6b232-b2c9-4936-b4dc-9d964da9926e)
-    (property "Reference" "R?" (id 0) (at 341.63 331.47 0)
+    (property "Reference" "R81" (id 0) (at 341.63 331.47 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 345.44 321.31 0)
@@ -17035,7 +17035,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 374.65 321.31 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e7f0a329-80f9-4242-be46-271052c63b9e)
-    (property "Reference" "R?" (id 0) (at 374.65 331.47 0)
+    (property "Reference" "R100" (id 0) (at 374.65 331.47 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 378.46 321.31 0)
@@ -17063,7 +17063,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 345.44 297.18 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid eb7e1520-acf6-4ef8-ab47-c07a247bebb9)
-    (property "Reference" "R?" (id 0) (at 345.44 288.29 0)
+    (property "Reference" "R83" (id 0) (at 345.44 287.02 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 349.25 297.18 0)
@@ -17092,7 +17092,7 @@
   (symbol (lib_id "sdi-mipi-bridge:R_10k_0402") (at 334.01 297.18 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f6b964ec-2873-4626-99b3-0f7626f7f627)
-    (property "Reference" "R?" (id 0) (at 334.01 288.29 0)
+    (property "Reference" "R76" (id 0) (at 334.01 287.02 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_10k_0402" (id 1) (at 337.82 297.18 0)
@@ -17118,9 +17118,9 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_0R_0402") (at 341.63 369.57 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid fb17c3db-d705-4d66-a12a-a0ddda6b6d0d)
-    (property "Reference" "R?" (id 0) (at 341.63 363.22 0)
+    (property "Reference" "R82" (id 0) (at 341.63 367.03 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "R_0R_0402" (id 1) (at 341.63 373.38 0)
@@ -17138,7 +17138,7 @@
     (property "MPN" "ERJ2GE0R00X" (id 5) (at 346.71 361.95 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
-    (property "Val" "0R" (id 6) (at 341.63 365.76 0))
+    (property "Val" "0R" (id 6) (at 341.63 372.11 0))
     (pin "1" (uuid 21ba8d00-af5d-458a-ad28-968a30be9cdd))
     (pin "2" (uuid 98c04895-2bab-425d-a7c7-7237c1a4470e))
   )
@@ -17148,6 +17148,9 @@
   )
 
   (symbol_instances
+    (path "/addb4747-d271-4d4d-b9b3-83bdd70f772c"
+      (reference "#PWR01") (unit 1) (value "GNDA") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005e660fa3"
       (reference "#PWR02") (unit 1) (value "GNDREF") (footprint "")
     )
@@ -17162,6 +17165,9 @@
     )
     (path "/00000000-0000-0000-0000-00005e55d97b"
       (reference "#PWR06") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/b1e8a90c-1a93-4e78-a1bb-bf258ae700ad"
+      (reference "#PWR07") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005e55df7b"
       (reference "#PWR08") (unit 1) (value "GNDREF") (footprint "")
@@ -17193,6 +17199,9 @@
     (path "/00000000-0000-0000-0000-00005efe69a5"
       (reference "#PWR017") (unit 1) (value "GNDA") (footprint "")
     )
+    (path "/55b4a730-dc71-4c92-937e-dff2265dc17f"
+      (reference "#PWR018") (unit 1) (value "GNDA") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005f7ed4a8"
       (reference "#PWR019") (unit 1) (value "GNDREF") (footprint "")
     )
@@ -17201,6 +17210,9 @@
     )
     (path "/00000000-0000-0000-0000-00005f7ed506"
       (reference "#PWR021") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/2f429dc3-2d74-4f8a-8798-f288f91843e8"
+      (reference "#PWR022") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ee743ac"
       (reference "#PWR023") (unit 1) (value "GNDREF") (footprint "")
@@ -17399,18 +17411,6 @@
     )
     (path "/00000000-0000-0000-0000-00005f1f5cc8"
       (reference "#PWR0131") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/2f429dc3-2d74-4f8a-8798-f288f91843e8"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
-    )
-    (path "/55b4a730-dc71-4c92-937e-dff2265dc17f"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
-    )
-    (path "/addb4747-d271-4d4d-b9b3-83bdd70f772c"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
-    )
-    (path "/b1e8a90c-1a93-4e78-a1bb-bf258ae700ad"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005e26b2e2"
       (reference "C1") (unit 1) (value "C_10u_0603") (footprint "sdi-mipi-bridge-footprints:0603-cap")
@@ -17844,8 +17844,17 @@
     (path "/00000000-0000-0000-0000-00005fd0cb96"
       (reference "R64") (unit 1) (value "R_100R_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
     )
+    (path "/7fd95740-9380-4dc8-ac5e-fbab80b50b31"
+      (reference "R65") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    )
+    (path "/9d49bb57-0abf-43f4-8e97-ef696c9032cf"
+      (reference "R66") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    )
     (path "/00000000-0000-0000-0000-000060241893"
       (reference "R67") (unit 1) (value "R_0R_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    )
+    (path "/1aaae8b0-7ad0-4ac3-8cb6-7d247139010b"
+      (reference "R68") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-00005e844df9"
       (reference "R69") (unit 1) (value "R_0R_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
@@ -17864,6 +17873,33 @@
     )
     (path "/00000000-0000-0000-0000-000064c2097f"
       (reference "R74") (unit 1) (value "R_0R_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    )
+    (path "/cba8138e-fa47-4c5e-8b29-c14ae7802b80"
+      (reference "R75") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    )
+    (path "/f6b964ec-2873-4626-99b3-0f7626f7f627"
+      (reference "R76") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    )
+    (path "/79b5d608-79de-48e8-8c54-7b096e96fd2d"
+      (reference "R77") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    )
+    (path "/439a760f-5643-4e03-81a5-ea368c1e3687"
+      (reference "R78") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    )
+    (path "/c50fdf93-02a9-44b1-ae68-f2ab992f89c5"
+      (reference "R79") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    )
+    (path "/5a184e82-aea9-4837-9bed-cf4412c74d55"
+      (reference "R80") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    )
+    (path "/e6a6b232-b2c9-4936-b4dc-9d964da9926e"
+      (reference "R81") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    )
+    (path "/fb17c3db-d705-4d66-a12a-a0ddda6b6d0d"
+      (reference "R82") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/eb7e1520-acf6-4ef8-ab47-c07a247bebb9"
+      (reference "R83") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
     )
     (path "/cdc3a31d-bda4-4f1f-9418-0648306fc088"
       (reference "R84") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
@@ -17904,89 +17940,53 @@
     (path "/00000000-0000-0000-0000-000065f14b18"
       (reference "R96") (unit 1) (value "R_30R_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
     )
-    (path "/05ced764-7da9-45d5-9c07-8867d3c7969d"
-      (reference "R?") (unit 1) (value "R_0R_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    (path "/e2959d6e-c6cf-4bef-9a11-8b66482d85fc"
+      (reference "R97") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
     )
     (path "/0efbad50-e8f2-4aa3-9a95-36889ac6db38"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
-    )
-    (path "/1aaae8b0-7ad0-4ac3-8cb6-7d247139010b"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+      (reference "R98") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
     )
     (path "/24c680ae-cc5a-4b13-a4ae-b29716258762"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
-    )
-    (path "/2dfaf480-6d09-4dfa-ac05-263e35085e9f"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
-    )
-    (path "/439a760f-5643-4e03-81a5-ea368c1e3687"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
-    )
-    (path "/50faed86-5b12-4c4b-84f1-072eb57ed24f"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
-    )
-    (path "/54ade798-40c9-4eed-a020-fc250e391291"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
-    )
-    (path "/57f391e1-7a89-4e29-b216-c1a0ff3a762c"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
-    )
-    (path "/5a184e82-aea9-4837-9bed-cf4412c74d55"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
-    )
-    (path "/69e6ce0e-5bc9-49e8-9b55-b57a8f7370f1"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
-    )
-    (path "/768761de-7573-4e1a-b185-284c850ebaca"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
-    )
-    (path "/79b5d608-79de-48e8-8c54-7b096e96fd2d"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
-    )
-    (path "/7fd95740-9380-4dc8-ac5e-fbab80b50b31"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
-    )
-    (path "/9d49bb57-0abf-43f4-8e97-ef696c9032cf"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
-    )
-    (path "/a899079e-23ac-4863-9a54-2ebfdc66ab04"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
-    )
-    (path "/be1e6720-8db9-4176-85f3-a19cd716b0e0"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
-    )
-    (path "/c2f71424-6efc-4bea-87b8-b3f015dc7399"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
-    )
-    (path "/c50fdf93-02a9-44b1-ae68-f2ab992f89c5"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
-    )
-    (path "/cba8138e-fa47-4c5e-8b29-c14ae7802b80"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
-    )
-    (path "/d7c657db-059f-4ae6-8091-5ae1732c5710"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
-    )
-    (path "/e2959d6e-c6cf-4bef-9a11-8b66482d85fc"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
-    )
-    (path "/e6a6b232-b2c9-4936-b4dc-9d964da9926e"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+      (reference "R99") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
     )
     (path "/e7f0a329-80f9-4242-be46-271052c63b9e"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+      (reference "R100") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
     )
-    (path "/eb7e1520-acf6-4ef8-ab47-c07a247bebb9"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    (path "/2dfaf480-6d09-4dfa-ac05-263e35085e9f"
+      (reference "R101") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
     )
-    (path "/f6b964ec-2873-4626-99b3-0f7626f7f627"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    (path "/54ade798-40c9-4eed-a020-fc250e391291"
+      (reference "R102") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
     )
-    (path "/fb17c3db-d705-4d66-a12a-a0ddda6b6d0d"
-      (reference "R?") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
+    (path "/be1e6720-8db9-4176-85f3-a19cd716b0e0"
+      (reference "R103") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    )
+    (path "/a899079e-23ac-4863-9a54-2ebfdc66ab04"
+      (reference "R104") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    )
+    (path "/05ced764-7da9-45d5-9c07-8867d3c7969d"
+      (reference "R105") (unit 1) (value "R_0R_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    )
+    (path "/57f391e1-7a89-4e29-b216-c1a0ff3a762c"
+      (reference "R106") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    )
+    (path "/c2f71424-6efc-4bea-87b8-b3f015dc7399"
+      (reference "R107") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    )
+    (path "/69e6ce0e-5bc9-49e8-9b55-b57a8f7370f1"
+      (reference "R108") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    )
+    (path "/50faed86-5b12-4c4b-84f1-072eb57ed24f"
+      (reference "R109") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    )
+    (path "/d7c657db-059f-4ae6-8091-5ae1732c5710"
+      (reference "R110") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
+    )
+    (path "/768761de-7573-4e1a-b185-284c850ebaca"
+      (reference "R111") (unit 1) (value "R_10k_0402") (footprint "sdi-mipi-bridge-footprints:0402-res")
     )
     (path "/808e230b-0c48-4054-b361-4e58d8d28255"
-      (reference "S?") (unit 1) (value "B3U-1000P") (footprint "sdi-mipi-bridge-footprints:Switch_Tactile_SMD_B3U-1000P")
+      (reference "S1") (unit 1) (value "B3U-1000P") (footprint "sdi-mipi-bridge-footprints:Switch_Tactile_SMD_B3U-1000P")
     )
     (path "/00000000-0000-0000-0000-00005de76af8"
       (reference "TP1") (unit 1) (value "TP_SMD1MM") (footprint "sdi-mipi-bridge-footprints:Testpoint_smd_1mm")
