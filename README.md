@@ -41,7 +41,7 @@ The remaining files are stored in the following directories:
 
 ## Getting started
 
-Please refer to the [SDI to MIPI CSI-2](https://github.com/antmicro/sdi-mipi-bridge) bridge repository which aggregates the hardware design (this project), linux kernel sources, how-to documentation and reference HDL design for the CrossLink FPGA.
+Please refer to the [SDI to MIPI CSI-2 bridge](https://github.com/antmicro/sdi-mipi-bridge) repository which aggregates the hardware design (this project), linux kernel sources, how-to documentation and reference HDL design for the CrossLink FPGA.
 
 ## License
 
