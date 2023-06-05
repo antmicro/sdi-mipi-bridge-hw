@@ -1,22 +1,20 @@
-# For PCBs designed using KiCad: http://www.kicad-pcb.org/
-# Format documentation: http://kicad-pcb.org/help/file-formats/
-
 # Temporary files
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_sym_bak
+*-backups
+*.kicad_prl
 *.sch-bak
 *~
-_autosave-*
+*_autosave-*
+*auto_saved*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-
-
-#cache files (we want to catch a situation in which there are no definitions in local lib" 
-*cache.lib*
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -29,8 +27,7 @@ fp-info-cache
 *.xml
 *.csv
 
-# Vim files
-*.swp
+*swp
 
 # Archives 
 *.zip
