@@ -1,0 +1,20 @@
+(version 1)
+
+#calculated as 100Ohm diff @ 55OHM SE 
+(rule "100OHM_diff_outer" 
+	(constraint track_width (opt 0.1mm))
+	(constraint diff_pair_gap (opt 0.1mm))
+	(constraint clearance (opt 0.1mm))
+	(condition "(A.NetClass == '100Ohm-diff')")
+	(layer outer)
+)
+
+(rule "100OHM_diff_inner @ 55Ohm SE" 
+	(constraint track_width (opt 0.127mm))
+	(constraint diff_pair_gap (opt 0.25mm))
+	(constraint clearance (opt 0.127mm))
+	(condition "(A.NetClass == '100Ohm-diff')")
+	(layer inner)
+)
+
+
