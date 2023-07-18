@@ -23477,7 +23477,7 @@
     (property "Value" "antmicro_logo" (id 1) (at 26.67 186.9375 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
-    (property "Footprint" "antmicro-footprints:antmicro-logo" (id 2) (at 17.78 180.34 0)
+    (property "Footprint" "antmicro-footprints:antmicro-logo_scaled_20mm" (id 2) (at 17.78 180.34 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 20.32 177.8 0)
@@ -25659,7 +25659,7 @@
   (symbol (lib_id "antmicropower:GNDREF") (at 49.53 337.82 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0011fc8f-9dfe-4c79-8141-6b7f70d00a9b)
-    (property "Reference" "#PWR?" (id 0) (at 49.53 344.17 0)
+    (property "Reference" "#PWR0142" (id 0) (at 49.53 344.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 49.657 342.2142 0))
@@ -25675,7 +25675,7 @@
   (symbol (lib_id "antmicropower:GNDREF") (at 459.74 162.56 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 04b93445-10a0-4fd9-b809-4bebe82c126c)
-    (property "Reference" "#PWR?" (id 0) (at 459.74 168.91 0)
+    (property "Reference" "#PWR0148" (id 0) (at 459.74 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 459.74 166.37 0))
@@ -25691,7 +25691,7 @@
   (symbol (lib_id "antmicropower:GNDREF") (at 41.91 337.82 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 04f2472c-8506-495a-842a-d1ae055d054a)
-    (property "Reference" "#PWR?" (id 0) (at 41.91 344.17 0)
+    (property "Reference" "#PWR0140" (id 0) (at 41.91 344.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 42.037 342.2142 0))
@@ -25745,7 +25745,7 @@
   (symbol (lib_id "antmicropower:GNDA") (at 83.82 309.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 073170e0-283c-4e2b-bcd4-c6437c3e9a92)
-    (property "Reference" "#PWR?" (id 0) (at 83.82 316.23 0)
+    (property "Reference" "#PWR0139" (id 0) (at 83.82 316.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (id 1) (at 83.947 314.2742 0))
@@ -25835,7 +25835,7 @@
   (symbol (lib_id "antmicropower:GNDREF") (at 237.49 233.68 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1cb0f0da-b773-4c2f-b405-454baf11465b)
-    (property "Reference" "#PWR?" (id 0) (at 237.49 240.03 0)
+    (property "Reference" "#PWR0117" (id 0) (at 237.49 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 237.617 238.0742 0))
@@ -25889,7 +25889,7 @@
   (symbol (lib_id "antmicropower:GNDREF") (at 57.15 309.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2d5c9ff8-7c58-4ad7-af04-24b45404d2b4)
-    (property "Reference" "#PWR?" (id 0) (at 57.15 316.23 0)
+    (property "Reference" "#PWR0134" (id 0) (at 57.15 316.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 57.277 314.2742 0))
@@ -25959,7 +25959,7 @@
   (symbol (lib_id "antmicropower:GNDA") (at 91.44 309.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3571f6a7-ae3d-42e0-8a82-432c62be0459)
-    (property "Reference" "#PWR?" (id 0) (at 91.44 316.23 0)
+    (property "Reference" "#PWR0138" (id 0) (at 91.44 316.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (id 1) (at 91.567 314.2742 0))
@@ -26140,7 +26140,7 @@
   (symbol (lib_id "antmicropower:GNDA") (at 91.44 337.82 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 59f9dbcd-5185-43a0-9877-46c6b15d655a)
-    (property "Reference" "#PWR?" (id 0) (at 91.44 344.17 0)
+    (property "Reference" "#PWR0137" (id 0) (at 91.44 344.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (id 1) (at 91.567 342.2142 0))
@@ -26194,7 +26194,7 @@
   (symbol (lib_id "antmicropower:GNDREF") (at 153.67 271.78 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 61ad474f-de27-4e53-a04c-c689e25c9870)
-    (property "Reference" "#PWR?" (id 0) (at 153.67 278.13 0)
+    (property "Reference" "#PWR0104" (id 0) (at 153.67 278.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 153.67 275.59 0))
@@ -26210,7 +26210,7 @@
   (symbol (lib_id "antmicropower:GNDREF") (at 250.19 306.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 69acaacd-361d-456f-94cb-b62082e8a1d4)
-    (property "Reference" "#PWR?" (id 0) (at 250.19 312.42 0)
+    (property "Reference" "#PWR0108" (id 0) (at 250.19 312.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 250.317 310.4642 0))
@@ -26339,7 +26339,7 @@
   (symbol (lib_id "antmicropower:GNDREF") (at 238.76 306.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7b578f05-cd0c-438b-90db-9152eaa8593c)
-    (property "Reference" "#PWR?" (id 0) (at 238.76 312.42 0)
+    (property "Reference" "#PWR0105" (id 0) (at 238.76 312.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 238.887 310.4642 0))
@@ -26423,7 +26423,7 @@
   (symbol (lib_id "antmicropower:GNDREF") (at 274.32 233.68 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8cc7e8b1-ebc0-435f-92f2-bc441fcb3dc9)
-    (property "Reference" "#PWR?" (id 0) (at 274.32 240.03 0)
+    (property "Reference" "#PWR0147" (id 0) (at 274.32 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 274.447 238.0742 0))
@@ -26439,7 +26439,7 @@
   (symbol (lib_id "antmicropower:GNDREF") (at 256.54 233.68 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8f3b2330-6ab2-4b70-9996-1d990d7edf47)
-    (property "Reference" "#PWR?" (id 0) (at 256.54 240.03 0)
+    (property "Reference" "#PWR0132" (id 0) (at 256.54 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 256.667 238.0742 0))
@@ -26455,7 +26455,7 @@
   (symbol (lib_id "antmicropower:GNDREF") (at 41.91 309.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8f50b808-5378-48d5-8a50-46d11d70b959)
-    (property "Reference" "#PWR?" (id 0) (at 41.91 316.23 0)
+    (property "Reference" "#PWR0135" (id 0) (at 41.91 316.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 42.037 314.2742 0))
@@ -26471,7 +26471,7 @@
   (symbol (lib_id "antmicropower:GNDA") (at 176.53 271.78 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 90f9f3a9-085c-4bde-a9ca-0908079325bd)
-    (property "Reference" "#PWR?" (id 0) (at 176.53 278.13 0)
+    (property "Reference" "#PWR0102" (id 0) (at 176.53 278.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (id 1) (at 176.53 275.59 0))
@@ -26487,7 +26487,7 @@
   (symbol (lib_id "antmicropower:GNDREF") (at 260.35 306.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 92e5f61b-f63c-4ced-ac97-68891c87cfc9)
-    (property "Reference" "#PWR?" (id 0) (at 260.35 312.42 0)
+    (property "Reference" "#PWR0143" (id 0) (at 260.35 312.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 260.477 310.4642 0))
@@ -26503,7 +26503,7 @@
   (symbol (lib_id "antmicropower:GNDREF") (at 246.38 233.68 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 97d0b9e4-2834-4175-876a-f0298ec00960)
-    (property "Reference" "#PWR?" (id 0) (at 246.38 240.03 0)
+    (property "Reference" "#PWR0129" (id 0) (at 246.38 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 246.507 238.0742 0))
@@ -26519,7 +26519,7 @@
   (symbol (lib_id "antmicropower:GNDREF") (at 57.15 337.82 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9bad9a65-9b02-4bb9-bbd9-076fd21eeb29)
-    (property "Reference" "#PWR?" (id 0) (at 57.15 344.17 0)
+    (property "Reference" "#PWR0141" (id 0) (at 57.15 344.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 57.277 342.2142 0))
@@ -26573,7 +26573,7 @@
   (symbol (lib_id "antmicropower:GNDREF") (at 508 68.58 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a038aee9-0830-42a7-ae4f-d6e34c9dbdea)
-    (property "Reference" "#PWR?" (id 0) (at 508 74.93 0)
+    (property "Reference" "#PWR0149" (id 0) (at 508 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 508.127 72.9742 0))
@@ -26659,7 +26659,7 @@
   (symbol (lib_id "antmicropower:GNDREF") (at 312.42 74.93 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b5fde68c-5c39-46d6-8f71-8454d4da0c7f)
-    (property "Reference" "#PWR?" (id 0) (at 312.42 81.28 0)
+    (property "Reference" "#PWR0145" (id 0) (at 312.42 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 312.547 79.3242 0))
@@ -26675,7 +26675,7 @@
   (symbol (lib_id "antmicropower:GNDREF") (at 49.53 309.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bd4fc7c2-0364-4479-b99a-85c79b17cff7)
-    (property "Reference" "#PWR?" (id 0) (at 49.53 316.23 0)
+    (property "Reference" "#PWR0133" (id 0) (at 49.53 316.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 49.657 314.2742 0))
@@ -26875,7 +26875,7 @@
   (symbol (lib_id "antmicropower:GNDREF") (at 265.43 233.68 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ca8bddc2-7eda-4fbf-8065-b57839c14122)
-    (property "Reference" "#PWR?" (id 0) (at 265.43 240.03 0)
+    (property "Reference" "#PWR0146" (id 0) (at 265.43 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 265.557 238.0742 0))
@@ -27007,7 +27007,7 @@
   (symbol (lib_id "antmicropower:GNDA") (at 167.64 311.15 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid db65ed00-a27b-4d6e-90d0-ad6c7ee2bed3)
-    (property "Reference" "#PWR?" (id 0) (at 167.64 317.5 0)
+    (property "Reference" "#PWR0109" (id 0) (at 167.64 317.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (id 1) (at 167.64 314.96 0))
@@ -27023,7 +27023,7 @@
   (symbol (lib_id "antmicropower:GNDA") (at 259.08 163.83 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid dbc85bc7-cb3f-41bb-a2d0-c3d07a775727)
-    (property "Reference" "#PWR?" (id 0) (at 259.08 170.18 0)
+    (property "Reference" "#PWR0144" (id 0) (at 259.08 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (id 1) (at 259.08 167.64 0))
@@ -27150,7 +27150,7 @@
   (symbol (lib_id "antmicropower:GNDA") (at 83.82 337.82 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid eb23b65b-8722-4cac-9f3b-3e575e117732)
-    (property "Reference" "#PWR?" (id 0) (at 83.82 344.17 0)
+    (property "Reference" "#PWR0136" (id 0) (at 83.82 344.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (id 1) (at 83.947 342.2142 0))
@@ -27204,7 +27204,7 @@
   (symbol (lib_id "antmicropower:GNDREF") (at 144.78 311.15 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ed49028e-0245-4a0a-8f14-d062756eecf1)
-    (property "Reference" "#PWR?" (id 0) (at 144.78 317.5 0)
+    (property "Reference" "#PWR0115" (id 0) (at 144.78 317.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 144.78 314.96 0))
@@ -27496,14 +27496,29 @@
     (path "/00000000-0000-0000-0000-00005e7c1dbd"
       (reference "#PWR0101") (unit 1) (value "GNDREF") (footprint "")
     )
+    (path "/90f9f3a9-085c-4bde-a9ca-0908079325bd"
+      (reference "#PWR0102") (unit 1) (value "GNDA") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005fcbbf7d"
       (reference "#PWR0103") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/61ad474f-de27-4e53-a04c-c689e25c9870"
+      (reference "#PWR0104") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/7b578f05-cd0c-438b-90db-9152eaa8593c"
+      (reference "#PWR0105") (unit 1) (value "GNDREF") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005f3163ed"
       (reference "#PWR0106") (unit 1) (value "GNDREF") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005eb8ebc1"
       (reference "#PWR0107") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/69acaacd-361d-456f-94cb-b62082e8a1d4"
+      (reference "#PWR0108") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/db65ed00-a27b-4d6e-90d0-ad6c7ee2bed3"
+      (reference "#PWR0109") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ef21b4f"
       (reference "#PWR0110") (unit 1) (value "VDD") (footprint "")
@@ -27520,8 +27535,14 @@
     (path "/00000000-0000-0000-0000-00005f0aa363"
       (reference "#PWR0114") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/ed49028e-0245-4a0a-8f14-d062756eecf1"
+      (reference "#PWR0115") (unit 1) (value "GNDREF") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005f576a90"
       (reference "#PWR0116") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/1cb0f0da-b773-4c2f-b405-454baf11465b"
+      (reference "#PWR0117") (unit 1) (value "GNDREF") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006164637f"
       (reference "#PWR0118") (unit 1) (value "GNDA") (footprint "")
@@ -27556,89 +27577,68 @@
     (path "/00000000-0000-0000-0000-00005f0fdf23"
       (reference "#PWR0128") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/97d0b9e4-2834-4175-876a-f0298ec00960"
+      (reference "#PWR0129") (unit 1) (value "GNDREF") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005f104e29"
       (reference "#PWR0130") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005f1f5cc8"
       (reference "#PWR0131") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/0011fc8f-9dfe-4c79-8141-6b7f70d00a9b"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/04b93445-10a0-4fd9-b809-4bebe82c126c"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/04f2472c-8506-495a-842a-d1ae055d054a"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/073170e0-283c-4e2b-bcd4-c6437c3e9a92"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
-    )
-    (path "/1cb0f0da-b773-4c2f-b405-454baf11465b"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/2d5c9ff8-7c58-4ad7-af04-24b45404d2b4"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/3571f6a7-ae3d-42e0-8a82-432c62be0459"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
-    )
-    (path "/59f9dbcd-5185-43a0-9877-46c6b15d655a"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
-    )
-    (path "/61ad474f-de27-4e53-a04c-c689e25c9870"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/69acaacd-361d-456f-94cb-b62082e8a1d4"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/7b578f05-cd0c-438b-90db-9152eaa8593c"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/8cc7e8b1-ebc0-435f-92f2-bc441fcb3dc9"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
-    )
     (path "/8f3b2330-6ab2-4b70-9996-1d990d7edf47"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/8f50b808-5378-48d5-8a50-46d11d70b959"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/90f9f3a9-085c-4bde-a9ca-0908079325bd"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
-    )
-    (path "/92e5f61b-f63c-4ced-ac97-68891c87cfc9"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/97d0b9e4-2834-4175-876a-f0298ec00960"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/9bad9a65-9b02-4bb9-bbd9-076fd21eeb29"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/a038aee9-0830-42a7-ae4f-d6e34c9dbdea"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/b5fde68c-5c39-46d6-8f71-8454d4da0c7f"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
+      (reference "#PWR0132") (unit 1) (value "GNDREF") (footprint "")
     )
     (path "/bd4fc7c2-0364-4479-b99a-85c79b17cff7"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
+      (reference "#PWR0133") (unit 1) (value "GNDREF") (footprint "")
     )
-    (path "/ca8bddc2-7eda-4fbf-8065-b57839c14122"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
+    (path "/2d5c9ff8-7c58-4ad7-af04-24b45404d2b4"
+      (reference "#PWR0134") (unit 1) (value "GNDREF") (footprint "")
     )
-    (path "/db65ed00-a27b-4d6e-90d0-ad6c7ee2bed3"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
-    )
-    (path "/dbc85bc7-cb3f-41bb-a2d0-c3d07a775727"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
+    (path "/8f50b808-5378-48d5-8a50-46d11d70b959"
+      (reference "#PWR0135") (unit 1) (value "GNDREF") (footprint "")
     )
     (path "/eb23b65b-8722-4cac-9f3b-3e575e117732"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
+      (reference "#PWR0136") (unit 1) (value "GNDA") (footprint "")
     )
-    (path "/ed49028e-0245-4a0a-8f14-d062756eecf1"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
+    (path "/59f9dbcd-5185-43a0-9877-46c6b15d655a"
+      (reference "#PWR0137") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/3571f6a7-ae3d-42e0-8a82-432c62be0459"
+      (reference "#PWR0138") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/073170e0-283c-4e2b-bcd4-c6437c3e9a92"
+      (reference "#PWR0139") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/04f2472c-8506-495a-842a-d1ae055d054a"
+      (reference "#PWR0140") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/9bad9a65-9b02-4bb9-bbd9-076fd21eeb29"
+      (reference "#PWR0141") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/0011fc8f-9dfe-4c79-8141-6b7f70d00a9b"
+      (reference "#PWR0142") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/92e5f61b-f63c-4ced-ac97-68891c87cfc9"
+      (reference "#PWR0143") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/dbc85bc7-cb3f-41bb-a2d0-c3d07a775727"
+      (reference "#PWR0144") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/b5fde68c-5c39-46d6-8f71-8454d4da0c7f"
+      (reference "#PWR0145") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/ca8bddc2-7eda-4fbf-8065-b57839c14122"
+      (reference "#PWR0146") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/8cc7e8b1-ebc0-435f-92f2-bc441fcb3dc9"
+      (reference "#PWR0147") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/04b93445-10a0-4fd9-b809-4bebe82c126c"
+      (reference "#PWR0148") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/a038aee9-0830-42a7-ae4f-d6e34c9dbdea"
+      (reference "#PWR0149") (unit 1) (value "GNDREF") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005e26b2e2"
       (reference "C1") (unit 1) (value "C_10u_0603") (footprint "antmicro-footprints:C_0603_1608Metric")
@@ -27875,7 +27875,7 @@
       (reference "J6") (unit 1) (value "PinHeader_2x5_P1.27mm_Vertical") (footprint "antmicro-footprints:PinHeader_2x05_P1.27mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005fe7a74e"
-      (reference "N1") (unit 1) (value "antmicro_logo") (footprint "antmicro-footprints:antmicro-logo")
+      (reference "N1") (unit 1) (value "antmicro_logo") (footprint "antmicro-footprints:antmicro-logo_scaled_20mm")
     )
     (path "/00000000-0000-0000-0000-00005ed060a3"
       (reference "N2") (unit 1) (value "oshw_logo") (footprint "antmicro-footprints:oshw-logo")
