@@ -201,7 +201,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "multiple_net_names|5664200|2565400|68880efd-424d-483e-9600-73af4bbd782d|0954d23d-518d-4625-a9a9-fd9486f172ca",
+      "multiple_net_names|5664200|2590800|cd8df69e-fc0f-4599-90ac-77dd1da5d07b|addef727-abce-4e80-ad51-010acc9d229a",
+      "multiple_net_names|5664200|2616200|bc9d8437-eb68-46c7-8eab-2a2d930b5d69|4e6a3ffe-22d3-49e5-a8bf-f137f31bd1bb",
+      "multiple_net_names|5664200|2641600|618553a0-0ded-4567-83f4-93fc224675b9|0df15ce5-a3dd-445f-8c02-d94c9335c5e0",
+      "multiple_net_names|5664200|2667000|b09d568c-06e7-4a0a-abb8-18ed24658d2a|00fd385a-1591-47e3-8d64-1b7b75b6bbfa",
+      "multiple_net_names|5664200|2692400|bcdcd2a7-2540-44ae-b20e-6beda1349cbf|d4f84f12-12c2-404e-90e9-f584fe64960b",
+      "multiple_net_names|5664200|2717800|8169f924-b344-43e0-a27e-2164efe984ee|e44d688a-8cc0-4359-a1a1-17c1946f5add",
+      "multiple_net_names|5664200|2743200|44892145-ef50-4434-a56d-2945880b553f|13e5732e-e706-49e7-acde-070cbcfc52a7",
+      "multiple_net_names|5664200|2768600|746a6a71-484f-4256-befd-b2269ed0eab9|feb0911c-ecd0-4f1a-8fa2-019e38d31886",
+      "multiple_net_names|5664200|2794000|89fdeecc-9cbb-44b5-9af8-748ea7170a5c|2edfc042-0000-4990-bcb2-d5ed872e03ef",
+      "multiple_net_names|5664200|2946400|069ae60f-550e-49c7-92e3-0f165366a6f7|cd04af8b-a550-42d8-a1e6-0a6072cc971b",
+      "multiple_net_names|5664200|2971800|83939671-b4ad-4465-acf0-7263a3f4916a|af99e1d0-cf5c-4a90-b696-1cc36c014dc1",
+      "multiple_net_names|5664200|2997200|2635eb8e-4ef5-4095-82f3-11224fa7b836|86dd2ab5-c76f-48ac-876c-194b29443f0d",
+      "multiple_net_names|5664200|3022600|f38214aa-3a50-47ae-b50c-e69df9890368|c5d34214-0d76-4e5f-9dd6-d2af9272fb9c",
+      "multiple_net_names|5664200|3048000|e3748128-c929-41d9-ae99-5fd1047bf4e7|855b34bb-4cac-4f7a-9ae1-7f9fbd3a0d1e",
+      "multiple_net_names|5664200|3073400|7763a14f-81d2-49f0-9c95-7097339634b9|225f608b-f185-4184-8a1a-e288c3f4c010",
+      "multiple_net_names|5664200|3098800|3cf0070e-00a6-40f2-b790-c5ee3a3eda7c|e6c50d6c-bf8e-4f61-8d41-9d7d0219b824",
+      "multiple_net_names|5664200|3124200|953f8a3a-eb75-4cf7-88d3-06a8af586026|1721f8b2-1b9b-423c-b3e8-2c032bbfa409",
+      "multiple_net_names|5664200|3149600|ed2a18ad-3538-4f46-8635-45413f7c8199|fcd0b834-1b62-4406-8ea0-3b5f584a46b6",
+      "multiple_net_names|5664200|3175000|71585b03-a98a-4404-9492-95906a776bf8|5a8c438b-cf79-49b2-b6a9-0fc610655e30"
+    ],
     "meta": {
       "version": 0
     },
