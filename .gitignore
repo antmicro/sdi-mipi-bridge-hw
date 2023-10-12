@@ -31,3 +31,6 @@ fp-info-cache
 
 # Archives 
 *.zip
+
+#Log files
+*.log
