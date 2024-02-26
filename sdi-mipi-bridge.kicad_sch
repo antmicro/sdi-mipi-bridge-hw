@@ -13,14 +13,14 @@
   )
 
   (lib_symbols
-    (symbol "antmicroFPGAChips:CrossLink_LIF-MD6000-6JMG80I" (in_bom yes) (on_board yes)
+    (symbol "sdi-mipi-bridge:CrossLink_LIF-MD6000-6JMG80I" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 78.74 -6.35 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
       (property "Value" "CrossLink_LIF-MD6000-6JMG80I" (at 78.74 -11.43 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Footprint" "antmicro-footprints:BGA-80_7x7mm_Layout10x10_P0.65mm" (at 78.74 -13.97 0)
+      (property "Footprint" "sdi-mipi-bridge-footprints:BGA-80_7x7mm_Layout10x10_P0.65mm" (at 78.74 -13.97 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Datasheet" "https://www.latticesemi.com/view_document?document_id=51662" (at 78.74 -16.51 0)
@@ -426,14 +426,15 @@
         )
       )
     )
-    (symbol "antmicroGenericPinHeaders:PinHeader_1x4_P1.27mm_Drill0.7mm" (in_bom yes) (on_board yes)
+
+    (symbol "sdi-mipi-bridge:PinHeader_1x4_P1.27mm_Drill0.7mm" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
       (property "Value" "PinHeader_1x4_P1.27mm_Drill0.7mm" (at 20.32 -10.16 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Footprint" "antmicro-footprints:PinHeader_1x4_P1.27mm_Drill0.7mm" (at 20.32 -12.7 0)
+      (property "Footprint" "sdi-mipi-bridge-footprints:PinHeader_1x4_P1.27mm_Drill0.7mm" (at 20.32 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Datasheet" "http://www.farnell.com/datasheets/2605295.pdf" (at 20.32 -15.24 0)
@@ -496,14 +497,15 @@
         )
       )
     )
-    (symbol "antmicroGenericPinHeaders:PinHeader_2x5_P1.27mm_Drill0.65mm" (in_bom yes) (on_board yes)
+
+    (symbol "sdi-mipi-bridge:PinHeader_2x5_P1.27mm_Drill0.65mm" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 25.4 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
       (property "Value" "PinHeader_2x5_P1.27mm_Drill0.65mm" (at 25.4 -10.16 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Footprint" "antmicro-footprints:PinHeader_2x5_P1.27mm_Drill0.65mm" (at 25.4 -12.7 0)
+      (property "Footprint" "sdi-mipi-bridge-footprints:PinHeader_2x5_P1.27mm_Drill0.65mm" (at 25.4 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Datasheet" "https://www.farnell.com/datasheets/3108040.pdf" (at 25.4 -15.24 0)
@@ -617,14 +619,15 @@
         )
       )
     )
-    (symbol "antmicroPMICVoltageRegulatorsLinear:MAX8902B" (in_bom yes) (on_board yes)
+
+    (symbol "sdi-mipi-bridge:MAX8902B" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 27.94 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
       (property "Value" "MAX8902B" (at 27.94 -10.16 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Footprint" "antmicro-footprints:TDFN-8-1EP_2x2mm_P0.5mm" (at 27.94 -12.7 0)
+      (property "Footprint" "sdi-mipi-bridge-footprints:TDFN-8-1EP_2x2mm_P0.5mm" (at 27.94 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX8902-MAX8902B.pdf" (at 27.94 -15.24 0)
@@ -691,6 +694,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:+1V2" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -737,6 +741,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:+3.3VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -783,6 +788,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:+3V3" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 15.24 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -833,6 +839,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_100n_6V3_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -899,6 +906,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_100n_6V3_0402_10" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -965,6 +973,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_100n_6V3_0402_11" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1031,6 +1040,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_10n_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1097,6 +1107,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_10n_0402_10" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1163,6 +1174,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_10n_0402_11" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1229,6 +1241,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_10n_0402_12" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1295,6 +1308,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_10n_0402_13" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1361,6 +1375,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_10n_0402_14" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1427,6 +1442,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_10n_0402_15" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1493,6 +1509,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_10n_0402_16" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1559,6 +1576,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_10n_0402_17" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1625,6 +1643,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_10n_0402_18" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1691,6 +1710,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_10n_0402_19" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1757,6 +1777,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_10n_0402_20" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1823,6 +1844,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_10n_0402_21" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1889,6 +1911,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_10n_0402_22" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1955,6 +1978,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_10n_0402_23" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2021,6 +2045,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_10n_0402_24" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2087,6 +2112,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_10u_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2153,6 +2179,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_16p_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2219,6 +2246,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_1u_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2285,6 +2313,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_1u_0402_10" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2351,6 +2380,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_1u_0402_11" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2417,6 +2447,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_2u2_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2483,6 +2514,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_33u_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 13.97 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2557,6 +2589,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_470n_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2623,6 +2656,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_47n_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2689,6 +2723,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_4u7_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2755,6 +2790,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_5n6_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2821,6 +2857,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:C_6n2_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2887,6 +2924,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:Conn_BNC_031-70526-21" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2957,6 +2995,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:Conn_FFC_68715014522_ONE-SIDE" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 19.05 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3393,6 +3432,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:FB_120Z_2A_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "FB" (at 15.24 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3470,6 +3510,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:GNDA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -3504,6 +3545,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:GNDREF" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -3558,6 +3600,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:GS2971A" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 55.88 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4008,6 +4051,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:GS2988" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 55.88 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4158,6 +4202,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:LED_G_0603_LG_L29K-G2J1-24-Z" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 22.86 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4236,6 +4281,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:Oscillator_SMD_27MHz_ABM7" (in_bom yes) (on_board yes)
       (property "Reference" "Y" (at 21.59 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4292,6 +4338,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "#FLG" (at 0 1.905 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -4326,6 +4373,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_0R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4380,6 +4428,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_0R_0402_10" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4434,6 +4483,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_0R_0402_11" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4488,6 +4538,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_0R_0402_12" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4542,6 +4593,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_0R_0402_13" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4596,6 +4648,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_0R_0402_14" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4650,6 +4703,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_0R_0402_15" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4704,6 +4758,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_0R_0402_16" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4758,6 +4813,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_0R_0402_17" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4812,6 +4868,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_0R_0402_18" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4866,6 +4923,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_0R_0402_19" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4920,6 +4978,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_0R_0402_20" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4974,6 +5033,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_0R_0402_21" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5028,6 +5088,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_0R_0402_22" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5082,6 +5143,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_0R_0402_23" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5136,6 +5198,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_0R_0402_24" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5190,6 +5253,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_0R_0402_25" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5244,6 +5308,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_0R_0402_26" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5298,6 +5363,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_0R_0402_27" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5352,6 +5418,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_0R_0402_28" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5406,6 +5473,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_100R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5457,6 +5525,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_105R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5508,6 +5577,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_10k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5559,6 +5629,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_10k_0402_10" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5610,6 +5681,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_10k_0402_11" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5661,6 +5733,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_10k_0402_12" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5712,6 +5785,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_10k_0402_13" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5763,6 +5837,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_10k_0402_14" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5814,6 +5889,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_10k_0402_15" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5865,6 +5941,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_10k_0402_16" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5916,6 +5993,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_10k_0402_17" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5967,6 +6045,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_10k_0402_18" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6018,6 +6097,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_10k_0402_19" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6069,6 +6149,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_10k_0402_20" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6120,6 +6201,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_10k_0402_21" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6171,6 +6253,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_10k_0402_22" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6222,6 +6305,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_10k_0402_23" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6273,6 +6357,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_10k_0402_24" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6324,6 +6409,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_10k_0402_25" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6375,6 +6461,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_120k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6426,6 +6513,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_22R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6477,6 +6565,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_2k2_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6528,6 +6617,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_30R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6579,6 +6669,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_37R4_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6630,6 +6721,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_4k7_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6681,6 +6773,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_750R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6732,6 +6825,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:R_75R_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6783,6 +6877,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:SC18IS602BIPW" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 53.34 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6879,6 +6974,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:SW_SPST_KMR211NGLFS" (in_bom yes) (on_board yes)
       (property "Reference" "SW" (at 25.4 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7011,6 +7107,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:TP_0.75mm_SMD" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 17.78 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7050,6 +7147,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:TP_1mm_SMD" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 15.24 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7089,6 +7187,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:VDD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -7135,6 +7234,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:VPP" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -7181,6 +7281,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:antmicro_logo" (in_bom yes) (on_board yes)
       (property "Reference" "N" (at 15.24 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7212,6 +7313,7 @@
         )
       )
     )
+
     (symbol "sdi-mipi-bridge:oshw_logo" (in_bom yes) (on_board yes)
       (property "Reference" "N" (at 15.24 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7835,7 +7937,6 @@
     (stroke (width 0) (type default))
     (uuid 01f91f59-3491-4fc7-aaa9-61919fceaca1)
   )
-
   (wire (pts (xy 355.6 308.61) (xy 382.27 308.61))
     (stroke (width 0) (type default))
     (uuid 0294c097-b2ad-4fdf-898e-d026da17cac8)
@@ -7884,7 +7985,6 @@
     (stroke (width 0) (type default))
     (uuid 06782c16-076f-4c15-be95-53fb118024c4)
   )
-
   (wire (pts (xy 99.06 133.35) (xy 99.06 134.62))
     (stroke (width 0) (type default))
     (uuid 067e9901-105d-4096-b3e0-7bb02b82663b)
@@ -7909,7 +8009,6 @@
     (stroke (width 0) (type default))
     (uuid 08685eaf-9039-4315-8eb2-ad61ec88d93d)
   )
-
   (wire (pts (xy 57.15 302.26) (xy 49.53 302.26))
     (stroke (width 0) (type default))
     (uuid 094cc3e6-aa75-4135-8d89-cb5237bb99ec)
@@ -8050,7 +8149,6 @@
     (stroke (width 0) (type default))
     (uuid 12392478-ffda-4c29-b640-86732ed8fee1)
   )
-
   (wire (pts (xy 532.13 105.41) (xy 506.73 105.41))
     (stroke (width 0) (type default))
     (uuid 13383729-a4a3-4b0f-8ea3-2ce90c31398d)
@@ -8223,7 +8321,6 @@
     (stroke (width 0) (type default))
     (uuid 2139e802-dc7f-4d38-aa9a-c5ebfe569c73)
   )
-
   (wire (pts (xy 162.56 144.78) (xy 162.56 152.4))
     (stroke (width 0) (type default))
     (uuid 2162a122-1cea-4ae0-beb8-333f14d00df7)
@@ -8276,7 +8373,6 @@
     (stroke (width 0) (type default))
     (uuid 27ec2354-ab0e-46fd-978f-ee27ab1de27e)
   )
-
   (wire (pts (xy 162.56 303.53) (xy 167.64 303.53))
     (stroke (width 0) (type default))
     (uuid 280077d5-7c5d-4b09-9e54-6d3f3c0e7a39)
@@ -8381,7 +8477,6 @@
     (stroke (width 0) (type dash_dot))
     (uuid 2da081b4-cd4f-44e3-b920-2d5eec56c640)
   )
-
   (wire (pts (xy 57.15 304.8) (xy 57.15 302.26))
     (stroke (width 0) (type default))
     (uuid 2dfc9b55-440a-423d-84f3-52bf03f9bc9a)
@@ -8402,7 +8497,6 @@
     (stroke (width 0) (type default))
     (uuid 2eed8743-45cf-402a-91ba-931844590648)
   )
-
   (wire (pts (xy 210.82 71.12) (xy 227.33 71.12))
     (stroke (width 0) (type default))
     (uuid 2f197d99-121b-42f9-ac37-77718962181f)
@@ -8439,7 +8533,6 @@
     (stroke (width 0) (type default))
     (uuid 330dc448-5cbf-4cca-8132-2271b92c8d37)
   )
-
   (wire (pts (xy 459.74 162.56) (xy 459.74 161.29))
     (stroke (width 0) (type default))
     (uuid 336e4fc2-f78f-4810-b920-cab511cdc255)
@@ -8476,7 +8569,6 @@
     (stroke (width 0) (type default))
     (uuid 3797c256-47b2-49ff-a925-4ecd3d0bc4b3)
   )
-
   (wire (pts (xy 76.2 332.74) (xy 76.2 328.93))
     (stroke (width 0) (type default))
     (uuid 38236076-d732-478e-bc19-b52e3c31426c)
@@ -8549,7 +8641,6 @@
     (stroke (width 0) (type default))
     (uuid 3cf53505-0208-458b-a6dd-5a4ec8eeb824)
   )
-
   (wire (pts (xy 312.42 66.04) (xy 312.42 63.5))
     (stroke (width 0) (type default))
     (uuid 3dff7ce8-38b7-4aa9-ac8e-05613f5b94ff)
@@ -8610,7 +8701,6 @@
     (stroke (width 0) (type default))
     (uuid 41c0679b-82f8-4e3d-a8b4-c94944527835)
   )
-
   (wire (pts (xy 434.34 284.48) (xy 459.74 284.48))
     (stroke (width 0) (type default))
     (uuid 41e74de0-eabd-4e56-a804-0b631b2fe322)
@@ -8763,7 +8853,6 @@
     (stroke (width 0) (type default))
     (uuid 518a8013-19df-4656-83a3-c1b6e6361dda)
   )
-
   (wire (pts (xy 146.05 149.86) (xy 146.05 152.4))
     (stroke (width 0) (type default))
     (uuid 518c864b-c75a-4815-9eb8-fde8f02ce54e)
@@ -8784,7 +8873,6 @@
     (stroke (width 0) (type default))
     (uuid 5369042d-f0ce-4a47-b7c4-3481070359b6)
   )
-
   (wire (pts (xy 90.17 90.17) (xy 120.65 90.17))
     (stroke (width 0) (type default))
     (uuid 54370890-e27f-4284-ae85-07d66739b158)
@@ -8905,7 +8993,6 @@
     (stroke (width 0) (type default))
     (uuid 5eed4a14-1f67-4a08-84ec-89177fa65f2a)
   )
-
   (wire (pts (xy 523.24 304.8) (xy 566.42 304.8))
     (stroke (width 0) (type default))
     (uuid 5f91480e-a388-4c9e-aee4-90c44e4e02f7)
@@ -9062,7 +9149,6 @@
     (stroke (width 0) (type default))
     (uuid 6f2cb603-d47c-4f81-bc58-eacc5b5b1edf)
   )
-
   (wire (pts (xy 337.82 203.2) (xy 326.39 203.2))
     (stroke (width 0) (type default))
     (uuid 6f41332e-24cc-4ebc-afaf-05aded4c1239)
@@ -9155,7 +9241,6 @@
     (stroke (width 0) (type default))
     (uuid 773e25ce-dde1-42d3-9541-e18d9d05d0a5)
   )
-
   (wire (pts (xy 461.01 62.23) (xy 444.5 62.23))
     (stroke (width 0) (type default))
     (uuid 7760129e-7521-45af-be07-bdf25541ee48)
@@ -9244,7 +9329,6 @@
     (stroke (width 0) (type default))
     (uuid 7e5809d3-c25d-4cd0-a3ab-dbc50b1a7620)
   )
-
   (wire (pts (xy 168.91 264.16) (xy 176.53 264.16))
     (stroke (width 0) (type default))
     (uuid 7ee44ecc-69b5-4b69-b70b-6f4c3c17a942)
@@ -9265,7 +9349,6 @@
     (stroke (width 0) (type default))
     (uuid 7f9e724c-bc4f-42c9-bf2e-942a05a67773)
   )
-
   (wire (pts (xy 43.18 157.48) (xy 35.56 157.48))
     (stroke (width 0) (type default))
     (uuid 7fa25051-320b-4421-9fd3-2e7b3aab3800)
@@ -9298,7 +9381,6 @@
     (stroke (width 0) (type default))
     (uuid 80a80696-72db-42bd-92dc-e529051f165d)
   )
-
   (wire (pts (xy 76.2 302.26) (xy 76.2 300.99))
     (stroke (width 0) (type default))
     (uuid 80af4bad-fbab-4693-91c1-e30a6a8b683b)
@@ -9331,12 +9413,10 @@
     (stroke (width 0) (type default))
     (uuid 829bc75a-6b28-4745-98d9-04b6a443982e)
   )
-
   (bus (pts (xy 123.19 82.55) (xy 123.19 85.09))
     (stroke (width 0) (type default))
     (uuid 8388a229-382f-45a5-9f34-e3dc2230e8bd)
   )
-
   (wire (pts (xy 328.93 222.25) (xy 341.63 222.25))
     (stroke (width 0) (type default))
     (uuid 83f00a46-824c-4e71-8242-125f95c888ff)
@@ -9421,7 +9501,6 @@
     (stroke (width 0) (type default))
     (uuid 8d498bcb-c8c6-4f3b-b1ed-2a9fff97fdd1)
   )
-
   (wire (pts (xy 182.88 160.02) (xy 189.23 160.02))
     (stroke (width 0) (type default))
     (uuid 8d9f0be8-8675-478e-9730-0154c032bac9)
@@ -9466,7 +9545,6 @@
     (stroke (width 0) (type dash_dot))
     (uuid 8fb8b4a4-34ee-4f81-afe4-8ae63be30f9b)
   )
-
   (wire (pts (xy 378.46 294.64) (xy 378.46 293.37))
     (stroke (width 0) (type default))
     (uuid 90285125-3368-4fc1-8803-0f2db7e86e4b)
@@ -9487,7 +9565,6 @@
     (stroke (width 0) (type default))
     (uuid 91e02a4f-f9f5-4128-9a9c-9042eae31a0d)
   )
-
   (wire (pts (xy 144.78 222.25) (xy 144.78 224.79))
     (stroke (width 0) (type default))
     (uuid 92376e8c-56c0-4f46-8dcf-bed668290c17)
@@ -9608,7 +9685,6 @@
     (stroke (width 0) (type dash_dot))
     (uuid 9c7f99de-f674-45ed-9c39-8a6cf8502566)
   )
-
   (wire (pts (xy 175.26 303.53) (xy 175.26 306.07))
     (stroke (width 0) (type default))
     (uuid 9ce1a3f2-3bf0-4ca5-9b43-f25d0337b2fd)
@@ -9701,7 +9777,6 @@
     (stroke (width 0) (type default))
     (uuid a2ceb2ed-88c7-42df-b859-62137b721587)
   )
-
   (wire (pts (xy 434.34 337.82) (xy 459.74 337.82))
     (stroke (width 0) (type default))
     (uuid a2e7df7a-3296-4384-b988-5f9fd18a9dc9)
@@ -9718,7 +9793,6 @@
     (stroke (width 0) (type default))
     (uuid a3a8fd2e-ce22-465c-90d2-243557af6b60)
   )
-
   (wire (pts (xy 210.82 50.8) (xy 227.33 50.8))
     (stroke (width 0) (type default))
     (uuid a484bd05-b304-4ff7-ae10-5af1e25b3611)
@@ -9819,7 +9893,6 @@
     (stroke (width 0) (type default))
     (uuid a97b4e9c-a0c0-4bef-8fe7-d406b58810e5)
   )
-
   (wire (pts (xy 259.08 163.83) (xy 259.08 162.56))
     (stroke (width 0) (type default))
     (uuid a9ef45a8-3220-4ca8-bcd0-c560bb436f49)
@@ -9996,7 +10069,6 @@
     (stroke (width 0) (type default))
     (uuid b7686ed7-d8e1-4d6e-8b0d-71d0c28bf0ef)
   )
-
   (wire (pts (xy 161.29 58.42) (xy 179.07 58.42))
     (stroke (width 0) (type default))
     (uuid b79b8d9e-3b6e-4601-9f9f-7b648828144a)
@@ -10025,7 +10097,6 @@
     (stroke (width 0) (type dash_dot))
     (uuid b98c3ee8-1820-4772-8d23-def5f5131202)
   )
-
   (wire (pts (xy 370.84 88.9) (xy 373.38 88.9))
     (stroke (width 0) (type default))
     (uuid b98c9588-069d-4013-82d5-a98afd2dddde)
@@ -10130,7 +10201,6 @@
     (stroke (width 0) (type default))
     (uuid c1ce4145-e28a-4b19-9e5b-b9b3c7db8cdf)
   )
-
   (wire (pts (xy 182.88 137.16) (xy 184.15 137.16))
     (stroke (width 0) (type default))
     (uuid c282c6e8-40cf-4e7c-83aa-643f94a19669)
@@ -10147,7 +10217,6 @@
     (stroke (width 0) (type default))
     (uuid c2cfe047-25ab-4d68-aef7-efa30e07ab0f)
   )
-
   (wire (pts (xy 445.77 302.26) (xy 459.74 302.26))
     (stroke (width 0) (type default))
     (uuid c2fce12a-a941-436e-bc5f-f48f6a6cef01)
@@ -10212,7 +10281,6 @@
     (stroke (width 0) (type default))
     (uuid c8a2387a-949c-472b-b50b-116d8ee9c33f)
   )
-
   (wire (pts (xy 320.04 326.39) (xy 320.04 328.93))
     (stroke (width 0) (type default))
     (uuid c8a52fe1-6b86-431a-9e55-6c98346cf11e)
@@ -10285,7 +10353,6 @@
     (stroke (width 0) (type default))
     (uuid cddc35e3-ad8d-4e51-94dd-310b07cce0ba)
   )
-
   (wire (pts (xy 326.39 303.53) (xy 326.39 317.5))
     (stroke (width 0) (type default))
     (uuid ce31fc62-31c8-4f75-80a3-3c6edf2bde49)
@@ -10366,7 +10433,6 @@
     (stroke (width 0) (type default))
     (uuid d47a463e-c030-48e0-a652-2c61108cd285)
   )
-
   (wire (pts (xy 461.01 49.53) (xy 448.31 49.53))
     (stroke (width 0) (type default))
     (uuid d4aa7dc3-8cef-42d4-bda9-8a6b97c1d880)
@@ -10443,7 +10509,6 @@
     (stroke (width 0) (type default))
     (uuid dc19ab2f-c701-4181-887b-0e3d2782f2d1)
   )
-
   (wire (pts (xy 251.46 133.35) (xy 248.92 133.35))
     (stroke (width 0) (type default))
     (uuid dc4e50bc-cd66-4a92-8a7a-2f355b8685e6)
@@ -10452,7 +10517,6 @@
     (stroke (width 0) (type default))
     (uuid dc8fae01-e60a-47a4-af04-fc76a41536e9)
   )
-
   (wire (pts (xy 236.22 339.09) (xy 251.46 339.09))
     (stroke (width 0) (type default))
     (uuid dd1d702c-72ed-4d82-9460-f1f907b49fa9)
@@ -10601,7 +10665,6 @@
     (stroke (width 0) (type default))
     (uuid e8164e5b-a004-4d45-81f3-b2b68e2fb014)
   )
-
   (wire (pts (xy 228.6 266.7) (xy 228.6 267.97))
     (stroke (width 0) (type default))
     (uuid e8632640-6547-4d2d-ab8d-44dd41c115ef)
@@ -10614,12 +10677,10 @@
     (stroke (width 0) (type default))
     (uuid e93a72fb-8585-4b3c-9123-63616594adf1)
   )
-
   (polyline (pts (xy 485.14 123.19) (xy 581.66 123.19))
     (stroke (width 0) (type default))
     (uuid e943a2cb-6d3c-40cf-be2b-04bda897a755)
   )
-
   (wire (pts (xy 271.78 154.94) (xy 271.78 149.86))
     (stroke (width 0) (type default))
     (uuid e952d0e9-f56b-40ce-8fcd-e2c77d64fcd1)
@@ -10704,7 +10765,6 @@
     (stroke (width 0) (type default))
     (uuid eed9e0b3-2fe6-48f2-814e-f3f0b513510d)
   )
-
   (wire (pts (xy 280.67 63.5) (xy 283.21 63.5))
     (stroke (width 0) (type default))
     (uuid ef0245d0-9c66-4f85-9eb3-a9a0bc7c7bac)
@@ -10713,7 +10773,6 @@
     (stroke (width 0) (type default))
     (uuid f03f5531-7de9-4727-804a-4437ed8d5162)
   )
-
   (wire (pts (xy 538.48 325.12) (xy 551.18 325.12))
     (stroke (width 0) (type default))
     (uuid f0adcaf2-0626-4fc5-866f-27a4e5c89472)
@@ -10758,7 +10817,6 @@
     (stroke (width 0) (type default))
     (uuid f4ec5f87-1a22-4b51-9859-56b5ec9635dd)
   )
-
   (wire (pts (xy 177.8 137.16) (xy 175.26 137.16))
     (stroke (width 0) (type default))
     (uuid f52d16fe-6902-476b-b0d6-3e24855c241c)
@@ -10831,7 +10889,6 @@
     (stroke (width 0) (type default))
     (uuid f8bce2cf-38fd-41f9-a2d0-627a3dc2c098)
   )
-
   (wire (pts (xy 459.74 261.62) (xy 445.77 261.62))
     (stroke (width 0) (type default))
     (uuid f8f82fe2-1885-4c63-abe1-a8a8f62dffdc)
@@ -10892,7 +10949,6 @@
     (stroke (width 0) (type default))
     (uuid fccaeaff-ca4d-4599-b429-489f212de7a9)
   )
-
   (wire (pts (xy 36.83 228.6) (xy 49.53 228.6))
     (stroke (width 0) (type default))
     (uuid fd011aa5-73a3-4620-98c0-3a88cf626166)
@@ -10921,7 +10977,6 @@
     (stroke (width 0) (type default))
     (uuid fe9863a0-a356-41cc-a2b9-67e01b9fd79b)
   )
-
   (wire (pts (xy 524.51 153.67) (xy 530.86 153.67))
     (stroke (width 0) (type default))
     (uuid febbddac-edc3-443c-bf33-b6fde3327140)
@@ -13416,7 +13471,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroPMICVoltageRegulatorsLinear:MAX8902B") (at 52.07 228.6 0) (unit 1)
+  (symbol (lib_id "sdi-mipi-bridge:MAX8902B") (at 52.07 228.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-00005e245590)
     (property "Reference" "U1" (at 59.69 222.25 0)
@@ -13425,7 +13480,7 @@
     (property "Value" "MAX8902B" (at 57.15 243.84 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:TDFN-8-1EP_2x2mm_P0.5mm" (at 80.01 241.3 0)
+    (property "Footprint" "sdi-mipi-bridge-footprints:TDFN-8-1EP_2x2mm_P0.5mm" (at 80.01 241.3 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX8902-MAX8902B.pdf" (at 80.01 243.84 0)
@@ -14611,7 +14666,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroFPGAChips:CrossLink_LIF-MD6000-6JMG80I") (at 459.74 241.3 0) (unit 1)
+  (symbol (lib_id "sdi-mipi-bridge:CrossLink_LIF-MD6000-6JMG80I") (at 459.74 241.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-00005ea86705)
     (property "Reference" "U4" (at 491.49 233.68 0)
@@ -14620,7 +14675,7 @@
     (property "Value" "CrossLink_LIF-MD6000-6JMG80I" (at 541.02 354.33 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:BGA-80_7x7mm_Layout10x10_P0.65mm" (at 538.48 255.27 0)
+    (property "Footprint" "sdi-mipi-bridge-footprints:BGA-80_7x7mm_Layout10x10_P0.65mm" (at 538.48 255.27 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.latticesemi.com/view_document?document_id=51662" (at 538.48 257.81 0)
@@ -23566,7 +23621,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroGenericPinHeaders:PinHeader_1x4_P1.27mm_Drill0.7mm") (at 35.56 154.94 0) (mirror y) (unit 1)
+  (symbol (lib_id "sdi-mipi-bridge:PinHeader_1x4_P1.27mm_Drill0.7mm") (at 35.56 154.94 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c091218e-831b-4bd2-84f3-653288bd2774)
     (property "Reference" "J5" (at 31.75 148.59 0)
@@ -23575,7 +23630,7 @@
     (property "Value" "PinHeader_1x4_P1.27mm_Drill.7mm" (at 15.24 165.1 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:PinHeader_1x4_P1.27mm_Drill0.7mm" (at 15.24 167.64 0)
+    (property "Footprint" "sdi-mipi-bridge-footprints:PinHeader_1x4_P1.27mm_Drill0.7mm" (at 15.24 167.64 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "http://www.farnell.com/datasheets/2605295.pdf" (at 15.24 170.18 0)
@@ -23747,7 +23802,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroGenericPinHeaders:PinHeader_2x5_P1.27mm_Drill0.65mm") (at 34.29 119.38 0) (unit 1)
+  (symbol (lib_id "sdi-mipi-bridge:PinHeader_2x5_P1.27mm_Drill0.65mm") (at 34.29 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8c09b04-205a-4916-8b63-09839701db1c)
     (property "Reference" "J6" (at 39.37 113.03 0)
@@ -23756,7 +23811,7 @@
     (property "Value" "PinHeader_2x5_P1.27mm_Vertical" (at 59.69 129.54 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:PinHeader_2x5_P1.27mm_Drill0.65mm" (at 59.69 132.08 0)
+    (property "Footprint" "sdi-mipi-bridge-footprints:PinHeader_2x5_P1.27mm_Drill0.65mm" (at 59.69 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.farnell.com/datasheets/3108040.pdf" (at 59.69 134.62 0)
@@ -24568,7 +24623,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroGenericPinHeaders:PinHeader_2x5_P1.27mm_Drill0.65mm") (at 532.13 100.33 0) (unit 1)
+  (symbol (lib_id "sdi-mipi-bridge:PinHeader_2x5_P1.27mm_Drill0.65mm") (at 532.13 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fbf6abbc-4c16-45ad-87be-5e950d660a92)
     (property "Reference" "J4" (at 537.21 93.98 0)
@@ -24577,7 +24632,7 @@
     (property "Value" "PinHeader_2x5_P1.27mm_Vertical" (at 557.53 110.49 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:PinHeader_2x5_P1.27mm_Drill0.65mm" (at 557.53 113.03 0)
+    (property "Footprint" "sdi-mipi-bridge-footprints:PinHeader_2x5_P1.27mm_Drill0.65mm" (at 557.53 113.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.farnell.com/datasheets/3108040.pdf" (at 557.53 115.57 0)

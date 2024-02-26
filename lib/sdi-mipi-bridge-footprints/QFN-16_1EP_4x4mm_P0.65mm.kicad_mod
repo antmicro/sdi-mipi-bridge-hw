@@ -105,7 +105,7 @@
   (pad "15" smd rect (at -0.327 -1.901) (size 0.4 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 58a39d98-03db-4132-a3e8-54daa1726bf8))
   (pad "16" smd rect (at -0.975 -1.901) (size 0.4 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8acfaf16-5bb5-4e2b-a24b-94ed377b48ba))
   (pad "17" smd rect (at 0 0) (size 2.3 2.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp de65bac0-8ed3-4990-9106-073965a4a05e))
-  (model "${KIPRJMOD}/lib/3d-models/QFN-16_1EP_4x4mm_P0.65mm.step"
+  (model "/home/sglowczewski/Repositories/antmicro-sdi-mipi-bridge-hw/lib/3d-models/QFN-16_1EP_4x4mm_P0.65mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

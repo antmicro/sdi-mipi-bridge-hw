@@ -39,7 +39,7 @@
   (fp_line (start 0.498 0.248) (end 0.498 -0.25) (layer "User.9") (width 0.02) (tstamp e6dd4bc1-f5ed-4045-a6f4-c664dc72cdb7))
   (pad "1" smd roundrect (at -0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp c592b4cb-b1e1-4e59-96da-a8cd8c29c6d9))
   (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp c4a66bae-accc-4acb-9221-acf42dfc2a1d))
-  (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
+  (model "/home/sglowczewski/Repositories/antmicro-sdi-mipi-bridge-hw/lib/3d-models/R_0402_1005Metric.step"
     (offset (xyz 0 0 -0.01))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -337,8 +337,8 @@
   (pad "8" smd roundrect (at 0.925 -0.75) (size 0.7 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp bd9a0318-1d33-484f-945d-ea424af3d9c6))
   (pad "9" smd roundrect (at 0 -0.003) (size 0.64 1.37) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (zone_connect 0) (tstamp 6db53830-2797-4ec8-a52e-b13066d356f7))
-  (model "${KIPRJMOD}/lib/3d-models/TDFN_2x2mm.step"
-    (offset (xyz 0.0000000000000001 0 0))
+  (model "/home/sglowczewski/Repositories/antmicro-sdi-mipi-bridge-hw/lib/3d-models/TDFN_2x2mm.step"
+    (offset (xyz 1e-16 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
   )

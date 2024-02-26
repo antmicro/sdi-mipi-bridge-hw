@@ -704,7 +704,7 @@
   (pad "1" smd rect (at 0 -7.872) (size 1.1 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b07cc536-1356-4649-b5cc-2737e5586916))
   (pad "2" smd rect (at 4.849 -10.221) (size 1.1 6.45) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 111b4623-8827-40b1-a12d-17f415f27a26))
   (pad "2" smd rect (at -4.851 -10.221) (size 1.1 6.45) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9318fe1e-40a0-4eb1-a080-c53cc2546b72))
-  (model "${KIPRJMOD}/lib/3d-models/Conn_BNC_031-70526-21.step"
+  (model "/home/sglowczewski/Repositories/antmicro-sdi-mipi-bridge-hw/lib/3d-models/Conn_BNC_031-70526-21.step"
     (offset (xyz 0 8.8700005 0.58))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 180))

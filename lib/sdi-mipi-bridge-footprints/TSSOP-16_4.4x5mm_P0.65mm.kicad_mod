@@ -520,7 +520,7 @@
   (pad "14" smd roundrect (at 2.911 -0.975) (size 1.475 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 4b80f403-893a-4bf3-9be7-6f52ef8e1b03))
   (pad "15" smd roundrect (at 2.911 -1.625) (size 1.475 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e22eed4b-76f1-45c9-9a33-b497548a5427))
   (pad "16" smd roundrect (at 2.911 -2.275) (size 1.475 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d67c6c21-7608-47da-b21b-ad221c38eb99))
-  (model "${KIPRJMOD}/lib/3d-models/TCA9534APWR.step"
+  (model "/home/sglowczewski/Repositories/antmicro-sdi-mipi-bridge-hw/lib/3d-models/TCA9534APWR.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

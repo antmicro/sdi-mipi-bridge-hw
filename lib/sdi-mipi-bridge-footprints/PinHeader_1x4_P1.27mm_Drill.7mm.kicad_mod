@@ -120,7 +120,7 @@
   (pad "2" thru_hole circle (at 1.269 0) (size 1.1 1.1) (drill 0.7) (layers *.Cu *.Mask) (tstamp d8d3049a-d0ce-4dcb-8f39-f2d13c6cec3a))
   (pad "3" thru_hole circle (at 2.539 0) (size 1.1 1.1) (drill 0.7) (layers *.Cu *.Mask) (tstamp ce5ea253-7394-447c-9f23-fe745b7bb5ad))
   (pad "4" thru_hole circle (at 3.809 0) (size 1.1 1.1) (drill 0.7) (layers *.Cu *.Mask) (tstamp c6e491d5-8b93-4c52-85f7-bec5f4df0e8a))
-  (model "${KIPRJMOD}/lib/3d-models/PinHeader_1x04_P1.27mm_Vertical.step"
+  (model "/home/sglowczewski/Repositories/antmicro-sdi-mipi-bridge-hw/lib/3d-models/PinHeader_1x04_P1.27mm_Vertical.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

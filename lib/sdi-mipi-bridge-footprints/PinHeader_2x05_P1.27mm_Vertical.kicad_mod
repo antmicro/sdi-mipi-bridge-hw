@@ -207,7 +207,7 @@
   (pad "8" thru_hole oval (at 3.809 -1.27 90) (size 1 1) (drill 0.65) (layers *.Cu *.Mask) (tstamp 6a1f7f75-de29-4ac2-b90b-bf6ae855defc))
   (pad "9" thru_hole oval (at 5.076 0 90) (size 1 1) (drill 0.65) (layers *.Cu *.Mask) (tstamp 7703804e-12b7-48a5-b637-b7ce71b22786))
   (pad "10" thru_hole oval (at 5.076 -1.27 90) (size 1 1) (drill 0.65) (layers *.Cu *.Mask) (tstamp 66d29aa3-232b-4966-83bb-f138e38b8833))
-  (model "${KIPRJMOD}/lib/3d-models/Header_1.27_2x05.step"
+  (model "/home/sglowczewski/Repositories/antmicro-sdi-mipi-bridge-hw/lib/3d-models/Header_1.27_2x05.step"
     (offset (xyz -0.001 1.27 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -140,7 +140,7 @@
   (pad "K8" smd circle (at 2.482 4.506) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6b1da1f7-bbaf-4c38-bdd2-3248ce175a42))
   (pad "K9" smd circle (at 3.482 4.506) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a929cc67-5dba-40da-941f-d0d51e951432))
   (pad "K10" smd circle (at 4.482 4.506) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9a707d4b-f613-4b94-b703-fd888990ebbf))
-  (model "${KIPRJMOD}/lib/3d-models/BGA-100_11x11mm_Layout10x10_P1mm.step"
+  (model "/home/sglowczewski/Repositories/antmicro-sdi-mipi-bridge-hw/lib/3d-models/BGA-100_11x11mm_Layout10x10_P1mm.step"
     (offset (xyz -1.71 -6.35 -8.45))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

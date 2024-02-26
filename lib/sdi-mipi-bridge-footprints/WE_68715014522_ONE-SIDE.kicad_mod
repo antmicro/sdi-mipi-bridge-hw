@@ -1445,7 +1445,7 @@
   (pad "50" smd roundrect (at 12.249 -2.15) (size 0.3 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 4c033c18-b9d2-4488-84c3-0324e2e85770))
   (pad "SH" smd roundrect (at 14.198 -0.3) (size 2.7 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp 18a9d099-ad45-4ebb-a90f-29e17a5ac4ec))
   (pad "SH" smd roundrect (at -14.199 -0.3) (size 2.7 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp a645389e-f34e-44fa-a3bc-6e35bad6c1aa))
-  (model "${KIPRJMOD}/lib/3d-models/WE_68715014522.step"
+  (model "/home/sglowczewski/Repositories/antmicro-sdi-mipi-bridge-hw/lib/3d-models/WE_68715014522.step"
     (offset (xyz 0.0005 0.2495 1))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 -180))

@@ -326,7 +326,7 @@
   (fp_line (start 2.522 -1.49) (end 2.534 -1.486) (layer "User.9") (width 0.02) (tstamp fff7e1fe-f2bb-490c-aa32-ddc2edda1f71))
   (pad "1" smd rect (at -2.15 0) (size 1.9 2.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 544e6de0-e074-4bd4-8450-d7475ea6f944))
   (pad "2" smd rect (at 2.148 0) (size 1.9 2.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 30270c82-27a3-4680-bfb0-55ec3850d911))
-  (model "${KIPRJMOD}/lib/3d-models/ABM7.step"
+  (model "/home/sglowczewski/Repositories/antmicro-sdi-mipi-bridge-hw/lib/3d-models/ABM7.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
