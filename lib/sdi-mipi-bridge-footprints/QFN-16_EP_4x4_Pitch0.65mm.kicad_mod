@@ -43,7 +43,7 @@
   (pad "17" smd rect (at 0 0) (size 2.76 2.76) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin -0.75))
   (model "/home/sglowczewski/Repositories/antmicro-sdi-mipi-bridge-hw/lib/3d-models/QFN16_4x4.step"
-    (offset (xyz 0.0 0.0 0.0))
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

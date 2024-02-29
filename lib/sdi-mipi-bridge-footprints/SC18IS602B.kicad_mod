@@ -34,7 +34,7 @@
   (pad "9" smd rect (at 2.275 -2.825) (size 0.35 1.45) (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "8" smd rect (at 2.275 2.825) (size 0.35 1.45) (layers "F.Cu" "F.Paste" "F.Mask"))
   (model "/home/sglowczewski/Repositories/antmicro-sdi-mipi-bridge-hw/lib/3d-models/TSSOP-16.STEP"
-    (offset (xyz 0.0 0.0 0.0))
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )

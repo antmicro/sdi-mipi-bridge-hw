@@ -31,7 +31,7 @@
   (pad "1" smd rect (at -1.7 0) (size 0.8 1.7) (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "2" smd rect (at 1.7 0) (size 0.8 1.7) (layers "F.Cu" "F.Paste" "F.Mask"))
   (model "/home/sglowczewski/Repositories/antmicro-sdi-mipi-bridge-hw/lib/3d-models/OMRON_B3U1000P.step"
-    (offset (xyz 0.0 0.0 0.0))
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
